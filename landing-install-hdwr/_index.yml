@@ -1,0 +1,23 @@
+---
+indexpage:
+  tiles:
+  - title: 스토리지 어플라이언스를 캐비닛 또는 랙에 설치합니다
+    links:
+    - title: SG5700입니다
+      url: "../installconfig/installing-appliance-in-cabinet-or-rack-sg5700.html"
+    - title: SG6000 을 참조하십시오
+      url: "../installconfig/installing-hardware-sg6000.html"
+    - title: SG6100
+      url: "../installconfig/installing-appliance-in-cabinet-or-rack-sgf6112.html"
+  - title: 서비스 어플라이언스를 캐비닛 또는 랙에 설치합니다
+    links:
+    - title: SG100 및 SG1000입니다
+      url: "../installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
+  - title: 케이블을 연결하고 전원을 공급합니다
+    links:
+    - title: 케이블을 연결합니다
+      url: "../installconfig/cabling-appliance.html"
+    - title: 연결하고 전원을 공급하십시오
+      url: "../installconfig/connecting-power-cords-and-applying-power.html"
+    - title: 상태 표시기 및 코드를 봅니다
+      url: "../installconfig/viewing-status-indicators.html"

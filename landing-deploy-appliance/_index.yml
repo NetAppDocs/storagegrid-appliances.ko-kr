@@ -1,0 +1,21 @@
+---
+indexpage:
+  tiles:
+  - title: 어플라이언스 구축
+    links:
+    - title: 어플라이언스 스토리지 노드 구축
+      url: "../installconfig/deploying-appliance-storage-node.html"
+    - title: 서비스 어플라이언스 노드를 배포합니다
+      url: "../installconfig/deploying-services-appliance-node.html"
+    - title: 어플라이언스 설치를 모니터링합니다
+      url: "../installconfig/monitoring-appliance-installation.html"
+    - title: 설치 프로그램이 실행되는 동안 어플라이언스를 재부팅합니다
+      url: "../installconfig/rebooting-appliance-while-sg-appliance-installer-is-running.html"
+  - title: 어플라이언스 설치 문제를 해결합니다
+    links:
+    - title: SG100 및 SG1000입니다
+      url: "../installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html"
+    - title: SG5700 및 SG6000
+      url: "../installconfig/troubleshooting-hardware-installation.html"
+    - title: SG6100
+      url: "../installconfig/troubleshooting-hardware-installation-sg6100.html"

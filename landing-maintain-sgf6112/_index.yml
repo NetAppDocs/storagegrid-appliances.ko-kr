@@ -1,0 +1,35 @@
+---
+indexpage:
+  tiles:
+  - title: 자주 수행하는 절차
+    links:
+    - title: 위치 LED를 켜거나 끕니다
+      url: "../sg6100/turning-sgf6112-identify-led-on-and-off.html"
+    - title: 데이터 센터에서 어플라이언스를 찾습니다
+      url: "../sg6100/locating-sgf6112-in-data-center.html"
+    - title: 제품의 전원을 껐다가 켭니다
+      url: "../sg6100/power-sgf6112-off-on.html"
+    - title: 링크 구성을 변경합니다
+      url: "../sg6100/changing-link-configuration-of-sgf6112-appliance.html"
+    - title: 교체할 구성 요소를 확인합니다
+      url: "../sg6100/verify-component-to-replace.html"
+  - title: 랙 절차
+    links:
+    - title: SGF6112 어플라이언스를 교체하십시오
+      url: "../sg6100/replacing-sgf6112-appliance.html"
+    - title: SGF6112를 랙에 재배치합니다
+      url: "../sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
+  - title: 하드웨어 절차
+    links:
+    - title: 덮개를 다시 끼웁니다
+      url: "../sg6100/reinstalling-sgf6112-cover.html"
+    - title: 전원 공급 장치를 교체합니다
+      url: "../sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
+    - title: 팬을 교체합니다
+      url: "../sg6100/replacing-fan-in-sgf6112.html"
+    - title: 드라이브를 교체합니다
+      url: "../sg6100/replacing-drive-in-sgf6112.html"
+    - title: NIC를 교체합니다
+      url: "../sg6100/replace-nic-in-sgf6112.html"
+    - title: CMOS 배터리를 교체합니다
+      url: "../sg6100/replace-cmos-in-sgf6112.html"

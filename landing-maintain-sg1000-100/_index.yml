@@ -1,0 +1,25 @@
+---
+indexpage:
+  tiles:
+  - title: 자주 수행하는 절차
+    links:
+    - title: 위치 LED를 켜거나 끕니다
+      url: "../sg100-1000/turning-controller-identify-led-on-and-off.html"
+    - title: 데이터 센터에서 어플라이언스를 찾습니다
+      url: "../sg100-1000/locating-controller-in-data-center.html"
+    - title: 제품의 전원을 끕니다
+      url: "../sg100-1000/shut-down-sg100-and-sg1000.html"
+    - title: 링크 구성을 변경합니다
+      url: "../sg100-1000/changing-link-configuration-of-services-appliance.html"
+  - title: 랙 절차
+    links:
+    - title: 제품을 교체하십시오
+      url: "../sg100-1000/replacing-services-appliance.html"
+  - title: 하드웨어 절차
+    links:
+    - title: 전원 공급 장치를 교체합니다
+      url: "../sg100-1000/replacing-one-or-more-power-supplies-in-services-appliance.html"
+    - title: 팬을 교체합니다
+      url: "../sg100-1000/replacing-fan-in-services-appliance.html"
+    - title: 드라이브를 교체합니다
+      url: "../sg100-1000/replacing-drive-in-services-appliance.html"

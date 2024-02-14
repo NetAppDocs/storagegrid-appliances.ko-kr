@@ -1,0 +1,67 @@
+---
+permalink: installconfig/configuring-hardware.html 
+sidebar: sidebar 
+keywords: storage node, storage appliance, hardware, configure, configuration, set up, setup, network, networking 
+summary: 어플라이언스에 전원을 적용한 후 StorageGRID에서 사용할 네트워크 연결을 구성합니다.  
+---
+= 하드웨어 설정: 개요
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+어플라이언스에 전원을 적용한 후 StorageGRID에서 사용할 네트워크 연결을 구성합니다.
+
+
+
+== 필요한 네트워크 연결을 구성합니다
+
+모든 어플라이언스에 대해 다음과 같은 몇 가지 작업을 수행하여 필요한 네트워크 연결을 구성합니다.
+
+* 어플라이언스 설치 프로그램에 액세스합니다
+* 네트워크 링크를 구성합니다
+* 포트 수준 네트워크 연결을 확인합니다
+
+
+
+
+== 필요할 수 있는 추가 구성입니다
+
+구성할 어플라이언스 유형에 따라 추가 하드웨어 구성이 필요할 수 있습니다.
+
+
+
+=== SANtricity 시스템 관리자
+
+SG6000 및 SG5700의 경우 SANtricity 시스템 관리자를 구성합니다. SANtricity 소프트웨어는 이러한 어플라이언스의 하드웨어를 모니터링하는 데 사용됩니다.
+
+
+
+=== BMC 인터페이스
+
+다음 어플라이언스에는 반드시 구성해야 하는 BMC 인터페이스가 있습니다.
+
+* SG100을 참조하십시오
+* SG1000입니다
+* SG6000 을 참조하십시오
+* SG6100
+
+
+
+
+== 선택적 구성
+
+* 스토리지 어플라이언스
++
+** 하드웨어 모니터링에 사용할 SANtricity 시스템 관리자(SG5700 및 SG6000)를 구성합니다
+** RAID 모드를 변경합니다
+** SG6000-CN 컨트롤러용 BMC 인터페이스에 액세스합니다
+
+
+* 서비스 어플라이언스
++
+** SG100 또는 SG1000의 BMC 인터페이스에 액세스합니다
+
+
+

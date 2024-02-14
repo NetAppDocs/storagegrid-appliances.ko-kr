@@ -1,0 +1,33 @@
+---
+indexpage:
+  tiles:
+  - title: 자주 수행하는 절차
+    links:
+    - title: 제품을 유지 관리 모드로 설정합니다
+      url: "../commonhardware/placing-appliance-into-maintenance-mode.html"
+    - title: MTU 설정을 변경합니다
+      url: "../commonhardware/changing-mtu-setting.html"
+    - title: DNS 구성을 확인합니다
+      url: "../commonhardware/checking-dns-server-configuration.html"
+    - title: MAC 주소를 업데이트합니다
+      url: "../commonhardware/locate-mac-address.html"
+    - title: 노드 암호화를 모니터링합니다
+      url: "../commonhardware/monitoring-node-encryption-in-maintenance-mode.html"
+  - title: 노드 클론 생성
+    links:
+    - title: 노드 클론 생성 요구 사항
+      url: "../commonhardware/considerations-and-requirements-for-appliance-node-cloning.html"
+    - title: 클론 어플라이언스 노드
+      url: "../commonhardware/appliance-node-cloning-procedure.html"
+  - title: 어플라이언스별 유지 관리
+    links:
+    - title: SG1000 및 SG100
+      url: "../landing-maintain-sg1000-100/index.html"
+    - title: SG5600
+      url: "../sg5600/index.html"
+    - title: SG5700입니다
+      url: "../landing-maintain-sg5700/index.html"
+    - title: SG6000 을 참조하십시오
+      url: "../landing-maintain-sg6000/index.html"
+    - title: SG6100
+      url: "../landing-maintain-sgf6112/index.html"

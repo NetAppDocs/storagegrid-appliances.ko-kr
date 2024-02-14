@@ -1,0 +1,138 @@
+---
+permalink: sg6100/replacing-fan-in-sgf6112.html 
+sidebar: sidebar 
+keywords: storagegrid, sgf6112, storage appliance, Replacing, replace, fan, remove, removing, removal, install, installing 
+summary: SGF6112 어플라이언스에는 8개의 냉각 팬이 있습니다. 팬 중 하나에 장애가 발생할 경우 제품이 제대로 식었는지 확인하려면 가능한 한 빨리 교체해야 합니다. 
+---
+= SGF6112의 팬을 교체합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SGF6112 어플라이언스에는 8개의 냉각 팬이 있습니다. 팬 중 하나에 장애가 발생할 경우 제품이 제대로 식었는지 확인하려면 가능한 한 빨리 교체해야 합니다.
+
+.시작하기 전에
+* 올바른 교체용 팬이 있습니다.
+* 있습니다 link:verify-component-to-replace.html["교체할 팬 위치를 확인했습니다"].
+* 있습니다 link:locating-sgf6112-in-data-center.html["SGF6112 어플라이언스의 물리적 위치에 있습니다"] 데이터 센터에서 팬을 교체하는 위치입니다.
++
+
+NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance["제품의 제어된 셧다운"] 제품을 랙에서 분리하기 전에 필요합니다.
+
+* 모든 케이블 및 을(를) 분리했습니다 link:reinstalling-sgf6112-cover.html["제품 덮개를 분리했습니다"].
+* 다른 팬이 설치되어 실행 중인지 확인했습니다.
+
+
+.이 작업에 대해
+서비스 중단을 방지하려면 팬 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 팬을 교체합니다. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states["노드 연결 상태를 모니터링합니다"^].
+
+
+CAUTION: 개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있는 경우에는 예약된 유지 관리 창에서 팬을 교체해야 합니다. 그렇지 않으면 이 절차 중에 해당 개체에 대한 액세스가 일시적으로 끊어질 수 있습니다. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"^].
+
+팬을 교체하는 동안에는 어플라이언스 노드에 액세스할 수 없습니다.
+
+사진은 제품의 팬을 보여줍니다. 전기 커넥터가 하이라이트됩니다. 제품에서 상단 덮개를 분리한 후 냉각 팬에 액세스할 수 있습니다.
+
+
+NOTE: 두 개의 전원 공급 장치 각각에는 팬도 포함되어 있습니다. 전원 공급 장치 팬은 이 절차에 포함되어 있지 않습니다.
+
+image::../media/sgf6112_fan_fru.png[팬 SGF6112 FRU]
+
+.단계
+. ESD 밴드의 스트랩 끝을 손목 둘레에 감고 클립 끝을 금속 바닥에 단단히 고정하여 정전기 방전을 방지하십시오.
+. 교체해야 하는 팬을 찾습니다.
++
+8개의 팬은 섀시의 다음 위치에 있습니다(상단 덮개를 분리한 상태로 SGF6112의 전면 절반).
+
++
+image::../media/SGF6112-fan-locations.png[팬 위치]
+
+
+
+|===
+
+
+|  | 팬 유닛 
+
+
+ a| 
+1
+ a| 
+FAN_SYS0
+
+
+
+ a| 
+2
+ a| 
+FAN_SYS1
+
+
+
+ a| 
+3
+ a| 
+FAN_SYS2
+
+
+
+ a| 
+4
+ a| 
+FAN_SYS3
+
+
+
+ a| 
+5
+ a| 
+FAN_SYS4
+
+
+
+ a| 
+6
+ a| 
+FAN_SYS5
+
+
+
+ a| 
+7
+ a| 
+팬_SYSm6
+
+
+
+ a| 
+8
+ a| 
+FAN_SYSm7
+
+|===
+. 팬의 파란색 탭을 사용하여 결함이 있는 팬을 들어 올려 섀시에서 꺼냅니다.
++
+image::../media/fan_removal.png[팬 분리]
+
+. 교체용 팬을 섀시의 열려 있는 슬롯에 밀어 넣습니다.
++
+팬의 커넥터를 회로 보드의 소켓에 맞춥니다.
+
+. 팬 커넥터를 회로 보드에 단단히 누릅니다(소켓 강조 표시).
++
+image::../media/sgf6112_fan_socket_check.png[팬 커넥터 점검]
+
+
+
+.작업을 마친 후
+. link:reinstalling-sgf6112-cover.html["상단 덮개를 제품에 다시 끼우십시오"]래치를 아래로 눌러 덮개를 제자리에 고정합니다.
+. link:power-sgf6112-off-on.html["제품의 전원을 켜십시오"] 어플라이언스 LED 및 부팅 코드를 모니터링합니다.
++
+BMC 인터페이스를 사용하여 부팅 상태를 모니터링합니다.
+
+. 어플라이언스 노드가 그리드 관리자에 표시되고 경고가 나타나지 않는지 확인합니다.
+
+
+부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반납 및 교체"^] 페이지를 참조하십시오.

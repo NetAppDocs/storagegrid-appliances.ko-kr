@@ -1,0 +1,19 @@
+---
+indexpage:
+  tiles:
+  - title: 자주 수행하는 절차
+    links:
+    - title: 링크 구성을 변경합니다
+      url: "../sg5700/changing-link-configuration-of-e5700sg-controller.html"
+    - title: SANtricity를 업그레이드합니다
+      url: "../sg5700/upgrading-santricity-os-on-storage-controller.html"
+    - title: 드라이브 펌웨어를 업그레이드합니다
+      url: "../sg5700/upgrading-drive-firmware-using-santricity-system-manager.html"
+  - title: 하드웨어 절차
+    links:
+    - title: E2800 시리즈 스토리지 컨트롤러를 교체합니다
+      url: "../sg5700/replacing-e2800-controller.html"
+    - title: E5700SG 컴퓨팅 컨트롤러를 교체합니다
+      url: "../sg5700/replacing-e5700sg-controller.html"
+    - title: 다른 SG5700 구성 요소를 교체합니다
+      url: "../sg5700/replacing-other-hardware-components-sg5700.html"

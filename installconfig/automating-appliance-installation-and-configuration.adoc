@@ -1,0 +1,268 @@
+---
+permalink: installconfig/automating-appliance-installation-and-configuration.html 
+sidebar: sidebar 
+keywords: automate, automating, automation, automatic, install, installation, configuration, configure 
+summary: 설치 및 구성 자동화는 여러 StorageGRID 인스턴스 또는 하나의 크고 복잡한 StorageGRID 인스턴스를 구축하는 데 유용할 수 있습니다. 
+---
+= 어플라이언스 설치 및 구성 자동화
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+설치 및 구성 자동화는 여러 StorageGRID 인스턴스 또는 하나의 크고 복잡한 StorageGRID 인스턴스를 구축하는 데 유용할 수 있습니다.
+
+NetApp StorageGRID 툴을 사용하면 StorageGRID 어플라이언스의 설치 및 구성을 자동화할 수 있습니다. 어플라이언스를 설치 및 구성한 후에는 를 수행할 수 있습니다 link:automating-configuration-of-storagegrid.html["전체 StorageGRID 시스템의 구성을 자동화합니다"].
+
+다음 구성을 자동화할 수 있습니다.
+
+* Grid Network, Admin Network 및 Client Network IP 주소입니다
+* BMC 인터페이스
+* 네트워크 링크
++
+** 포트 결합 모드
+** 네트워크 연결 모드
+** 링크 속도
+
+
+
+
+
+
+== 자동화 옵션
+
+어플라이언스 설치 및 구성을 자동화하려면 다음 옵션 중 하나 이상을 사용하십시오.
+
+* 구성 세부 정보가 포함된 JSON 파일을 생성합니다. NetApp 프로페셔널 서비스 컨설턴트와 함께 을 사용합니다 link:https://configbuilder.netapp.com/index.aspx["NetApp ConfigBuilder 툴"^] 다음 단계를 완료하려면:
++
+.. 영업 주문 번호를 얻으려면 NetApp 프로페셔널 서비스에 문의하십시오.
+.. ConfigBuilder에서 통합 문서를 가져옵니다.
+.. 워크북을 완료하려면 프로페셔널 서비스에 문의하십시오.
+.. ConfigBuilder를 사용하여 통합 문서를 업로드합니다.
+.. ConfigBuilder를 사용하여 JSON 파일을 생성합니다.
+.. JSON 파일을 어플라이언스에 업로드하려면 프로페셔널 서비스에 문의하십시오.
++
+을 참조하십시오 <<automate-with-appliance-installer,어플라이언스 설치 프로그램을 사용하여 자동화>>.
+
++
+
+NOTE: 동일한 JSON 파일을 사용하여 여러 어플라이언스를 구성할 수 있습니다.
+
+
+
++
+업로드된 JSON 파일을 사용하여 어플라이언스를 구성하는 것이 특히 많은 노드를 구성해야 하는 경우 수동으로 구성하는 것보다 더 효율적인 경우가 많습니다. 구성을 수동으로 수행하려면 StorageGRID 어플라이언스 설치 프로그램에서 여러 페이지를 사용하고 각 노드에 대해 한 번에 하나씩 구성 파일을 적용해야 합니다.
+
+* 고급 사용자인 경우 다음 StorageGRID Python 스크립트를 사용하여 시스템을 설치 및 구성할 수 있습니다.
++
+** `configure-sga.py`: 어플라이언스의 설치 및 구성을 자동화합니다. 을 참조하십시오 <<automate-with-configure-sga-py-script,configure-sga.py 스크립트를 사용하여 어플라이언스 설치 및 구성을 자동화합니다>>.
+** `configure-storagegrid.py`전체 StorageGRID 시스템의 다른 구성 요소("그리드")를 구성합니다. 을 참조하십시오 link:automating-configuration-of-storagegrid.html["StorageGRID 구성 자동화"].
+
+
++
+
+NOTE: StorageGRID 자동화 Python 스크립트를 직접 사용하거나 직접 개발한 그리드 구축 및 구성 도구에서 StorageGRID 설치 REST API를 사용하는 방법의 예로 사용할 수 있습니다. 의 지침을 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/maintain/downloading-and-extracting-storagegrid-installation-files.html["StorageGRID 설치 파일 다운로드 및 추출"^].
+
+
+
+
+
+== StorageGRID 어플라이언스 설치 프로그램을 사용하여 어플라이언스 구성을 자동화합니다
+
+JSON 파일을 생성한 후에는 StorageGRID 어플라이언스 설치 프로그램을 사용하여 JSON 파일을 업로드하여 하나 이상의 어플라이언스 구성을 자동화할 수 있습니다.
+
+.시작하기 전에
+* 이 어플라이언스는 랙에 설치되어 있고 네트워크에 연결되어 있으며 전원이 켜져 있습니다.
+* 있습니다 <<automation-options,JSON 파일을 생성했습니다>> NetApp 프로페셔널 서비스 컨설턴트의 지침이 제공됩니다.
+* 본 어플라이언스에는 StorageGRID 11.5 이상과 호환되는 최신 펌웨어가 포함되어 있습니다.
+* 를 사용하여 구성하는 어플라이언스에서 StorageGRID 어플라이언스 설치 프로그램에 연결되어 있습니다 https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html["지원되는 웹 브라우저"^].
+
+
+.단계
+. StorageGRID 어플라이언스 설치 프로그램에서 * 고급 * > * 어플라이언스 구성 업데이트 * 를 선택합니다. 어플라이언스 구성 업데이트 페이지가 나타납니다.
+. 업로드할 구성이 있는 JSON 파일을 찾아 선택합니다.
++
+파일이 업로드되고 검증됩니다. 유효성 검사 프로세스가 완료되면 녹색 확인 표시 옆에 파일 이름이 표시됩니다.
+
++
+
+NOTE: JSON 파일의 구성에 의 섹션이 포함된 경우 어플라이언스에 대한 연결이 끊어질 수 있습니다 `link_config`, `networks`또는 둘 다 가능합니다. 1분 이내에 다시 연결되지 않으면 어플라이언스에 할당된 다른 IP 주소 중 하나를 사용하여 어플라이언스 URL을 다시 입력하십시오.
+
++
+image::../media/update_appliance_configuration_valid_json.png[어플라이언스 구성 JSON이 업로드되었습니다]
+
++
+노드 이름 * 드롭다운은 JSON 파일에 정의된 최상위 노드 이름으로 채워집니다.
+
++
+
+NOTE: 파일이 유효하지 않으면 파일 이름이 빨간색으로 표시되고 오류 메시지가 노란색 배너에 표시됩니다. 잘못된 파일이 어플라이언스에 적용되지 않습니다. ConfigBuilder는 올바른 JSON 파일이 있는지 확인합니다.
+
+. 노드 이름 * 드롭다운 목록에서 노드를 선택합니다.
++
+JSON 설정 적용 * 버튼이 활성화됩니다.
+
+. JSON 구성 적용 * 을 선택합니다.
++
+선택한 노드에 구성이 적용됩니다.
+
+
+
+
+
+== configure-sga.py 스크립트를 사용하여 어플라이언스 설치 및 구성을 자동화합니다
+
+고급 사용자인 경우 를 사용할 수 있습니다 `configure-sga.py` StorageGRID 어플라이언스 노드에 대한 여러 설치 및 구성 작업을 자동화하는 스크립트(기본 관리 노드 설치 및 구성 포함) 이 스크립트는 구성할 어플라이언스가 많은 경우 유용할 수 있습니다.
+
+또한 스크립트를 사용하여 어플라이언스 구성 정보가 포함된 JSON 파일을 생성할 수도 있습니다. JSON 파일을 StorageGRID 어플라이언스 설치 프로그램에 업로드하여 모든 어플라이언스 노드를 동시에 구성할 수 있습니다. JSON 파일을 편집한 다음 업로드하여 하나 이상의 어플라이언스에 새 구성을 적용할 수도 있습니다.
+
+
+NOTE: 이 절차는 명령줄 인터페이스 사용 경험이 있는 고급 사용자를 위한 것입니다. 또는 을(를) 사용할 수 있습니다 <<automate-with-appliance-installer,StorageGRID 어플라이언스 설치 프로그램을 사용하여 구성을 자동화합니다>>.
+
+.시작하기 전에
+* 이 어플라이언스는 랙에 설치되어 있고 네트워크에 연결되어 있으며 전원이 켜져 있습니다.
+* 있습니다 <<automation-options,JSON 파일을 생성했습니다>> NetApp 프로페셔널 서비스 컨설턴트의 지침이 제공됩니다.
+* 본 어플라이언스에는 StorageGRID 11.5 이상과 호환되는 최신 펌웨어가 포함되어 있습니다.
+* 어플라이언스에 대한 관리 네트워크의 IP 주소를 구성했습니다.
+* 을(를) 다운로드했습니다 `configure-sga.py` 파일. 이 파일은 설치 아카이브에 포함되어 있거나 StorageGRID 어플라이언스 설치 프로그램에서 * 도움말 * > * 어플라이언스 설치 스크립트 * 를 클릭하여 액세스할 수 있습니다.
+
+
+.단계
+. Python 스크립트를 실행하기 위해 사용 중인 Linux 시스템에 로그인합니다.
+. 스크립트 구문에 대한 일반적인 도움말과 사용 가능한 매개 변수 목록을 보려면 다음을 입력합니다.
++
+[listing]
+----
+configure-sga.py --help
+----
++
+를 클릭합니다 `configure-sga.py` 스크립트는 5개의 하위 명령을 사용합니다.
+
++
+** `advanced` BMC 구성을 포함한 고급 StorageGRID 어플라이언스 상호 작용의 경우 및 어플라이언스의 현재 구성이 포함된 JSON 파일 작성
+** `configure` RAID 모드, 노드 이름 및 네트워킹 매개 변수를 구성하는 데 사용됩니다
+** `install` StorageGRID 설치를 시작하는 데 사용됩니다
+** `monitor` StorageGRID 설치를 모니터링하는 데 사용됩니다
+** `reboot` 어플라이언스 재부팅용
++
+하위 명령(advanced, configure, install, monitor 또는 reboot) 인수를 입력한 다음 를 입력합니다 `--help` 옵션 해당 하위 명령(+)에서 사용할 수 있는 옵션에 대한 자세한 정보를 제공하는 다른 도움말 텍스트가 표시됩니다
+`configure-sga.py _subcommand_ --help`
+
++
+원하는 경우 <<back-up-appliance-config,어플라이언스 구성을 JSON 파일로 백업합니다>>에서 노드 이름이 다음 요구 사항을 충족하는지 확인합니다.
+
++
+*** JSON 파일을 사용하여 모든 어플라이언스 노드를 자동으로 구성하려는 경우 각 노드 이름은 고유해야 합니다.
+*** 1자 이상 32자 이하의 유효한 호스트 이름이어야 합니다.
+*** 문자, 숫자 및 하이픈을 사용할 수 있습니다.
+*** 하이픈으로 시작하거나 끝날 수 없습니다.
+*** 숫자만 포함할 수 없습니다.
+
+
+
+
+. JSON 파일의 구성을 어플라이언스에 적용하려면 다음을 입력하십시오 `_SGA-INSTALL-IP_` 어플라이언스에 대한 관리 네트워크 IP 주소입니다. `_json-file-name_` JSON 파일의 이름이며, 입니다 `_node-name-inside-json-file_` 은(는) 구성이 적용된 노드의 이름입니다. +
+`configure-sga.py advanced --restore-file _json-file-name_ --restore-node _node-name-inside-json-file_ _SGA-INSTALL-IP_`
+. 어플라이언스 노드의 현재 구성을 확인하려면 다음 위치를 입력합니다 `_SGA-INSTALL-IP_` 어플라이언스에 대한 관리자 네트워크 IP 주소입니다. +
+`configure-sga.py configure _SGA-INSTALL-IP_`
++
+이 결과는 기본 관리 노드의 IP 주소와 관리, 그리드 및 클라이언트 네트워크에 대한 정보를 포함하여 어플라이언스에 대한 현재 IP 정보를 표시합니다.
+
++
+[listing]
+----
+Connecting to +https://10.224.2.30:8443+ (Checking version and connectivity.)
+2021/02/25 16:25:11: Performing GET on /api/versions... Received 200
+2021/02/25 16:25:11: Performing GET on /api/v2/system-info... Received 200
+2021/02/25 16:25:11: Performing GET on /api/v2/admin-connection... Received 200
+2021/02/25 16:25:11: Performing GET on /api/v2/link-config... Received 200
+2021/02/25 16:25:11: Performing GET on /api/v2/networks... Received 200
+2021/02/25 16:25:11: Performing GET on /api/v2/system-config... Received 200
+
+  StorageGRID Appliance
+    Name:        LAB-SGA-2-30
+    Node type:   storage
+
+  StorageGRID primary Admin Node
+    IP:        172.16.1.170
+    State:     unknown
+    Message:   Initializing...
+    Version:   Unknown
+
+  Network Link Configuration
+    Link Status
+          Link      State      Speed (Gbps)
+          ----      -----      -----
+          1         Up         10
+          2         Up         10
+          3         Up         10
+          4         Up         10
+          5         Up         1
+          6         Down       N/A
+
+    Link Settings
+        Port bond mode:      FIXED
+        Link speed:          10GBE
+
+        Grid Network:        ENABLED
+            Bonding mode:    active-backup
+            VLAN:            novlan
+            MAC Addresses:   00:a0:98:59:8e:8a  00:a0:98:59:8e:82
+
+        Admin Network:       ENABLED
+            Bonding mode:    no-bond
+            MAC Addresses:   00:80:e5:29:70:f4
+
+        Client Network:      ENABLED
+            Bonding mode:    active-backup
+            VLAN:            novlan
+            MAC Addresses:   00:a0:98:59:8e:89  00:a0:98:59:8e:81
+
+  Grid Network
+    CIDR:      172.16.2.30/21 (Static)
+    MAC:       00:A0:98:59:8E:8A
+    Gateway:   172.16.0.1
+    Subnets:   172.17.0.0/21
+               172.18.0.0/21
+               192.168.0.0/21
+    MTU:       1500
+
+  Admin Network
+    CIDR:      10.224.2.30/21 (Static)
+    MAC:       00:80:E5:29:70:F4
+    Gateway:   10.224.0.1
+    Subnets:   10.0.0.0/8
+               172.19.0.0/16
+               172.21.0.0/16
+    MTU:       1500
+
+  Client Network
+    CIDR:      47.47.2.30/21 (Static)
+    MAC:       00:A0:98:59:8E:89
+    Gateway:   47.47.0.1
+    MTU:       2000
+
+##############################################################
+#####   If you are satisfied with this configuration,    #####
+##### execute the script with the "install" sub-command. #####
+##############################################################
+----
+. 현재 설정에서 값을 변경해야 하는 경우 를 사용합니다 `configure` 하위 명령을 사용하여 업데이트합니다. 예를 들어, 어플라이언스가 기본 관리 노드에 연결하는 데 사용하는 IP 주소를 변경하려는 경우 `172.16.2.99`다음을 입력합니다.
++
+`configure-sga.py configure --admin-ip 172.16.2.99 _SGA-INSTALL-IP_`
+
+. [[back-up-appliance-config]] 어플라이언스 구성을 JSON 파일로 백업하려면 고급 및 을 사용하십시오 `backup-file` 하위 명령. 예를 들어, IP 주소가 있는 어플라이언스의 구성을 백업하려는 경우 `_SGA-INSTALL-IP_` 을(를) 라는 파일에 저장합니다 `appliance-SG1000.json`를 입력하고 다음을 입력합니다. +
+`configure-sga.py advanced --backup-file appliance-SG1000.json _SGA-INSTALL-IP_`
++
+구성 정보가 포함된 JSON 파일은 에서 스크립트를 실행한 디렉토리에 작성됩니다.
+
++
+
+CAUTION: 생성된 JSON 파일의 최상위 노드 이름이 어플라이언스 이름과 일치하는지 확인하십시오. 숙련된 사용자이고 StorageGRID API에 대한 철저한 이해가 없는 경우 이 파일을 변경하지 마십시오.
+
+. 어플라이언스 구성이 만족스러우면 를 사용하십시오 `install` 및 `monitor` 어플라이언스를 설치하기 위한 하위 명령: +
+`configure-sga.py install --monitor _SGA-INSTALL-IP_`
+. 어플라이언스를 재부팅하려면 + 를 입력합니다
+`configure-sga.py reboot _SGA-INSTALL-IP_`
+

@@ -1,0 +1,55 @@
+---
+permalink: installconfig/installing-hardware-sg6000.html 
+sidebar: sidebar 
+keywords: install, sg6000, sg6060, sgf6024, expansion shelf, cabinet, rack, drives 
+summary: SG6060 및 SGF6024의 경우 캐비닛 또는 랙에 레일을 설치하고 컨트롤러 쉘프, 확장 쉘프 및 컴퓨팅 컨트롤러를 레일에 밀어넣습니다. SG6060의 경우, 쉘프를 설치할 때까지 각 쉘프에 드라이브를 설치하지 마십시오. 
+---
+= 캐비닛 또는 랙에 설치(SG6000)
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SG6060 및 SGF6024의 경우 캐비닛 또는 랙에 레일을 설치하고 컨트롤러 쉘프, 확장 쉘프 및 컴퓨팅 컨트롤러를 레일에 밀어넣습니다. SG6060의 경우, 쉘프가 설치될 때까지 각 쉘프에 드라이브를 설치하지 마십시오.
+
+[cols="1a,2a,2a"]
+|===
+| 모델 | 설치합니다 | 를 참조하십시오 
+
+
+ a| 
+SG6060입니다
+ a| 
+60-드라이브 컨트롤러 쉘프와 60-드라이브 확장 쉘프 및 모든 쉘프
+ a| 
+link:sg6060-installing-60-drive-shelves-into-cabinet-or-rack.html["60-드라이브 쉘프를 설치합니다"]
+
+
+
+ a| 
+SG6060입니다
+ a| 
+쉘프 연결: 60개 드라이브
+ a| 
+link:sg6060-installing-drives.html["드라이브를 설치합니다"]
+
+
+
+ a| 
+SGF6024를 참조하십시오
+ a| 
+24-드라이브 컨트롤러 쉘프
+ a| 
+link:sgf6024-installing-24-drive-shelves-into-cabinet-or-rack.html["24-드라이브 쉘프를 설치합니다"]
+
+
+
+ a| 
+SG6060 및 SGF6024
+ a| 
+SG6000-CN 컴퓨팅 컨트롤러
+ a| 
+link:sg6000-cn-installing-into-cabinet-or-rack.html["SG6000-CN 컨트롤러를 설치합니다"]
+
+|===

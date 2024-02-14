@@ -1,0 +1,39 @@
+---
+permalink: installconfig/reviewing-appliance-network-connections.html 
+sidebar: sidebar 
+keywords: network connections, appliance, grid, admin, client, bmc, management 
+summary: StorageGRID 어플라이언스를 설치하기 전에 어플라이언스에 연결할 수 있는 네트워크를 이해해야 합니다. 
+---
+= StorageGRID 네트워크 유형입니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 어플라이언스를 설치하기 전에 어플라이언스에 연결할 수 있는 네트워크와 각 컨트롤러의 포트가 어떻게 사용되는지 이해해야 합니다. StorageGRID 네트워크 요구 사항은 에 자세히 설명되어 있습니다 https://docs.netapp.com/us-en/storagegrid-118/network/index.html["네트워킹 지침"^].
+
+필요한 정보를 확인하려면 해당 제품의 지침을 참조하십시오.
+
+* link:gathering-installation-information-sg100-and-sg1000.html["SG100 및 SG1000입니다"]
+* link:gathering-installation-information-sg5700.html["SG5700입니다"]
+* link:gathering-installation-information-sg6000.html["SG6000 을 참조하십시오"]
+* link:gathering-installation-information-sg6100.html["SG6100"]
+
+
+또는 NetApp 프로페셔널 서비스 컨설턴트와 함께 NetApp ConfigBuilder 툴을 사용하여 구성 단계를 간소화하고 자동화할 수 있습니다. 을 참조하십시오 link:automating-appliance-installation-and-configuration.html["어플라이언스 설치 및 구성 자동화"].
+
+StorageGRID 어플라이언스를 StorageGRID 시스템에 노드로 구축할 경우 다음 네트워크에 연결할 수 있습니다.
+
+* * StorageGRID * 용 그리드 네트워크: 그리드 네트워크는 모든 내부 StorageGRID 트래픽에 사용됩니다. 그리드에서 모든 사이트 및 서브넷의 모든 노드 간에 연결을 제공합니다. 그리드 네트워크가 필요합니다.
+* StorageGRID*용 관리자 네트워크: 관리자 네트워크는 시스템 관리 및 유지 보수에 사용되는 폐쇄된 네트워크입니다. 관리 네트워크는 일반적으로 사설 네트워크이며 사이트 간에 라우팅할 필요가 없습니다. 관리 네트워크는 선택 사항입니다.
+* * StorageGRID용 클라이언트 네트워크: * 클라이언트 네트워크는 S3 및 Swift를 포함한 클라이언트 애플리케이션에 대한 액세스를 제공하는 데 사용되는 개방형 네트워크입니다. 클라이언트 네트워크는 그리드에 대한 클라이언트 프로토콜 액세스를 제공하므로 그리드 네트워크를 격리하고 보호할 수 있습니다. 이 네트워크를 통해 어플라이언스가 열려 있는 포트만 사용하여 액세스할 수 있도록 클라이언트 네트워크를 구성할 수 있습니다. 클라이언트 네트워크는 선택 사항입니다.
+* * SANtricity용 관리 네트워크 * (SG6100에는 필요하지 않은 스토리지 어플라이언스의 경우 선택 사항): 이 네트워크는 SANtricity 시스템 관리자에 대한 액세스를 제공하여 어플라이언스 및 스토리지 컨트롤러 쉘프의 하드웨어 구성 요소를 모니터링하고 관리할 수 있습니다. 이 관리 네트워크는 StorageGRID용 관리 네트워크와 같을 수도 있고 독립 관리 네트워크일 수도 있습니다.
+* * BMC 관리 네트워크 * (SG100, SG1000, SG6000 및 SG6100의 경우 선택 사항): 이 네트워크는 SG100, SG1000, SG6000 및 SG6100 어플라이언스의 베이스보드 관리 컨트롤러에 대한 액세스를 제공하여 어플라이언스의 하드웨어 구성요소를 모니터링하고 관리할 수 있게 합니다. 이 관리 네트워크는 StorageGRID용 관리 네트워크와 같을 수도 있고 독립 관리 네트워크일 수도 있습니다.
++
+선택적 BMC 관리 네트워크가 연결되지 않은 경우 일부 지원 및 유지 관리 절차를 수행하기가 더 어려워집니다. 지원 목적으로 필요한 경우를 제외하고 BMC 관리 네트워크를 연결하지 않은 상태로 둘 수 있습니다.
+
+
+
+
+NOTE: StorageGRID 네트워크에 대한 자세한 내용은 를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/network/storagegrid-network-types.html["StorageGRID 네트워크 유형입니다"^].

@@ -1,0 +1,84 @@
+---
+permalink: sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html 
+sidebar: sidebar 
+keywords: storagegrid, sgf6112, storage node, storage appliance, install, installing, installation, cabinet, rack 
+summary: 캐비닛 또는 랙에서 SGF6112를 분리하여 상단 덮개에 액세스하거나 제품을 다른 위치로 이동한 다음 하드웨어 유지 관리가 완료되면 캐비닛이나 랙에 어플라이언스를 다시 설치합니다. 
+---
+= 캐비닛 또는 랙에 SGF6112를 재배치합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+캐비닛 또는 랙에서 SGF6112를 분리하여 상단 덮개에 액세스하거나 제품을 다른 위치로 이동한 다음 하드웨어 유지 관리가 완료되면 캐비닛이나 랙에 어플라이언스를 다시 설치합니다.
+
+
+
+== 캐비닛 또는 랙에서 SGF6112를 제거합니다
+
+.시작하기 전에
+* SGF6112에 연결된 각 케이블을 식별하는 라벨이 있습니다.
+* 있습니다 link:locating-sgf6112-in-data-center.html["SGF6112의 물리적 위치"] 데이터 센터에서 유지 관리를 수행하는 단계입니다.
+* 있습니다 link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance["SGF6112를 종료합니다"].
++
+
+CAUTION: 전원 스위치를 사용하여 제품을 끄지 마십시오.
+
+
+
+.단계
+. 제품 전원 케이블에 레이블을 부착한 다음 전원 케이블을 분리합니다.
+. ESD 밴드의 스트랩 끝을 손목 둘레에 감고 클립 끝을 금속 바닥에 단단히 고정하여 정전기 방전을 방지하십시오.
+. 어플라이언스 데이터 케이블과 SFP+ 또는 SFP28 트랜시버에 레이블을 지정한 다음 연결을 해제합니다.
++
+
+NOTE: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 끼거나 밟지 마십시오.
+
+. 제품 전면 패널에서 2개의 조임 나사를 풉니다.
++
+image::../media/sg6060_rack_retaining_screws.png[SGF6112 랙 고정 나사]
+
+. 장착 레일이 완전히 펼쳐지고 양쪽의 래치가 딸깍 소리가 날 때까지 SGF6112를 랙에서 앞쪽으로 밉니다.
++
+제품 상단 덮개를 사용할 수 있습니다.
+
+. 선택 사항: 캐비닛이나 랙에서 제품을 완전히 분리하는 경우 레일 키트의 지침에 따라 레일에서 제품을 분리하십시오.
+
+
+부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반납 및 교체"^] 페이지를 참조하십시오.
+
+
+
+== 캐비닛 또는 랙에 SGF6112를 다시 설치합니다
+
+.시작하기 전에
+있습니다 link:reinstalling-sgf6112-cover.html["제품 덮개를 다시 설치했습니다"].
+
+.단계
+. 파란색 레일을 누르면 두 랙 레일이 동시에 풀릴 수 있으며 SGF6112가 완전히 장착될 때까지 랙에 밀어 넣습니다.
++
+컨트롤러를 더 이상 이동할 수 없는 경우 섀시 양쪽에 있는 파란색 래치를 당겨 컨트롤러를 완전히 밀어 넣습니다.
+
++
+image::../media/sg6000_cn_rails_blue_button.gif[SG6000 레일 위의 슬라이딩]
+
++
+
+NOTE: 컨트롤러의 전원을 켜기 전에는 전면 베젤을 연결하지 마십시오.
+
+. 컨트롤러 전면 패널의 조임 나사를 조여 컨트롤러를 랙에 고정합니다.
++
+image::../media/sg6060_rack_retaining_screws.png[SG6060 랙 고정 나사]
+
+. ESD 밴드의 스트랩 끝을 손목 둘레에 감고 클립 끝을 금속 바닥에 단단히 고정하여 정전기 방전을 방지하십시오.
+. link:../installconfig/cabling-appliance.html["컨트롤러 데이터 케이블과 SFP+ 또는 SFP28 트랜시버를 다시 연결합니다"].
++
+
+NOTE: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 끼거나 밟지 마십시오.
+
+. link:../installconfig/connecting-power-cords-and-applying-power.html["컨트롤러 전원 케이블을 다시 연결합니다"].
+
+
+.작업을 마친 후
+link:powering-on-sgf6112-and-verifying-operation.html["어플라이언스를 다시 시작하십시오"].

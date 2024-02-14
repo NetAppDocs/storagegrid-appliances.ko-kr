@@ -1,0 +1,58 @@
+---
+settings:
+  name: StorageGRID Appliances
+  internal:
+    pdf_enabled: true
+    termcheck_enabled: false
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+    hide_language_selector: true
+  langs: ko-kr,us-en,ja-jp,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: StorageGRID 어플라이언스 문서
+    url: "/index.html"
+  - title: 시작하십시오
+    url: "/landing-learn-hdwr/index.html"
+    entries:
+    - title: 가전제품의 새로운 기능
+      url: "/whats-new-appliances.html"
+    - title: StorageGRID 어플라이언스에 대해 알아보십시오
+      entries:
+      - title: SG100 및 SG1000 서비스 어플라이언스
+        url: "/installconfig/hardware-description-sg100-and-1000.html"
+      - title: SG5700 스토리지 어플라이언스
+        url: "/installconfig/hardware-description-sg5700.html"
+      - title: SG6000 스토리지 어플라이언스
+        url: "/installconfig/hardware-description-sg6000.html"
+      - title: SG6100 스토리지 어플라이언스
+        url: "/installconfig/hardware-description-sg6100.html"
+  - section: installconfig
+  - title: 어플라이언스 하드웨어를 유지 관리합니다
+    url: "/landing-maintain-hdwr/index.html"
+    entries:
+    - section: commonhardware
+    - title: 어플라이언스 노드 클론 복제
+      entries:
+      - title: 개요
+        pdf-filename: 어플라이언스 노드 클론 복제
+        url: "/commonhardware/how-appliance-node-cloning-works.html"
+      - title: 어플라이언스 노드 클론 생성을 위한 고려 사항 및 요구 사항
+        url: "/commonhardware/considerations-and-requirements-for-appliance-node-cloning.html"
+      - title: 클론 어플라이언스 노드
+        url: "/commonhardware/appliance-node-cloning-procedure.html"
+    - section: sg100-1000
+    - section: sg5600
+    - section: sg5700
+    - section: sg6000
+    - section: sg6100
+  - title: StorageGRID 소프트웨어 설명서
+    url: "/storagegrid-documentation.html"
+  - title: StorageGRID를 활성화합니다
+    url: "/storagegrid-enable.html"
+  - title: 법적 고지
+    url: "/legal-notices.html"
+product-family:
+  name: StorageGRID documentation
+  repo: storagegrid-family

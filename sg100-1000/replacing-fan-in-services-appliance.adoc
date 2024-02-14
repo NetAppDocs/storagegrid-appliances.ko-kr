@@ -1,0 +1,85 @@
+---
+permalink: sg100-1000/replacing-fan-in-services-appliance.html 
+sidebar: sidebar 
+keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, Replacing, replace, fan, remove, removing, removal, install, installing, installation 
+summary: 서비스 어플라이언스에는 8개의 냉각 팬이 있습니다. 팬 중 하나에 장애가 발생할 경우 제품이 제대로 식었는지 확인하려면 가능한 한 빨리 교체해야 합니다. 
+---
+= SG100 또는 SG1000의 팬을 교체합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+서비스 어플라이언스에는 8개의 냉각 팬이 있습니다. 팬 중 하나에 장애가 발생할 경우 제품이 제대로 식었는지 확인하려면 가능한 한 빨리 교체해야 합니다.
+
+.시작하기 전에
+* 교체용 팬의 포장을 풀었습니다.
+* 있습니다 link:locating-controller-in-data-center.html["제품을 물리적으로 위치했습니다"].
+* 다른 팬이 설치되어 실행 중인지 확인했습니다.
+
+
+.이 작업에 대해
+팬을 교체하는 동안에는 어플라이언스 노드에 액세스할 수 없습니다.
+
+사진은 서비스 어플라이언스에 대한 팬을 보여줍니다. 제품에서 상단 덮개를 분리한 후 냉각 팬에 액세스할 수 있습니다.
+
+
+NOTE: 두 개의 전원 공급 장치 각각에는 팬도 포함되어 있습니다. 이러한 팬은 이 절차에 포함되어 있지 않습니다.
+
+image::../media/fan_fru.png[팬 FRU]
+
+.단계
+. 제품을 종료하십시오.
++
+.. 그리드 노드에 로그인합니다.
++
+... 다음 명령을 입력합니다. `ssh admin@_grid_node_IP_`
+... 에 나열된 암호를 입력합니다 `Passwords.txt` 파일.
+... 루트로 전환하려면 다음 명령을 입력합니다. `su -`
+... 에 나열된 암호를 입력합니다 `Passwords.txt` 파일.
++
+루트로 로그인하면 프롬프트가 에서 변경됩니다 `$` 를 선택합니다 `#`.
+
+
+
+.. 서비스 어플라이언스를 종료합니다. +
+`*shutdown -h now*`
+
+
+. 다음 두 가지 방법 중 하나를 사용하여 서비스 어플라이언스의 전원이 꺼져 있는지 확인합니다.
++
+** 제품 전면에 있는 전원 표시등 LED가 꺼져 있습니다.
+** BMC 인터페이스의 전원 제어 페이지에는 어플라이언스가 꺼져 있음을 나타냅니다.
+
+
+. 제품을 랙에서 꺼냅니다.
+. 상단 덮개의 래치를 들어 올리고 제품에서 덮개를 분리합니다.
+. 결함이 있는 팬을 찾습니다.
++
+image::../media/fan_location.png[팬 위치]
+
+. 결함이 있는 팬을 들어 올려 섀시에서 분리합니다.
++
+image::../media/fan_removal.png[팬 분리]
+
+. 교체용 팬을 섀시의 열려 있는 슬롯에 밀어 넣습니다.
++
+가이드 핀을 사용하여 팬 가장자리를 일렬로 맞추십시오. 사진에서 핀이 원으로 표시되어 있습니다.
+
++
+image::../media/fan_guide_pin.png[팬 가이드 핀]
+
+. 팬 커넥터를 회로 보드에 단단히 누릅니다.
++
+image::../media/fan_connector_check.png[팬 커넥터 점검]
+
+. 상단 덮개를 다시 제품에 끼우고 래치를 눌러 덮개를 제자리에 고정합니다.
+. 제품의 전원을 켜고 컨트롤러 LED 및 부팅 코드를 모니터링합니다.
++
+BMC 인터페이스를 사용하여 부팅 상태를 모니터링합니다.
+
+. 어플라이언스 노드가 그리드 관리자에 표시되고 경고가 나타나지 않는지 확인합니다.
+
+
+부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반납 및 교체"^] 페이지를 참조하십시오.

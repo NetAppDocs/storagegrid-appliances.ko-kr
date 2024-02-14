@@ -1,0 +1,76 @@
+---
+permalink: sg6000/replacing-hardware-components-in-storage-controller-shelf.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6000, storage node, storage appliance, Replacing, replace, hardware, components, remove, removing, removal, install, installing, installation, storage controller shelf, Battery, Drive, Power canister, power supply, Fan canister, fan, Drive drawer 
+summary: 하드웨어 문제가 발생할 경우 스토리지 컨트롤러 쉘프에 있는 구성 요소를 교체해야 할 수 있습니다. 
+---
+= SG6000 스토리지 컨트롤러 쉘프의 하드웨어 구성요소를 교체합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+하드웨어 문제가 발생할 경우 스토리지 컨트롤러 쉘프에 있는 구성 요소를 교체해야 할 수 있습니다.
+
+.시작하기 전에
+* E-Series 하드웨어 교체 절차가 있습니다.
+* 데이터 센터의 스토리지 쉘프 하드웨어 구성요소를 교체할 스토리지 어플라이언스를 물리적으로 배치했습니다.
++
+link:locating-controller-in-data-center.html["데이터 센터에서 컨트롤러를 찾습니다"]
+
+
+
+.이 작업에 대해
+저장 장치 컨트롤러의 전지를 교체하려면 의 지침을 참조하십시오 link:replacing-storage-controller-sg6000.html["스토리지 컨트롤러 교체"]. 이 지침은 제품에서 컨트롤러를 분리하고, 컨트롤러에서 배터리를 분리하고, 배터리를 설치하고, 컨트롤러를 교체하는 방법을 설명합니다.
+
+컨트롤러 쉘프의 다른 현장 교체 장치(FRU)에 대한 지침을 보려면 에 액세스합니다 http://mysupport.netapp.com/info/web/ECMP1658252.html["E-Series 시스템 유지 관리 절차"^].
+
+[cols="1a,3a"]
+|===
+| FRU | 지침을 참조하십시오 
+
+
+ a| 
+배터리
+ a| 
+StorageGRID(다음 지침): 스토리지 컨트롤러 교체
+
+
+
+ a| 
+드라이브
+ a| 
+E-Series:
+
+* 드라이브 교체(60 드라이브)
+* 드라이브 교체(12 드라이브 또는 24 드라이브)
+
+
+
+
+ a| 
+전원 캐니스터
+ a| 
+E-Series 를 참조하십시오
+
+* 전원 캐니스터 교체(60 드라이브)
+* 전원 공급 장치 교체(12 드라이브 또는 24 드라이브)
+
+
+
+
+ a| 
+팬 캐니스터(60 드라이브 쉘프만)
+ a| 
+E-Series: 팬 캐니스터 교체(60 드라이브)
+
+
+
+ a| 
+드라이브 드로어(60-드라이브 쉘프만)
+ a| 
+E-Series: 드라이브 드로어 교체(60 드라이브)
+
+|===
+부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반납 및 교체"^] 페이지를 참조하십시오.

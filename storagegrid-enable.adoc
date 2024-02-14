@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: storagegrid-enable.html 
+keywords: storagegrid, how to enable, third-party solutions, tools, applications, examples 
+summary: StorageGRID 환경에서 애플리케이션을 테스트하고 구현하는 방법을 알아보십시오. 
+---
+= 사용자 환경에서 StorageGRID를 활성화하는 방법
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+로 이동합니다 https://docs.netapp.com/us-en/storagegrid-enable/index.html["사용자 환경에서 StorageGRID를 활성화하는 방법"^] StorageGRID 환경에서 애플리케이션을 테스트하고 구현하는 방법을 알아보십시오.
+
+StorageGRID-ENABLE* 설명서 사이트에서는 이 사이트의 제품 설명서를 확장하는 예제 및 설명서로 StorageGRID를 평가하고 통합하는 몇 가지 단계를 설명합니다.
+
+일부 정보는 다음과 같습니다.
+
+* 과거 및 현재 StorageGRID 릴리즈에서 검증된 타사 솔루션 목록
+* 제품 기능 가이드. 예를 들어, 이 가이드에서는 클라우드 스토리지 풀을 생성하는 데 필요한 모든 정보를 제공합니다.
+* 툴 및 애플리케이션 가이드
+* S3 암호화, S3 오브젝트 잠금과 같은 StorageGRID 기능을 사용하기 위한 API 예
+

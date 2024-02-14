@@ -1,0 +1,38 @@
+---
+permalink: installconfig/optional-remapping-network-ports-for-appliance.html 
+sidebar: sidebar 
+keywords: remap appliance ports, network, internal to external port mapping 
+summary: 필요에 따라 어플라이언스 노드의 내부 포트를 다른 외부 포트에 다시 매핑할 수 있습니다. 예를 들어, 방화벽 문제로 인해 포트를 다시 매핑해야 할 수 있습니다. 
+---
+= 옵션: 어플라이언스인 네트워크 포트를 재활용합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+필요에 따라 어플라이언스 노드의 내부 포트를 다른 외부 포트에 다시 매핑할 수 있습니다. 예를 들어, 방화벽 문제로 인해 포트를 다시 매핑해야 할 수 있습니다.
+
+.시작하기 전에
+* 이전에 StorageGRID 어플라이언스 설치 프로그램에 액세스했습니다.
+
+
+.이 작업에 대해
+로드 밸런서 끝점에는 다시 매핑된 포트를 사용할 수 없습니다. 다시 매핑된 포트를 제거해야 하는 경우 의 단계를 따릅니다 https://docs.netapp.com/us-en/storagegrid-118/maintain/removing-port-remaps.html["포트 재맵을 제거합니다"^].
+
+.단계
+. StorageGRID 어플라이언스 설치 프로그램에서 * 네트워킹 구성 * > * 재매핑 포트 * 를 선택합니다.
++
+Remap Port(재매핑 포트) 페이지가 나타납니다.
+
+. 네트워크 * 드롭다운 상자에서 그리드, 관리자 또는 클라이언트 중 다시 매핑할 포트의 네트워크를 선택합니다.
+. 프로토콜 * 드롭다운 상자에서 IP 프로토콜(TCP 또는 UDP)을 선택합니다.
+. Remap Direction * (재매핑 방향 *) 드롭다운 상자에서 이 포트에 대해 재매핑할 트래픽 방향(Inbound, Outbound 또는 Bi-directional)을 선택합니다.
+. 원래 포트 * 의 경우 재매핑할 포트 번호를 입력합니다.
+. Mapped-to Port*의 경우 대신 사용할 포트 번호를 입력합니다.
+. 규칙 추가 * 를 선택합니다.
++
+새 포트 매핑이 테이블에 추가되고 다시 매핑이 즉시 적용됩니다.
+
+. 포트 매핑을 제거하려면 제거할 규칙의 라디오 버튼을 선택하고 * 선택한 규칙 제거 * 를 선택합니다.
+

@@ -1,0 +1,39 @@
+---
+indexpage:
+  tiles:
+  - title: 자주 수행하는 절차
+    links:
+    - title: 위치 LED를 켜거나 끕니다
+      url: "../sg6000/turning-controller-identify-led-on-and-off.html"
+    - title: 데이터 센터에서 어플라이언스를 찾습니다
+      url: "../sg6000/locating-controller-in-data-center.html"
+    - title: 제품의 전원을 껐다가 켭니다
+      url: "../sg6000/power-sg6000-cn-controller-off-on.html"
+    - title: 링크 구성을 변경합니다
+      url: "../sg6000/changing-link-configuration-of-sg6000-cn-controller.html"
+    - title: SANtricity를 업그레이드합니다
+      url: "../sg6000/upgrading-santricity-os-on-storage-controllers.html"
+    - title: 드라이브 펌웨어를 업그레이드합니다
+      url: "../sg6000/upgrading-drive-firmware-using-santricity-system-manager.html"
+  - title: 랙 절차
+    links:
+    - title: 랙에 컨트롤러를 교체합니다
+      url: "../sg6000/reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html"
+    - title: 확장 쉘프 추가
+      url: "../sg6000/adding-expansion-shelf-to-deployed-sg6060.html"
+  - title: 하드웨어 절차
+    links:
+    - title: 컨트롤러 덮개를 교체합니다
+      url: "../sg6000/reinstalling-sg6000-cn-controller-cover.html"
+    - title: 스토리지 컨트롤러를 교체합니다
+      url: "../sg6000/replacing-storage-controller-sg6000.html"
+    - title: 스토리지 컨트롤러 구성요소를 교체합니다
+      url: "../sg6000/replacing-hardware-components-in-storage-controller-shelf.html"
+    - title: 60-드라이브 확장 쉘프의 구성요소를 교체합니다
+      url: "../sg6000/replacing-hardware-components-in-optional-60-drive-expansion-shelf.html"
+    - title: SG6000-CN 컨트롤러를 교체합니다
+      url: "../sg6000/replacing-sg6000-cn-controller.html"
+    - title: 전원 공급 장치를 교체합니다
+      url: "../sg6000/replacing-one-or-both-power-supplies-in-sg6000-cn-controller.html"
+    - title: Fibre Channel HBA를 교체합니다
+      url: "../sg6000/reinstalling-fibre-channel-hba.html"

@@ -1,0 +1,33 @@
+---
+permalink: installconfig/configuring-bmc-interface.html 
+sidebar: sidebar 
+keywords: BMC, baseboard management controller, configure, setup, set up 
+summary: 'SG6100, SG6000 또는 서비스 어플라이언스의 베이스보드 관리 컨트롤러\(BMC\)의 사용자 인터페이스는 하드웨어에 대한 상태 정보를 제공하고 어플라이언스에 대한 SNMP 설정 및 기타 옵션을 구성할 수 있도록 합니다.' 
+---
+= BMC 인터페이스: 개요(SG100, SG1000, SG6000 및 SG6100)
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SG6100, SG6000 또는 서비스 어플라이언스의 베이스보드 관리 컨트롤러(BMC)의 사용자 인터페이스는 하드웨어에 대한 상태 정보를 제공하고 어플라이언스에 대한 SNMP 설정 및 기타 옵션을 구성할 수 있도록 합니다.
+
+어플라이언스를 설치할 때 BMC를 구성하려면 이 섹션의 다음 절차를 따르십시오.
+
+* link:../installconfig/changing-root-password-for-bmc-interface.html["BMC 인터페이스의 관리자 또는 루트 암호를 변경합니다"]
+* link:../installconfig/setting-ip-address-for-bmc-management-port.html["BMC 관리 포트의 IP 주소를 설정합니다"]
+* link:../installconfig/accessing-bmc-interface.html["BMC 인터페이스에 액세스합니다"]
+* link:../installconfig/configuring-snmp-settings-for-bmc.html["SNMP 설정을 구성합니다"]
+* link:../installconfig/setting-up-email-notifications-for-alerts.html["BMC 알림에 대한 이메일 알림을 설정합니다"]
+
+
+[NOTE]
+====
+어플라이언스가 이미 그리드에 설치되어 있고 StorageGRID 소프트웨어를 실행 중인 경우 다음 절차를 따르십시오.
+
+* link:../commonhardware/placing-appliance-into-maintenance-mode.html["유지 관리 모드로 제품을 두십시오"] StorageGRID 어플라이언스 설치 프로그램에 액세스합니다.
+* 을 참조하십시오 link:../installconfig/setting-ip-address-for-bmc-management-port.html["BMC 관리 포트의 IP 주소를 설정합니다"] StorageGRID 어플라이언스 설치 프로그램을 사용하여 BMC 인터페이스에 액세스하는 방법에 대한 자세한 내용은 을 참조하십시오.
+
+
+====

@@ -1,0 +1,39 @@
+---
+permalink: installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html 
+sidebar: sidebar 
+keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, install, installing, installation, cabinet, rack, rail, rails 
+summary: 캐비닛이나 랙에 제품의 레일 세트를 설치한 다음 제품을 레일에 밀어 넣습니다. 
+---
+= 캐비닛 또는 랙에 설치(SG100 및 SG1000)
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+캐비닛이나 랙에 제품의 레일 세트를 설치한 다음 제품을 레일에 밀어 넣습니다.
+
+.시작하기 전에
+* 상자에 포함된 안전 고지 문서를 검토하고 하드웨어 이동 및 설치에 대한 예방 조치를 이해했습니다.
+* 레일 키트와 함께 제공된 지침이 있습니다.
+
+
+.단계
+. 레일 키트의 지침에 따라 캐비닛이나 랙에 레일을 설치합니다.
+. 캐비닛이나 랙에 설치된 두 개의 레일에서 딸깍 소리가 날 때까지 레일의 이동식 부품을 확장합니다.
++
+image::../media/rails_extended_out.gif[SG100 및 SG 1000 레일]
+
+. 제품을 레일에 삽입합니다.
+. 제품을 캐비닛 또는 랙에 밀어 넣습니다.
++
+제품을 더 이상 이동할 수 없는 경우 섀시 양쪽에 있는 파란색 래치를 당겨 제품을 완전히 밀어 넣으십시오.
+
++
+image::../media/sg6000_cn_rails_blue_button.gif[SG 100 및 SG1000 슬라이딩 온 레일]
+
++
+
+NOTE: 제품의 전원을 켠 후에 전면 베젤을 연결하지 마십시오.
+
+

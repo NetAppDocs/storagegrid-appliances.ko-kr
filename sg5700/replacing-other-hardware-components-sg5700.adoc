@@ -1,0 +1,83 @@
+---
+permalink: sg5700/replacing-other-hardware-components-sg5700.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5700, storage node, storage appliance, Replacing, replace, hardware, components, remove, removing, removal, install, installing, installation, controller battery, battery, drive, fan, power supply 
+summary: StorageGRID 제품에서 컨트롤러 배터리, 드라이브, 팬 또는 전원 공급 장치를 교체해야 할 수 있습니다. 
+---
+= SG5700의 다른 하드웨어 구성요소를 교체합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 제품에서 컨트롤러 배터리, 드라이브, 팬 또는 전원 공급 장치를 교체해야 할 수 있습니다.
+
+.시작하기 전에
+* E-Series 하드웨어 교체 절차가 있습니다.
+* 제품이 다 되었습니다 link:../commonhardware/placing-appliance-into-maintenance-mode.html["유지보수 모드로 전환됩니다"] 구성 요소 교체 절차에서 제품을 종료해야 하는 경우
+
+
+.이 작업에 대해
+E2800 컨트롤러의 배터리를 교체하려면 에 대한 지침에 따라 지침을 참조하십시오 link:replacing-e2800-controller.html["E2800 컨트롤러 교체"]. 이 지침은 제품에서 컨트롤러를 분리하고, 컨트롤러에서 배터리를 분리하고, 배터리를 설치하고, 컨트롤러를 교체하는 방법을 설명합니다.
+
+어플라이언스의 드라이브, 전원 팬 캐니스터, 팬 캐니스터, 전원 캐니스터 또는 드라이브 드로어를 교체하려면 에 액세스합니다 http://mysupport.netapp.com/info/web/ECMP1658252.html["E-Series 절차를 참조하십시오"^].
+
+
+
+== SG5712 구성 요소 교체 지침
+
+[cols="1a,3a"]
+|===
+| FRU | 에 대한 E-Series 지침을 참조하십시오 
+
+
+ a| 
+드라이브
+ a| 
+E2800 12 드라이브 또는 24 드라이브 쉘프의 드라이브 교체
+
+
+
+ a| 
+전원 팬 캐니스터
+ a| 
+E2800 쉘프의 전원 팬 캐니스터 교체
+
+|===
+
+
+== SG5760 구성요소 교체 지침 을 참조하십시오
+
+[cols="1a,3a"]
+|===
+| FRU | 에 대한 E-Series 지침을 참조하십시오 
+
+
+ a| 
+드라이브
+ a| 
+E2860 쉘프의 드라이브 교체
+
+
+
+ a| 
+전원 캐니스터
+ a| 
+E2860 쉘프의 전원 캐니스터 교체
+
+
+
+ a| 
+팬 캐니스터
+ a| 
+E2860 쉘프의 팬 캐니스터 교체
+
+
+
+ a| 
+드라이브 드로어
+ a| 
+E2860 쉘프의 드라이브 드로어 교체
+
+|===

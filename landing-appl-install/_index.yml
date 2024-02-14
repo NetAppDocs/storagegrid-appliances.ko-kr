@@ -1,0 +1,45 @@
+---
+indexpage:
+  tiles:
+  - title: 빠른 시작
+    links:
+    - title: 어플라이언스 설치를 위한 빠른 시작
+      url: "../installconfig/index.html"
+    - title: 어플라이언스 설치 및 구성 자동화
+      url: "../installconfig/automating-appliance-installation-and-configuration.html"
+    - title: StorageGRID 구성 자동화
+      url: "../installconfig/automating-configuration-of-storagegrid.html"
+    - title: 설치 REST API(고급 사용자)
+      url: "../installconfig/overview-of-installation-rest-apis.html"
+  - title: 설치 준비
+    links:
+    - title: 현장을 준비합니다
+      url: "../installconfig/preparing-site.html"
+    - title: 박스 포장을 풉니다
+      url: "../installconfig/unpacking-boxes.html"
+    - title: 추가 장비 및 공구를 준비합니다
+      url: "../installconfig/obtaining-additional-equipment-and-tools.html"
+  - title: 네트워크 정보를 수집합니다
+    links:
+    - title: StorageGRID 네트워크 유형입니다
+      url: "../installconfig/reviewing-appliance-network-connections.html"
+    - title: SG100 및 SG1000입니다
+      url: "../installconfig/gathering-installation-information-sg100-and-sg1000.html"
+    - title: SG5700입니다
+      url: "../installconfig/gathering-installation-information-sg5700.html"
+    - title: SG6000 을 참조하십시오
+      url: "../installconfig/gathering-installation-information-sg6000.html"
+    - title: SG6100
+      url: "../installconfig/gathering-installation-information-sg6100.html"
+  - title: 하드웨어를 설치합니다
+    links:
+    - title: 하드웨어 등록
+      url: "../installconfig/registering-hardware.html"
+    - title: 어플라이언스를 설치합니다
+      url: "../landing-install-hdwr/index.html"
+    - title: 하드웨어를 설정합니다
+      url: "../installconfig/configuring-hardware.html"
+    - title: 어플라이언스 스토리지 노드 구축
+      url: "../installconfig/deploying-appliance-storage-node.html"
+    - title: 서비스 어플라이언스 노드를 배포합니다
+      url: "../installconfig/deploying-services-appliance-node.html"

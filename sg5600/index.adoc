@@ -1,0 +1,16 @@
+---
+permalink: sg5600/index.html 
+sidebar: sidebar 
+keywords: 'storagegrid, sg5600, storage node, storage appliance"' 
+summary: SG5600 어플라이언스는 지원이 끝났습니다. 하드웨어 업데이트 옵션은 NetApp 세일즈 담당자에게 문의하십시오. 
+---
+= SG5600 어플라이언스 유지보수
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SG5600 어플라이언스는 지원이 끝났습니다. 하드웨어 업데이트 옵션은 NetApp 세일즈 담당자에게 문의하십시오.
+
+SG5600 하드웨어에 유지보수 절차를 수행해야 하는 경우 를 사용하십시오 https://docs.netapp.com/us-en/storagegrid-116/sg5600/maintaining-sg5600-appliance.html["StorageGRID 11.6 지침"^].

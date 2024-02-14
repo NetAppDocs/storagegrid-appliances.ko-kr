@@ -1,0 +1,20 @@
+---
+permalink: sg100-1000/index.html 
+sidebar: sidebar 
+keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, maintain, maintaining, hardware, procedures, tasks 
+summary: 제품에 대한 유지보수 절차를 수행해야 할 수 있습니다. 이 섹션의 절차에서는 어플라이언스가 이미 게이트웨이 노드 또는 StorageGRID 시스템의 관리 노드로 구축되었다고 가정합니다. 
+---
+= SG100 및 SG1000 어플라이언스는 유지해야 합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+제품에 대한 유지보수 절차를 수행해야 할 수 있습니다. 이 섹션의 절차에서는 어플라이언스가 이미 게이트웨이 노드 또는 StorageGRID 시스템의 관리 노드로 구축되었다고 가정합니다.
+
+SG100 또는 SG1000 어플라이언스 유지 관리 절차는 이 섹션에서 설명합니다.
+
+을 참조하십시오 link:../commonhardware/index.html["일반 절차"] 모든 장비가 사용하는 유지보수 절차에 사용됩니다.
+
+을 참조하십시오 link:../installconfig/configuring-hardware.html["하드웨어를 설정합니다"] 최초 어플라이언스 설치 및 구성 중에도 수행되는 유지보수 절차를 위한 것입니다.

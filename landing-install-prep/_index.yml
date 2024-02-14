@@ -1,0 +1,23 @@
+---
+indexpage:
+  tiles:
+  - title: 준비
+    links:
+    - title: 현장을 준비합니다
+      url: "../installconfig/preparing-site.html"
+    - title: 박스 포장을 풉니다
+      url: "../installconfig/unpacking-boxes.html"
+    - title: 추가 장비 및 공구를 준비합니다
+      url: "../installconfig/obtaining-additional-equipment-and-tools.html"
+  - title: 네트워크 정보를 수집합니다
+    links:
+    - title: StorageGRID 네트워크 유형에 대해 알아봅니다
+      url: "../installconfig/reviewing-appliance-network-connections.html"
+    - title: SG100 및 SG1000 네트워크 정보입니다
+      url: "../installconfig/gathering-installation-information-sg100-and-sg1000.html"
+    - title: SG5700 네트워크 정보
+      url: "../installconfig/gathering-installation-information-sg5700.html"
+    - title: SG6000 네트워크 정보
+      url: "../installconfig/gathering-installation-information-sg6000.html"
+    - title: SG6100 네트워크 정보
+      url: "../installconfig/gathering-installation-information-sg6100.html"

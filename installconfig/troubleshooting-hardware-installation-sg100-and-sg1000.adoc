@@ -1,0 +1,556 @@
+---
+permalink: installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html 
+sidebar: sidebar 
+keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, troubleshoot, troubleshooting, hardware, install, installation, boot codes, boot-up codes, start codes, codes, boot, start, error codes, errors, error, codes, bmc, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck, connection 
+summary: 설치 중에 문제가 발생하는 경우 하드웨어 설정 및 연결 문제와 관련된 문제 해결 정보를 검토하는 것이 도움이 될 수 있습니다. 
+---
+= 하드웨어 설치 문제 해결(SG100 및 SG1000)
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+설치 중에 문제가 발생하는 경우 하드웨어 설정 및 연결 문제와 관련된 문제 해결 정보를 검토하는 것이 도움이 될 수 있습니다.
+
+
+
+== 부팅 코드를 봅니다
+
+장치에 전원을 공급하면 BMC가 일련의 부팅 코드를 기록합니다. BMC 관리 포트에 연결된 그래픽 콘솔에서 이러한 코드를 볼 수 있습니다.
+
+.시작하기 전에
+* 당신은 방법을 알고 있습니다 link:../installconfig/accessing-bmc-interface.html["BMC 대시보드에 액세스합니다"].
+* SOL(Serial-over-LAN)을 사용하려는 경우 IPMI SOL 콘솔 애플리케이션을 사용하는 경험이 있습니다.
+
+
+.단계
+. 어플라이언스 컨트롤러의 부팅 코드를 보려면 다음 방법 중 하나를 선택하고 필요한 장비를 수집합니다.
++
+[cols="1a,2a"]
+|===
+| 방법 | 필수 장비 
+
+
+ a| 
+VGA 콘솔
+ a| 
+** VGA 지원 모니터
+** VGA 케이블
+
+
+
+
+ a| 
+KVM
+ a| 
+** RJ-45 케이블
+
+
+
+
+ a| 
+직렬 포트
+ a| 
+** DB-9 직렬 케이블
+** 가상 직렬 터미널
+
+
+
+
+ a| 
+솔
+ a| 
+** 가상 직렬 터미널
+
+
+|===
+. VGA 콘솔을 사용하는 경우 다음 단계를 수행하십시오.
++
+.. VGA 지원 모니터를 제품 뒷면의 VGA 포트에 연결합니다.
+.. 모니터에 표시된 코드를 봅니다.
+
+
+. BMC KVM을 사용하는 경우 다음 단계를 수행하십시오.
++
+.. BMC 관리 포트에 연결하고 BMC 웹 인터페이스에 로그인합니다.
+.. 리모컨 * 을 선택합니다.
+.. KVM을 실행합니다.
+.. 가상 모니터에서 코드를 봅니다.
+
+
+. 직렬 포트 및 터미널을 사용하는 경우 다음 단계를 수행하십시오.
++
+.. 어플라이언스 뒷면의 DB-9 직렬 포트에 연결합니다.
+.. 설정을 사용합니다 `115200 8-N-1`.
+.. 직렬 터미널에 인쇄된 코드를 봅니다.
+
+
+. SOL을 사용하는 경우 다음 단계를 수행하십시오.
++
+.. BMC IP 주소 및 로그인 자격 증명을 사용하여 IPMI SOL에 연결합니다.
++
+`ipmitool -I lanplus -H _BMC_Port_IP_ -U root -P _Password_ sol activate`
+
+.. 가상 시리얼 터미널에서 코드를 봅니다.
+
+
+. 표를 사용하여 제품의 코드를 찾습니다.
++
+[cols="1a,3a"]
+|===
+| 코드 | 를 나타냅니다 
+
+
+ a| 
+안녕
+ a| 
+마스터 부트 스크립트가 시작되었습니다.
+
+
+
+ a| 
+HP
+ a| 
+시스템에서 네트워크 인터페이스 카드(NIC) 펌웨어를 업데이트해야 하는지 확인합니다.
+
+
+
+ a| 
+RB
+ a| 
+펌웨어 업데이트를 적용한 후 시스템이 재부팅되고 있습니다.
+
+
+
+ a| 
+FP
+ a| 
+하드웨어 하위 시스템 펌웨어 업데이트 검사가 완료되었습니다. 컨트롤러 간 통신 서비스가 시작됩니다.
+
+
+
+ a| 
+HC
+ a| 
+시스템에서 기존 StorageGRID 설치 데이터를 확인하고 있습니다.
+
+
+
+ a| 
+호
+ a| 
+StorageGRID 어플라이언스가 실행 중입니다.
+
+
+
+ a| 
+HA
+ a| 
+StorageGRID가 실행 중입니다.
+
+|===
+
+
+
+
+== 오류 코드를 봅니다
+
+어플라이언스를 부팅할 때 하드웨어 오류가 발생하면 BMC가 오류 코드를 기록합니다. 필요한 경우 BMC 인터페이스를 사용하여 이러한 오류 코드를 확인한 다음 기술 지원 팀과 협력하여 문제를 해결할 수 있습니다.
+
+.시작하기 전에
+* 당신은 방법을 알고 있습니다 link:accessing-bmc-interface.html["BMC 대시보드에 액세스합니다"].
+
+
+.단계
+. BMC 대시보드에서 * BIOS POST 코드 * 를 선택합니다.
+. 현재 코드 및 이전 코드에 대해 표시된 정보를 검토합니다.
++
+다음 오류 코드 중 하나가 표시되면 기술 지원 부서의 도움을 받고 문제를 해결하십시오.
+
++
+[cols="1a,3a"]
+|===
+| 코드 | 를 나타냅니다 
+
+
+ a| 
+0x0e 를 참조하십시오
+ a| 
+마이크로코드를 찾을 수 없습니다
+
+
+
+ a| 
+0x0F 를 참조하십시오
+ a| 
+마이크로코드가 로드되지 않았습니다
+
+
+
+ a| 
+0x50
+ a| 
+메모리 초기화 오류. 잘못된 메모리 유형 또는 호환되지 않는 메모리 속도입니다.
+
+
+
+ a| 
+0x51
+ a| 
+메모리 초기화 오류. SPD 판독에 실패했습니다.
+
+
+
+ a| 
+0x52 를 참조하십시오
+ a| 
+메모리 초기화 오류. 잘못된 메모리 크기 또는 메모리 모듈이 일치하지 않습니다.
+
+
+
+ a| 
+0x53
+ a| 
+메모리 초기화 오류. 사용 가능한 메모리가 없습니다.
+
+
+
+ a| 
+0x54입니다
+ a| 
+지정되지 않은 메모리 초기화 오류입니다
+
+
+
+ a| 
+0x55 를 참조하십시오
+ a| 
+메모리가 설치되지 않았습니다
+
+
+
+ a| 
+0x56
+ a| 
+잘못된 CPU 유형 또는 속도입니다
+
+
+
+ a| 
+0x57 을 참조하십시오
+ a| 
+CPU가 일치하지 않습니다
+
+
+
+ a| 
+0x58
+ a| 
+CPU 자체 테스트에 실패했거나 CPU 캐시 오류가 발생했을 수 있습니다
+
+
+
+ a| 
+0x59
+ a| 
+CPU 마이크로 코드를 찾을 수 없거나 마이크로 코드를 업데이트하지 못했습니다
+
+
+
+ a| 
+0x5a 를 참조하십시오
+ a| 
+내부 CPU 오류입니다
+
+
+
+ a| 
+0x5B입니다
+ a| 
+PPI 재설정을 사용할 수 없습니다
+
+
+
+ a| 
+0x5C
+ a| 
+PEI 단계 BMC 자체 테스트에 실패했습니다
+
+
+
+ a| 
+0xD0
+ a| 
+CPU 초기화 오류
+
+
+
+ a| 
+0xD1 을 선택합니다
+ a| 
+노스 브리지 초기화 오류
+
+
+
+ a| 
+0xD2 를 선택합니다
+ a| 
+South bridge 초기화 오류
+
+
+
+ a| 
+3
+ a| 
+일부 아키텍처 프로토콜은 사용할 수 없습니다
+
+
+
+ a| 
+0xD4 를 참조하십시오
+ a| 
+PCI 리소스 할당 오류입니다. 리소스 부족.
+
+
+
+ a| 
+0xD5 를 참조하십시오
+ a| 
+레거시 옵션 ROM에 대한 공간이 없습니다
+
+
+
+ a| 
+0xD6 를 참조하십시오
+ a| 
+콘솔 출력 장치를 찾을 수 없습니다
+
+
+
+ a| 
+0xD7 을 참조하십시오
+ a| 
+콘솔 입력 장치를 찾을 수 없습니다
+
+
+
+ a| 
+0xD8 을 참조하십시오
+ a| 
+잘못된 암호입니다
+
+
+
+ a| 
+0xD9 를 참조하십시오
+ a| 
+부팅 옵션 로드 중 오류 발생(LoadImage가 오류를 반환함)
+
+
+
+ a| 
+0xDA입니다
+ a| 
+부팅 옵션 실패(StartImage가 오류를 반환함)
+
+
+
+ a| 
+0xDB입니다
+ a| 
+플래시를 업데이트하지 못했습니다
+
+
+
+ a| 
+0xDC입니다
+ a| 
+재설정 프로토콜을 사용할 수 없습니다
+
+
+
+ a| 
+0xDD입니다
+ a| 
+DXE 단계 BMC 자체 테스트 실패
+
+
+
+ a| 
+0xE8 을 참조하십시오
+ a| 
+MRC:ERR_NO_MEMORY
+
+
+
+ a| 
+0xE9 를 참조하십시오
+ a| 
+MRC:ERR_LT_LOCK
+
+
+
+ a| 
+0xEA를 선택합니다
+ a| 
+MRC:ERR_DDR_INIT
+
+
+
+ a| 
+0xEB입니다
+ a| 
+MRC:ERR_MEM_TEST
+
+
+
+ a| 
+0xEC입니다
+ a| 
+MRC:ERR_VENDOR_VENDOR_VENCE
+
+
+
+ a| 
+0XED
+ a| 
+MRC:ERR_DIMM_COMPAT
+
+
+
+ a| 
+0xEE입니다
+ a| 
+MRC:ERR_MRC_compatibility
+
+
+
+ a| 
+0xEF입니다
+ a| 
+MRC:ERR_MRC_struct
+
+
+
+ a| 
+0xF0
+ a| 
+MRC:ERR_SET_VDD
+
+
+
+ a| 
+0xF1 을 참조하십시오
+ a| 
+MRC:ERR_IOT_MEM_BUFFER
+
+
+
+ a| 
+0xF2 를 선택합니다
+ a| 
+MRC:ERR_RC_INTERNAL입니다
+
+
+
+ a| 
+0xF3 를 선택합니다
+ a| 
+MRC:ERR_INVALID_REG_ACCESS
+
+
+
+ a| 
+0xF4 를 참조하십시오
+ a| 
+MRC:ERR_SET_MC_Freq
+
+
+
+ a| 
+0xF5 를 선택합니다
+ a| 
+MRC:ERR_READ_MC_Freq
+
+
+
+ a| 
+0x70 을 참조하십시오
+ a| 
+MRC:ERR_DIMM_CHANNEL
+
+
+
+ a| 
+0x74 를 참조하십시오
+ a| 
+MRC:ERR_BIST_CHECK
+
+
+
+ a| 
+0xF6 을 선택합니다
+ a| 
+MRC:ERR_SMBus를 선택합니다
+
+
+
+ a| 
+0xF7 을 참조하십시오
+ a| 
+MRC:ERR_PCU
+
+
+
+ a| 
+0xF8 을 선택합니다
+ a| 
+MRC:ERR_NGN
+
+
+
+ a| 
+0xF9 를 참조하십시오
+ a| 
+MRC:ERR_interLeave_failure
+
+|===
+
+
+
+
+== 하드웨어 설치가 중단된 것 같습니다
+
+하드웨어 장애 또는 케이블 연결 오류로 인해 어플라이언스가 부팅 프로세스를 완료하지 못하는 경우 StorageGRID 어플라이언스 설치 프로그램을 사용할 수 없습니다.
+
+.단계
+. 어플라이언스의 LED와 BMC에 표시되는 부팅 및 오류 코드를 검토합니다.
+. 문제 해결에 도움이 필요한 경우 기술 지원 부서에 문의하십시오.
+
+
+
+
+== 연결 문제
+
+서비스 어플라이언스에 연결할 수 없는 경우 네트워크 문제가 있거나 하드웨어 설치가 성공적으로 완료되지 않았을 수 있습니다.
+
+.단계
+. 어플라이언스의 IP 주소 + 를 사용하여 어플라이언스에 ping을 시도해 보십시오
+`*ping _services_appliance_IP_*`
+. Ping에서 응답이 없는 경우 올바른 IP 주소를 사용하고 있는지 확인합니다.
++
+그리드 네트워크, 관리 네트워크 또는 클라이언트 네트워크에서 어플라이언스의 IP 주소를 사용할 수 있습니다.
+
+. IP 주소가 올바른 경우 어플라이언스 케이블 연결, QSFP 또는 SFP 트랜시버 및 네트워크 설정을 확인하십시오.
+. 어플라이언스에 물리적으로 액세스할 수 있는 경우 영구 링크 로컬 IP에 직접 연결할 수 있습니다 `169.254.0.1` 컨트롤러 네트워킹 구성을 확인하고 필요한 경우 업데이트합니다. 자세한 지침은 의 2단계를 참조하십시오 link:accessing-storagegrid-appliance-installer.html["StorageGRID 어플라이언스 설치 프로그램에 액세스합니다"].
++
+그래도 문제가 해결되지 않으면 기술 지원 부서에 문의하십시오.
+
+. Ping에 성공하면 웹 브라우저를 엽니다.
+. StorageGRID 어플라이언스 설치 프로그램의 URL을 입력합니다
+`*https://_appliances_controller_IP_:8443*`
++
+홈 페이지가 나타납니다.
+
+

@@ -1,0 +1,49 @@
+---
+section: sg6000
+title: SG6000 하드웨어 유지보수
+url: "/landing-maintain-sg6000/index.html"
+entries:
+- title: 개요
+  pdf-filename: SG6000 하드웨어 유지 관리
+  url: "/sg6000/index.html"
+- title: 유지보수 구성 절차
+  pdf-filename: 유지보수 구성 절차 - SG6000
+  entries:
+  - title: 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다
+    url: "/sg6000/upgrading-santricity-os-on-storage-controllers.html"
+    entries:
+    - title: 그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다
+      url: "/sg6000/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6000.html"
+    - title: 유지보수 모드를 사용하여 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다
+      url: "/sg6000/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6000.html"
+  - title: SANtricity 시스템 관리자를 사용하여 드라이브 펌웨어를 업그레이드합니다
+    url: "/sg6000/upgrading-drive-firmware-using-santricity-system-manager.html"
+  - title: 컨트롤러 식별 LED를 켜고 끕니다
+    url: "/sg6000/turning-controller-identify-led-on-and-off.html"
+  - title: 데이터 센터에서 컨트롤러를 찾습니다
+    url: "/sg6000/locating-controller-in-data-center.html"
+  - title: 컨트롤러 전원을 껐다가 켭니다
+    url: "/sg6000/power-sg6000-cn-controller-off-on.html"
+  - title: SG6000-CN 컨트롤러의 링크 구성을 변경합니다
+    url: "/sg6000/changing-link-configuration-of-sg6000-cn-controller.html"
+- title: 하드웨어 절차
+  pdf-filename: 하드웨어 절차 - SG6000
+  entries:
+  - title: 구축된 SG6060에 확장 쉘프를 추가합니다
+    url: "/sg6000/adding-expansion-shelf-to-deployed-sg6060.html"
+  - title: 스토리지 컨트롤러를 교체합니다
+    url: "/sg6000/replacing-storage-controller-sg6000.html"
+  - title: 스토리지 컨트롤러 쉘프의 하드웨어 구성요소를 교체합니다
+    url: "/sg6000/replacing-hardware-components-in-storage-controller-shelf.html"
+  - title: 옵션 60-드라이브 확장 쉘프로 하드웨어 구성요소 교체
+    url: "/sg6000/replacing-hardware-components-in-optional-60-drive-expansion-shelf.html"
+  - title: SG6000-CN 컨트롤러를 교체합니다
+    url: "/sg6000/replacing-sg6000-cn-controller.html"
+  - title: SG6000-CN 컨트롤러의 전원 공급 장치 중 하나 또는 둘 다를 교체합니다
+    url: "/sg6000/replacing-one-or-both-power-supplies-in-sg6000-cn-controller.html"
+  - title: 랙에 컨트롤러를 교체합니다
+    url: "/sg6000/reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html"
+  - title: 컨트롤러 덮개를 교체합니다
+    url: "/sg6000/reinstalling-sg6000-cn-controller-cover.html"
+  - title: SG6000-CN 컨트롤러의 파이버 채널 HBA를 교체합니다
+    url: "/sg6000/reinstalling-fibre-channel-hba.html"

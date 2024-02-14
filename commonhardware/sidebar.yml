@@ -1,0 +1,17 @@
+---
+section: commonhardware
+title: 어플라이언스 구성을 유지합니다
+entries:
+- title: 개요
+  pdf-filename: 어플라이언스 구성 유지(모든 노드)
+  url: "/commonhardware/index.html"
+- title: 제품을 유지보수 모드로 전환합니다
+  url: "/commonhardware/placing-appliance-into-maintenance-mode.html"
+- title: MTU 설정을 변경합니다
+  url: "/commonhardware/changing-mtu-setting.html"
+- title: DNS 서버 구성을 확인합니다
+  url: "/commonhardware/checking-dns-server-configuration.html"
+- title: MAC 주소 참조를 업데이트합니다
+  url: "/commonhardware/locate-mac-address.html"
+- title: 유지보수 모드에서 노드 암호화를 모니터링합니다
+  url: "/commonhardware/monitoring-node-encryption-in-maintenance-mode.html"

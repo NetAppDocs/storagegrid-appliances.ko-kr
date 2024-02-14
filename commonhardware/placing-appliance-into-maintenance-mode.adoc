@@ -1,0 +1,65 @@
+---
+permalink: commonhardware/placing-appliance-into-maintenance-mode.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6000, storage node, storage appliance, maintenance mode 
+summary: 특정 유지보수 절차를 수행하기 전에 제품을 유지보수 모드로 전환해야 합니다. 
+---
+= 제품을 유지보수 모드로 전환합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+특정 유지보수 절차를 수행하기 전에 제품을 유지보수 모드로 전환해야 합니다.
+
+.시작하기 전에
+* 를 사용하여 그리드 관리자에 로그인했습니다 https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html["지원되는 웹 브라우저"^].
+* 유지 관리 또는 루트 액세스 권한이 있습니다. 자세한 내용은 StorageGRID 관리 지침을 참조하십시오.
+
+
+.이 작업에 대해
+StorageGRID 어플라이언스를 유지보수 모드로 전환하면 원격 액세스가 불가능한 경우가 드물게 있습니다.
+
+
+NOTE: 유지보수 모드에서 StorageGRID 어플라이언스에 대한 admin 계정 암호 및 SSH 호스트 키는 어플라이언스가 서비스 중일 때와 동일하게 유지됩니다.
+
+.단계
+. Grid Manager에서 * nodes * 를 선택합니다.
+. 노드 페이지의 트리 뷰에서 어플라이언스 스토리지 노드를 선택합니다.
+. 작업 * 을 선택합니다.
+. 유지보수 모드 * 를 선택합니다. 확인 대화 상자가 나타납니다.
+. 프로비저닝 암호를 입력하고 * OK * 를 선택합니다.
++
+진행 표시줄과 "전송 요청", "StorageGRID 중지", "재부팅 중"과 같은 일련의 메시지는 어플라이언스가 유지보수 모드로 들어가기 위한 단계를 완료하고 있음을 나타냅니다.
+
++
+어플라이언스가 유지보수 모드일 때 확인 메시지에 StorageGRID 어플라이언스 설치 프로그램에 액세스하는 데 사용할 수 있는 URL이 나열됩니다.
+
++
+image::../media/maintenance_mode_urls.png[유지보수 모드 URL입니다]
+
+. StorageGRID 어플라이언스 설치 프로그램에 액세스하려면 표시된 URL 중 하나를 찾습니다.
++
+가능한 경우 어플라이언스의 관리 네트워크 포트의 IP 주소가 포함된 URL을 사용하십시오.
+
++
+
+NOTE: 어플라이언스의 관리 포트에 직접 연결되어 있는 경우 를 사용하십시오 `+https://169.254.0.1:8443+` StorageGRID 어플라이언스 설치 프로그램 페이지에 액세스합니다.
+
+. StorageGRID 어플라이언스 설치 프로그램에서 어플라이언스가 유지보수 모드인지 확인합니다.
++
+image::../media/maintenance_mode_notification_bar.png[유지보수 모드 메시지]
+
+. 필요한 유지보수 작업을 수행합니다.
+. 유지보수 작업을 완료한 후 유지보수 모드를 종료하고 정상 노드 운영을 재개합니다. StorageGRID 어플라이언스 설치 프로그램에서 * 고급 * > * 컨트롤러 재부팅 * 을 선택한 다음 * StorageGRID * 으로 재부팅 * 을 선택합니다.
++
+image::../media/reboot_controller_from_maintenance_mode.png[유지보수 모드에서 컨트롤러를 재부팅합니다]
+
++
+어플라이언스가 재부팅되고 그리드에 다시 가입하는 데 최대 20분이 걸릴 수 있습니다. 재부팅이 완료되고 노드가 그리드에 다시 결합되었는지 확인하려면 Grid Manager로 돌아갑니다. nodes * 페이지에 정상 상태(녹색 확인 표시 아이콘)가 표시되어야 합니다 image:../media/icon_alert_green_checkmark.png["녹색 확인 표시"] (노드 이름 왼쪽) 어플라이언스 노드에 대해 알림이 활성화되어 있지 않고 노드가 그리드에 연결되어 있음을 나타냅니다.
+
++
+image::../media/nodes_menu.png[노드 페이지 정상 상태입니다]
+
+

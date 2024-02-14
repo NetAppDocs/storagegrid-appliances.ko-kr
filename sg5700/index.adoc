@@ -1,0 +1,20 @@
+---
+permalink: sg5700/index.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5700, storage node, storage appliance, maintain, maintaining, hardware, procedures, tasks 
+summary: E2800 컨트롤러에서 SANtricity OS 소프트웨어를 업그레이드하거나, E5500SG 컨트롤러의 이더넷 링크 구성을 변경하거나, E2800 컨트롤러 또는 E5500SG 컨트롤러를 교체하거나, 특정 구성 요소를 교체해야 할 수 있습니다. 이 섹션의 절차에서는 어플라이언스가 이미 StorageGRID 시스템의 스토리지 노드로 구축되었다고 가정합니다. 
+---
+= SG5700 어플라이언스 유지
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+E2800 컨트롤러에서 SANtricity OS 소프트웨어를 업그레이드하거나, E5500SG 컨트롤러의 이더넷 링크 구성을 변경하거나, E2800 컨트롤러 또는 E5500SG 컨트롤러를 교체하거나, 특정 구성 요소를 교체해야 할 수 있습니다. 이 섹션의 절차에서는 어플라이언스가 이미 StorageGRID 시스템의 스토리지 노드로 구축되었다고 가정합니다.
+
+SG5700 어플라이언스 유지 관리 절차는 이 섹션에서 설명합니다.
+
+을 참조하십시오 link:../commonhardware/index.html["일반 절차"] 모든 장비가 사용하는 유지보수 절차에 사용됩니다.
+
+을 참조하십시오 link:../installconfig/configuring-hardware.html["하드웨어를 설정합니다"] 최초 어플라이언스 설치 및 구성 중에도 수행되는 유지보수 절차를 위한 것입니다.
