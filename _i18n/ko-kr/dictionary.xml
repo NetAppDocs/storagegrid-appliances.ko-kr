@@ -4229,4 +4229,5 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="36312847d9ed62c091364066df9b573f" category="sidebar">스토리지 컨트롤러 쉘프의 하드웨어 구성요소를 교체합니다</block>
   <block id="297057bf431ff214cf5fb064c5a836ac" category="sidebar">옵션 60-드라이브 확장 쉘프로 하드웨어 구성요소 교체</block>
   <block id="6e59386fb6d09c0b4945ad4afa8a4092" category="sidebar">SG6000-CN 컨트롤러의 파이버 채널 HBA를 교체합니다</block>
+  <block id="46621f49f52b2e7735202aeadc8627bc" category="paragraph"><block ref="46621f49f52b2e7735202aeadc8627bc" category="inline-link-rx"></block></block>
 </blocks>
