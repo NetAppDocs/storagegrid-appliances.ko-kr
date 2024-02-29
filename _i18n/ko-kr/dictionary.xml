@@ -1837,7 +1837,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="05c9534a4968bb692db6c477bda3216e" category="list-text"><block ref="af9633264dfe5a57796032ab701180e5" category="inline-xref-macro-rx"></block> 하드웨어 암호화를 사용하여 FIPS(Federal Information Processing Standards)를 충족하는 드라이브를 비롯하여 FED(전체 디스크 암호화) 드라이브라고도 하는 SED(자체 암호화 드라이브)를 보호합니다. 드라이브 암호화는 StorageGRID 키 관리자가 관리하는 암호화 키를 사용하여 각 드라이브 내에서 수행됩니다.</block>
   <block id="0f8b6d1e008864add25c54498d52b95d" category="paragraph">지원되는 드라이브에서 두 암호화 수준을 모두 수행하여 보안을 강화할 수 있습니다.</block>
   <block id="3222848370401de62a0389566cdc6e45" category="inline-link">StorageGRID 암호화 방법</block>
-  <block id="d2ff273ea38e1c87a7e75159cbc94cb5" category="paragraph">을 참조하십시오<block ref="dc22ceb0306f26ff8ce9d4588db8c9bc" category="inline-link-rx"></block> StorageGRID 어플라이언스에 사용할 수 있는 모든 암호화 방법에 대한 정보를 참조하십시오.</block>
   <block id="18c6ba3c5dc613670300302d6b6e13e8" category="section-title">노드 암호화를 설정합니다</block>
   <block id="1c2a7c57450bd0841ba8af585da8e2e7" category="paragraph">노드 암호화를 사용하는 경우 어플라이언스의 디스크는 물리적 손실 또는 사이트 제거로부터 보안 키 관리 서버(KMS) 암호화로 보호할 수 있습니다. 어플라이언스 설치 중에 노드 암호화를 선택하고 활성화해야 합니다. KMS 암호화 프로세스가 시작된 후에는 노드 암호화를 해제할 수 없습니다.</block>
   <block id="df20a5800890fb9c6f211a466c532c76" category="paragraph">ConfigBuilder를 사용하여 JSON 파일을 생성하는 경우 노드 암호화를 자동으로 활성화할 수 있습니다. 을 참조하십시오 <block ref="da9e5f931ee7f07fa7e39b6838d21cb5" category="inline-link-macro-rx"></block>.</block>
@@ -1865,7 +1864,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="f4b6f694a5501888787381e6a815ab2e" category="paragraph">암호화된 SED는 어플라이언스 전원이 꺼지거나 어플라이언스에서 드라이브를 제거할 때 자동으로 잠깁니다. 암호화된 SED는 전원이 복구된 후 올바른 암호를 입력할 때까지 잠긴 상태로 유지됩니다. 암호를 수동으로 다시 입력하지 않고 드라이브에 액세스할 수 있도록 StorageGRID 어플라이언스에 암호가 저장되어 어플라이언스 재시작 시 어플라이언스에 남아 있는 암호화된 드라이브의 잠금을 해제합니다. SED 암호를 사용하여 암호화된 드라이브는 암호를 알고 있는 모든 사용자가 액세스할 수 있습니다.</block>
   <block id="0ffb3b992e7b67a3cf4b6e86c5e6d58e" category="paragraph">드라이브 암호화는 SANtricity에서 관리하는 드라이브에는 적용되지 않습니다. SED 및 SANtricity 컨트롤러가 포함된 StorageGRID 어플라이언스가 있는 경우 에서 드라이브 보안을 활성화할 수 있습니다 <block ref="26de6fd427efcc81f7ad7cd6aad9003d" category="inline-link-macro-rx"></block>.</block>
   <block id="0fb0c001659e1b8d7876247f8c4b3eac" category="paragraph">Grid Manager를 로드하기 전에 초기 어플라이언스 설치 중에 드라이브 암호화를 활성화할 수 있습니다. 어플라이언스를 유지보수 모드로 전환하여 노드 암호화를 설정하거나 암호를 변경할 수도 있습니다.</block>
-  <block id="fd8cd1fe2d84ec18c3b56eff1070e866" category="paragraph">에 대한 정보를 검토합니다<block ref="dc22ceb0306f26ff8ce9d4588db8c9bc" category="inline-link-rx"></block>.</block>
   <block id="d112382db4537727ec6a38fd83f7931d" category="paragraph">드라이브 암호화가 처음 활성화될 때 암호가 설정됩니다. 컴퓨팅 노드를 교체하거나 암호화된 SED가 새 컴퓨팅 노드로 이동된 경우 암호를 수동으로 다시 입력해야 합니다.</block>
   <block id="68054e05b3829648df9f1eed60b84a85" category="admonition">드라이브 암호화 암호를 안전한 위치에 저장해야 합니다. SED가 다른 StorageGRID 어플라이언스에 설치된 경우 동일한 암호를 수동으로 입력하지 않으면 암호화된 SED에 액세스할 수 없습니다.</block>
   <block id="a7168e3fce65db38199c759024bcc6ad" category="section-title">드라이브 암호화를 활성화합니다</block>
@@ -3499,9 +3497,7 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="8a319d9f1f8fa62d913f59ab432b8f1a" category="list-text">다음 명령을 입력합니다.<block ref="604b3aa6831925c337f9cec38597d65a" prefix=" " category="inline-code"></block></block>
   <block id="4a4df9fcde02f4c20df662c4d87783a1" category="summary">그리드 관리자의 드라이브 관리 탭을 사용하여 SGF6112 어플라이언스의 드라이브에 대한 문제 해결 및 유지 관리 작업을 수행할 수 있습니다.</block>
   <block id="e525b6b4f718b6369b2fa00ac33b215b" category="doc">드라이브 관리 탭을 사용합니다</block>
-  <block id="dd646486f335d66fb3729899cbdd1d43" category="list-text">를 사용하여 그리드 관리자에 로그인했습니다<block ref="42eb699be885105e5a08932567501037" category="inline-link-rx"></block>.</block>
   <block id="bf8542827bf52ff1d2d3ca74de649b6a" category="inline-link">스토리지 어플라이언스 관리자 또는 루트 액세스 권한</block>
-  <block id="4b1bc73909f0b7b1282d782289068051" category="paragraph">SGF6112 어플라이언스와 이 있는 경우<block ref="3b6eef8d5dca76558b5505ffa4aa79b9" category="inline-link-rx"></block>어플라이언스 세부 정보 페이지에 드라이브 관리 탭이 나타납니다.</block>
   <block id="bf5f327428f0175033f3cbe43e6e7b3e" category="paragraph">드라이브 관리 탭에는 다음 보기가 포함되어 있습니다.</block>
   <block id="ebd9bec4d70abc789d439c1f136b0538" category="list-text">레이아웃</block>
   <block id="a92cd291617f14a6abada995fa7b9a3f" category="list-text">어플라이언스의 데이터 스토리지 드라이브 레이아웃 드라이브 세부 정보를 보려면 드라이브를 선택합니다.</block>
@@ -4230,4 +4226,7 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="297057bf431ff214cf5fb064c5a836ac" category="sidebar">옵션 60-드라이브 확장 쉘프로 하드웨어 구성요소 교체</block>
   <block id="6e59386fb6d09c0b4945ad4afa8a4092" category="sidebar">SG6000-CN 컨트롤러의 파이버 채널 HBA를 교체합니다</block>
   <block id="46621f49f52b2e7735202aeadc8627bc" category="paragraph"><block ref="46621f49f52b2e7735202aeadc8627bc" category="inline-link-rx"></block></block>
+  <block id="39822573479d4d01c9fc52445e6f90d4" category="paragraph">을 참조하십시오<block ref="182f5524fe0d353d40aacb3022a6d00c" category="inline-link-rx"></block> StorageGRID 어플라이언스에 사용할 수 있는 모든 암호화 방법에 대한 정보를 참조하십시오.</block>
+  <block id="38863f5650b2800fa51be4d3a390b203" category="paragraph">에 대한 정보를 검토합니다<block ref="182f5524fe0d353d40aacb3022a6d00c" category="inline-link-rx"></block>.</block>
+  <block id="00480567d9c91f7b7ba44e21f754f737" category="paragraph">SGF6112 어플라이언스와 이 있는 경우<block ref="646dc3cd3bd62a6be1690aac96e1dd08" category="inline-link-rx"></block>어플라이언스 세부 정보 페이지에 드라이브 관리 탭이 나타납니다.</block>
 </blocks>

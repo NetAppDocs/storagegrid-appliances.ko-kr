@@ -19,7 +19,7 @@ summary: 노드 및 디스크 수준에서 암호화를 활성화하여 어플�
 
 지원되는 드라이브에서 두 암호화 수준을 모두 수행하여 보안을 강화할 수 있습니다.
 
-을 참조하십시오 https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/reviewing-storagegrid-encryption-methods.html["StorageGRID 암호화 방법"^] StorageGRID 어플라이언스에 사용할 수 있는 모든 암호화 방법에 대한 정보를 참조하십시오.
+을 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/admin/reviewing-storagegrid-encryption-methods.html["StorageGRID 암호화 방법"^] StorageGRID 어플라이언스에 사용할 수 있는 모든 암호화 방법에 대한 정보를 참조하십시오.
 
 
 
@@ -100,7 +100,7 @@ NOTE: 어플라이언스는 처음에 각 디스크 볼륨에 할당된 임의�
 Grid Manager를 로드하기 전에 초기 어플라이언스 설치 중에 드라이브 암호화를 활성화할 수 있습니다. 어플라이언스를 유지보수 모드로 전환하여 노드 암호화를 설정하거나 암호를 변경할 수도 있습니다.
 
 .시작하기 전에
-에 대한 정보를 검토합니다 https://review.docs.netapp.com/us-en/storagegrid-118_main/admin/reviewing-storagegrid-encryption-methods.html["StorageGRID 암호화 방법"^].
+에 대한 정보를 검토합니다 https://docs.netapp.com/us-en/storagegrid-118/admin/reviewing-storagegrid-encryption-methods.html["StorageGRID 암호화 방법"^].
 
 .이 작업에 대해
 드라이브 암호화가 처음 활성화될 때 암호가 설정됩니다. 컴퓨팅 노드를 교체하거나 암호화된 SED가 새 컴퓨팅 노드로 이동된 경우 암호를 수동으로 다시 입력해야 합니다.
