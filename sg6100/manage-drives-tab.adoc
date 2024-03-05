@@ -18,7 +18,7 @@ summary: 그리드 관리자의 드라이브 관리 탭을 사용하여 SGF6112 
 
 
 .이 작업에 대해
-SGF6112 어플라이언스와 이 있는 경우 https://docs.netapp.com/us-en/storagegrid-118/admin/admin-group-permissions.html["스토리지 어플라이언스 관리자 또는 루트 액세스 권한"]어플라이언스 세부 정보 페이지에 드라이브 관리 탭이 나타납니다.
+SGF6112 어플라이언스와 이 있는 경우 https://docs.netapp.com/us-en/storagegrid-118/admin/admin-group-permissions.html["스토리지 어플라이언스 관리자 또는 루트 액세스 권한"^]어플라이언스 세부 정보 페이지에 드라이브 관리 탭이 나타납니다.
 
 드라이브 관리 탭에는 다음 보기가 포함되어 있습니다.
 
