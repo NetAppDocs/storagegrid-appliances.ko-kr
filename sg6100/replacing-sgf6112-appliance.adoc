@@ -163,7 +163,7 @@ CAUTION: 드라이브에 데이터를 보존하려면 SSD 드라이브를 장애
 
 
 . 제품의 전원을 켜십시오.
-. 교체된 어플라이언스에 SED 드라이브에 대해 하드웨어 드라이브 암호화가 활성화된 경우 다음을 수행해야 합니다 link:optional-enabling-node-encryption.html#access-an-encrypted-drive["드라이브 암호화 암호를 입력합니다"] 교체용 어플라이언스를 처음 시작할 때 암호화된 드라이브에 액세스합니다.
+. 교체된 어플라이언스에 SED 드라이브에 대해 하드웨어 드라이브 암호화가 활성화된 경우 다음을 수행해야 합니다 link:../installconfig/optional-enabling-node-encryption.html#access-an-encrypted-drive["드라이브 암호화 암호를 입력합니다"] 교체용 어플라이언스를 처음 시작할 때 암호화된 드라이브에 액세스합니다.
 . 제품이 그리드에 다시 연결될 때까지 기다립니다. 어플라이언스가 그리드에 다시 연결되지 않는 경우 StorageGRID 어플라이언스 설치 프로그램 홈 페이지의 지침에 따라 문제를 해결하십시오.
 +
 

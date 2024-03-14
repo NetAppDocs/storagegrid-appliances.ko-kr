@@ -53,7 +53,7 @@ image::../media/sgf6112_two-slot-riser_guide-pin.png[2슬롯 라이저 조립품
 . 라이저 조립품을 섀시에 놓고 시스템 보드 및 가이드 핀의 커넥터에 맞춥니다.
 . 파란색 표시가 있는 구멍 옆에 있는 가운데 선을 따라 2슬롯 라이저 조립품을 조심스럽게 눌러 완전히 장착합니다.
 . 다른 유지보수 절차가 없는 경우 제품 덮개를 다시 설치하고 제품을 랙에 다시 장착하고 케이블을 연결한 다음 전원을 공급합니다.
-. 교체한 어플라이언스에 SED 드라이브에 대해 드라이브 암호화가 활성화된 경우 다음을 수행해야 합니다 link:optional-enabling-node-encryption.html#access-an-encrypted-drive["드라이브 암호화 암호를 입력합니다"] 교체용 어플라이언스를 처음 시작할 때 암호화된 드라이브에 액세스합니다.
+. 교체한 어플라이언스에 SED 드라이브에 대해 드라이브 암호화가 활성화된 경우 다음을 수행해야 합니다 link:../installconfig/optional-enabling-node-encryption.html#access-an-encrypted-drive["드라이브 암호화 암호를 입력합니다"] 교체용 어플라이언스를 처음 시작할 때 암호화된 드라이브에 액세스합니다.
 . 교체한 어플라이언스에서 KMS(키 관리 서버)를 사용하여 노드 암호화에 대한 암호화 키를 관리하는 경우 노드가 그리드에 연결되기 전에 추가 구성이 필요할 수 있습니다. 노드가 그리드에 자동으로 연결되지 않는 경우 이러한 구성 설정이 새 어플라이언스로 전송되었는지 확인하고 필요한 구성이 없는 설정을 수동으로 구성합니다.
 +
 ** link:../installconfig/accessing-storagegrid-appliance-installer.html["StorageGRID 연결을 구성합니다"]
