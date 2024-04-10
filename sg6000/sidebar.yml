@@ -17,7 +17,13 @@ entries:
     - title: 유지보수 모드를 사용하여 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다
       url: "/sg6000/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6000.html"
   - title: SANtricity 시스템 관리자를 사용하여 드라이브 펌웨어를 업그레이드합니다
-    url: "/sg6000/upgrading-drive-firmware-using-santricity-system-manager.html"
+    entries:
+    - title: 온라인 방법을 사용하여 SANtricity System Manager를 사용하여 SG6000 드라이브 펌웨어를 업그레이드합니다
+      url: "/sg6000/upgrading-drive-firmware-using-santricity-system-manager-online.html"
+    - title: 오프라인 방법을 사용하여 SANtricity System Manager를 사용하여 SG6000 드라이브 펌웨어를 업그레이드합니다
+      url: "/sg6000/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
+    - title: 드라이브 펌웨어의 업그레이드 오류 문제 해결
+      url: "/sg6000/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html"
   - title: 컨트롤러 식별 LED를 켜고 끕니다
     url: "/sg6000/turning-controller-identify-led-on-and-off.html"
   - title: 데이터 센터에서 컨트롤러를 찾습니다

@@ -884,7 +884,6 @@
   <block id="532f1eabdf9572d662db693bd6024975" category="list-text">직렬 터미널에 인쇄된 코드를 봅니다.</block>
   <block id="1c50599d41fa9baecb0f79415f317fa0" category="list-text">SOL을 사용하는 경우 다음 단계를 수행하십시오.</block>
   <block id="3ccdf5c6e76f58fd6100f7ed8e88affc" category="list-text">BMC IP 주소 및 로그인 자격 증명을 사용하여 IPMI SOL에 연결합니다.</block>
-  <block id="837cfb97b4b28245eab4fffee9afc6d7" category="paragraph"><block ref="e3ef784e466a2956434c1314bc0c8c92" prefix="" category="inline-code"></block></block>
   <block id="8616d487e1c6ff81c8864e2a135bbe1e" category="list-text">가상 시리얼 터미널에서 코드를 봅니다.</block>
   <block id="04c09c27e0c49faff7ca3ce108551c35" category="list-text">표를 사용하여 제품의 코드를 찾습니다.</block>
   <block id="ca0dbad92a874b2f69b549293387925e" category="cell">코드</block>
@@ -2651,24 +2650,15 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="ecf8f63fe854bea3831662088ff39904" category="doc">StorageGRID 어플라이언스 하드웨어를 설치합니다</block>
   <block id="b10621ed96edfed5cdab0c30e0006f79" category="list-text">스토리지 어플라이언스 상태가 최적입니다.</block>
   <block id="fe21a4b4c7370b73210cfa79500a95c9" category="list-text">모든 드라이브가 최적 상태입니다.</block>
-  <block id="9d79fd2a808d6d51325f70313848f133" category="list-text">사용 중인 StorageGRID 버전과 호환되는 최신 버전의 SANtricity 시스템 관리자가 설치되어 있습니다.</block>
   <block id="d17d9f037dcc2d2d241386f00f4e3609" category="inline-link-macro">StorageGRID 어플라이언스를 유지 관리 모드로 전환합니다</block>
-  <block id="c345855b8f8d83367a2de1cda2598e99" category="list-text">오프라인 업그레이드를 수행하는 경우 이 있습니다 <block ref="f1498071811ca85523b2ec754ee6c485" category="inline-link-macro-rx"></block>.</block>
   <block id="7febdef0cdb15c201490043bc7ace805" category="admonition">어플라이언스가 유지 관리 모드에 있는 동안 스토리지 컨트롤러에 대한 I/O(입/출력) 작업이 중지되어 중단 없는 스토리지 작업을 안전하게 수행할 수 있습니다.</block>
   <block id="a321ee9b0855a42051df0e349020c2cf" category="admonition">한 번에 둘 이상의 StorageGRID 어플라이언스에서 드라이브 펌웨어를 업그레이드하지 마십시오. 따라서 배포 모델 및 ILM 정책에 따라 데이터를 사용할 수 없게 될 수 있습니다.</block>
-  <block id="0227eb2f55e7efdf58515d93d828ea21" category="paragraph">다음 두 가지 방법을 사용하여 어플라이언스 드라이브 펌웨어를 업그레이드할 수 있습니다.</block>
-  <block id="5e424c3d56c6826b69a49c64e17ca91d" category="paragraph">* 온라인 *: 어플라이언스가 I/O를 수행하는 동안 드라이브가 한 번에 하나씩 업그레이드됩니다 이 방법을 사용하면 제품을 유지보수 모드로 전환할 필요가 없습니다. 그러나 시스템 성능이 영향을 받을 수 있으며 오프라인 방법보다 몇 시간이 더 걸릴 수 있습니다.</block>
-  <block id="e0b00cbbb97321c9cfb68296540d2723" category="admonition">중복성이 없는 볼륨에 속한 드라이브는 오프라인 방법을 사용하여 업데이트해야 합니다. 오프라인 방법은 플래시 읽기 캐시와 연결된 드라이브(예: SG6060의 SSD 드라이브) 또는 현재 성능이 저하된 풀 또는 볼륨 그룹에 사용해야 합니다.</block>
-  <block id="8d684a689754ce30d3d896184c7c0626" category="paragraph">* 오프라인 *:
-드라이브는 어플라이언스가 유지보수 모드인 동안 병렬로 업그레이드됩니다. 풀 또는 볼륨 그룹이 이중화를 지원하지 않거나 성능이 저하된 경우 오프라인 방법을 사용하여 드라이브 펌웨어를 업그레이드해야 합니다. 업그레이드할 드라이브에서 모든 I/O 작업이 중지된 경우에만 오프라인 방법을 통해 펌웨어를 업그레이드합니다. I/O 활동을 중지하려면 노드를 유지보수 모드로 전환합니다.</block>
   <block id="e3e28c9e2c25ece123da9282852c9b83" category="paragraph">오프라인 방법은 온라인 방법보다 빠르며 단일 어플라이언스의 여러 드라이브에 업그레이드가 필요할 때 훨씬 빠릅니다. 그러나 노드를 사용할 수 없게 해야 하기 때문에 유지보수 기간을 예약하고 진행 상황을 모니터링해야 할 수 있습니다. 운영 절차에 가장 적합한 방법과 업그레이드해야 하는 드라이브 수를 선택하십시오.</block>
   <block id="56b2e4e7468b36806c62948d07b62d6f" category="admonition">드라이브에는 SSD와 HDD의 두 가지 유형이 있습니다. SSD에서 펌웨어를 업그레이드하려면 오프라인 방법을 사용해야 합니다(예: SG6060의 SSD 드라이브). 온라인 또는 오프라인 방법을 사용하여 HDD의 펌웨어를 업그레이드할 수 있습니다.</block>
   <block id="3663bc32267b225ac55e52a4e99f2b3c" category="inline-link-macro">유지보수 모드</block>
-  <block id="14e78dd7a6bf63815621996dac2b2b3c" category="list-text">오프라인 업그레이드를 수행하는 경우 어플라이언스가 에 있는지 확인합니다 <block ref="66517df9b2a708b9947fc0143b4273f5" category="inline-link-macro-rx"></block>.</block>
   <block id="23fca754d51c4552272900db046a2257" category="admonition">캐시 그룹에 속한 SSD 드라이브의 펌웨어를 업그레이드하는 경우 업그레이드가 진행되는 동안 캐시된 볼륨에 I/O가 전송되지 않도록 해야 합니다. 어플라이언스가 유지 관리 모드에 있으면 업그레이드가 진행되는 동안 어떤 볼륨에도 입출력이 전송되지 않습니다.</block>
   <block id="3533a2b46e125d041913c72fd9f48d9b" category="list-text">다음 방법 중 하나를 사용하여 SANtricity System Manager에 액세스합니다.</block>
   <block id="c56d4e4921ea0ed69b79633149e26878" category="list-text">그리드 관리자를 사용하여 * 노드 * &gt; *_스토리지 노드_ * &gt; * SANtricity 시스템 관리자 * 를 선택합니다</block>
-  <block id="c59447485ddcd454e0e9b781e0be3a75" category="list-text">스토리지 컨트롤러 IP:+로 이동하여 SANtricity 시스템 관리자를 사용합니다<block ref="29c66d4541758aec7932976994c3319a" prefix=" " category="inline-code"></block></block>
   <block id="f5ee914d9142f81b048a6516338e60ca" category="list-text">필요한 경우 SANtricity 시스템 관리자 사용자 이름과 암호를 입력합니다.</block>
   <block id="f81fb88b20f58263d5a52f1cbfbe31e3" category="list-text">스토리지 어플라이언스에 현재 설치된 드라이브 펌웨어 버전을 확인합니다.</block>
   <block id="07319dd8bf09119fbc5d52b0bb6984e9" category="list-text">SANtricity 시스템 관리자에서 * 지원 * &gt; * 업그레이드 센터 * 를 선택합니다.</block>
@@ -2694,17 +2684,12 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="593f83d9cf94fc9e4031f35b23f927cf" category="list-text">드라이브 펌웨어 업그레이드를 설치합니다.</block>
   <block id="6bb75f0716ac77d29c4d070efd7a3b0e" category="list-text">SANtricity 시스템 관리자의 드라이브 펌웨어 업그레이드 아래에서 * 업그레이드 시작 * 을 선택합니다.</block>
   <block id="9cf2ba623b48d0e58d46e28f82bf71ca" category="list-text">찾아보기 * 를 선택하고 Support 사이트에서 다운로드한 새 드라이브 펌웨어 파일을 선택합니다.</block>
-  <block id="df1cc8cc2566b5dd45677a005e2f1077" category="paragraph">드라이브 펌웨어 파일의 파일 이름은 + 와 유사합니다<block ref="2bd3efd42bd30bf5ec268aab489d4777" prefix=" " category="inline-code"></block>.</block>
   <block id="7afa0bc9a63233cfb2803e627f142755" category="paragraph">한 번에 하나씩 최대 4개의 드라이브 펌웨어 파일을 선택할 수 있습니다. 둘 이상의 드라이브 펌웨어 파일이 동일한 드라이브와 호환되는 경우 파일 충돌 오류가 발생합니다. 업그레이드에 사용할 드라이브 펌웨어 파일을 결정하고 다른 드라이브 펌웨어 파일을 제거합니다.</block>
   <block id="e6cd86d61f4639c8a27006c6c29b3e9f" category="list-text">다음 * 을 선택합니다.</block>
   <block id="a1703a841c581af0f963bfddf68f1b1f" category="paragraph">* 드라이브 선택 * 은 선택한 펌웨어 파일로 업그레이드할 수 있는 드라이브를 나열합니다.</block>
   <block id="b1ef9db159b982facfd06f4136b894a6" category="paragraph">호환되는 드라이브만 나타납니다.</block>
   <block id="b49b59c1154ee27d9bd3b082c8ee80f7" category="paragraph">선택한 드라이브 펌웨어가 * 제안된 펌웨어 * 열에 나타납니다. 이 펌웨어를 변경해야 하는 경우 * Back * 을 선택합니다.</block>
-  <block id="8ab56797e6a951964b009438fa948d06" category="list-text">수행할 업그레이드 유형을 선택합니다.</block>
-  <block id="c17efd8dcb0ae0a11cac56c271bd4586" category="admonition">SSD 드라이브를 업그레이드할 때는 오프라인 방법을 사용해야 합니다.</block>
-  <block id="a1090ec1faf8dd09db64054e3199e583" category="list-text">* 모든 드라이브를 온라인으로 업그레이드 * — 스토리지 어레이가 I/O를 처리하는 동안 펌웨어 다운로드를 지원할 수 있는 드라이브를 업그레이드합니다 이 업그레이드 방법을 선택할 때 이러한 드라이브를 사용하여 연결된 볼륨에 대한 I/O를 중지할 필요가 없습니다.</block>
   <block id="4d849ca8d43b5f8df234fb4e1c51c74a" category="admonition">온라인 업그레이드는 오프라인 업그레이드보다 몇 시간이 더 걸릴 수 있습니다.</block>
-  <block id="6921b552dce9414d5231ec346e80d09e" category="list-text">* 모든 드라이브를 오프라인으로 업그레이드(병렬) * — 드라이브를 사용하는 볼륨에서 모든 I/O 작업이 중지된 경우에만 펌웨어 다운로드를 지원할 수 있는 드라이브를 업그레이드합니다.</block>
   <block id="508d403f48503f597190c1dee1523822" category="admonition">이 방법을 사용하려면 제품을 유지보수 모드로 전환해야 합니다. 드라이브 펌웨어를 업그레이드하려면 * 오프라인 * 방법을 사용해야 합니다.</block>
   <block id="9d2a3994759c657f99dff4c9cfaee2d4" category="admonition">오프라인(병렬) 업그레이드를 사용하려면 어플라이언스가 유지보수 모드임을 확신하지 않는 한 작업을 진행하지 마십시오. 오프라인 드라이브 펌웨어 업데이트를 시작하기 전에 어플라이언스를 유지 관리 모드로 전환하지 않으면 데이터가 손실될 수 있습니다.</block>
   <block id="d6b31a472516977ccb3c97418ca027ec" category="list-text">테이블의 첫 번째 열에서 업그레이드할 드라이브를 선택합니다.</block>
@@ -2714,7 +2699,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="a9ff48bbddf3556580ff1235b8cf5255" category="admonition">드라이브 펌웨어 업그레이드를 중지하면 데이터가 손실되거나 드라이브를 사용할 수 없게 될 수 있습니다.</block>
   <block id="374d6314a1686bfc77fd70aa617d4603" category="list-text">(선택 사항) 업그레이드된 항목 목록을 보려면 * Save Log * 를 선택합니다.</block>
   <block id="965c5385647c1db79a963fc0e272b417" category="paragraph">로그 파일은 브라우저의 다운로드 폴더에 해당 이름으로 저장됩니다<block ref="7b20dd0821a6fa35d7122bbe44821a99" prefix=" " category="inline-code"></block>.</block>
-  <block id="b91fa802062f28fac56759ae259d9238" category="paragraph">업그레이드 절차 중에 다음 오류가 발생하는 경우 적절한 권장 조치를 취하십시오.</block>
   <block id="8cb89ad108e36babae43be3f4185a474" category="list-text">* 할당된 드라이브 실패 *</block>
   <block id="4f9ee96ae43fa01d3e278eb1f74f4ff2" category="paragraph">이 오류가 발생하는 한 가지 이유는 드라이브에 적절한 서명이 없을 수 있기 때문입니다. 영향을 받는 드라이브가 승인된 드라이브인지 확인합니다. 자세한 내용은 기술 지원 부서에 문의하십시오.</block>
   <block id="ac4c4beee0bb0fda6868f9f6414e4055" category="paragraph">드라이브를 교체할 때 교체 드라이브의 용량이 교체 중인 드라이브의 용량보다 크거나 같은지 확인하십시오.</block>
@@ -2745,7 +2729,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="4dcf00638af3c697ee6b99e40e1f9bfb" category="list-text">* 지난 7일 동안 2개 이상의 2c 페이지 중요 MEL 이벤트가 보고되었습니다 *</block>
   <block id="fd136850ef1b651365146688fa8d9610" category="list-text">* 최근 7일 동안 성능이 저하된 드라이브 채널 중요 MEL 이벤트가 2개 이상 보고되었습니다 *</block>
   <block id="235328827141e650f44c482c6868c490" category="list-text">* 지난 7일 동안 4개 이상의 중요한 MEL 항목 *</block>
-  <block id="b5b75e18eedafacec87d4709e34209fc" category="list-text">Offline * 업그레이드를 사용하고 이 절차를 성공적으로 완료한 경우 노드가 유지보수 모드에 있는 동안 추가 유지보수 절차를 수행하십시오. 작업을 완료했거나 오류가 발생하여 다시 시작하려면 StorageGRID 어플라이언스 설치 프로그램으로 이동하여 * 고급 * &gt; * 컨트롤러 재부팅 * 을 선택합니다. 그런 다음 다음 다음 옵션 중 하나를 선택합니다.</block>
   <block id="6b108eb8b08f0ff8a5a6e884a1ac6474" category="list-text">* StorageGRID로 재부팅 *.</block>
   <block id="ff893ef835261129935a9f82f297a8d3" category="list-text">* 유지 관리 모드로 재부팅 *. 컨트롤러를 재부팅하고 노드를 유지보수 모드로 유지합니다. 절차 중에 오류가 발생하여 다시 시작하려면 이 옵션을 선택합니다. 노드가 유지보수 모드로 재부팅된 후 장애가 발생한 절차의 적절한 단계에서 다시 시작하십시오.</block>
   <block id="c7c19b3cb79ee9f5fdbc22cfac916b00" category="paragraph">어플라이언스가 재부팅되고 그리드에 다시 가입하는 데 최대 20분이 걸릴 수 있습니다. 재부팅이 완료되고 노드가 그리드에 다시 결합되었는지 확인하려면 Grid Manager로 돌아갑니다. 노드 페이지에는 정상 상태(녹색 확인 표시 아이콘)가 표시되어야 합니다 <block ref="b0c066af00a4ff17f603acf55958d068" category="inline-image-macro-rx" type="image"></block> (노드 이름 왼쪽) 어플라이언스 노드에 대해 알림이 활성화되어 있지 않고 노드가 그리드에 연결되어 있음을 나타냅니다.</block>
@@ -3573,8 +3556,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="3645999a212db12122a0446a162ce8f6" category="inline-link">StorageGRID 11.6 지침</block>
   <block id="acbf3b183ab51488b99731f4cd2624cc" category="paragraph">SG5600 하드웨어에 유지보수 절차를 수행해야 하는 경우 를 사용하십시오<block ref="8db8ba3162a617a8ac29af904a66dd12" category="inline-link-rx"></block>.</block>
   <block id="5de42bbee7ead1d6edca50bd265907c7" category="summary">드라이브 펌웨어를 업그레이드하여 최신 기능 및 버그 수정 사항이 모두 있는지 확인합니다.</block>
-  <block id="d45c51446dc757d7fa15d2b4c4d24e0a" category="doc">SANtricity System Manager를 사용하여 SG5700 드라이브 펌웨어를 업그레이드합니다</block>
-  <block id="f92e54d30593fb7cc6d4478240b8477c" category="paragraph">어플라이언스의 드라이브에 있는 펌웨어를 업그레이드하여 모든 최신 기능과 버그 수정 사항이 있는지 확인하십시오.</block>
   <block id="76139fd62644e42b86c5b06a4f1ce82e" category="summary">E2800 컨트롤러가 최적의 상태로 작동하지 않거나 장애가 발생한 경우에는 컨트롤러를 교체해야 할 수 있습니다.</block>
   <block id="791aa87e4eb427affe98e6094ceb6472" category="doc">SG5700에서 E2800 시리즈 스토리지 컨트롤러를 교체합니다</block>
   <block id="d09a95cf80cc21d53aa1e5648d98d38c" category="paragraph">E2800 시리즈 컨트롤러가 최적의 상태로 작동하지 않거나 오류가 발생한 경우에는 컨트롤러를 교체해야 할 수 있습니다.</block>
@@ -3735,7 +3716,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="57e1c48b034af2352e5a69534ab37dd2" category="list-text"><block ref="57e1c48b034af2352e5a69534ab37dd2" category="inline-link-rx"></block></block>
   <block id="9ccd79e77976b22b2105fd27f98d48e7" category="inline-link">StorageGRID 11.4 설명서</block>
   <block id="a4236c1e626cbb1d83748576ab2ec1fc" category="list-text"><block ref="a4236c1e626cbb1d83748576ab2ec1fc" category="inline-link-rx"></block></block>
-  <block id="b29310bba22c58ffb795bf7adbc20683" category="doc">SANtricity System Manager를 사용하여 SG6000 드라이브 펌웨어를 업그레이드합니다</block>
   <block id="acb67fba627fa95707ed1eb195bb4ba3" category="summary">스토리지 용량을 늘리려면 StorageGRID 시스템에 구축된 SG6060에 1~2개의 확장 쉘프를 추가할 수 있습니다.</block>
   <block id="80c41098192177786ef3a9e33a7ee233" category="doc">구축된 SG6060에 확장 쉘프를 추가합니다</block>
   <block id="7adedd5165bb23901a8b93ba3c4c2dd1" category="paragraph">스토리지 용량을 늘리려면 StorageGRID 시스템에 이미 구축된 SG6060에 1~2개의 확장 쉘프를 추가할 수 있습니다.</block>
@@ -4216,7 +4196,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="a9c0cea0fa970dd78f5c9b732ed7af82" category="doc">단계 3: 컨트롤러를 제거합니다</block>
   <block id="73c449311895c44cdc2cb9f82f1d86a8" category="paragraph">오류가 발생한 컨트롤러를 제품에서 분리합니다.</block>
   <block id="41cead6208beaab4753fef7eb16b7b3d" category="doc">5단계: 필요한 경우 HIC를 새 컨트롤러로 이동합니다</block>
-  <block id="52cea5d7c14ce5a1a352ae36b02fc89c" category="paragraph">장애가 발생한 컨트롤러에 HIC가 포함되어 있는 경우, HIC를 장애 컨트롤러에서 교체 컨트롤러로 이동합니다.</block>
   <block id="f2323bfac4b2b6c0bed61a2782d7b2a3" category="open-title">E2800A</block>
   <block id="c7c61e2e49b4848eb04ef9166c62112e" category="paragraph">E2800A 컨트롤러에는 HIC가 없습니다.</block>
   <block id="66e02a6be1542a6c5ab5b6e835ace031" category="inline-xref">6단계: 컨트롤러를 교체합니다</block>
@@ -4237,4 +4216,38 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="7dc8820948fbd0653bf70cd43dd02d4c" category="paragraph">장애가 발생한 컨트롤러를 제거하고 오프라인 상태로 전환할 준비가 되어 있습니다.</block>
   <block id="eb10eb07d3a38a1d82d1975eb3a3c409" category="list-text">교체된 어플라이언스에 SED 드라이브에 대해 하드웨어 드라이브 암호화가 활성화된 경우 다음을 수행해야 합니다 <block ref="f97e47907b7e5dda63e0ea22475313d7" category="inline-link-macro-rx"></block> 교체용 어플라이언스를 처음 시작할 때 암호화된 드라이브에 액세스합니다.</block>
   <block id="b01853030b7f0a28704ab7f8c1c35ee8" category="list-text">교체한 어플라이언스에 SED 드라이브에 대해 드라이브 암호화가 활성화된 경우 다음을 수행해야 합니다 <block ref="f97e47907b7e5dda63e0ea22475313d7" category="inline-link-macro-rx"></block> 교체용 어플라이언스를 처음 시작할 때 암호화된 드라이브에 액세스합니다.</block>
+  <block id="f98925abc6cb4377ae64ff1ac4820659" category="paragraph">장애 컨트롤러에 HIC(호스트 인터페이스 카드)가 포함된 경우 장애가 발생한 컨트롤러에서 교체 컨트롤러로 HIC를 이동합니다.</block>
+  <block id="7af2ad8f1c1832bab54905bcdc6524a2" category="doc">오프라인 방법을 사용하여 SANtricity System Manager를 사용하여 SG5700 드라이브 펌웨어를 업그레이드합니다</block>
+  <block id="3a22cf5ffbbef9ad0472a7712f64b5dc" category="paragraph">SANtricity 시스템 관리자 온라인 방법을 사용하여 어플라이언스의 드라이브에 펌웨어를 업그레이드하여 최신 기능 및 버그 수정을 모두 사용할 수 있습니다.</block>
+  <block id="c1a7b1836ac9b78ef73ce5d2ba26103d" category="list-text">있습니다 <block ref="f1498071811ca85523b2ec754ee6c485" category="inline-link-macro-rx"></block>.</block>
+  <block id="c30246932f5c5ea4ba8f6f003970db66" category="paragraph">드라이브는 어플라이언스가 유지보수 모드인 동안 병렬로 업그레이드됩니다. 풀 또는 볼륨 그룹이 이중화를 지원하지 않거나 성능이 저하된 경우 오프라인 방법을 사용하여 드라이브 펌웨어를 업그레이드해야 합니다. 플래시 읽기 캐시와 연결된 드라이브나 현재 성능이 저하된 풀 또는 볼륨 그룹에도 오프라인 방법을 사용해야 합니다. 업그레이드할 드라이브에서 모든 I/O 작업이 중지된 경우에만 오프라인 방법을 통해 펌웨어를 업그레이드합니다. I/O 활동을 중지하려면 노드를 유지보수 모드로 전환합니다.</block>
+  <block id="697411ab196a4e576f519c144e18349f" category="list-text">스토리지 컨트롤러 IP로 이동하여 SANtricity System Manager 사용:</block>
+  <block id="2b0459c48aff623978ca6ec879fbd493" category="paragraph"><block ref="29c66d4541758aec7932976994c3319a" prefix="" category="inline-code"></block></block>
+  <block id="22170e910c05e5c31a0de895e8044b8f" category="paragraph">드라이브 펌웨어 파일의 파일 이름은 과 유사합니다<block ref="2bd3efd42bd30bf5ec268aab489d4777" prefix=" " category="inline-code"></block>.</block>
+  <block id="a95e1d2d9b824c52c94876fa7b357f9c" category="list-text">Select * Upgrade all drives offline (parallel) * - 드라이브를 사용하는 모든 볼륨에서 모든 I/O 활동이 중지되는 동안에만 펌웨어 다운로드를 지원할 수 있는 드라이브를 업그레이드합니다.</block>
+  <block id="619ff1dd97a438dc0f6a1a6394d8c4d6" category="inline-link-macro">필요한 경우 드라이버 펌웨어 업그레이드 오류 문제를 해결합니다</block>
+  <block id="0fc13834523d64672cf1aa2e9bc111e1" category="paragraph"><block ref="5b03de720114c37b7b00609700972858" category="inline-link-macro-rx"></block>.</block>
+  <block id="f4d34d80331e19b08caebc4630076e07" category="list-text">절차가 성공적으로 완료되면 노드가 유지보수 모드에 있는 동안 추가 유지보수 절차를 수행합니다. 작업을 완료했거나 오류가 발생하여 다시 시작하려면 StorageGRID 어플라이언스 설치 프로그램으로 이동하여 * 고급 * &gt; * 컨트롤러 재부팅 * 을 선택합니다. 그런 다음 다음 다음 옵션 중 하나를 선택합니다.</block>
+  <block id="7591dbb01a12fdb3c9be4cce45eb9564" category="doc">SANtricity System Manager 온라인 방법을 사용하여 SG5700 드라이브 펌웨어를 업그레이드합니다</block>
+  <block id="b97550a7ba7658ac15b58d0871af7a09" category="paragraph">어플라이언스에서 입출력을 수행하는 동안 드라이브는 한 번에 하나씩 업그레이드됩니다 이 방법을 사용하면 제품을 유지보수 모드로 전환할 필요가 없습니다. 그러나 시스템 성능이 영향을 받을 수 있으며 오프라인 방법보다 몇 시간이 더 걸릴 수 있습니다.</block>
+  <block id="5d6600c8dfd04cdcb53bfff3d3e91de4" category="inline-link-macro">오프라인 방법입니다</block>
+  <block id="d349e214e8190b56a034686080f6a647" category="paragraph">중복성이 없는 볼륨에 속한 드라이브는 를 사용하여 업데이트해야 합니다 <block ref="179e42b86c56e7fde01fd62621c30190" category="inline-link-macro-rx"></block>. 오프라인 방법은 플래시 읽기 캐시와 연결된 드라이브 또는 현재 성능이 저하된 풀이나 볼륨 그룹에 사용해야 합니다.</block>
+  <block id="e2d5d64348676cf446dfd44a976e3c5a" category="paragraph">를 사용해야 합니다 <block ref="179e42b86c56e7fde01fd62621c30190" category="inline-link-macro-rx"></block> SSD 드라이브를 업그레이드할 때.</block>
+  <block id="eb0c0381a2ecab0a05e0025157eeb4e5" category="list-text">SELECT * Upgrade all drives online * -스토리지 배열에서 I/O를 처리하는 동안 펌웨어 다운로드를 지원할 수 있는 드라이브를 업그레이드합니다 이 업그레이드 방법을 선택할 때 이러한 드라이브를 사용하여 연결된 볼륨에 대한 I/O를 중지할 필요가 없습니다.</block>
+  <block id="c4d9a9dd7264b95bcd49edb9e5bd0c34" category="summary">SANtricity System Manager를 사용하여 어플라이언스 드라이브의 펌웨어를 업그레이드할 때 발생할 수 있는 오류 해결</block>
+  <block id="912f976f5b0e46bfc619bc9483a112fb" category="doc">드라이브 펌웨어의 업그레이드 오류 문제 해결</block>
+  <block id="21c8cbcec0776ab0bc610690be3de7ee" category="paragraph"><block ref="91368ba22effffa53db65fac249d9d1e" prefix="" category="inline-code"></block></block>
+  <block id="d6ca29319276400384e46c43e0c2ae97" category="admonition">경우에 따라 기본 사용자 이름이 일 수 있습니다<block ref="63a9f0ea7bb98050796b649e85481845" prefix=" " category="inline-code"></block> 대신<block ref="21232f297a57a5a743894a0e4a801fc3" prefix=" " category="inline-code"></block>.</block>
+  <block id="c619fcb628f35e62cb7bb98416137cc8" category="admonition">경우에 따라 SG6000 어플라이언스의 기본 사용자 이름이 일 수 있습니다<block ref="63a9f0ea7bb98050796b649e85481845" prefix=" " category="inline-code"></block> 대신<block ref="21232f297a57a5a743894a0e4a801fc3" prefix=" " category="inline-code"></block>.</block>
+  <block id="d6d8d6f4809b0387fbc44576f4668758" category="paragraph">교체용 E2800A 또는 E2800B 컨트롤러를 준비합니다.</block>
+  <block id="6c12c6aae31e7fd9ba612c37c1094d29" category="doc">오프라인 방법을 사용하여 SANtricity System Manager를 사용하여 SG6000 드라이브 펌웨어를 업그레이드합니다</block>
+  <block id="29c80a5eecad431fd9f823a496f5eb82" category="paragraph">SANtricity 시스템 관리자 오프라인 방법을 사용하여 어플라이언스 드라이브의 펌웨어를 업그레이드하여 최신 기능 및 버그 수정을 모두 사용할 수 있도록 합니다.</block>
+  <block id="b159728d4a7cd93ff2e7263dbf47963d" category="doc">온라인 방법을 사용하여 SANtricity System Manager를 사용하여 SG6000 드라이브 펌웨어를 업그레이드합니다</block>
+  <block id="8d9fcf04a3a7be30342afeddfd41ed3a" category="paragraph">중복성이 없는 볼륨에 속한 드라이브는 를 사용하여 업데이트해야 합니다 <block ref="179e42b86c56e7fde01fd62621c30190" category="inline-link-macro-rx"></block>. 오프라인 방법은 플래시 읽기 캐시와 연결된 드라이브(예: SG6060의 SSD 드라이브) 또는 현재 성능이 저하된 풀 또는 볼륨 그룹에 사용해야 합니다.</block>
+  <block id="a6fb2a2e13e13dac5d52711f459def92" category="paragraph">드라이브에는 SSD와 HDD의 두 가지 유형이 있습니다. 를 사용해야 합니다 <block ref="179e42b86c56e7fde01fd62621c30190" category="inline-link-macro-rx"></block> SSD의 펌웨어를 업그레이드하는 경우(예: SG6060의 SSD 드라이브) 온라인 또는 오프라인 방법을 사용하여 HDD의 펌웨어를 업그레이드할 수 있습니다.</block>
+  <block id="085a1cecc32954931f9c4a478c4b081b" category="paragraph">를 사용해야 합니다 <block ref="179e42b86c56e7fde01fd62621c30190" category="inline-link-macro-rx"></block> SSD의 펌웨어를 업그레이드합니다.</block>
+  <block id="3631dcd2ec8f8e84f2dc4ff1264bb5ba" category="sidebar">온라인 방법을 사용하여 SANtricity System Manager를 사용하여 드라이브 펌웨어를 업그레이드합니다</block>
+  <block id="0007bed3a39900ca535cccaada9a4349" category="sidebar">오프라인 방법을 사용하여 SANtricity System Manager를 사용하여 드라이브 펌웨어를 업그레이드합니다</block>
+  <block id="9429703a81cb2b5231db7d0db68e388d" category="sidebar">온라인 방법을 사용하여 SANtricity System Manager를 사용하여 SG6000 드라이브 펌웨어를 업그레이드합니다</block>
+  <block id="afcfd0f4a9cd1a59c01ff3ab1b52a9b5" category="sidebar">오프라인 방법을 사용하여 SANtricity System Manager를 사용하여 SG6000 드라이브 펌웨어를 업그레이드합니다</block>
 </blocks>
