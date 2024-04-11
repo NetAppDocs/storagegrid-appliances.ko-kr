@@ -245,13 +245,10 @@
   <block id="1ff855ab55729ae4063274c6d17a385f" category="list-text">필요에 따라 다른 버전의 StorageGRID 소프트웨어를 설치하려면 다음 단계를 수행하십시오.</block>
   <block id="dbe5f4e4fad5c126ea669e2f792699b4" category="list-text">설치 아카이브를 다운로드합니다.</block>
   <block id="523d60582e8bbde2c5ff4ae6f84b599e" category="inline-link">NetApp 다운로드: StorageGRID 어플라이언스</block>
-  <block id="08f7204e1ce8ade983fb10a402400949" category="paragraph"><block ref="08f7204e1ce8ade983fb10a402400949" category="inline-link-rx"></block></block>
   <block id="3befe165a449c2011ecba00696c3f4ab" category="list-text">아카이브를 추출합니다.</block>
   <block id="1d24290d8f4a79eeaafbecffc1f4a350" category="list-text">StorageGRID 어플라이언스 설치 프로그램에서 * 고급 * &gt; * StorageGRID 소프트웨어 업로드 * 를 선택합니다.</block>
   <block id="6fd2b0d88a0ea6f057348837593e1cf4" category="list-text">현재 소프트웨어 패키지를 제거하려면 * 제거 * 를 클릭합니다.</block>
   <block id="1f288c0ba3f88bf0912012d36eb9d7dd" category="image-alt">어플라이언스 설치 프로그램 - 현재 소프트웨어를 제거합니다</block>
-  <block id="712777b5e9d637ccfae5b04a415653d3" category="list-text">다운로드하고 압축을 푼 소프트웨어 패키지를 * 찾아보기 * 를 클릭한 다음 * 찾아보기 * 를 클릭하여 체크섬 파일을 찾습니다.</block>
-  <block id="79e56e0389e10379e27bca8568ffa4c6" category="image-alt">어플라이언스 설치 프로그램 - SG 소프트웨어를 업로드합니다</block>
   <block id="59773e84f2479ffeb34ba9422edf9f9c" category="list-text">홈 페이지로 돌아가려면 * 홈 * 을 선택합니다.</block>
   <block id="2d636e90bd2e05a13f9a7e54cc9ff4de" category="list-text">현재 상태가 ""소프트웨어 버전 x.y로 기본 관리자 노드 이름 설치를 시작할 준비가 되었습니다""이고 * 설치 시작 * 버튼이 활성화되어 있는지 확인합니다.</block>
   <block id="34aaa9f52a702ada229db511977b71dd" category="inline-link-macro">노드 클론 생성 절차</block>
@@ -268,7 +265,6 @@
   <block id="64ad6f3be04a1b5eb460f6b5171db9c3" category="paragraph">서비스 어플라이언스 노드에 StorageGRID를 설치하려면 다음을 따르십시오.</block>
   <block id="81a6c5934583a0f8023199782ebc17af" category="list-text">기본 관리 노드의 IP 주소와 어플라이언스 노드의 이름을 지정하거나 확인합니다.</block>
   <block id="06ecae27d7a22c2772946f8e600bf743" category="list-text">설치를 시작하고 소프트웨어가 설치될 때까지 기다립니다.</block>
-  <block id="ca5a02495af6bdb0a0ecd42075778723" category="paragraph">어플라이언스 게이트웨이 노드 설치 작업을 중간에 중단하면 설치가 일시 중지됩니다. 설치를 다시 시작하려면 그리드 관리자에 로그인하고 모든 그리드 노드를 승인하고 StorageGRID 설치 프로세스를 완료합니다. 비 기본 관리자 노드 설치는 사용자의 승인이 필요하지 않습니다.</block>
   <block id="0ce5a69d66d806ec63dd1df1ede0f5ee" category="admonition">SG100 및 SG1000 서비스 어플라이언스를 같은 사이트에 배포하지 마십시오. 성능을 예측할 수 없습니다.</block>
   <block id="7ce1391a56490e2996e89e8be0e35f46" category="inline-link-macro">어플라이언스 설치 및 구성 자동화</block>
   <block id="70b1698e02b884a3301d0682ae742bcc" category="admonition">한 번에 여러 어플라이언스 노드를 구축해야 하는 경우 설치 프로세스를 자동화할 수 있습니다. 을 참조하십시오 <block ref="da9e5f931ee7f07fa7e39b6838d21cb5" category="inline-link-macro-rx"></block>.</block>
@@ -292,7 +288,6 @@
   <block id="859aba5803f535249e29a8ffe2c32c6d" category="paragraph">여기에 표시되는 이름은 어플라이언스 노드의 시스템 이름입니다. 시스템 이름은 내부 StorageGRID 작업에 필요하며 변경할 수 없습니다.</block>
   <block id="06f9cb221f1c7b35766aeb533e33b69c" category="list-text">Installation(설치) 섹션에서 현재 상태가 "Ready to start installation of(설치를 시작할 준비가 되었습니다)"인지 확인합니다<block ref="b63eb060814c4999e77b01e66538f258" prefix=" " category="inline-code"></block> 기본 관리 노드가 있는 그리드로<block ref="2f9ba536b02b69b5417cd803edfcffc0" prefix=" " category="inline-code"></block> "및 * 설치 시작 * 버튼이 활성화되어 있습니다.</block>
   <block id="94ec460361fb2b4faa500cbfe2736123" category="paragraph">설치 시작 * 버튼이 활성화되지 않은 경우 네트워크 구성 또는 포트 설정을 변경해야 할 수 있습니다. 자세한 내용은 제품의 유지보수 지침을 참조하십시오.</block>
-  <block id="dd3c49a5e1ad35a1fcdc49631b4a489a" category="image-alt">어플라이언스 설치 관리자 홈 - 기본 관리자 노드가 아닌 관리자 노드를 설치합니다</block>
   <block id="7219d53a2c987afebdf600ccc504d1ab" category="list-text">그리드에 어플라이언스 노드가 여러 개 포함된 경우 각 어플라이언스에 대해 이전 단계를 반복합니다.</block>
   <block id="c3354d84393c7f9e023fdee83bcf8cef" category="summary">일부 어플라이언스 모델에서는 스토리지 및 복구 요구 사항을 수용하기 위해 어플라이언스에서 다른 RAID 모드로 변경할 수 있습니다. 어플라이언스 스토리지 노드를 구축하기 전에만 모드를 변경할 수 있습니다.</block>
   <block id="b622ae5ae8ee031b50aeb341c3285846" category="doc">선택 사항: RAID 모드 변경(SG5760 및 SG6000)</block>
@@ -541,7 +536,6 @@
   <block id="ace910911ef51c55674dbf6f48ce7fcd" category="list-text"><block ref="19ad89bc3e3c9d7ef68b89523eff1987" prefix="" category="inline-code"></block> StorageGRID 설치를 시작하는 데 사용됩니다</block>
   <block id="6d7f123732611773aab7984540e31afb" category="list-text"><block ref="08b5411f848a2581a41672a759c87380" prefix="" category="inline-code"></block> StorageGRID 설치를 모니터링하는 데 사용됩니다</block>
   <block id="1ef8ccf581606e90386c341184ef576d" category="list-text"><block ref="2b755b30293f2f9f79ec1c86ab0943f2" prefix="" category="inline-code"></block> 어플라이언스 재부팅용</block>
-  <block id="f13b14db9b01252edf0db47324d40bf1" category="paragraph">하위 명령(advanced, configure, install, monitor 또는 reboot) 인수를 입력한 다음 를 입력합니다<block ref="0c113ca6d57519b559ba5a426be3c6b6" prefix=" " category="inline-code"></block> 옵션 해당 하위 명령(+)에서 사용할 수 있는 옵션에 대한 자세한 정보를 제공하는 다른 도움말 텍스트가 표시됩니다<block ref="3baa4d8695a2207be4bec335382496cf" prefix=" " category="inline-code"></block></block>
   <block id="2daf25e905cf2b4f568f33c41d07fc54" category="inline-xref">어플라이언스 구성을 JSON 파일로 백업합니다</block>
   <block id="52c400008e7d7e44e433cef62ee51f8c" category="paragraph">원하는 경우 <block ref="7c894e4a9f4c54a88d21d72ba2ad4233" category="inline-xref-macro-rx"></block>에서 노드 이름이 다음 요구 사항을 충족하는지 확인합니다.</block>
   <block id="2ca0bbbd7ba6b72c27e210190991793b" category="list-text">JSON 파일을 사용하여 모든 어플라이언스 노드를 자동으로 구성하려는 경우 각 노드 이름은 고유해야 합니다.</block>
@@ -549,16 +543,9 @@
   <block id="b9bac70b4e160b588ff797b4dd555d64" category="list-text">문자, 숫자 및 하이픈을 사용할 수 있습니다.</block>
   <block id="4741eb6218531a2c54badadb3f2e570f" category="list-text">하이픈으로 시작하거나 끝날 수 없습니다.</block>
   <block id="f357f23d1a01d52046c340be89709e6f" category="list-text">숫자만 포함할 수 없습니다.</block>
-  <block id="ef82d471d6b50961b884d7aa1b26102c" category="list-text">JSON 파일의 구성을 어플라이언스에 적용하려면 다음을 입력하십시오<block ref="6fcd902b181116b4384138a170399d93" prefix=" " category="inline-code"></block> 어플라이언스에 대한 관리 네트워크 IP 주소입니다.<block ref="6ddaad86d9b9bcc4f4c3330c86c0c105" prefix=" " category="inline-code"></block> JSON 파일의 이름이며, 입니다<block ref="5580062b816d365977f30d4d41f98fb3" prefix=" " category="inline-code"></block> 은(는) 구성이 적용된 노드의 이름입니다. +<block ref="040ff3550a0b6f11b7460ac4e31970ed" prefix=" " category="inline-code"></block></block>
-  <block id="db62ec11b4b43c3342d18ffab91804f9" category="list-text">어플라이언스 노드의 현재 구성을 확인하려면 다음 위치를 입력합니다<block ref="6fcd902b181116b4384138a170399d93" prefix=" " category="inline-code"></block> 어플라이언스에 대한 관리자 네트워크 IP 주소입니다. +<block ref="3fb681cb4749044501b9ad23526cdd73" prefix=" " category="inline-code"></block></block>
   <block id="b93f3c962c043bc12c18889a1269cb5a" category="paragraph">이 결과는 기본 관리 노드의 IP 주소와 관리, 그리드 및 클라이언트 네트워크에 대한 정보를 포함하여 어플라이언스에 대한 현재 IP 정보를 표시합니다.</block>
   <block id="7cac38cc118871061c8dce3db7f75d40" category="list-text">현재 설정에서 값을 변경해야 하는 경우 를 사용합니다<block ref="e2d5a00791bce9a01f99bc6fd613a39d" prefix=" " category="inline-code"></block> 하위 명령을 사용하여 업데이트합니다. 예를 들어, 어플라이언스가 기본 관리 노드에 연결하는 데 사용하는 IP 주소를 변경하려는 경우<block ref="af76ef14733d250246586b58ebb85e3c" prefix=" " category="inline-code"></block>다음을 입력합니다.</block>
-  <block id="026fd20bc8239191cee6649680d8c461" category="paragraph"><block ref="e8639c293a4dafb411d7f6edac1ea3dc" prefix="" category="inline-code"></block></block>
-  <block id="de0b47054a413aea610d4cd3a1bfff4c" category="list-text">[[back-up-appliance-config]] 어플라이언스 구성을 JSON 파일로 백업하려면 고급 및 을 사용하십시오<block ref="8ae932c4bc181b3a98531442ef226cf8" prefix=" " category="inline-code"></block> 하위 명령. 예를 들어, IP 주소가 있는 어플라이언스의 구성을 백업하려는 경우<block ref="6fcd902b181116b4384138a170399d93" prefix=" " category="inline-code"></block> 을(를) 라는 파일에 저장합니다<block ref="99920c0d232edb12e461dfac6571fe76" prefix=" " category="inline-code"></block>를 입력하고 다음을 입력합니다. +<block ref="84dd9435ce5db7632c67ee7a6e4298d6" prefix=" " category="inline-code"></block></block>
-  <block id="e53aecfa06819693ed2430744f8362d7" category="paragraph">구성 정보가 포함된 JSON 파일은 에서 스크립트를 실행한 디렉토리에 작성됩니다.</block>
   <block id="153a65bebff9401a2458b1201a2b601c" category="admonition">생성된 JSON 파일의 최상위 노드 이름이 어플라이언스 이름과 일치하는지 확인하십시오. 숙련된 사용자이고 StorageGRID API에 대한 철저한 이해가 없는 경우 이 파일을 변경하지 마십시오.</block>
-  <block id="4c7861efb51e2ffd5c6238cbfd8aa793" category="list-text">어플라이언스 구성이 만족스러우면 를 사용하십시오<block ref="19ad89bc3e3c9d7ef68b89523eff1987" prefix=" " category="inline-code"></block> 및<block ref="08b5411f848a2581a41672a759c87380" prefix=" " category="inline-code"></block> 어플라이언스를 설치하기 위한 하위 명령: +<block ref="288c5b1187d2f3aee29b2d8b74b6c709" prefix=" " category="inline-code"></block></block>
-  <block id="68a5e627b481792d9346927bcbb09b79" category="list-text">어플라이언스를 재부팅하려면 + 를 입력합니다<block ref="df863f526a7c46aa917c77164b61ecce" prefix=" " category="inline-code"></block></block>
   <block id="0de1a3196dd60bc820a86bf37f8d4fa1" category="summary">어플라이언스를 그리드 네트워크, 클라이언트 네트워크 및 관리 네트워크에 연결하는 데 사용되는 포트에 대한 네트워크 링크를 구성할 수 있습니다. 링크 속도와 포트 및 네트워크 연결 모드를 설정할 수 있습니다.</block>
   <block id="ec1ee0ee02ad6851c9644ca45c776776" category="admonition">ConfigBuilder를 사용하여 JSON 파일을 생성하는 경우 네트워크 링크를 자동으로 구성할 수 있습니다. 을 참조하십시오 <block ref="da9e5f931ee7f07fa7e39b6838d21cb5" category="inline-link-macro-rx"></block>.</block>
   <block id="dde0e2ccbf0ec5a8bfed2d3b9519cb4e" category="inline-link-macro">추가 장비를 확보했습니다</block>
@@ -1156,10 +1143,7 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="c9336d7080bc57d338b2bad2efe38313" category="list-text">처음 두 설치 단계의 진행 상황을 검토합니다.</block>
   <block id="ca24497a603bbc47076b2ca3cbe5a2ac" category="paragraph">이 단계에서 설치 프로그램은 어플라이언스의 드라이브에서 기존 구성을 지우고 호스트 설정을 구성합니다.</block>
   <block id="90f6370ccbecc973aa1553afa395b729" category="list-text">다음 프로세스 중 하나가 발생할 때까지 설치 진행 상태를 계속 모니터링합니다.</block>
-  <block id="247f3d17e4317101acecf503110544b0" category="list-text">기본 관리 노드를 제외한 모든 어플라이언스 노드에 대해 StorageGRID 설치 단계가 일시 중지되고 그리드 관리자를 사용하여 관리 노드에서 이 노드를 승인하라는 메시지가 포함된 콘솔에 나타납니다. 다음 단계로 이동합니다.</block>
   <block id="8a8aaccc64167e205ae2e772ed0fe5b4" category="list-text">어플라이언스 운영 관리자 노드 설치의 경우 노드를 승인할 필요가 없습니다. 어플라이언스가 재부팅됩니다. 다음 단계를 건너뛸 수 있습니다.</block>
-  <block id="ca2089a4125ab586b2ca81b4d4a9340b" category="admonition">어플라이언스 기본 관리 노드를 설치하는 동안 다섯 번째 단계가 나타납니다(4단계를 보여주는 스크린샷 예 참조). 5단계가 10분 이상 진행 중인 경우 웹 페이지를 수동으로 새로 고칩니다.</block>
-  <block id="a502699e7fa49618892585a8980922d7" category="list-text">기본 관리 노드의 그리드 관리자로 이동하여 보류 중인 그리드 노드를 승인하고 StorageGRID 설치 프로세스를 완료합니다.</block>
   <block id="6ac1a7d9832a500687085e0cf66a46ec" category="paragraph">Grid Manager에서 * Install * 을 클릭하면 단계 3이 완료되고 단계 4, * 설치 완료 * 가 시작됩니다. 4단계가 완료되면 어플라이언스가 재부팅됩니다.</block>
   <block id="5f29d84a72d56fbb6bc236e691044453" category="summary">네트워크 케이블을 연결한 후 어플라이언스에 전원을 공급할 준비가 되었습니다.</block>
   <block id="bcc960cf3e9ec18999ff121dde627158" category="doc">전원 코드를 연결하고 전원을 공급합니다</block>
@@ -2614,7 +2598,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="39477ba4c8468b4da04da4f855e9785e" category="list-text">운영 관리 노드의 IP 주소와 스토리지 노드의 이름을 지정하거나 확인합니다.</block>
   <block id="d5c1f2658aaba7f3605752bb1f4cfa22" category="list-text">구축을 시작하고 볼륨이 구성되고 소프트웨어가 설치될 때까지 기다립니다.</block>
   <block id="26ea01749d8fe9ba54d34006d7b711eb" category="list-text">어플라이언스 설치 작업이 중간에 일시 중지되면 그리드 관리자에 로그인하고 모든 그리드 노드를 승인하고 StorageGRID 설치 및 배포 프로세스를 완료하여 설치를 다시 시작합니다.</block>
-  <block id="4e4a7a07939d8db1c2a9cc0463cd01b6" category="admonition">여러 어플라이언스 노드를 한 번에 구축해야 하는 경우 를 사용하여 설치 프로세스를 자동화할 수 있습니다<block ref="287394aa9bc3d5a7764ce106a0aaf10d" prefix=" " category="inline-code"></block> 어플라이언스 설치 스크립트.</block>
   <block id="3da6a7d0bb47cd64f8de58da564ed961" category="list-text">확장 또는 복구 작업을 수행하는 경우 해당 지침을 따르십시오.</block>
   <block id="3b485651b0f8c9bae0428480b41d029a" category="inline-link">그리드 노드 추가</block>
   <block id="99ff77ddad436b4aa4cfe20cc0b05ade" category="list-text">기존 StorageGRID 시스템에 어플라이언스 스토리지 노드를 추가하려면 의 지침을 참조하십시오<block ref="f2b9f2a623f458b464404f68e70d646c" category="inline-link-rx"></block>.</block>
@@ -2628,7 +2611,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
 <block ref="87d967605804492a459cd5cfc0edb4e9" category="inline-link-macro-rx"></block>.</block>
   <block id="0205d951b300647dabcd3e7f7910a010" category="admonition">모니터 설치 페이지에 수동으로 액세스해야 하는 경우 * 모니터 설치 * 를 클릭합니다.</block>
   <block id="6782fad0edf81ef678da67ab11346ff5" category="list-text">그리드에 여러 어플라이언스 스토리지 노드가 포함된 경우 각 어플라이언스에 대해 이 단계를 반복합니다.</block>
-  <block id="4e2e50dcffb626790688f13c3a94265b" category="admonition">여러 어플라이언스 스토리지 노드를 한 번에 배포해야 하는 경우 를 사용하여 설치 프로세스를 자동화할 수 있습니다<block ref="287394aa9bc3d5a7764ce106a0aaf10d" prefix=" " category="inline-code"></block> 어플라이언스 설치 스크립트.</block>
   <block id="2e091809aa4488fefb86c669cb8f1914" category="summary">E2860 컨트롤러 쉘프의 레일 세트를 캐비닛 또는 랙에 설치한 다음 컨트롤러 쉘프를 레일 위로 밉니다. 60-드라이브 확장 쉘프를 설치하는 경우, 같은 절차가 적용됩니다.</block>
   <block id="554505334c66fad08a4452516a02e8f6" category="doc">60 드라이브 쉘프 설치(SG6060)</block>
   <block id="0835dd05e1a77d417056577f207cbfb1" category="admonition">각 60-드라이브 쉘프의 중량은 드라이브를 설치하지 않고 약 60kg(132lb)입니다. 선반을 안전하게 이동하려면 4명 또는 기계화된 리프트가 필요합니다.</block>
@@ -3068,7 +3050,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="3cffdaddf1d95ec3c052fcf96560a030" category="paragraph">클론 생성 시작 * 이 활성화되면 * 현재 상태 * 는 트래픽을 복제하기 위해 선택된 StorageGRID 네트워크와 해당 네트워크 연결 사용에 대한 정보를 나타냅니다. 을 참조하십시오 <block ref="54e13ce1c122f0b18d12f8e7a211ecbf" category="inline-link-macro-rx"></block>.</block>
   <block id="d081af9c1bc1822369d68ca6df434792" category="list-text">소스 노드에서 * 클론 생성 시작 * 을 선택합니다.</block>
   <block id="41f39a54349270e6f7a3ec7e34353a95" category="list-text">소스 또는 타겟 노드에서 StorageGRID 어플라이언스 설치 프로그램을 사용하여 클론 생성 진행률을 모니터링합니다.</block>
-  <block id="9ea8162d17432f7b9bc858b79e65f413" category="paragraph">소스 노드와 타겟 노드의 StorageGRID 어플라이언스 설치 프로그램은 동일한 상태를 나타냅니다.</block>
   <block id="f19c0dcdf0806f3540561c4ac08be4b4" category="image-alt">복제 진행 상태</block>
   <block id="98c6d1132a15d72d0dc9e50596f25fb1" category="paragraph">클론 생성 모니터링 페이지에서는 클론 생성 프로세스의 각 단계에 대한 자세한 진행 상황을 제공합니다.</block>
   <block id="b2fdb0b814b9eb6027f8fdbc3554f684" category="list-text">* 클론 피어링 관계 설정 * 은 클론 생성 설정 및 구성의 진행률을 표시합니다.</block>
@@ -3086,8 +3067,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="7b94aafd236e4ceea865c931a85dfffa" category="list-text">타겟 노드가 유지보수 모드를 종료하고 StorageGRID를 결합하여 소스 노드를 대체합니다.</block>
   <block id="2d19d406fa4b8c7f970985fd245d9c26" category="inline-link">재설치를 준비했습니다</block>
   <block id="11f0130e9caa644f96bf62e2f723dca8" category="list-text">소스 어플라이언스는 이미 설치되어 있는 상태입니다<block ref="9808e60ae6558350cc51bc72520015f6" category="inline-link-rx"></block>.</block>
-  <block id="5cd537a6dae618d366a854e49d455bba" category="admonition">어플라이언스가 그리드에 다시 연결되지 않으면 소스 노드의 StorageGRID 어플라이언스 설치 관리자 홈 페이지로 이동하여 * 고급 * &gt; * 컨트롤러 재부팅 * 을 선택한 다음 * 유지 관리 모드로 재부팅 * 을 선택합니다. 소스 노드가 유지보수 모드로 재부팅된 후 노드 클론 복제 절차를 반복합니다.</block>
-  <block id="b39d313e6b319e6703372c12e765f24f" category="list-text">타겟 노드에서 예기치 않은 문제가 발생하는 경우 사용자 데이터는 복구 옵션으로 소스 어플라이언스에 유지됩니다. 타겟 노드가 StorageGRID에 성공적으로 다시 결합되면 소스 어플라이언스의 사용자 데이터가 오래되어 더 이상 필요하지 않습니다.</block>
   <block id="7943ed1a95e98b8db345a9a611617fc2" category="paragraph">소스 어플라이언스를 다른 그리드에 새 노드로 설치하거나 확장하면 오래된 사용자 데이터를 덮어씁니다.</block>
   <block id="e2e3ccf7097647279c88916257208b9b" category="paragraph">소스 어플라이언스에서 컨트롤러 구성을 재설정하여 이 데이터에 액세스할 수 없도록 할 수도 있습니다.</block>
   <block id="b96c8101a1845adc76ac9c16a415d845" category="inline-link-macro">StorageGRID 어플라이언스 설치 프로그램</block>
@@ -3178,9 +3157,7 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="af11eea53677ab5b08aa19cdcafd56ee" category="list-text">소스 노드(어플라이언스 교체)와 타겟(새) 어플라이언스는 어플라이언스의 유형이 동일해야 합니다.</block>
   <block id="2dfbae24004209154659df1bc8fa2a85" category="list-text">관리 노드 어플라이언스 또는 게이트웨이 노드 어플라이언스를 새 서비스 어플라이언스에만 복제할 수 있습니다.</block>
   <block id="3ed00b5839a316ad99941cddc347868b" category="list-text">스토리지 노드 어플라이언스는 새 스토리지 어플라이언스에만 복제할 수 있습니다.</block>
-  <block id="0734b0f73d20ce09674f65cd7aa84344" category="list-text">관리 노드 또는 게이트웨이 노드 어플라이언스의 경우 소스 노드 어플라이언스 및 타겟 어플라이언스가 동일한 유형의 어플라이언스일 필요는 없지만 어플라이언스 유형을 변경하려면 케이블이나 SFP 모듈을 교체해야 할 수 있습니다.</block>
   <block id="481d4b10597e9f9335c607d5115fd3db" category="paragraph">예를 들어 SG1000 노드 어플라이언스를 SG100으로 교체하거나 SG100 어플라이언스를 SG1000 어플라이언스로 교체할 수 있습니다.</block>
-  <block id="a75ead1838e1da94925b9f44a527a0d7" category="list-text">스토리지 노드 어플라이언스의 경우 소스 노드 어플라이언스와 타겟 어플라이언스는 어플라이언스 유형이 같을 필요는 없지만 타겟 어플라이언스의 스토리지 용량은 소스 어플라이언스보다 커야 합니다.</block>
   <block id="ad3b23cccdc3e368ff647e8b569cfd36" category="paragraph">예를 들어 SG6000 어플라이언스로 SG6000 노드 어플라이언스를 교체할 수 있습니다.</block>
   <block id="aabbed64734c33f6c7a61d74e334625a" category="paragraph">StorageGRID 설치 시 특정 어플라이언스 노드를 클론 복제하기 위해 호환되는 교체 어플라이언스를 선택하는 데 도움이 필요하면 StorageGRID 영업 담당자에게 문의하십시오.</block>
   <block id="832fb35230dc87b9117894fb35395cc7" category="section-title">어플라이언스 노드의 클론을 생성할 준비를 합니다</block>
@@ -3191,7 +3168,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="abfec6d1f524b72ccd15f918c923008f" category="inline-link-macro">노드 암호화 활성화 중</block>
   <block id="8d4954f7887339a90dbe76578b481ffe" category="list-text">타겟 어플라이언스에서 KMS(키 관리 서버)를 사용하여 노드 암호화를 사용할 것인지 확인하여 클론 생성 전에 초기 타겟 어플라이언스 설치 중에 노드 암호화를 활성화할 수 있도록 합니다. 에 설명된 대로 소스 어플라이언스 노드에서 노드 암호화가 활성화되어 있는지 확인할 수 있습니다 <block ref="6bd92e423fc3e97f612a11738e3a3c13" category="inline-link-macro-rx"></block>.</block>
   <block id="f3547558aa9eeb591224d3b73c6fe1f6" category="paragraph">소스 노드와 타겟 어플라이언스의 노드 암호화 설정이 다를 수 있습니다. 데이터 해독 및 암호화는 데이터 전송 중에 그리고 타겟 노드가 다시 시작되고 그리드에 조인될 때 자동으로 수행됩니다.</block>
-  <block id="da6305932b07f9de0f22a2c5db4c22a5" category="list-text">타겟 어플라이언스의 RAID 모드를 기본 설정에서 변경해야 하는지 확인하여 클론 생성 전에 초기 타겟 어플라이언스 설치 중에 이 정보를 지정할 수 있습니다. Grid Manager의 * nodes * 페이지에서 소스 어플라이언스 노드의 현재 RAID 모드에 대한 정보를 볼 수 있습니다. 어플라이언스에 대한 * Storage * 탭을 선택합니다.</block>
   <block id="760f793060ea29dfdd18f4fc69ab4f9d" category="paragraph">소스 노드와 타겟 어플라이언스의 RAID 설정은 다를 수 있습니다.</block>
   <block id="665b2ee84b3ce1addec753e47812a753" category="list-text">노드 클론 생성 프로세스를 완료하는 데 충분한 시간을 확보하십시오. 운영 스토리지 노드에서 타겟 어플라이언스로 데이터를 전송하려면 며칠이 걸릴 수 있습니다. 비즈니스에 미치는 영향을 최소화할 수 있도록 한 번에 클론 복제 일정을 수립합니다.</block>
   <block id="ed44cdb4d3e080dee6b895b78592b4b8" category="list-text">한 번에 하나의 어플라이언스 노드만 복제해야 합니다. 클론 생성 시 다른 StorageGRID 유지 보수 기능을 동시에 수행할 수 없습니다.</block>
@@ -4250,4 +4226,35 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="0007bed3a39900ca535cccaada9a4349" category="sidebar">오프라인 방법을 사용하여 SANtricity System Manager를 사용하여 드라이브 펌웨어를 업그레이드합니다</block>
   <block id="9429703a81cb2b5231db7d0db68e388d" category="sidebar">온라인 방법을 사용하여 SANtricity System Manager를 사용하여 SG6000 드라이브 펌웨어를 업그레이드합니다</block>
   <block id="afcfd0f4a9cd1a59c01ff3ab1b52a9b5" category="sidebar">오프라인 방법을 사용하여 SANtricity System Manager를 사용하여 SG6000 드라이브 펌웨어를 업그레이드합니다</block>
+  <block id="08f1abb5178bd37fc6e2a13d8dcd8107" category="inline-link">NetApp 다운로드: StorageGRID</block>
+  <block id="f40a09f3e194689e4082cf7a66952b7f" category="paragraph"><block ref="f40a09f3e194689e4082cf7a66952b7f" category="inline-link-rx"></block></block>
+  <block id="df0509510227d21cac530cb79de147a1" category="list-text">다운로드 및 추출한 소프트웨어 패키지를 보려면 * 찾아보기 * 를 클릭합니다. 를 선택합니다<block ref="058f15d63233f30a1fbded9223deceff" prefix=" " category="inline-code"></block> 패키지.</block>
+  <block id="78f7e8f6f1fdf69e2de119bb3d1ffa87" category="paragraph">어플라이언스 게이트웨이 노드 설치 작업을 중간에 중단하면 설치가 일시 중지됩니다. 설치를 다시 시작하려면 그리드 관리자에 로그인하고 모든 그리드 노드를 승인하고 StorageGRID 설치 프로세스를 완료합니다.</block>
+  <block id="d244eb2a1ebf7c5e6ddf7ea8d3527359" category="inline-link-macro">모니터 설치 페이지</block>
+  <block id="5b15e37bf7099b2456b9ab4c777b6be1" category="paragraph">현재 상태가 ""Installation is in progress(설치 진행 중)", 및 로 변경됩니다 <block ref="2cfee2cef53c21fa5832e8cabef926ef" category="inline-link-macro-rx"></block> 가 표시됩니다.</block>
+  <block id="0bb60b0faed71ce3cf81fbafd38b6eae" category="admonition">한 번에 여러 어플라이언스 노드를 배포해야 하는 경우 다음 링크를 사용하여 설치 프로세스를 자동화할 수 있습니다.../installconfig/automating-appliance-installation-and-configuration.html#automate-with-configure-sga-py-script<block ref="287394aa9bc3d5a7764ce106a0aaf10d" prefix="[" category="inline-code"></block> 장치 설치 스크립트].</block>
+  <block id="be0e8fe07ca77469afbcaeb6936ac72e" category="admonition">한 번에 여러 어플라이언스 스토리지 노드를 배포해야 하는 경우 다음 링크를 사용하여 설치 프로세스를 자동화할 수 있습니다../installconfig/automating-appliance-installation-and-configuration.html# automate-with-configure-sga-py-script<block ref="287394aa9bc3d5a7764ce106a0aaf10d" prefix="[" category="inline-code"></block> 장치 설치 스크립트].</block>
+  <block id="1ea73989dbbe2cb9ac1b4778d6cb6df2" category="paragraph">하위 명령(advanced, configure, install, monitor 또는 reboot) 인수를 입력한 다음 를 입력합니다<block ref="0c113ca6d57519b559ba5a426be3c6b6" prefix=" " category="inline-code"></block> 옵션 해당 하위 명령(+)에서 사용할 수 있는 옵션에 대한 자세한 정보를 제공하는 다른 도움말 텍스트가 표시됩니다<block ref="03f70e4532276b94a664b1d785b02c4e" prefix=" " category="inline-code"></block></block>
+  <block id="55d7a1be3a048285630cdbdf27b5ba9a" category="list-text">JSON 파일의 구성을 어플라이언스에 적용하려면 다음을 입력하십시오<block ref="6fcd902b181116b4384138a170399d93" prefix=" " category="inline-code"></block> 어플라이언스에 대한 관리 네트워크 IP 주소입니다.<block ref="6ddaad86d9b9bcc4f4c3330c86c0c105" prefix=" " category="inline-code"></block> JSON 파일의 이름이며, 입니다<block ref="5580062b816d365977f30d4d41f98fb3" prefix=" " category="inline-code"></block> 은(는) 구성이 적용된 노드의 이름입니다. +<block ref="72f183908dc340cee1fdefb7e5840ddd" prefix=" " category="inline-code"></block></block>
+  <block id="0462f7fa69ff4f54c3348f93f3720a04" category="list-text">어플라이언스 노드의 현재 구성을 확인하려면 다음 위치를 입력합니다<block ref="6fcd902b181116b4384138a170399d93" prefix=" " category="inline-code"></block> 어플라이언스에 대한 관리자 네트워크 IP 주소입니다. +<block ref="dac188db9f50e30c0f7f05f233f8d5f2" prefix=" " category="inline-code"></block></block>
+  <block id="6f3d4af284a7a3940430119fbf61e17f" category="paragraph"><block ref="e369ddd0be0bded8e17f8b7cb2011be2" prefix="" category="inline-code"></block></block>
+  <block id="f5a6ca817f28eecc69c2db93975bef5b" category="list-text">[[back-up-appliance-config]] 어플라이언스 구성을 JSON 파일로 백업하려면 고급 및 을 사용하십시오<block ref="8ae932c4bc181b3a98531442ef226cf8" prefix=" " category="inline-code"></block> 하위 명령. 예를 들어, IP 주소가 있는 어플라이언스의 구성을 백업하려는 경우<block ref="6fcd902b181116b4384138a170399d93" prefix=" " category="inline-code"></block> 을(를) 라는 파일에 저장합니다<block ref="99920c0d232edb12e461dfac6571fe76" prefix=" " category="inline-code"></block>를 입력하고 다음을 입력합니다. +<block ref="eb560d2a69d32904f571582f5bed3014" prefix=" " category="inline-code"></block></block>
+  <block id="69b9312512cdc6f76fc57562e424544e" category="paragraph">구성 정보가 포함된 JSON 파일이 지정된 출력 파일의 경로, 이 경우 파일의 상대 경로에 기록됩니다<block ref="99920c0d232edb12e461dfac6571fe76" prefix=" " category="inline-code"></block>.</block>
+  <block id="fd5bba691683ef3a201e310f70f6d8e4" category="list-text">어플라이언스 구성이 만족스러우면 를 사용하십시오<block ref="19ad89bc3e3c9d7ef68b89523eff1987" prefix=" " category="inline-code"></block> 및<block ref="08b5411f848a2581a41672a759c87380" prefix=" " category="inline-code"></block> 어플라이언스를 설치하기 위한 하위 명령: +<block ref="cb22ba99985d4320f9b56e53345a6646" prefix=" " category="inline-code"></block> 를 누릅니다<block ref="09148fb6c91acb8535552973f29c5302" prefix=" " category="inline-code"></block></block>
+  <block id="c931565ed17682d74235819a1b30dffd" category="list-text">어플라이언스를 재부팅하려면 + 를 입력합니다<block ref="8c1be57a6b5e4d6606e9b616bc4b786c" prefix=" " category="inline-code"></block></block>
+  <block id="21f8809422673987244d000d11281874" category="paragraph">모든 설치 단계가 완료된 후 창을 닫습니다.</block>
+  <block id="a7beb022c93acd3d0673dc51befd93b8" category="list-text">기본 관리자 노드를 제외한 모든 어플라이언스 노드의 경우 StorageGRID 설치 단계가 일시 중지되고 내장 콘솔에 메시지가 표시되어 를 사용하여 관리자 노드에서 이 노드를 승인하라는 메시지를 표시합니다<block ref="e3d100a9dd7fc524c056b793772558c8" category="inline-link-rx"></block>. 다음 단계로 이동합니다.</block>
+  <block id="42af9b60b35d6bca9c17ff477c884ccc" category="admonition">어플라이언스 기본 관리자 노드를 설치하는 동안 다섯 번째 단계가 StorageGRID 설치 프로그램을 로드하는 것으로 나타납니다(예제 스크린샷은 처음 4단계만 보여줍니다). StorageGRID 설치 프로그램 로드(5단계)가 10분 이상 진행 중인 경우 웹 페이지를 수동으로 새로 고칩니다.</block>
+  <block id="cc6d0074c1cc81f39341600a31c22eea" category="inline-link">그리드 관리자로 이동합니다</block>
+  <block id="2402f41c48e7f4bce703c793014a7f2b" category="list-text"><block ref="6f57cab9a4fe2b585805d3a0181ee3a1" category="inline-link-rx"></block> 기본 관리자 노드에서 보류 중인 그리드 노드를 승인하고 StorageGRID 설치 프로세스를 완료합니다.</block>
+  <block id="cc721c163db74d07c83f165fac1cbd51" category="list-text">관리자 노드 또는 게이트웨이 노드 어플라이언스의 경우 소스 노드 어플라이언스와 타겟 어플라이언스가 동일한 어플라이언스 모델일 필요는 없지만, 어플라이언스 모델을 변경하려면 케이블이나 SFP 모듈을 교체해야 할 수 있습니다.</block>
+  <block id="186e64d4b1a267ec9b06d82dfc3ea37a" category="list-text">스토리지 노드 어플라이언스의 경우 소스 노드 어플라이언스와 타겟 어플라이언스가 동일한 유형의 어플라이언스일 필요는 없습니다.</block>
+  <block id="28cb9e1a7b17557df2dab7da635677b4" category="list-text">타겟 어플라이언스의 스토리지 용량은 소스 어플라이언스보다 커야 합니다.</block>
+  <block id="765e8dcfe93408233d1db737b46e3c4b" category="list-text">타겟 어플라이언스의 객체 스토리지 볼륨 수는 소스 어플라이언스보다 크거나 같아야 합니다.</block>
+  <block id="a407ca9605b77abba5ba2f3dd9568e9b" category="paragraph">예를 들어, SG6000 노드 어플라이언스(16개의 오브젝트 저장소 볼륨)를 SGF6112 어플라이언스(12개의 오브젝트 저장소 볼륨)로 대체할 수 없습니다.</block>
+  <block id="544c640a61781fbf87772d3bf0e70c8b" category="list-text">타겟 어플라이언스의 RAID 모드를 기본 설정에서 변경해야 하는지 확인하여 클론 생성 전에 초기 타겟 어플라이언스 설치 중에 이 정보를 지정할 수 있습니다. Grid Manager의 * nodes * 페이지에서 소스 어플라이언스 노드의 현재 RAID 모드에 대한 정보를 볼 수 있습니다. 어플라이언스의 * 하드웨어 * 탭을 선택합니다.</block>
+  <block id="d5d17dfc38d13ef9b05b43e504f88d75" category="list-text">타겟 스토리지 어플라이언스의 볼륨 수는 소스 노드의 볼륨 수보다 크거나 같아야 합니다. 오브젝트 저장소 볼륨(rangedb)이 16개인 소스 노드를 12개의 오브젝트 저장소 볼륨이 있는 타겟 스토리지 어플라이언스에 클론 복제할 수 없습니다. 타겟 어플라이언스에 소스 노드보다 용량이 더 큰 경우에도 마찬가지입니다. 오브젝트 저장소 볼륨이 12개뿐인 SGF6112 스토리지 어플라이언스를 제외하고 대부분의 스토리지 어플라이언스에는 16개의 오브젝트 저장소 볼륨이 있습니다.</block>
+  <block id="f90f2ceee9e0e6f2c8dc65452c0e826d" category="paragraph">소스 노드와 타겟 노드 모두에서 StorageGRID 어플라이언스 설치 프로그램이 유사한 상태를 나타냅니다.</block>
+  <block id="dbfeead225216a2d779b955a8689e759" category="admonition">대상 어플라이언스가 그리드에 연결되지 않으면 소스 노드의 StorageGRID 어플라이언스 설치 프로그램 홈 페이지로 이동하여 * 고급 * &gt; * 재부팅 * 을 선택한 다음 * 유지 관리 모드로 재부팅 * 을 선택합니다. 소스 노드가 유지보수 모드로 재부팅된 후 노드 클론 복제 절차를 반복합니다.</block>
+  <block id="49bf1a3f02b06cc3de5eca98cee41dba" category="list-text">타겟 노드에서 예기치 않은 문제가 발생하는 경우 사용자 데이터는 복구 옵션으로 소스 어플라이언스에 유지됩니다. 타겟 노드가 StorageGRID에 성공적으로 연결되면 소스 어플라이언스의 사용자 데이터가 오래되어 더 이상 필요하지 않습니다.</block>
 </blocks>

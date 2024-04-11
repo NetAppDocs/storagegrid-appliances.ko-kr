@@ -134,7 +134,7 @@ NOTE: 이 절차는 명령줄 인터페이스 사용 경험이 있는 고급 사
 +
 [listing]
 ----
-configure-sga.py --help
+./configure-sga.py --help
 ----
 +
 를 클릭합니다 `configure-sga.py` 스크립트는 5개의 하위 명령을 사용합니다.
@@ -147,7 +147,7 @@ configure-sga.py --help
 ** `reboot` 어플라이언스 재부팅용
 +
 하위 명령(advanced, configure, install, monitor 또는 reboot) 인수를 입력한 다음 를 입력합니다 `--help` 옵션 해당 하위 명령(+)에서 사용할 수 있는 옵션에 대한 자세한 정보를 제공하는 다른 도움말 텍스트가 표시됩니다
-`configure-sga.py _subcommand_ --help`
+`./configure-sga.py _subcommand_ --help`
 
 +
 원하는 경우 <<back-up-appliance-config,어플라이언스 구성을 JSON 파일로 백업합니다>>에서 노드 이름이 다음 요구 사항을 충족하는지 확인합니다.
@@ -163,9 +163,9 @@ configure-sga.py --help
 
 
 . JSON 파일의 구성을 어플라이언스에 적용하려면 다음을 입력하십시오 `_SGA-INSTALL-IP_` 어플라이언스에 대한 관리 네트워크 IP 주소입니다. `_json-file-name_` JSON 파일의 이름이며, 입니다 `_node-name-inside-json-file_` 은(는) 구성이 적용된 노드의 이름입니다. +
-`configure-sga.py advanced --restore-file _json-file-name_ --restore-node _node-name-inside-json-file_ _SGA-INSTALL-IP_`
+`./configure-sga.py advanced --restore-file _json-file-name_ --restore-node _node-name-inside-json-file_ _SGA-INSTALL-IP_`
 . 어플라이언스 노드의 현재 구성을 확인하려면 다음 위치를 입력합니다 `_SGA-INSTALL-IP_` 어플라이언스에 대한 관리자 네트워크 IP 주소입니다. +
-`configure-sga.py configure _SGA-INSTALL-IP_`
+`./configure-sga.py configure _SGA-INSTALL-IP_`
 +
 이 결과는 기본 관리 노드의 IP 주소와 관리, 그리드 및 클라이언트 네트워크에 대한 정보를 포함하여 어플라이언스에 대한 현재 IP 정보를 표시합니다.
 
@@ -250,19 +250,20 @@ Connecting to +https://10.224.2.30:8443+ (Checking version and connectivity.)
 ----
 . 현재 설정에서 값을 변경해야 하는 경우 를 사용합니다 `configure` 하위 명령을 사용하여 업데이트합니다. 예를 들어, 어플라이언스가 기본 관리 노드에 연결하는 데 사용하는 IP 주소를 변경하려는 경우 `172.16.2.99`다음을 입력합니다.
 +
-`configure-sga.py configure --admin-ip 172.16.2.99 _SGA-INSTALL-IP_`
+`./configure-sga.py configure --admin-ip 172.16.2.99 _SGA-INSTALL-IP_`
 
 . [[back-up-appliance-config]] 어플라이언스 구성을 JSON 파일로 백업하려면 고급 및 을 사용하십시오 `backup-file` 하위 명령. 예를 들어, IP 주소가 있는 어플라이언스의 구성을 백업하려는 경우 `_SGA-INSTALL-IP_` 을(를) 라는 파일에 저장합니다 `appliance-SG1000.json`를 입력하고 다음을 입력합니다. +
-`configure-sga.py advanced --backup-file appliance-SG1000.json _SGA-INSTALL-IP_`
+`./configure-sga.py advanced --backup-file appliance-SG1000.json _SGA-INSTALL-IP_`
 +
-구성 정보가 포함된 JSON 파일은 에서 스크립트를 실행한 디렉토리에 작성됩니다.
+구성 정보가 포함된 JSON 파일이 지정된 출력 파일의 경로, 이 경우 파일의 상대 경로에 기록됩니다 `appliance-SG1000.json`.
 
 +
 
 CAUTION: 생성된 JSON 파일의 최상위 노드 이름이 어플라이언스 이름과 일치하는지 확인하십시오. 숙련된 사용자이고 StorageGRID API에 대한 철저한 이해가 없는 경우 이 파일을 변경하지 마십시오.
 
 . 어플라이언스 구성이 만족스러우면 를 사용하십시오 `install` 및 `monitor` 어플라이언스를 설치하기 위한 하위 명령: +
-`configure-sga.py install --monitor _SGA-INSTALL-IP_`
+`./configure-sga.py install --monitor _SGA-INSTALL-IP_` 를 누릅니다
+`./configure-sga.py monitor --monitor-storagegrid-install _SGA-INSTALL-IP_`
 . 어플라이언스를 재부팅하려면 + 를 입력합니다
-`configure-sga.py reboot _SGA-INSTALL-IP_`
+`./configure-sga.py reboot _SGA-INSTALL-IP_`
 

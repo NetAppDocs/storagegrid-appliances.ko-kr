@@ -34,7 +34,7 @@ summary: 스토리지 어플라이언스를 설치 및 구성한 후 StorageGRID
 
 
 
-NOTE: 여러 어플라이언스 노드를 한 번에 구축해야 하는 경우 를 사용하여 설치 프로세스를 자동화할 수 있습니다 `configure-sga.py` 어플라이언스 설치 스크립트.
+NOTE: 한 번에 여러 어플라이언스 노드를 배포해야 하는 경우 다음 링크를 사용하여 설치 프로세스를 자동화할 수 있습니다.../installconfig/automating-appliance-installation-and-configuration.html#automate-with-configure-sga-py-script[`configure-sga.py` 장치 설치 스크립트].
 
 * 확장 또는 복구 작업을 수행하는 경우 해당 지침을 따르십시오.
 +
@@ -101,7 +101,7 @@ link:../commonhardware/appliance-node-cloning-procedure.html["노드 클론 생�
 
 . StorageGRID 어플라이언스 설치 관리자 홈 페이지에서 * 설치 시작 * 을 클릭합니다.
 +
-현재 상태가 ""설치 진행 중""으로 변경되고 모니터 설치 페이지가 표시됩니다.
+현재 상태가 ""Installation is in progress(설치 진행 중)", 및 로 변경됩니다 link:../installconfig/monitoring-appliance-installation.html["모니터 설치 페이지"] 가 표시됩니다.
 
 +
 
@@ -110,6 +110,6 @@ NOTE: 모니터 설치 페이지에 수동으로 액세스해야 하는 경우 *
 . 그리드에 여러 어플라이언스 스토리지 노드가 포함된 경우 각 어플라이언스에 대해 이 단계를 반복합니다.
 +
 
-NOTE: 여러 어플라이언스 스토리지 노드를 한 번에 배포해야 하는 경우 를 사용하여 설치 프로세스를 자동화할 수 있습니다 `configure-sga.py` 어플라이언스 설치 스크립트.
+NOTE: 한 번에 여러 어플라이언스 스토리지 노드를 배포해야 하는 경우 다음 링크를 사용하여 설치 프로세스를 자동화할 수 있습니다../installconfig/automating-appliance-installation-and-configuration.html# automate-with-configure-sga-py-script[`configure-sga.py` 장치 설치 스크립트].
 
 
