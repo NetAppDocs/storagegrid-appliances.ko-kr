@@ -3,9 +3,6 @@
   <block id="daad4dadeda8cd86f01c8ad7f2a30465" category="summary">이 문서 사이트의 새로운 기능에 대해 알아봅니다.</block>
   <block id="896ec268e957d3c662f84637cbe5cff2" category="doc">어플라이언스에 대한 새로운 기능</block>
   <block id="72537bf3eb1f84421991e3c2fd3c6510" category="paragraph">StorageGRID 어플라이언스의 새로운 기능에 대해 알아보십시오.</block>
-  <block id="46e6e53b63575cf1827147a48464a879" category="section-title">SGF6112 All-Flash 어플라이언스</block>
-  <block id="0893c8e93b9a4b4059d6e5940b5fd595" category="inline-link-macro">SGF6112 어플라이언스: 개요</block>
-  <block id="88d0d4b73239c3f30645fd45a0392d6a" category="paragraph">새로운 StorageGRID SGF6112 스토리지 어플라이언스는 컴퓨팅 컨트롤러와 스토리지 컨트롤러를 1U 섀시에 통합하는 콤팩트한 설계를 특징으로 합니다. 어플라이언스는 드라이브당 최대 15.3TB의 저장 용량을 가진 12개의 SSD NVMe 드라이브를 지원합니다. SSD 드라이브는 복원력이 뛰어난 오브젝트 스토리지를 제공하는 RAID에 있습니다. 을 참조하십시오 <block ref="80483d1684bda77797911f6b469313f1" category="inline-link-macro-rx"></block>.</block>
   <block id="4e2d1b46d32d63f7b20c891a226971a0" category="summary">서비스 어플라이언스의 이더넷 링크 구성을 변경할 수 있습니다. 포트 연결 모드, 네트워크 연결 모드 및 링크 속도를 변경할 수 있습니다.</block>
   <block id="e4d7bc194db0f2b04796f28dca2cb07d" category="doc">SG100 또는 SG1000의 링크 구성을 변경합니다</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">시작하기 전에</block>
@@ -265,7 +262,6 @@
   <block id="64ad6f3be04a1b5eb460f6b5171db9c3" category="paragraph">서비스 어플라이언스 노드에 StorageGRID를 설치하려면 다음을 따르십시오.</block>
   <block id="81a6c5934583a0f8023199782ebc17af" category="list-text">기본 관리 노드의 IP 주소와 어플라이언스 노드의 이름을 지정하거나 확인합니다.</block>
   <block id="06ecae27d7a22c2772946f8e600bf743" category="list-text">설치를 시작하고 소프트웨어가 설치될 때까지 기다립니다.</block>
-  <block id="0ce5a69d66d806ec63dd1df1ede0f5ee" category="admonition">SG100 및 SG1000 서비스 어플라이언스를 같은 사이트에 배포하지 마십시오. 성능을 예측할 수 없습니다.</block>
   <block id="7ce1391a56490e2996e89e8be0e35f46" category="inline-link-macro">어플라이언스 설치 및 구성 자동화</block>
   <block id="70b1698e02b884a3301d0682ae742bcc" category="admonition">한 번에 여러 어플라이언스 노드를 구축해야 하는 경우 설치 프로세스를 자동화할 수 있습니다. 을 참조하십시오 <block ref="da9e5f931ee7f07fa7e39b6838d21cb5" category="inline-link-macro-rx"></block>.</block>
   <block id="71993e8ea93f8d02397504df8a2f696f" category="list-text">브라우저를 열고 어플라이언스의 IP 주소를 입력합니다.</block>
@@ -1178,7 +1174,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="5b06ccc1c03f3b182fcc3f498ea6ed33" category="list-text">각 스토리지 컨트롤러 후면에 있는 7개 세그먼트 디스플레이를 확인합니다. 자세한 내용은 부팅 상태 코드 보기에 대한 문서를 참조하십시오.</block>
   <block id="4c879409f52a908e9d590c416599dad7" category="list-text">SG6000-CN 컨트롤러 앞면의 전원 단추가 켜져 있는지 확인합니다.</block>
   <block id="9354327818f8e50e42cf51da6c8e515f" category="list-text">전면 베젤을 분리한 경우 SG6000-CN 컨트롤러에 연결합니다.</block>
-  <block id="1c7c4d0e82f24664cd89fa8aceb51d56" category="list-text">SG6100-CN 제품 앞면의 전원 단추가 파란색으로 켜져 있지 않으면 버튼을 눌러 제품의 전원을 켜십시오.</block>
   <block id="d33b4aba25cf9772af1dbcbe99d64d41" category="paragraph">전원 공급 장치의 LED가 깜박이지 않고 녹색으로 켜져야 합니다.</block>
   <block id="2f2db283f5abc325514875d486abdc79" category="paragraph"><block ref="2f2db283f5abc325514875d486abdc79" category="inline-link-macro-rx"></block></block>
   <block id="c0dcb6db5300484aab9ea95a8e1d1bdd" category="summary">StorageGRID 제품을 설치하기 전에 모든 상자의 포장을 풀고 내용물을 포장 명세서에 있는 품목과 비교합니다.</block>
@@ -1347,7 +1342,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="a84b5f1afdd502c061024370bfc6a952" category="section-title">SG100 및 SG1000 다이어그램</block>
   <block id="0b818dd339956b64673c11bfeffba91c" category="paragraph">이 그림은 베젤이 분리된 SG100과 SG1000의 전면을 보여줍니다. 전면에서 두 어플라이언스는 베젤에 있는 제품 이름을 제외하고 동일합니다.</block>
   <block id="28989aff1888ad2b7678074c0b2967d1" category="image-alt">SSD SG100 및 SG1000으로 전면</block>
-  <block id="dfcfdfb340da954210315d11a2bd0c61" category="paragraph">주황색 테두리로 표시된 두 개의 SSD(Solid State Drive)는 StorageGRID 운영 체제를 저장하는 데 사용될 수 있으며 이중화를 위해 RAID 1을 사용하여 미러링됩니다. SG100 또는 SG1000 서비스 어플라이언스가 관리 노드로 구성된 경우 이러한 드라이브는 감사 로그, 메트릭 및 데이터베이스 테이블을 저장하는 데 사용됩니다.</block>
   <block id="6610dc47f2f5383953ec2a1621ffb22e" category="paragraph">나머지 드라이브 슬롯은 비어 있습니다.</block>
   <block id="e2df10e153cb8c16dadcf714811ec619" category="section-title">SG100 커넥터</block>
   <block id="d6e5389fc7987a2d5338515d74fde402" category="paragraph">이 그림은 SG100 후면에 있는 커넥터를 보여줍니다.</block>
@@ -1449,9 +1443,7 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="259f7ff6cc8d64b66cba93a17304c3d6" category="inline-link-macro">포트 수준 네트워크 연결을 확인합니다</block>
   <block id="b2d8ae65d08c0fc7e0d796288b2adabe" category="list-text"><block ref="b2d8ae65d08c0fc7e0d796288b2adabe" category="inline-link-macro-rx"></block></block>
   <block id="c02e34b6a88ae18cf515d08b091effd3" category="inline-link-macro">SANtricity 시스템 관리자 액세스 및 구성</block>
-  <block id="54c6ec78161cbcd94d065b290ed99d0d" category="list-text"><block ref="0c770b188189664197ca2af9c5ce06a6" category="inline-link-macro-rx"></block> (SG6000 및 SG5700)</block>
   <block id="b24644fb0cb0d2175187599360704730" category="inline-link-macro">BMC 인터페이스를 구성합니다</block>
-  <block id="cf7c4bd5320fcf86408777d5f9a4fe0c" category="list-text"><block ref="e010cba544d581fc50562d9eaf281bf3" category="inline-link-macro-rx"></block> (SG100, SG1000, SG6000 및 SG6100)</block>
   <block id="6efb63c9dddb08a981caced6ecaa7231" category="list-text">옵션 설정 단계를 수행합니다</block>
   <block id="1769437c445032226853842293627464" category="inline-link-macro">노드 또는 드라이브 암호화를 사용합니다</block>
   <block id="0dce870abc630014d0799a7b47dfd01e" category="list-text"><block ref="0dce870abc630014d0799a7b47dfd01e" category="inline-link-macro-rx"></block></block>
@@ -1507,7 +1499,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="d9f435cb7a4ab03ce6a9dd9556ec754d" category="list-text">RAID 모드를 변경합니다</block>
   <block id="8bcdd04428a0e463b5d2942eb52fa7a4" category="list-text">SG6000-CN 컨트롤러용 BMC 인터페이스에 액세스합니다</block>
   <block id="bf6a9db479978eb4f9d757484d56488a" category="list-text">서비스 어플라이언스</block>
-  <block id="ac941add132fd73a9ca0fd82f948c217" category="list-text">SG100 또는 SG1000의 BMC 인터페이스에 액세스합니다</block>
   <block id="d66b55cd8d763d06c15eb0e4ec520f0a" category="doc">하드웨어 설치 문제 해결(SG100 및 SG1000)</block>
   <block id="2fe63d2b3f22e322fc5a2471a0057de8" category="list-text">당신은 방법을 알고 있습니다 <block ref="de1e0aa09b9ef96e751421d7f7e86d04" category="inline-link-macro-rx"></block>.</block>
   <block id="114f2dd347c68bd8b5310e02290324cd" category="list-text">어플라이언스 뒷면의 DB-9 직렬 포트에 연결합니다.</block>
@@ -1642,7 +1633,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="edc8f42c5d3c1c2a2922bf75112aa76a" category="list-text">StorageGRID*용 관리자 네트워크: 관리자 네트워크는 시스템 관리 및 유지 보수에 사용되는 폐쇄된 네트워크입니다. 관리 네트워크는 일반적으로 사설 네트워크이며 사이트 간에 라우팅할 필요가 없습니다. 관리 네트워크는 선택 사항입니다.</block>
   <block id="a43ab4ec6314775efb16fdcbad06d69a" category="list-text">* StorageGRID용 클라이언트 네트워크: * 클라이언트 네트워크는 S3 및 Swift를 포함한 클라이언트 애플리케이션에 대한 액세스를 제공하는 데 사용되는 개방형 네트워크입니다. 클라이언트 네트워크는 그리드에 대한 클라이언트 프로토콜 액세스를 제공하므로 그리드 네트워크를 격리하고 보호할 수 있습니다. 이 네트워크를 통해 어플라이언스가 열려 있는 포트만 사용하여 액세스할 수 있도록 클라이언트 네트워크를 구성할 수 있습니다. 클라이언트 네트워크는 선택 사항입니다.</block>
   <block id="7ac9f844973adf1cc467bcd4a52f52d5" category="list-text">* SANtricity용 관리 네트워크 * (SG6100에는 필요하지 않은 스토리지 어플라이언스의 경우 선택 사항): 이 네트워크는 SANtricity 시스템 관리자에 대한 액세스를 제공하여 어플라이언스 및 스토리지 컨트롤러 쉘프의 하드웨어 구성 요소를 모니터링하고 관리할 수 있습니다. 이 관리 네트워크는 StorageGRID용 관리 네트워크와 같을 수도 있고 독립 관리 네트워크일 수도 있습니다.</block>
-  <block id="28a542bc07290f8a1b1447961bf9fa60" category="list-text">* BMC 관리 네트워크 * (SG100, SG1000, SG6000 및 SG6100의 경우 선택 사항): 이 네트워크는 SG100, SG1000, SG6000 및 SG6100 어플라이언스의 베이스보드 관리 컨트롤러에 대한 액세스를 제공하여 어플라이언스의 하드웨어 구성요소를 모니터링하고 관리할 수 있게 합니다. 이 관리 네트워크는 StorageGRID용 관리 네트워크와 같을 수도 있고 독립 관리 네트워크일 수도 있습니다.</block>
   <block id="660fc24fc18dd99919bb0bc5149a6c14" category="paragraph">선택적 BMC 관리 네트워크가 연결되지 않은 경우 일부 지원 및 유지 관리 절차를 수행하기가 더 어려워집니다. 지원 목적으로 필요한 경우를 제외하고 BMC 관리 네트워크를 연결하지 않은 상태로 둘 수 있습니다.</block>
   <block id="735397a80f406e1834aa096854796f06" category="admonition">StorageGRID 네트워크에 대한 자세한 내용은 를 참조하십시오<block ref="37d143d6aa4e97202e0da5da8774331d" category="inline-link-rx"></block>.</block>
   <block id="536913eab1d549cf61908a5576a405e6" category="summary">그리드 노드를 설치하고 구성한 후 StorageGRID 시스템의 구성을 자동화할 수 있습니다.</block>
@@ -1731,7 +1721,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="d5db6ba99ab0efffe356662c3fc55f4c" category="list-text">확장 쉘프가 있는 경우, 다음 단계를 반복하여 각 확장 쉘프의 각 서랍에 12개의 HDD 드라이브를 설치합니다.</block>
   <block id="9cdf68498d339fb0d7d4e4972e1695ce" category="list-text">캐비닛 또는 랙에 SG6000-CN을 설치하는 지침을 따르십시오.</block>
   <block id="875693c8e94a9b6f2e275d5162bb0123" category="summary">SG6100, SG6000 또는 서비스 어플라이언스의 베이스보드 관리 컨트롤러\(BMC\)의 사용자 인터페이스는 하드웨어에 대한 상태 정보를 제공하고 어플라이언스에 대한 SNMP 설정 및 기타 옵션을 구성할 수 있도록 합니다.</block>
-  <block id="ed9644f5ceef6febeee33082dacb1a73" category="doc">BMC 인터페이스: 개요(SG100, SG1000, SG6000 및 SG6100)</block>
   <block id="ee36a41933a8c47ba8eb1d5246ea022f" category="paragraph">SG6100, SG6000 또는 서비스 어플라이언스의 베이스보드 관리 컨트롤러(BMC)의 사용자 인터페이스는 하드웨어에 대한 상태 정보를 제공하고 어플라이언스에 대한 SNMP 설정 및 기타 옵션을 구성할 수 있도록 합니다.</block>
   <block id="81f3a517925abf11c2bf8f4ed6207237" category="paragraph">어플라이언스를 설치할 때 BMC를 구성하려면 이 섹션의 다음 절차를 따르십시오.</block>
   <block id="961d7f5d7663b6dc951b5e5c4774580d" category="list-text"><block ref="961d7f5d7663b6dc951b5e5c4774580d" category="inline-link-macro-rx"></block></block>
@@ -2449,7 +2438,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="622dedd3d9518bbe8333a11e6a3906f0" category="list-text">스토리지 컨트롤러 2개를 SG6000-CN 컨트롤러에 연결하기 위해 어플라이언스와 함께 제공된 광 케이블 4개가 있습니다.</block>
   <block id="482c49b0c4f478c3a53f43e2d9354ea9" category="list-text">관리 포트를 연결하기 위한 RJ-45 이더넷 케이블(최소 4개)이 있습니다.</block>
   <block id="c7aa0392cfcfae7f9063e19db3429311" category="list-text">포트에 광 케이블을 사용하려는 경우 SFP+ 또는 SFP28 트랜시버 1~4개</block>
-  <block id="40cc77eb24c46b897428cdf99359f949" category="paragraph">다음 그림은 SG6060 및 SG6060X 어플라이언스의 컨트롤러 3개와 SG6000-CN 컴퓨팅 컨트롤러가 상단에, E2800 스토리지 컨트롤러 2개가 아래쪽에 있는 모습입니다. SG6060은 E2800A 컨트롤러를 사용하고 SG6060X는 E2800B 컨트롤러를 사용합니다.</block>
   <block id="c5da69b0daeee585efd14cbdcd95f9c0" category="admonition">E2800 컨트롤러의 두 버전은 상호 연결 포트의 위치를 제외하고 동일한 사양과 기능을 제공합니다.</block>
   <block id="85ac648b274fe5b9984597982dd7afad" category="admonition">E2800A 및 E2800B 컨트롤러를 동일한 어플라이언스에서 사용하지 마십시오.</block>
   <block id="2c921c8eaa2b387f856a217c368c4a73" category="paragraph">SG6060 연결:</block>
@@ -2900,7 +2888,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="f2f4d90ef6566a91f0d4ee0f2bd0c0cf" category="list-text">덮개가 멈추고 덮개가 섀시에 완전히 장착될 때까지 덮개 래치를 앞으로 또는 아래로 돌립니다. 덮개의 전면 가장자리를 따라 틈이 없는지 확인합니다.</block>
   <block id="68abdeb4de4c03b18880696414098033" category="paragraph">덮개가 완전히 장착되지 않으면 제품을 랙에 밀어 넣지 못할 수 있습니다.</block>
   <block id="bad1c962977ca3ccc3125850f38447b4" category="list-text">선택 사항: 래치 잠금 장치에 표시된 것처럼 파란색 플라스틱 래치 잠금 장치를 잠금 방향으로 1/4바퀴 돌려 잠급니다.</block>
-  <block id="d786a607ae8af0f0cd8359b84322ac13" category="admonition">어플라이언스가 유지보수 모드일 때 수행한 IP 구성 변경 사항은 설치된 StorageGRID 환경에 적용되지 않습니다. 다음 링크를 실행합니다../maintain/changing-nodes-network-configuration.html<block ref="921c87cca9b14f15a73f4570ad9f3247" prefix="[" category="inline-code"></block> Command]를 눌러 어플라이언스를 StorageGRID로 재부팅합니다.</block>
   <block id="1b87de5ab81f4f92cfa077be2e09d040" category="admonition">연결된 네트워크 또는 링크를 변경한 경우 연결이 끊어질 수 있습니다. 1분 이내에 다시 연결되지 않으면 어플라이언스에 할당된 다른 IP 주소 중 하나를 사용하여 StorageGRID 어플라이언스 설치 프로그램의 URL을 다시 입력합니다.<block ref="7cb9429482151be5ab9338810b072fc0" prefix=" " category="inline-code"></block></block>
   <block id="b318d18a01124d748f6ccb12b914c2dc" category="paragraph">수행할 다른 모든 테스트와 함께 기본 관리 노드의 그리드 네트워크 IP 주소 및 하나 이상의 다른 노드의 그리드 네트워크 IP 주소를 Ping할 수 있는지 확인합니다. 필요한 경우 네트워크 링크 구성 지침으로 돌아가서 문제를 해결하십시오.</block>
   <block id="f127bf70eac06d5cd43bc646d9b61a11" category="list-text">링크 구성 변경 사항이 적용되면 노드를 재부팅합니다. StorageGRID 어플라이언스 설치 프로그램에서 * 고급 * &gt; * 컨트롤러 재부팅 * 을 선택한 후 다음 옵션 중 하나를 선택합니다.</block>
@@ -2910,9 +2897,7 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="c97a80297e486669f93485561c3164ed" category="admonition">개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있는 경우에는 예약된 유지 관리 창에서 팬을 교체해야 합니다. 그렇지 않으면 이 절차 중에 해당 개체에 대한 액세스가 일시적으로 끊어질 수 있습니다. 에 대한 정보를 참조하십시오<block ref="f69c469323896c5f53b0b141dcfc1ae2" category="inline-link-rx"></block>.</block>
   <block id="aa7a430b5102e55ec29d486c5165e7ba" category="paragraph">사진은 제품의 팬을 보여줍니다. 전기 커넥터가 하이라이트됩니다. 제품에서 상단 덮개를 분리한 후 냉각 팬에 액세스할 수 있습니다.</block>
   <block id="dc55836577fc02b16cce59c34c0bd0f3" category="admonition">두 개의 전원 공급 장치 각각에는 팬도 포함되어 있습니다. 전원 공급 장치 팬은 이 절차에 포함되어 있지 않습니다.</block>
-  <block id="714a2b4dc29fd72668c8e5e36bf4b8c8" category="image-alt">팬 SGF6112 FRU</block>
   <block id="c36b4cc7c715c27cf89053ed16076b2a" category="list-text">교체해야 하는 팬을 찾습니다.</block>
-  <block id="d7e7ea11b214fe9c3389d9e2bb1a9335" category="paragraph">8개의 팬은 섀시의 다음 위치에 있습니다(상단 덮개를 분리한 상태로 SGF6112의 전면 절반).</block>
   <block id="faaae5a36ccc39581b4a36a48818db1a" category="image-alt">팬 위치</block>
   <block id="9fc41f5c47cf13c3dacfca6f1e20a227" category="cell">팬 유닛</block>
   <block id="20466611954593695b4f1b6b35f973bf" category="paragraph">FAN_SYS0</block>
@@ -2946,7 +2931,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="c9c36506fb741805088a0cbb00459a23" category="list-text">CMOS 배터리를 포장에서 꺼냅니다.</block>
   <block id="3e165c924e3bd4588b57bd761d4f07e0" category="list-text">배터리가 제자리에 고정될 때까지 양극(+)이 위를 향하도록 교체용 배터리를 시스템 보드의 빈 소켓에 밀어 넣습니다.</block>
   <block id="9cf7c93fc766c56873c1ddd46447d057" category="list-text">시스템 보드의 가이드 핀에 맞춰진 2슬롯 라이저 어셈블리(원으로 표시됨)의 정렬 구멍을 찾아 라이저 어셈블리의 위치가 올바른지 확인합니다.</block>
-  <block id="f9df26f43e7cbb8a8facb5017b47ccbe" category="list-text">시스템 보드에서 가이드 핀을 찾습니다.</block>
   <block id="e2ca2c1368ac8b9d1d8e5571f1857efd" category="image-alt">2슬롯 라이저 조립품용 시스템 보드의 가이드 핀</block>
   <block id="f456f175997595ccbac05b05c7dbc0d8" category="inline-link-macro">드라이브 암호화 암호를 입력합니다</block>
   <block id="46f19b3ee8dedf83d42c3a4ff5d0c6bb" category="list-text">교체한 어플라이언스에서 KMS(키 관리 서버)를 사용하여 노드 암호화에 대한 암호화 키를 관리하는 경우 노드가 그리드에 연결되기 전에 추가 구성이 필요할 수 있습니다. 노드가 그리드에 자동으로 연결되지 않는 경우 이러한 구성 설정이 새 어플라이언스로 전송되었는지 확인하고 필요한 구성이 없는 설정을 수동으로 구성합니다.</block>
@@ -2954,7 +2938,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="5d5e7579cc415f2940c02cee9b12c42d" category="inline-link">어플라이언스에 대한 노드 암호화를 구성합니다</block>
   <block id="0a5611066cc6dfa6acb00a3c98785ae8" category="list-text"><block ref="0a5611066cc6dfa6acb00a3c98785ae8" category="inline-link-rx"></block></block>
   <block id="6c60c1ebcaf910de2a51a8c828bc0f5e" category="list-text">어플라이언스에 로그인합니다.</block>
-  <block id="173a66e0398614aa76b044a28acb6ae2" category="list-text">다음 옵션 중 하나를 사용하여 어플라이언스에 대한 BMC 네트워크 연결을 복원합니다.</block>
   <block id="350f00799e345da9d8437a6755232692" category="paragraph">식별하려는 어플라이언스의 BMC IP 주소가 있습니다.</block>
   <block id="12d42de975e694d332bec59aed70bded" category="inline-link-macro">어플라이언스 BMC 인터페이스에 액세스합니다</block>
   <block id="8b999a1febaa917ddad3d11fc533934c" category="list-text"><block ref="255c862e8a70f96afa658300e7161668" category="inline-link-macro-rx"></block>.</block>
@@ -3096,9 +3079,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="e8d170c1d01b5214a9b97ee8fbc40398" category="section-title">대상 어플라이언스 호환성</block>
   <block id="6cca792a53335169aad8581043148997" category="paragraph">교체 어플라이언스는 교체 중인 소스 노드와 유형이 같아야 하며 두 어플라이언스 모두 동일한 논리 StorageGRID 사이트의 일부여야 합니다.</block>
   <block id="3514507af11b532760b83d61e1cfa58d" category="list-text">교체 서비스 어플라이언스는 교체되는 관리 노드 또는 게이트웨이 노드와 다를 수 있습니다.</block>
-  <block id="53128132390930a1f8d6c6d9519248df" category="list-text">SG100 소스 노드 어플라이언스를 SG1000 서비스 대상 어플라이언스에 복제하여 관리자 노드 또는 게이트웨이 노드에 더 큰 기능을 제공할 수 있습니다.</block>
-  <block id="0ed5f431751e37ac1ff96feb9134f783" category="list-text">SG1000 소스 노드 어플라이언스를 SG100 서비스 대상 어플라이언스에 복제하여 SG1000을 보다 까다로운 응용 프로그램에 재배포할 수 있습니다.</block>
-  <block id="55f00cb7cf66e41ad1054fc5507a2e0a" category="paragraph">예를 들어 SG1000 소스 노드 어플라이언스를 관리 노드로 사용하고 있고 이를 전용 로드 밸런싱 노드로 사용하려는 경우</block>
   <block id="8853412a153551cfcaa29f811be54d2a" category="list-text">SG1000 소스 노드 어플라이언스를 SG100 서비스 대상 어플라이언스로 교체하면 네트워크 포트의 최대 속도가 100GbE에서 25GbE로 줄어듭니다.</block>
   <block id="953cb2571b5956e3ac9d0120f56a1235" category="list-text">서비스 어플라이언스에는 서로 다른 네트워크 커넥터가 있습니다. 어플라이언스 유형을 변경하려면 케이블이나 SFP 모듈을 교체해야 할 수 있습니다.</block>
   <block id="f99ba690ef7c0b4d695af7ef97254d6b" category="list-text">교체 스토리지 어플라이언스의 용량은 교체할 스토리지 노드보다 커야 합니다.</block>
@@ -3374,7 +3354,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="c5e193e61c8068cebd4cb4fba2c27866" category="inline-link-macro">컨트롤러 전원 케이블을 다시 연결합니다</block>
   <block id="b6b0dd970889f43cc1c52597b7622743" category="list-text"><block ref="6f9f5a65c301bc92abf7bdeee5c6a76d" category="inline-link-macro-rx"></block>.</block>
   <block id="37abf98b4de9f33857b199b4587f5694" category="inline-link-macro">어플라이언스를 다시 시작하십시오</block>
-  <block id="e5286716c2baaaba3a8565ab8ef46806" category="paragraph"><block ref="1dd8d3f4f8b694bd6a574f797efa8d57" category="inline-link-macro-rx"></block>.</block>
   <block id="75a0a5a5fe162a7f9fdba4837463d44f" category="summary">데이터 센터에서 제품을 찾을 수 있도록 제품 전면에 있는 파란색 식별 LED를 켤 수 있습니다.</block>
   <block id="6f0e600a24fecbdf20f99f186e630c00" category="doc">SGF6112 어플라이언스 식별 LED를 켜고 끕니다</block>
   <block id="debdd98b0f5a40d3b21e412c9c782a4d" category="paragraph">데이터 센터에서 제품을 찾을 수 있도록 제품 앞면과 뒷면의 청색 식별 LED를 켤 수 있습니다.</block>
@@ -3382,7 +3361,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="48ce381161753a96507e349f7aa77165" category="paragraph"><block ref="48ce381161753a96507e349f7aa77165" category="inline-link-macro-rx"></block></block>
   <block id="93fbb9aaa73dda71ec648251dcaa9967" category="summary">제품에 대한 유지보수 절차를 수행해야 할 수 있습니다. SG6100 어플라이언스 유지 관리에 대한 절차는 이 섹션에 나와 있습니다.</block>
   <block id="64afa9c486f46d037a09b05e70cd8b61" category="paragraph">이 섹션의 절차에서는 어플라이언스가 이미 StorageGRID 시스템의 스토리지 노드로 구축되었다고 가정합니다.</block>
-  <block id="1a8829c74e638f60318ff0a8272ab9bb" category="paragraph">* 구성 유지보수 절차 * 는 Appliance Installer, Grid Manager 또는 BMC 인터페이스를 사용하여 수행됩니다. 이러한 절차에는 다음이 포함됩니다.</block>
   <block id="3b7a76fa87690a443242d6944757d7d3" category="inline-link-macro">제품 식별 LED를 켜고 끕니다</block>
   <block id="6f322a9b2088ce2fcdc4d2570ab4bd4a" category="list-text"><block ref="6f322a9b2088ce2fcdc4d2570ab4bd4a" category="inline-link-macro-rx"></block></block>
   <block id="68f44a5f426fd13a4802cb01ac1d7315" category="list-text"><block ref="68f44a5f426fd13a4802cb01ac1d7315" category="inline-link-macro-rx"></block></block>
@@ -4079,7 +4057,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="31e40175f2d3fefac38304e359c80e94" category="sidebar">노드 클론 생성</block>
   <block id="bf4407ec23ea65719897cbdb78263587" category="sidebar">노드 클론 생성 요구 사항</block>
   <block id="ff5cd15e6095aa49c820a70173a97926" category="sidebar">어플라이언스별 유지 관리</block>
-  <block id="bc496fc4f5adb6c66aa628a721d4b883" category="sidebar">SG1000 및 SG100</block>
   <block id="b82ff6cc8b54f013ccfe94afdb37a599" category="sidebar">SG5600</block>
   <block id="f36d580564cf2b56f88491948411d4ab" category="sidebar">스토리지 어플라이언스를 캐비닛 또는 랙에 설치합니다</block>
   <block id="701c74b841bd25ba8469d3424654b5c9" category="sidebar">서비스 어플라이언스를 캐비닛 또는 랙에 설치합니다</block>
@@ -4095,7 +4072,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="5e77e4e9d10272660f06e394cf1f9698" category="sidebar">어플라이언스 설치 빠른 시작</block>
   <block id="dbafed3b69ea2c476ecca29b838eebf3" category="sidebar">설치 및 구성을 자동화합니다</block>
   <block id="a8b2e04cc6d2b7928d150b7f392c761a" category="sidebar">어플라이언스 개요</block>
-  <block id="6ea6a276a0e2f68264ddca0d8045ae5e" category="sidebar">SG6100(신규)</block>
   <block id="f9f44cf635afea4827c5ef9038b46622" category="sidebar">어플라이언스 노드를 배포합니다</block>
   <block id="2d4f4568ad652ff08727bc044f1373cc" category="sidebar">StorageGRID 소프트웨어</block>
   <block id="7bb5d1e21ca0bacc168d63d7155d3755" category="sidebar">StorageGRID 11.8 설명서</block>
@@ -4124,7 +4100,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="0862353a6639a2cdaca55ba2fcbb8033" category="sidebar">캐비닛 또는 랙에 SG6000을 설치합니다</block>
   <block id="1779ca6984a3582b9c1a3c02d22c730c" category="sidebar">SG6000-CN 컨트롤러 설치(SG6024 및 SG6060)</block>
   <block id="345a844566607ddc6e73586a30452787" category="sidebar">SANtricity System Manager 설정(SG5700 및 SG6000)</block>
-  <block id="1c4078edbfed6cccf640c5627c0c0678" category="sidebar">BMC 인터페이스 구성(SG100, SG1000, SG6000 및 SG6100)</block>
   <block id="682329c411688c214c3b69d3c9177018" category="sidebar">루트 암호를 변경합니다</block>
   <block id="f1ddfd50d289ca1496b137a55f34fd6d" category="sidebar">이메일 알림을 설정합니다</block>
   <block id="99f776141c73b268838def5e1fcf8f15" category="sidebar">옵션: 네트워크 포트 재매핑</block>
@@ -4135,8 +4110,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="77d2b0ac8e200595c2f4d240b0c80f51" category="sidebar">어플라이언스 구성 유지(모든 노드)</block>
   <block id="48889e269a4d7fca4c265f4a2f877e26" category="sidebar">SG6100 하드웨어 유지 관리</block>
   <block id="14975bfde92215c95436649cec8f726d" category="sidebar">SG6100 하드웨어 유지 관리</block>
-  <block id="4629e39933bc05a37d7d157d0c146d88" category="sidebar">구성 유지보수 절차</block>
-  <block id="2e2721e5bb6cda8413dddd5a3a61b1c0" category="sidebar">구성 유지 관리 절차 - SG6100</block>
   <block id="43669fdd9ce1157a7238aa25102bb3ab" category="sidebar">드라이브 관리 탭을 사용합니다</block>
   <block id="26b6d36b296274fea73c7b0861022842" category="sidebar">제품의 전원을 껐다가 다시 켜십시오</block>
   <block id="f038cfedcecfda2c0df73e7e4b3e5a5f" category="sidebar">하드웨어 유지보수 절차</block>
@@ -4257,4 +4230,214 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="f90f2ceee9e0e6f2c8dc65452c0e826d" category="paragraph">소스 노드와 타겟 노드 모두에서 StorageGRID 어플라이언스 설치 프로그램이 유사한 상태를 나타냅니다.</block>
   <block id="dbfeead225216a2d779b955a8689e759" category="admonition">대상 어플라이언스가 그리드에 연결되지 않으면 소스 노드의 StorageGRID 어플라이언스 설치 프로그램 홈 페이지로 이동하여 * 고급 * &gt; * 재부팅 * 을 선택한 다음 * 유지 관리 모드로 재부팅 * 을 선택합니다. 소스 노드가 유지보수 모드로 재부팅된 후 노드 클론 복제 절차를 반복합니다.</block>
   <block id="49bf1a3f02b06cc3de5eca98cee41dba" category="list-text">타겟 노드에서 예기치 않은 문제가 발생하는 경우 사용자 데이터는 복구 옵션으로 소스 어플라이언스에 유지됩니다. 타겟 노드가 StorageGRID에 성공적으로 연결되면 소스 어플라이언스의 사용자 데이터가 오래되어 더 이상 필요하지 않습니다.</block>
+  <block id="3b5a3c695e5378023df688e790ada7b4" category="summary">SG1100 및 SG110 서비스 어플라이언스의 하드웨어를 유지 관리합니다.</block>
+  <block id="d751b295bd431b789da8da77d91a8a1d" category="doc">SG1100 및 SG110 서비스 어플라이언스 하드웨어를 유지 관리합니다</block>
+  <block id="70bca0055a2d38054af0059da4e459ed" category="inline-link-macro">SG110 및 SG1100</block>
+  <block id="9310c6e3b94e3baa60a2b31f7b80cc71" category="list-text"><block ref="9310c6e3b94e3baa60a2b31f7b80cc71" category="inline-link-macro-rx"></block></block>
+  <block id="f1c7efda23b762cfe6e972e421fb54f8" category="list-text"><block ref="0c770b188189664197ca2af9c5ce06a6" category="inline-link-macro-rx"></block> (SG5700 및 SG6000)</block>
+  <block id="e3654db4a646d23dc2d3d64204192d91" category="list-text"><block ref="e010cba544d581fc50562d9eaf281bf3" category="inline-link-macro-rx"></block> (SG6000, SG6100 및 서비스 어플라이언스)</block>
+  <block id="aadf1dcd60cf75ec60913a8a677fcd35" category="list-text">SG110의 경우 포트에 광 케이블을 사용하려는 경우 SFP+ 또는 SFP28 트랜시버 1~4개가 필요합니다.</block>
+  <block id="11a92f98e01c18d06291aad0e993ba9b" category="list-text">SG1100의 경우 포트에 광 케이블을 사용할 계획인 경우 QSFP+ 또는 QSFP28 트랜시버 1~4개가 필요합니다.</block>
+  <block id="7be200e96b3561254643e0c9ae88d200" category="paragraph">SG110 포트 연결:</block>
+  <block id="4847cd73c56bfcf0a81879e0f8566e03" category="image-alt">SG110 후면 커넥터</block>
+  <block id="efa56b23619be44c1edbb8104e56aee7" category="paragraph">SG1100 포트 연결:</block>
+  <block id="d12ed4a582d120ead36ad1003ad9be52" category="list-text">SG110의 경우: 10/25-GbE</block>
+  <block id="5a7820dde5654ab76fc1cbd150870c79" category="list-text">SG1100의 경우 10/25/40/100-GbE</block>
+  <block id="d8eb0a72dfa8ed2d5ab5e115e3517823" category="inline-link-macro">포트 결합 모드(SG110 및 SG1100)</block>
+  <block id="2bf13c0d2115d6f9d68cd07ae8122eba" category="paragraph">그리드 네트워크 및 StorageGRID용 클라이언트 네트워크에 연결합니다. 을 참조하십시오 <block ref="2d94b3a29297ea0d5c8d287ca16f56f8" category="inline-link-macro-rx"></block></block>
+  <block id="105b9ed0aaa84d2bba41a7b8dbff5bf2" category="paragraph">어플라이언스의 관리 네트워크 포트입니다</block>
+  <block id="81947e39c5dfaeb209b9d5d46a5f214e" category="cell">SG110 링크 속도(GbE)</block>
+  <block id="dce2124d604851b9d974b519c3d112b3" category="cell">SG1100 링크 속도(GbE)</block>
+  <block id="b7b297cde875bcc6e3d13f1b9826b7ba" category="paragraph">다음 그림은 SG6060 및 SG6060X 어플라이언스의 컨트롤러 3개와 SG6000-CN 컴퓨팅 컨트롤러가 상단에, E2800 스토리지 컨트롤러 2개가 아래쪽에 있는 모습입니다. SG6060은 E2800A 컨트롤러를 사용하고 SG6060X는 두 가지 E2800B 컨트롤러 버전 중 하나를 사용합니다.</block>
+  <block id="d4b36e25c7ff304278d8f8203382ad65" category="list-text">버전 1</block>
+  <block id="425d8e1e777a03c3e220dfaac38dbf1f" category="list-text">버전 2</block>
+  <block id="b47d572334b5a2d49d83db2f13386984" category="admonition">E2800B 컨트롤러의 FC 트랜시버가 위쪽 FC 연결 포트(6)에 설치된 경우 이를 오른쪽 아래 FC 연결 포트(7)로 이동합니다.</block>
+  <block id="6eeb10812f878395fd42337316644656" category="admonition">SG100 또는 SG110과 SG1000 또는 SG1100과 같이 동일한 사이트에서 서로 다른 수준의 성능을 가진 서비스 어플라이언스를 혼합하면 고가용성 그룹에 여러 노드를 사용하거나 여러 서비스 어플라이언스에서 클라이언트 로드 밸런싱을 수행할 때 예측할 수 없고 일관되지 않은 결과가 발생할 수 있습니다.</block>
+  <block id="9624989f81bd52d3ffbdafbb5e213112" category="list-text">SG110입니다</block>
+  <block id="f067c1ad51f888c421e417d3c8174d73" category="list-text">SG1100으로 문의하십시오</block>
+  <block id="7372a975d9635ea096cdb2e16635d786" category="list-text">SG100, SG110, SG1000 및 SG1100의 BMC 인터페이스에 액세스합니다</block>
+  <block id="db9ca1297cfefe282f7bf704613373d2" category="inline-link-macro">SG110 또는 SG1100 서비스 어플라이언스의 링크 구성을 변경합니다</block>
+  <block id="819eab2ae3e43020e15c4fc95f7ca327" category="list-text"><block ref="819eab2ae3e43020e15c4fc95f7ca327" category="inline-link-macro-rx"></block></block>
+  <block id="fdb721fb29bb12d395a4c90d75692893" category="doc">하드웨어 설치 문제 해결(SG110 및 SG1100)</block>
+  <block id="1c8c4e98a896cf2ad92d989eaeee5a54" category="doc">BMC 인터페이스:개요(SG100, SG110, SG1000, SG1100, SG6000, 및 SG6100)</block>
+  <block id="65e3a43d7f14275aee46dca655a5201f" category="list-text"><block ref="8a17bb4a8f8c3bd8049fbe657de9b51a" category="inline-xref-macro-rx"></block></block>
+  <block id="7265f603fb8b474e3a419ac242490013" category="list-text"><block ref="b6a11a205501ec5e39f6cf064746681c" category="inline-xref-macro-rx"></block></block>
+  <block id="7844be79442a1f1fad55f9da176b627e" category="list-text"><block ref="be6fab1e0dd362a8d9a11399bc350f55" category="inline-xref-macro-rx"></block></block>
+  <block id="f968bb219612a257c41171656737117f" category="inline-link-macro">SG110 및 SG1100 하드웨어 설치 문제를 해결합니다</block>
+  <block id="c0a584d4f9599ff521011752760b603a" category="paragraph">이 정보를 사용하여 도움을 받으십시오 <block ref="948381f0a6f9865418651bea4346a2f1" category="inline-link-macro-rx"></block>.</block>
+  <block id="c46d134b23d9b2e563bf4be88b43e659" category="paragraph">다음 그림은 SG110 및 SG1100 어플라이언스의 표시등과 버튼입니다.</block>
+  <block id="387739340ec21ff77eb9e92d094b5b92" category="image-alt">전면 표시등 - SG110 및 SG1100</block>
+  <block id="587a73f22155129c5ce79bff0c6b56b1" category="paragraph">이 표시등은 SG110 및 SG1100 어플라이언스에서 사용되지 않으며 꺼져 있습니다.</block>
+  <block id="d01d11481ba69485897f98be94d33893" category="paragraph">다음 그림은 SG110 및 SG1100 어플라이언스의 SSD 표시등을 보여줍니다.</block>
+  <block id="4c37ef1bac30cedcc77f06e0f26cd9f3" category="image-alt">BMC 관리 포트 SG110</block>
+  <block id="746d15603774fdc0343b8559c77603d4" category="image-alt">BMC 관리 포트 SG1100</block>
+  <block id="12f4c4afd397818417fc7cbaedce23b1" category="doc">캐비닛 또는 랙에 설치(SG110 또는 SG1100)</block>
+  <block id="3a57cd1d68c79d483d99967be7f6a359" category="paragraph">주황색 윤곽선으로 표시된 2개의 SSD(Solid State Drive)는 StorageGRID 운영 체제를 저장하는 데 사용되며 이중화를 위해 RAID 1을 사용하여 미러링됩니다. SG100 또는 SG1000 서비스 어플라이언스를 관리자 노드로 구성한 경우 이러한 드라이브를 감사 로그, 메트릭 및 데이터베이스 테이블을 저장하는 데 사용할 수 있습니다.</block>
+  <block id="63f4b50949264b8c54be43e2d12d082a" category="list-text">SG110 또는 SG1100</block>
+  <block id="bd6d0b79af19a1baecedcd634248d8ca" category="image-alt">전면 드라이브 SG110 및 SG1100 어플라이언스</block>
+  <block id="e7d8a7ce9695b24defc169611f51402a" category="paragraph">SG110 및 SG1100 하드웨어를 설치 및 구성하려면 다음과 같은 추가 장비가 필요합니다.</block>
+  <block id="54677e4039d0ef7ec9f667d1a0b1e5b5" category="list-text">SG110:</block>
+  <block id="f33bc3cfe65a7ad9e2f916e1e041e2f3" category="list-text">SG1100:</block>
+  <block id="668eaf0ed65ab4f0d90cd720e98d9d72" category="image-alt">SG110의 관리 네트워크 포트입니다</block>
+  <block id="572cea252186930a48e6e3b0a64c66ed" category="image-alt">SG1100의 관리 네트워크 포트입니다</block>
+  <block id="c72b64687a9901d2377088780c852eff" category="image-alt">SG110 링크 - 로컬 연결</block>
+  <block id="9f50808e83017a9133e8e051bc4983f5" category="image-alt">SG1100 링크 - 로컬 연결</block>
+  <block id="a2c99ec32793e479a6a8a0fb11c9666c" category="doc">네트워크 정보 수집(SG110 및 SG1100)</block>
+  <block id="3fa963c883b33f97f091fbe72cafd26f" category="paragraph">SG110 또는 SG1100 서비스 어플라이언스를 설치하기 전에 StorageGRID 시스템에서 필요한 버전의 StorageGRID 소프트웨어를 사용하고 있는지 확인하십시오.</block>
+  <block id="80cd4249fb4b0334ac9e988dbddb3264" category="paragraph">11.8 이상(최신 핫픽스 권장)</block>
+  <block id="8eed5380e537614403b29f3539b7e10c" category="paragraph">StorageGRID용 관리 네트워크는 시스템 관리 및 유지 보수에 사용되는 선택적 네트워크입니다. 어플라이언스는 어플라이언스의 다음 1/10GbE 관리 포트를 사용하여 관리 네트워크에 연결합니다.</block>
+  <block id="6e6f13400a266a546c81f256261d260b" category="paragraph">SG110 RJ-45 포트:</block>
+  <block id="5765a003071d8a52fe1398512d9a0660" category="image-alt">SG110 RJ-45 포트</block>
+  <block id="c89838a603eec3f35d1d564f51a40bf9" category="paragraph">SG1100 RJ-45 포트:</block>
+  <block id="87374a5b7dbfb66091224d376a30f504" category="image-alt">SG1100 RJ-45 포트</block>
+  <block id="2de7b7510b1c4bfe9a42f08f29fcdb3e" category="paragraph">SG110의 경우 다음 중 하나를 선택합니다.</block>
+  <block id="018082e73303eec037357829ab824960" category="paragraph">SG1100의 경우 다음 중 하나를 선택합니다.</block>
+  <block id="1734c22548c1f8c417968d3230def1c7" category="paragraph">*참고:* SG1100의 경우 10 및 25 GbE 속도에는 QSA 어댑터를 사용해야 합니다.</block>
+  <block id="3a63d3bfca1f636e9168549b70448dfd" category="paragraph">SG110 BMC 관리 포트:</block>
+  <block id="8d77651c88354a545de5eea514584e78" category="image-alt">SG110 관리 포트</block>
+  <block id="f5bb16f206fe60b4fdf497ea0a247e69" category="paragraph">SG1100 BMC 관리 포트:</block>
+  <block id="2bd36acac8c427d3e8157e7f4617b910" category="image-alt">SG1100 BMC 관리 포트</block>
+  <block id="45ae167275a7d0d42250b6c67ac9acf0" category="paragraph">시기 <block ref="a60a1925451f4c518cadfb0c9a8cb902" category="inline-link-macro-rx"></block> SG110 및 SG1100 어플라이언스의 경우 그리드 네트워크 및 옵션 클라이언트 네트워크에 연결하는 포트 및 옵션 관리 네트워크에 연결하는 1Gb/10GbE 관리 포트에 포트 본딩을 사용할 수 있습니다. 포트 본딩을 사용하면 StorageGRID 네트워크와 어플라이언스 간에 중복 경로를 제공하여 데이터를 보호할 수 있습니다.</block>
+  <block id="a1ec886f8bef1af4f3a70a46a71936a8" category="paragraph">고정 포트 결합 모드는 네트워킹 포트의 기본 구성입니다. 다음 그림은 SG1100 또는 SG110의 네트워크 포트가 고정 포트 본드 모드로 연결되는 방식을 보여줍니다.</block>
+  <block id="e68ddbf32fa99f85ac9b7a4a58b4fa76" category="image-alt">SG110 고정 포트 본드 모드</block>
+  <block id="32f1865bf059fbc469deeb7f0c0161c0" category="image-alt">SG1100 고정 포트 본드 모드</block>
+  <block id="7d95a56d60a171f803b8979c4bf9792b" category="image-alt">SG110 애그리게이트 포트 본드 모드</block>
+  <block id="5cea30664daee040c14b5ec48038f7da" category="image-alt">SG1100 통합 포트 본드 모드</block>
+  <block id="653b7502ed464480d71004eb29fd5de2" category="paragraph">서비스 어플라이언스에 있는 2개의 1/10GbE 관리 포트에 대해 Independent network bond 모드 또는 Active-Backup network bond 모드를 선택하여 옵션 관리 네트워크에 연결할 수 있습니다. 이 수치는 어플라이언스의 관리 포트가 관리 네트워크의 네트워크 연결 모드에서 어떻게 연결되는지를 보여줍니다.</block>
+  <block id="81e02a1fa6feb949b023cf2108d992a3" category="image-alt">SG110 연결된 네트워크 관리 포트</block>
+  <block id="3bebac3facc24bea11ba81197af806d2" category="image-alt">SG1100 연결된 네트워크 관리 포트</block>
+  <block id="ae5a3f5cb9b3ba960a1cb2e38d2c9290" category="admonition">Active-Backup 모드용으로 1/10GbE 관리 포트가 구성되어 있을 때 서비스 어플라이언스에 임시 로컬로 연결해야 하는 경우 두 관리 포트에서 케이블을 분리하고 오른쪽의 관리 포트에 임시 케이블을 연결한 다음 IP 주소 169.254.0.1을 사용하여 어플라이언스에 액세스합니다.</block>
+  <block id="d71dc8061014a17250a68fccf3957c0c" category="inline-link-macro">포트 결합 모드(SG1100 및 SG110)</block>
+  <block id="3646dc64c9984fb8e4916b069a738c4d" category="list-text"><block ref="3646dc64c9984fb8e4916b069a738c4d" category="inline-link-macro-rx"></block></block>
+  <block id="1eb5174a3405ee92fa2cb06763568414" category="paragraph">이 그림은 SG1100 또는 SG110의 4개 네트워크 포트가 고정 포트 본드 모드(기본 구성)로 연결되는 방식을 보여줍니다.</block>
+  <block id="80373303baca203e4e14cdd9e3730d3a" category="image-alt">통합 포트 본드 모드 SG1100</block>
+  <block id="d724879fa330fae85100664fb33bd284" category="image-alt">SG110 통합 포트 본드 모드</block>
+  <block id="c185e2af57eb486402a7055cd7b9584b" category="image-alt">관리 네트워크 포트 본드 SG1100</block>
+  <block id="168fbbc8217ae40bd5086de4e4935611" category="image-alt">관리 네트워크 포트 본드 SG110</block>
+  <block id="835d59e48069a93606ecd047daaf1f61" category="summary">StorageGRID SG110 서비스 어플라이언스와 SG1100 서비스 어플라이언스는 게이트웨이 노드 및 관리자 노드로 작동하여 StorageGRID 시스템에서 고가용성 로드 밸런싱 서비스를 제공할 수 있습니다. 두 어플라이언스 모두 게이트웨이 노드 및 관리 노드\(운영 또는 비운영\)로 동시에 작동할 수 있습니다.</block>
+  <block id="075d750e820c89a48b3bccebaab0e9e8" category="doc">SG110 및 SG1100 어플라이언스: 개요</block>
+  <block id="df039f5a970acf6d438e3773b9545296" category="paragraph">StorageGRID SG110 서비스 어플라이언스와 SG1100 서비스 어플라이언스는 게이트웨이 노드 및 관리자 노드로 작동하여 StorageGRID 시스템에서 고가용성 로드 밸런싱 서비스를 제공할 수 있습니다. 두 어플라이언스 모두 게이트웨이 노드와 관리 노드(운영 또는 비운영)로 동시에 작동할 수 있습니다.</block>
+  <block id="78fe9ec70c03c307edaf827b55bf78d3" category="list-text">SG110은 그리드 네트워크 및 클라이언트 네트워크에 대한 10 또는 25-GbE 연결을 최대 4개까지 지원합니다.</block>
+  <block id="da5b95c24564c9b901b35d67fe3e06f9" category="list-text">SG1100은 그리드 네트워크 및 클라이언트 네트워크에 대한 10, 25, 40 또는 100GbE 연결을 최대 4개까지 지원합니다.</block>
+  <block id="6cc7f3972c4008dfe1cc07845c3a6c08" category="section-title">SG110 및 SG1100 다이어그램</block>
+  <block id="cf8400ebfb22d05446dbafa234f560eb" category="paragraph">다음 그림은 베젤이 분리된 SG110 및 SG1100의 전면을 보여줍니다. 전면에서 두 어플라이언스는 베젤에 있는 제품 이름을 제외하고 동일합니다.</block>
+  <block id="3d2ca047e0ba231007c711e0159fd543" category="image-alt">SSD SG110 및 SG1100이 포함된 전면</block>
+  <block id="c65113663b1f6da1bdea3bae1199295d" category="paragraph">주황색 윤곽선으로 표시된 2개의 SSD(Solid State Drive)는 StorageGRID 운영 체제를 저장하는 데 사용되며 이중화를 위해 RAID 1을 사용하여 미러링됩니다. SG110 또는 SG1100 서비스 어플라이언스를 관리자 노드로 구성하면 이러한 드라이브를 감사 로그, 메트릭 및 데이터베이스 테이블을 저장하는 데 사용할 수 있습니다.</block>
+  <block id="529bc7fbe0727a465d63ca1b960f8d1b" category="section-title">SG110 커넥터</block>
+  <block id="4884d8655bcd090c55821574a69f257f" category="paragraph">이 그림에서는 포트, 팬 및 전원 공급 장치를 비롯한 SG110의 후면을 보여줍니다.</block>
+  <block id="3f116d8147ca3ee2a9deec5a3615b60a" category="image-alt">후면 커넥터 SG110</block>
+  <block id="7f545ec0012cd3730868130cc2cc32d8" category="section-title">SG1100 커넥터</block>
+  <block id="161a3a39166d6d7e69ea53a1220a4857" category="paragraph">다음 그림은 SG1100 뒷면의 커넥터를 보여줍니다.</block>
+  <block id="21d670fa0cbf4d6ef41c014fe84e9791" category="image-alt">후면 커넥터 SG1100</block>
+  <block id="2352b2130f44ff234de0d0ef0c2249d0" category="paragraph">케이블 또는 트랜시버 유형, 스위치 속도 및 구성된 링크 속도를 기반으로 하는 10/25/40/100GbE QSFP56(100GbE/포트로 제한), QSFP28(100GbE) 및 QSFP+(40GbE)는 기본적으로 지원됩니다. SFP+(10GbE) 또는 SFP28(25GbE) 트랜시버는 QSA(별도 판매)와 함께 사용할 수 있습니다.</block>
+  <block id="f0454101a72342bdb68e3f847866df68" category="section-title">SG110 및 SG1100 애플리케이션</block>
+  <block id="2becee645abbd8209a2519e1ba8c9610" category="list-text">2개의 SG110 또는 2개의 SG1100 어플라이언스를 사용하여 게이트웨이 노드를 게이트웨이 노드로 구성하여 게이트웨이 서비스를 제공합니다.</block>
+  <block id="6f0a69f03c1ff183d86866b1f99ec9db" category="admonition">SG110 및 SG1100 서비스 어플라이언스를 같은 사이트에 배포하지 마십시오. 성능을 예측할 수 없습니다.</block>
+  <block id="8ea4bf911293cfb2bf04ca96e05c3f41" category="list-text">일부 그리드 관리 서비스의 이중화를 제공하려면 2개의 SG110 또는 2개의 SG1100 어플라이언스를 사용합니다. 각 어플라이언스를 관리자 노드로 구성하여 이 작업을 수행합니다.</block>
+  <block id="9a36aee0eed152f42afba806fe379d97" category="list-text">2개의 SG110 또는 2개의 SG1100 어플라이언스를 사용하여 하나 이상의 가상 IP 주소를 통해 액세스되는 고가용성 로드 밸런싱 및 트래픽 셰이핑 서비스를 제공합니다. 이 작업을 수행하려면 관리 노드 또는 게이트웨이 노드의 조합으로 어플라이언스를 구성하고 두 노드를 동일한 HA 그룹에 추가합니다.</block>
+  <block id="d8a93d72c559dd827dcc442c95aad95b" category="paragraph">StorageGRID 스토리지 어플라이언스와 함께 사용할 경우 SG110 및 SG1100 서비스 어플라이언스를 사용하면 외부 하이퍼바이저 또는 컴퓨팅 하드웨어에 종속되지 않고 어플라이언스 전용 그리드를 배포할 수 있습니다.</block>
+  <block id="c477d61bbefb3230a904489ee2393a0c" category="list-text"><block ref="c477d61bbefb3230a904489ee2393a0c" category="inline-link-macro-rx"></block></block>
+  <block id="174d39beebf966f8b0fd97a60a1b64fd" category="list-text">* BMC 관리 네트워크 * (SG100, SG110, SG1000, SG1100, SG6000, 및 SG6100): 이 네트워크는 SG100, SG1000, SG6000 및 SG6100 어플라이언스의 베이스보드 관리 컨트롤러에 대한 액세스를 제공하여 어플라이언스의 하드웨어 구성요소를 모니터링하고 관리할 수 있도록 합니다. 이 관리 네트워크는 StorageGRID용 관리 네트워크와 같을 수도 있고 독립 관리 네트워크일 수도 있습니다.</block>
+  <block id="768c56127fcc2636d57e4635785f71f3" category="section-title">SG110 및 SG1100 서비스 어플라이언스</block>
+  <block id="cb8480a76ca9faf13ba8cdaa026a4115" category="inline-link-macro">SG110 및 SG1100 서비스 어플라이언스: 개요</block>
+  <block id="a6db1221b7bb3dbe5285ed10748c73b9" category="paragraph">새로운 StorageGRID SG110 및 SG1100 서비스 어플라이언스는 향상된 관리 및 로드 밸런싱 성능을 제공하는 혁신적인 하드웨어 업데이트입니다. 을 참조하십시오 <block ref="3c058555c619096548fbed1bbe78e3c7" category="inline-link-macro-rx"></block>.</block>
+  <block id="a83eeae8b6fd32d08a2347f7444c21ee" category="admonition">어플라이언스가 유지보수 모드일 때 수행한 IP 구성 변경 사항은 설치된 StorageGRID 환경에 적용되지 않습니다. 를 실행합니다
+<block ref="cca79d77d4e26ceed98b8b75d018051a" category="inline-link-rx"></block><block ref="921c87cca9b14f15a73f4570ad9f3247" prefix="[" category="inline-code"></block> Command]를 눌러 어플라이언스를 StorageGRID로 재부팅합니다.</block>
+  <block id="673f51a198147ee01f0eda8def081663" category="paragraph">8개의 팬이 섀시에서 다음 위치에 있습니다(상단 덮개가 분리된 StorageGRID 어플라이언스의 전면 절반 참조).</block>
+  <block id="3bd0d1998d06f546858be89f67dafb1c" category="inline-link-macro">SG110 및 SG1100 어플라이언스를 유지 관리합니다</block>
+  <block id="e18debed2185f73ee8477857562ba4ee" category="list-text"><block ref="e18debed2185f73ee8477857562ba4ee" category="inline-link-macro-rx"></block></block>
+  <block id="6632e86febb1a2e603ec2700897f8a86" category="list-text">SG100 소스 노드 어플라이언스를 SG110, SG1000 또는 SG1100 서비스 대상 어플라이언스에 클론 복제할 수 있습니다. SG100을 SG1000 또는 SG1100 서비스 대상 어플라이언스에 복제하면 관리자 노드 또는 게이트웨이 노드 더 큰 기능이 제공됩니다.</block>
+  <block id="b4dbdb727139e5ead70576ff4386d050" category="list-text">SG110 소스 노드 어플라이언스를 SG1100 서비스 어플라이언스 대상에 클론 복제하여 관리자 노드 또는 게이트웨이 노드 더 큰 기능을 제공할 수 있습니다.</block>
+  <block id="977b528f03583de0752d1521f2d8acb9" category="list-text">SG1000 소스 노드 어플라이언스를 SG100, SG110 또는 SG1100 서비스 대상 어플라이언스에 클론 복제할 수 있습니다. SG1000을 SG100 또는 SG110 서비스 대상 어플라이언스에 클론 복제하면 보다 까다로운 애플리케이션을 위해 SG1000을 다시 배포할 수 있습니다.</block>
+  <block id="3c893022293982e3947a5e3e05078f75" category="list-text">SG1100 소스 노드 어플라이언스를 SG110 서비스 대상 어플라이언스에 클론 복제하여 보다 까다로운 애플리케이션을 위해 SG1100을 다시 배포할 수 있습니다.</block>
+  <block id="59830b85779f0e0f99f6eae5dedae7e3" category="paragraph">예를 들어, SG1100 또는 SG1000 소스 노드 어플라이언스를 관리자 노드로 사용 중인 경우 이를 전용 로드 밸런싱 노드로 사용하고자 합니다.</block>
+  <block id="b35c0ef428ec255e038f1521fe8a0683" category="list-text">SG1100 소스 노드 어플라이언스를 SG110 서비스 대상 어플라이언스로 교체하면 네트워크 포트의 최대 속도를 100GbE에서 25GbE로 줄일 수 있습니다.</block>
+  <block id="e84c89730f464a482aef94ee1a675b10" category="paragraph">이 섹션에서는 SG110 또는 SG1100 어플라이언스 유지 관리에 대한 절차를 다룹니다.</block>
+  <block id="ac7d3872004b0a65fa2be33e24e28d8a" category="doc">데이터 센터에서 SG110 또는 SG1100을 찾습니다</block>
+  <block id="a1e0a0113c7c2f260e12a69fe64a56b2" category="list-text">데이터 센터에서 어플라이언스를 찾으려면 <block ref="1e7dd4d78109ffd028df0a51c4910e28" category="inline-link-macro-rx"></block>.</block>
+  <block id="b147ebaef0a74f708dd546b7388657fd" category="paragraph"><block ref="2ccd8ceb91ba9a831109d5a1ebd5a69c" category="inline-link-macro-rx"></block> 제품을 찾을 때 사용한 경우
+ ** 제품 전면 패널의 ID LED 스위치를 누릅니다.
+ ** 어플라이언스 BMC 인터페이스를 사용하십시오.</block>
+  <block id="56a38c5f6e46ea3c7a67a98527c13b47" category="doc">SG110 또는 SG1100의 링크 구성을 변경합니다</block>
+  <block id="8420ab9ffa9537cb869e227077bc2a34" category="summary">SG110 및 SG1100 어플라이언스에는 이중화를 위한 전원 공급 장치가 2개 있습니다. 전원 공급 장치 중 하나에 장애가 발생하면 가능한 한 빨리 교체해야 어플라이언스에 중복 전원이 공급되는지 확인할 수 있습니다. 제품에서 작동하는 두 전원 공급 장치의 모델 및 와트는 동일해야 합니다.</block>
+  <block id="35695e12e3087be52ef18cb96aa963a0" category="doc">SG110 또는 SG1100에서 하나 또는 두 개의 전원 공급 장치를 교체합니다</block>
+  <block id="5c7db8d9add126ce8969ab1fd5b370da" category="paragraph">SG110 및 SG1100 어플라이언스에는 이중화를 위한 전원 공급 장치가 2개 있습니다. 전원 공급 장치 중 하나에 장애가 발생하면 가능한 한 빨리 교체해야 어플라이언스에 중복 전원이 공급되는지 확인할 수 있습니다. 제품에서 작동하는 두 전원 공급 장치의 모델 및 와트는 동일해야 합니다.</block>
+  <block id="5d7e2394702b960f6f58e47acfbb6e8c" category="list-text">있습니다 <block ref="8e10515474ef3f5b51856ef8da6b6d0a" category="inline-link-macro-rx"></block> 전원 공급 장치를 교체해야 합니다.</block>
+  <block id="ac1d7d8e6dc26d2f34601663e52a791c" category="paragraph">이 그림에서는 SG110 및 SG1100용 전원 공급 장치 두 개를 보여 줍니다. 전원 공급 장치는 제품 뒷면에서 액세스할 수 있습니다.</block>
+  <block id="1677ee8d1b36f438876e123069f4cb74" category="list-text"><block ref="66bdba46c0a2351ab6d6f47ffff23afb" category="inline-link-macro-rx"></block>.</block>
+  <block id="5e9137c2571f75b78aa98161fa9f0946" category="doc">SG110 또는 SG1100에서 교체할 구성요소를 확인합니다</block>
+  <block id="f6cc4cce76198c3fc89a8df4d287eb8f" category="paragraph"><block ref="f6cc4cce76198c3fc89a8df4d287eb8f" category="inline-link-macro-rx"></block></block>
+  <block id="d6b9a24ded15866ec7ccfd9dc123e9f1" category="summary">SG110 및 SG1100 서비스 어플라이언스에는 2개의 SSD 드라이브가 포함되어 있습니다. 드라이브는 이중화를 위해 RAID1을 사용하여 미러링됩니다. 드라이브 중 하나에 장애가 발생할 경우 중복성을 보장하기 위해 가능한 한 빨리 드라이브를 교체해야 합니다.</block>
+  <block id="b7e2329725f0e8436052c511156f3748" category="doc">SG110 또는 SG1100에서 드라이브를 교체합니다</block>
+  <block id="42c7a1dda62ababf4cb674eb7c39cc2a" category="list-text">있습니다 <block ref="8e10515474ef3f5b51856ef8da6b6d0a" category="inline-link-macro-rx"></block>.</block>
+  <block id="de9b0cfebec70b4730ede733544adadc" category="paragraph">드라이브는 섀시의 다음 위치에 있습니다(베젤이 분리된 섀시의 전면).</block>
+  <block id="66104298dc21ba6c0533bc9d0b9b6bf8" category="image-alt">SG110 및 SG1100 드라이브 위치</block>
+  <block id="bd7f3d409571f64d9e17003a1374da04" category="paragraph">교체된 드라이브는 작동 중인 드라이브의 미러링된 데이터로 자동으로 재구축됩니다.  그리드 관리자를 사용하여 재생성 상태를 확인할 수 있습니다. nodes *&gt;로 이동합니다<block ref="dde8ded2884e27f868b3a8c4b5416bb3" prefix=" " category="inline-code"></block> &gt; * 하드웨어 *. 드라이브가 완전히 재구성될 때까지 스토리지 RAID 모드 필드에 "재구축" 메시지가 표시됩니다.</block>
+  <block id="dc707ffba727d12356011f9f73a992eb" category="doc">SG110 또는 SG110 어플라이언스를 교체합니다</block>
+  <block id="f2a5a8758ca15c3a23a2ddbd079a95ee" category="list-text"><block ref="e02d1a5e1dc87cd7778b4a75e2317828" category="inline-link-macro-rx"></block>.</block>
+  <block id="5409d0965e779fcc5620d3cd745ab01f" category="list-text"><block ref="4fa0895d2a03c9ce7010299dc730cc37" category="inline-link-macro-rx"></block>.</block>
+  <block id="a48af9b61164e86b2280ebe2bd272712" category="list-text">장애가 발생한 어플라이언스에서 교체 가능한 구성 요소(전원 공급 장치 2개, 냉각 팬 8개, NIC 3개 및 SSD 2개)의 위치를 기록해 둡니다.</block>
+  <block id="8b1659eb1302c159af7985a2c22fa27e" category="paragraph">2개의 드라이브는 섀시의 다음 위치에 있습니다(베젤이 분리된 섀시의 전면).</block>
+  <block id="c2b15088afc135982ed6160ae5eac813" category="list-text"><block ref="f6c9cca69a348acd8905bc371eb6fc7a" category="inline-link-macro-rx"></block>.</block>
+  <block id="94be36ec44c8318cfab0eec6871e7823" category="list-text">교체된 어플라이언스에 SED 드라이브에 대해 하드웨어 드라이브 암호화가 활성화된 경우 다음을 수행해야 합니다 <block ref="8ca8505552d3e0acf0b7c638e20906f9" category="inline-link-macro-rx"></block> 교체용 어플라이언스를 처음 시작할 때 암호화된 드라이브에 액세스합니다.</block>
+  <block id="0a5b0b97f6329c71c665a41fb8e50546" category="paragraph"><block ref="0a5b0b97f6329c71c665a41fb8e50546" category="inline-link-macro-rx"></block></block>
+  <block id="77a3632ce069e04667f3c07729bc12e6" category="doc">SG110 및 SG1100 덮개를 교체합니다</block>
+  <block id="17f139a2fd45164bf31db4cbc506794e" category="paragraph"><block ref="94283cdb05b445a973e84301f97caf0b" category="inline-link-macro-rx"></block> 상단 덮개에 접근합니다.</block>
+  <block id="a216695ce5b47cfaec12a1b19ae3fb60" category="paragraph"><block ref="1b46dbdc1359715fefc31e850941339c" category="inline-link-macro-rx"></block>.</block>
+  <block id="4cac03fe582c6e9c7b00f6150d8de44e" category="summary">SG110 또는 SG1100의 네트워크 인터페이스 카드\(NIC\)가 최적으로 작동하지 않거나 장애가 발생한 경우 교체해야 할 수 있습니다.</block>
+  <block id="4d5c7b30a4d19a46b8aa8fb041a11e07" category="doc">SG110 또는 SG1100의 NIC를 교체합니다</block>
+  <block id="4c68b0943e79e049731958e525193bbd" category="paragraph">SG110 또는 SG1100에서 NIC(네트워크 인터페이스 카드)가 최적으로 작동하지 않거나 장애가 발생한 경우 교체해야 할 수 있습니다.</block>
+  <block id="927be83d9035c123f8d7d9e8cfafeb94" category="inline-link-macro">SG110 또는 SG1100 어플라이언스를 실제로 찾았습니다</block>
+  <block id="24bf7ce85a6fb58803cea8f5c88ca74b" category="list-text">있습니다 <block ref="452dbc820d5040c6f7a26972163c857d" category="inline-link-macro-rx"></block> 데이터 센터에서 NIC를 교체하는 위치입니다.</block>
+  <block id="73a2518b7d3a736d59aa912a57abda34" category="admonition">A <block ref="937f3ef5575067c7f2242672e77298dc" category="inline-link-macro-rx"></block> 제품을 랙에서 분리하기 전에 필요합니다.</block>
+  <block id="6c5d9be04e7c66d804e9922fc591088c" category="list-text">모든 케이블 및 을(를) 분리했습니다 <block ref="dc7225cbd8d4b68386891f4f43bfe53f" category="inline-link-macro-rx"></block>.</block>
+  <block id="f9cae9b628024fbe396a0cbabe539188" category="doc">SG110 또는 SG1100에서 CMOS 배터리를 교체합니다</block>
+  <block id="bfe3df71e69779f16f86cfe5c2c8630c" category="inline-link-macro">CMOS 배터리를 교체해야 하는 SG110 또는 SG1100을 확인했습니다</block>
+  <block id="41b96317eb4b5bdaa763cb01901ab31a" category="list-text">있습니다 <block ref="f820af276921202483c4883b0f3a4d39" category="inline-link-macro-rx"></block>.</block>
+  <block id="0da2eb69068c217b0fc7a5d5adde18dc" category="list-text">있습니다 <block ref="452dbc820d5040c6f7a26972163c857d" category="inline-link-macro-rx"></block> 데이터 센터의 CMOS 배터리를 교체하는 위치입니다.</block>
+  <block id="ccee7529d7d175aca9c5b67b93650e4d" category="admonition">A <block ref="af671dbc17aabf78e439327329fcfaf5" category="inline-link-macro-rx"></block> 제품을 랙에서 분리하기 전에 필요합니다.</block>
+  <block id="f37e66e07e00675fdcc0bb5b4a2d2431" category="doc">SG110 또는 SG1100 식별 LED를 켜고 끕니다</block>
+  <block id="93ae44b8461554818c19394aec7564fa" category="paragraph"><block ref="93ae44b8461554818c19394aec7564fa" category="inline-link-macro-rx"></block></block>
+  <block id="3a71c03d18843882d300afa68c266c13" category="summary">캐비닛 또는 랙에서 SG110 또는 SG1100을 분리하여 상단 덮개에 접근하거나 어플라이언스를 다른 위치로 이동한 다음 하드웨어 유지 관리가 완료되면 어플라이언스를 캐비닛 또는 랙에 다시 설치합니다.</block>
+  <block id="bc9596d6807bde2e993c410c91269350" category="doc">SG110 및 SG1100을 캐비닛 또는 랙에 재배치합니다</block>
+  <block id="d6621ea2246b016be3984fe3722f717a" category="section-title">캐비닛 또는 랙에서 SG110 또는 SG1100을 분리합니다</block>
+  <block id="2a18f9c740fdc38db3054f80b5148df0" category="list-text">SG110 또는 SG1100에 연결된 각 케이블을 식별하기 위한 레이블이 있습니다.</block>
+  <block id="e8a36eefffb270e7fdfcbe70cfae02c8" category="inline-link-macro">SG110 또는 SG1100의 물리적 위치</block>
+  <block id="da293f6803f9457d5e25775b4d7ba62c" category="list-text">있습니다 <block ref="cbbe557358a36c0ce95c8f4a10b6af30" category="inline-link-macro-rx"></block> 데이터 센터에서 유지 관리를 수행하는 단계입니다.</block>
+  <block id="c9c52f1bbaf493c0bd060f99e9b4d31b" category="inline-link-macro">SG110 또는 SG1100을 종료합니다</block>
+  <block id="a356c4d9c1948b8dc45c1ffca6f88115" category="list-text">있습니다 <block ref="7c024e7b821ea2605c8d62e2c8b78fe4" category="inline-link-macro-rx"></block>.</block>
+  <block id="654b557c64cf80df53d669b5e931d3da" category="image-alt">SG110 또는 SG1100 랙 고정 나사</block>
+  <block id="4187702a620626981506c308f62e0442" category="list-text">장착 레일이 완전히 확장되고 양쪽에 있는 래치가 딸각하는 소리가 들릴 때까지 SG110 또는 SG1100을 랙에서 앞으로 밀어 꺼냅니다.</block>
+  <block id="609dfb79180e75d183414141ff1c7699" category="section-title">SG110 또는 SG1100을 캐비닛 또는 랙에 다시 설치합니다</block>
+  <block id="30c3e76ee9fe69a1db3394d21116aa18" category="paragraph">제품 덮개를 다시 설치했습니다.</block>
+  <block id="2779825f63604db4b27b188f2d03737b" category="inline-link-macro">SG110 또는 SG1100 덮개를 다시 장착합니다</block>
+  <block id="c95bfc841349ab8679294cc677e88c9d" category="paragraph"><block ref="c95bfc841349ab8679294cc677e88c9d" category="inline-link-macro-rx"></block></block>
+  <block id="e19587ca009fb28c16d995c5edbd1fa5" category="list-text">파란색 레일을 누르면 두 랙 레일이 동시에 분리되고 SG110 또는 SG1100이 완전히 장착될 때까지 랙에 밀어 넣습니다.</block>
+  <block id="22dc184830c2cbda4b043ab5a3cce6bb" category="image-alt">레일에 슬라이딩 SG110 또는 SG1100</block>
+  <block id="74c2ea6aca800b8766b877c2b16a7728" category="paragraph"><block ref="c8ee67fa13b2b241963a60e9659d4d7f" category="inline-link-macro-rx"></block>.</block>
+  <block id="b4b1ae13ff19104a2638fac1e91cf92f" category="doc">SG110 또는 SG1100의 전원을 껐다가 켭니다</block>
+  <block id="b9240936ed31e305085463f5cce2c053" category="paragraph">SG110 또는 SG1100 어플라이언스를 종료한 후 전원을 다시 켜서 유지 관리를 수행할 수 있습니다.</block>
+  <block id="b1c1dfb471a6f1f3fd2166422e5ee696" category="section-title">SG110 또는 SG1100 어플라이언스를 종료합니다</block>
+  <block id="ac7ab9bcfd9ccd7d72e4ad0c7e3ecfd4" category="section-title">SG110 또는 SG1100의 전원을 켜고 작동하는지 확인합니다</block>
+  <block id="2288cb67d86668be6f1a261840ed0916" category="list-text">있습니다 <block ref="c78043e4d899bb99da1fcc488bba84ed" category="inline-link-macro-rx"></block> 데이터 및 전원 케이블을 연결했습니다.</block>
+  <block id="fa2af59b6156d0aec104e44663ccb746" category="list-text">있습니다 <block ref="1d434378bf19f38d94d6718c8351074c" category="inline-link-macro-rx"></block>.</block>
+  <block id="6a580be7135080b681d4be92c03ad758" category="summary">SG110 또는 SG1100 어플라이언스에는 8개의 냉각 팬이 있습니다. 팬 중 하나에 장애가 발생할 경우 제품이 제대로 식었는지 확인하려면 가능한 한 빨리 교체해야 합니다.</block>
+  <block id="2f565a1c76f8655ee5b895b48fdd9868" category="doc">SG110 또는 SG1100에서 팬을 교체합니다</block>
+  <block id="651fc7ecc07d3c5589bcdbf86900528e" category="list-text">있습니다 <block ref="452dbc820d5040c6f7a26972163c857d" category="inline-link-macro-rx"></block> 데이터 센터에서 팬을 교체하는 위치입니다.</block>
+  <block id="a494d05ff2448de4863300634404b00e" category="list-text"><block ref="7605313cc83fe468541967e7fefdaac9" category="inline-link-macro-rx"></block>래치를 아래로 눌러 덮개를 제자리에 고정합니다.</block>
+  <block id="2b714c159ee37bfcda3d8997dbf8c34a" category="list-text"><block ref="d562fca429c3ba3818e1a9ce8be74798" category="inline-link-macro-rx"></block> 어플라이언스 LED 및 부팅 코드를 모니터링합니다.</block>
+  <block id="b337d01c3682624445d3043b34d4f142" category="paragraph">* 유지관리 구성 절차 * 는 어플라이언스 설치 프로그램, 그리드 관리자 또는 BMC 인터페이스를 사용하여 수행됩니다. 이러한 절차에는 다음이 포함됩니다.</block>
+  <block id="e26ffb539a1b2a0b29867450005b8bee" category="paragraph"><block ref="e6765e58c61518e3539dcb7717155370" category="inline-link-macro-rx"></block>.</block>
+  <block id="e7e49b9f955135fd24f83c367558f704" category="sidebar">SG110 또는 SG1100 어플라이언스를 교체합니다</block>
+  <block id="b2f29fa8f4a845926f04c6b42a76608e" category="sidebar">SG110 또는 SG1100을 랙에 재배치합니다</block>
+  <block id="05e5b945264ec2a7a4fb43cd609f1363" category="sidebar">SG110 및 SG1100 네트워크 정보입니다</block>
+  <block id="74c62c67c3d6082d54f23ecf0b6db84a" category="sidebar">SG110 및 SG1100(신규)</block>
+  <block id="d6fca2602ac9cbcfb8a14dfb1f7739de" category="sidebar">BMC 인터페이스 구성(SG100, SG110, SG1000, SG1100, SG6000, 및 SG6100)</block>
+  <block id="3cedc3146b91b16ed8ebb1fee915113d" category="sidebar">설치 문제 해결(SG110 및 SG1100)</block>
+  <block id="a2e2012b6b8c458228b1e15b454770f0" category="sidebar">SG110 및 SG1100 하드웨어 유지보수</block>
+  <block id="d1a3d5a511aaa49a39568a8f65ac6b29" category="sidebar">SG110 및 SG1100 하드웨어 유지 관리</block>
+  <block id="9cb56d535a16391a544c46fd4d91e6ba" category="sidebar">유지보수 구성 절차 - SG110 및 SG1100</block>
+  <block id="c8815aa195405d61f92fd38ffbcf2c8c" category="sidebar">하드웨어 유지 관리 절차 - SG110 및 SG1100</block>
+  <block id="8234ee9f46864ecf847ef0ef05ff4451" category="sidebar">랙에 어플라이언스를 재배치합니다</block>
+  <block id="824ffb105357c984745978d4f897102d" category="sidebar">유지보수 구성 절차 - SG6100</block>
 </blocks>

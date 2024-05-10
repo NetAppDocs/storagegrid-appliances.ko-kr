@@ -46,7 +46,7 @@ image::../media/SGF6112-battery-cmos.png[CMOS 배터리 클립]
 +
 image::../media/sgf6112_two-slot-riser_alignment_hole.png[대형 라이저 어셈블리의 정렬 구멍]
 
-. 시스템 보드에서 가이드 핀을 찾습니다.
+. 시스템 보드에서 가이드 핀을 찾습니다
 +
 image::../media/sgf6112_two-slot-riser_guide-pin.png[2슬롯 라이저 조립품용 시스템 보드의 가이드 핀]
 
@@ -68,7 +68,7 @@ image::../media/sgf6112_two-slot-riser_guide-pin.png[2슬롯 라이저 조립품
 .. 에 나열된 암호를 입력합니다 `Passwords.txt` 파일.
 
 
-. 다음 옵션 중 하나를 사용하여 어플라이언스에 대한 BMC 네트워크 연결을 복원합니다.
+. 어플라이언스에 대한 BMC 네트워크 연결을 복구합니다. 두 가지 옵션이 있습니다.
 +
 ** 고정 IP, 넷마스크 및 게이트웨이를 사용합니다
 ** DHCP를 사용하여 IP, 넷마스크 및 게이트웨이를 얻습니다

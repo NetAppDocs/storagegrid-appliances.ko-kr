@@ -21,8 +21,10 @@ indexpage:
       url: "../commonhardware/appliance-node-cloning-procedure.html"
   - title: 어플라이언스별 유지 관리
     links:
-    - title: SG1000 및 SG100
+    - title: SG100 및 SG1000입니다
       url: "../landing-maintain-sg1000-100/index.html"
+    - title: SG110 및 SG1100
+      url: "../landing-maintain-sg1100-110/index.html"
     - title: SG5600
       url: "../sg5600/index.html"
     - title: SG5700입니다

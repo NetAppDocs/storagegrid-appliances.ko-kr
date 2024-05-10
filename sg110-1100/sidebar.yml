@@ -1,0 +1,40 @@
+---
+section: sg110-1100
+title: SG110 및 SG1100 하드웨어 유지보수
+url: "/landing-maintain-sg1100-110/index.html"
+entries:
+- title: 개요
+  pdf-filename: SG110 및 SG1100 하드웨어 유지 관리
+  url: "/sg110-1100/index.html"
+- title: 유지보수 구성 절차
+  pdf-filename: 유지보수 구성 절차 - SG110 및 SG1100
+  entries:
+  - title: 식별 LED를 켜고 끕니다
+    url: "/sg110-1100/turning-sg110-and-sg1100-identify-led-on-and-off.html"
+  - title: 데이터 센터에서 어플라이언스를 찾습니다
+    url: "/sg110-1100/locating-sg110-and-sg1100-in-data-center.html"
+  - title: 제품의 전원을 껐다가 다시 켜십시오
+    url: "/sg110-1100/power-sg110-and-sg1100-off-on.html"
+  - title: 링크 구성을 변경합니다
+    url: "/sg110-1100/changing-link-configuration-of-sg110-and-sg1100-appliance.html"
+- title: 하드웨어 유지보수 절차
+  pdf-filename: 하드웨어 유지 관리 절차 - SG110 및 SG1100
+  entries:
+  - title: 교체할 구성 요소를 확인합니다
+    url: "/sg110-1100/verify-component-to-replace.html"
+  - title: 하나 이상의 전원 공급 장치를 교체합니다
+    url: "/sg110-1100/replacing-one-or-more-power-supplies-in-sg110-and-sg1100-appliance.html"
+  - title: 팬을 교체합니다
+    url: "/sg110-1100/replacing-fan-in-sg110-and-sg1100.html"
+  - title: 드라이브를 교체합니다
+    url: "/sg110-1100/replacing-drive-in-sg110-and-sg1100.html"
+  - title: NIC를 교체합니다
+    url: "/sg110-1100/replace-nic-in-sg110-and-sg1100.html"
+  - title: CMOS 배터리를 교체합니다
+    url: "/sg110-1100/replace-cmos-in-sg110-and-sg1100.html"
+  - title: 덮개를 다시 끼웁니다
+    url: "/sg110-1100/reinstalling-sg110-and-sg1100-cover.html"
+  - title: 제품을 교체하십시오
+    url: "/sg110-1100/replacing-sg110-and-sg1100-appliance.html"
+  - title: 랙에 어플라이언스를 재배치합니다
+    url: "/sg110-1100/reinstalling-sg110-and-sg1100-into-cabinet-or-rack.html"

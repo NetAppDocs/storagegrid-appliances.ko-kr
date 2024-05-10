@@ -21,6 +21,7 @@ ConfigBuilder를 사용하여 JSON 파일을 생성하는 경우 IP 주소를 �
 링크 구성을 변경하려면 다음 지침을 참조하십시오.
 
 * link:../sg100-1000/changing-link-configuration-of-services-appliance.html["SG100 또는 SG1000 서비스 어플라이언스의 링크 구성을 변경합니다"]
+* link:../sg110-1100/changing-link-configuration-of-services-appliance.html["SG110 또는 SG1100 서비스 어플라이언스의 링크 구성을 변경합니다"]
 * link:../sg5700/changing-link-configuration-of-e5700sg-controller.html["E5500SG 컨트롤러의 링크 구성을 변경합니다"]
 * link:../sg6000/changing-link-configuration-of-sg6000-cn-controller.html["SG6000-CN 컨트롤러의 링크 구성을 변경합니다"]
 * link:../sg6100/changing-link-configuration-of-sgf6112-appliance.html["SG6100 어플라이언스의 링크 구성을 변경합니다"]

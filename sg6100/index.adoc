@@ -15,7 +15,7 @@ summary: 제품에 대한 유지보수 절차를 수행해야 할 수 있습니�
 
 이 섹션의 절차에서는 어플라이언스가 이미 StorageGRID 시스템의 스토리지 노드로 구축되었다고 가정합니다.
 
-* 구성 유지보수 절차 * 는 Appliance Installer, Grid Manager 또는 BMC 인터페이스를 사용하여 수행됩니다. 이러한 절차에는 다음이 포함됩니다.
+* 유지관리 구성 절차 * 는 어플라이언스 설치 프로그램, 그리드 관리자 또는 BMC 인터페이스를 사용하여 수행됩니다. 이러한 절차에는 다음이 포함됩니다.
 
 * link:turning-sgf6112-identify-led-on-and-off.html["제품 식별 LED를 켜고 끕니다"]
 * link:locating-sgf6112-in-data-center.html["데이터 센터에서 어플라이언스를 찾습니다"]

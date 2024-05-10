@@ -18,6 +18,6 @@ StorageGRID 어플라이언스의 새로운 기능에 대해 알아보십시오.
 
 
 
-== SGF6112 All-Flash 어플라이언스
+== SG110 및 SG1100 서비스 어플라이언스
 
-새로운 StorageGRID SGF6112 스토리지 어플라이언스는 컴퓨팅 컨트롤러와 스토리지 컨트롤러를 1U 섀시에 통합하는 콤팩트한 설계를 특징으로 합니다. 어플라이언스는 드라이브당 최대 15.3TB의 저장 용량을 가진 12개의 SSD NVMe 드라이브를 지원합니다. SSD 드라이브는 복원력이 뛰어난 오브젝트 스토리지를 제공하는 RAID에 있습니다. 을 참조하십시오 link:installconfig/hardware-description-sg6100.html["SGF6112 어플라이언스: 개요"].
+새로운 StorageGRID SG110 및 SG1100 서비스 어플라이언스는 향상된 관리 및 로드 밸런싱 성능을 제공하는 혁신적인 하드웨어 업데이트입니다. 을 참조하십시오 link:./installconfig/hardware-description-sg110-and-1100.html["SG110 및 SG1100 서비스 어플라이언스: 개요"].

@@ -27,9 +27,19 @@ ConfigBuilder를 사용하여 JSON 파일을 생성하는 경우 IP 주소를 �
 image::../media/sg100_bmc_management_port.png[SG100 BMC 관리 포트]
 
 --
+.SG110입니다
+--
+image::../media/sgf6112_cn_bmc_management_port.png[BMC 관리 포트 SG110]
+
+--
 .SG1000입니다
 --
 image::../media/sg1000_bmc_management_port.png[SG1000 BMC 관리 포트]
+
+--
+.SG1100으로 문의하십시오
+--
+image::../media/sg1100_bmc_management_port.png[BMC 관리 포트 SG1100]
 
 --
 .SG6000 을 참조하십시오

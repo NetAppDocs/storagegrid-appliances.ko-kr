@@ -1,7 +1,7 @@
 ---
 permalink: installconfig/deploying-services-appliance-node.html 
 sidebar: sidebar 
-keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, deploy node, deploying node, node, deploy, deploying, primary, primary admin node, non-primary admin node, non-primary 
+keywords: storagegrid, sg110, sg1100, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, deploy node, deploying node, node, deploy, deploying, primary, primary admin node, non-primary admin node, non-primary 
 summary: '서비스 어플라이언스를 기본 관리 노드, 비기본 관리 노드 또는 게이트웨이 노드로 배포할 수 있습니다. 모든 서비스 어플라이언스는 게이트웨이 노드 및 관리 노드\(운영 또는 비운영\)로 동시에 작동할 수 있습니다.' 
 ---
 = 서비스 어플라이언스 노드를 배포합니다
@@ -105,7 +105,7 @@ NOTE: 모니터 설치 페이지에 수동으로 액세스해야 하는 경우 �
 
 
 
-NOTE: SG100 및 SG1000 서비스 어플라이언스를 같은 사이트에 배포하지 마십시오. 성능을 예측할 수 없습니다.
+IMPORTANT: SG100 또는 SG110과 SG1000 또는 SG1100과 같이 동일한 사이트에서 서로 다른 수준의 성능을 가진 서비스 어플라이언스를 혼합하면 고가용성 그룹에 여러 노드를 사용하거나 여러 서비스 어플라이언스에서 클라이언트 로드 밸런싱을 수행할 때 예측할 수 없고 일관되지 않은 결과가 발생할 수 있습니다.
 
 
 NOTE: 한 번에 여러 어플라이언스 노드를 구축해야 하는 경우 설치 프로세스를 자동화할 수 있습니다. 을 참조하십시오 link:automating-appliance-installation-and-configuration.html["어플라이언스 설치 및 구성 자동화"].

@@ -34,9 +34,19 @@ StorageGRID 어플라이언스 설치 프로그램에 처음 액세스하려면 
 image::../media/sg100_admin_network_port.png[SG100의 관리 네트워크 포트입니다]
 
 --
+.SG110입니다
+--
+image::../media/sg6100_admin_network_port.png[SG110의 관리 네트워크 포트입니다]
+
+--
 .SG1000입니다
 --
 image::../media/sg1000_admin_network_port.png[SG1000의 관리 네트워크 포트]
+
+--
+.SG1100으로 문의하십시오
+--
+image::../media/sg1100_admin_network_port.png[SG1100의 관리 네트워크 포트입니다]
 
 --
 .E5500SG
@@ -105,11 +115,25 @@ image::../media/appliance_installer_home_5700_5600.png[StorageGRID Webscale 어�
 image::../media/sg100_link_local_port.png[SG100 링크 - 로컬 연결]
 
 --
+.SG110입니다
+--
+서비스 랩톱을 이더넷 케이블을 사용하여 어플라이언스의 맨 오른쪽 RJ-45 포트에 직접 연결합니다.
+
+image::../media/sg6100_link_local_port.png[SG110 링크 - 로컬 연결]
+
+--
 .SG1000입니다
 --
 서비스 랩톱을 이더넷 케이블을 사용하여 서비스 어플라이언스의 맨 오른쪽 RJ-45 포트에 직접 연결합니다.
 
 image::../media/sg1000_link_local_port.png[SG1000 링크 - 로컬 연결]
+
+--
+.SG1100으로 문의하십시오
+--
+서비스 랩톱을 이더넷 케이블을 사용하여 어플라이언스의 맨 오른쪽 RJ-45 포트에 직접 연결합니다.
+
+image::../media/sg1100_link_local_port.png[SG1100 링크 - 로컬 연결]
 
 --
 .E5500SG

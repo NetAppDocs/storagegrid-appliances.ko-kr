@@ -6,8 +6,8 @@ entries:
 - title: 개요
   pdf-filename: SG6100 하드웨어 유지 관리
   url: "/sg6100/index.html"
-- title: 구성 유지보수 절차
-  pdf-filename: 구성 유지 관리 절차 - SG6100
+- title: 유지보수 구성 절차
+  pdf-filename: 유지보수 구성 절차 - SG6100
   entries:
   - title: 드라이브 관리 탭을 사용합니다
     url: "/sg6100/manage-drives-tab.html"

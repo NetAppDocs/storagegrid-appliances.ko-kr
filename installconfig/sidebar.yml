@@ -21,6 +21,8 @@ entries:
       url: "/installconfig/reviewing-appliance-network-connections.html"
     - title: SG100 및 SG1000입니다
       url: "/installconfig/gathering-installation-information-sg100-and-sg1000.html"
+    - title: SG110 및 SG1100
+      url: "/installconfig/gathering-installation-information-sg110-and-sg1100.html"
     - title: SG5700입니다
       url: "/installconfig/gathering-installation-information-sg5700.html"
     - title: SG6000 을 참조하십시오
@@ -42,6 +44,8 @@ entries:
     entries:
     - title: SG100 및 SG1000입니다
       url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
+    - title: SG110 및 SG1100
+      url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg110-and-sg1100.html"
     - title: SG5700입니다
       url: "/installconfig/installing-appliance-in-cabinet-or-rack-sg5700.html"
     - title: SG6000 을 참조하십시오
@@ -85,7 +89,7 @@ entries:
       url: "/installconfig/verifying-port-level-network-connections.html"
   - title: SANtricity System Manager 설정(SG5700 및 SG6000)
     url: "/installconfig/accessing-and-configuring-santricity-system-manager.html"
-  - title: BMC 인터페이스 구성(SG100, SG1000, SG6000 및 SG6100)
+  - title: BMC 인터페이스 구성(SG100, SG110, SG1000, SG1100, SG6000, 및 SG6100)
     entries:
     - title: 개요
       url: "/installconfig/configuring-bmc-interface.html"
@@ -118,6 +122,8 @@ entries:
     url: "/installconfig/rebooting-appliance-while-sg-appliance-installer-is-running.html"
   - title: 설치 문제 해결(SG100 및 SG1000)
     url: "/installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html"
+  - title: 설치 문제 해결(SG110 및 SG1100)
+    url: "/installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html"
   - title: 설치 문제 해결(SG5700 또는 SG6000)
     url: "/installconfig/troubleshooting-hardware-installation.html"
   - title: 설치 문제 해결(SG6100)

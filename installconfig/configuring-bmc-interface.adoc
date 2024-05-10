@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: BMC, baseboard management controller, configure, setup, set up 
 summary: 'SG6100, SG6000 또는 서비스 어플라이언스의 베이스보드 관리 컨트롤러\(BMC\)의 사용자 인터페이스는 하드웨어에 대한 상태 정보를 제공하고 어플라이언스에 대한 SNMP 설정 및 기타 옵션을 구성할 수 있도록 합니다.' 
 ---
-= BMC 인터페이스: 개요(SG100, SG1000, SG6000 및 SG6100)
+= BMC 인터페이스:개요(SG100, SG110, SG1000, SG1100, SG6000, 및 SG6100)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

@@ -81,4 +81,4 @@ NOTE: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 끼�
 
 
 .작업을 마친 후
-link:powering-on-sgf6112-and-verifying-operation.html["어플라이언스를 다시 시작하십시오"].
+link:power-sgf6112-off-on.html#power-on-sgf6112-and-verify-operation["어플라이언스를 다시 시작하십시오"].

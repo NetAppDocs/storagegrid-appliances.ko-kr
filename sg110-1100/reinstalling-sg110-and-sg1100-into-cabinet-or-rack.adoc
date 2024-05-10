@@ -1,0 +1,86 @@
+---
+permalink: sg110-1100/reinstalling-sg110-and-sg1100-into-cabinet-or-rack.html 
+sidebar: sidebar 
+keywords: storagegrid, sg110, sg1100, admin node, admin appliance, install, installing, installation, cabinet, rack 
+summary: 캐비닛 또는 랙에서 SG110 또는 SG1100을 분리하여 상단 덮개에 접근하거나 어플라이언스를 다른 위치로 이동한 다음 하드웨어 유지 관리가 완료되면 어플라이언스를 캐비닛 또는 랙에 다시 설치합니다. 
+---
+= SG110 및 SG1100을 캐비닛 또는 랙에 재배치합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+캐비닛 또는 랙에서 SG110 또는 SG1100을 분리하여 상단 덮개에 접근하거나 어플라이언스를 다른 위치로 이동한 다음 하드웨어 유지 관리가 완료되면 어플라이언스를 캐비닛 또는 랙에 다시 설치합니다.
+
+
+
+== 캐비닛 또는 랙에서 SG110 또는 SG1100을 분리합니다
+
+.시작하기 전에
+* SG110 또는 SG1100에 연결된 각 케이블을 식별하기 위한 레이블이 있습니다.
+* 있습니다 link:locating-sg110-and-sg1100-in-data-center.html["SG110 또는 SG1100의 물리적 위치"] 데이터 센터에서 유지 관리를 수행하는 단계입니다.
+* 있습니다 link:power-sg110-and-sg1100-off-on.html#shut-down-the-appliance["SG110 또는 SG1100을 종료합니다"].
++
+
+CAUTION: 전원 스위치를 사용하여 제품을 끄지 마십시오.
+
+
+
+.단계
+. 제품 전원 케이블에 레이블을 부착한 다음 전원 케이블을 분리합니다.
+. ESD 밴드의 스트랩 끝을 손목 둘레에 감고 클립 끝을 금속 바닥에 단단히 고정하여 정전기 방전을 방지하십시오.
+. 어플라이언스 데이터 케이블과 SFP+ 또는 SFP28 트랜시버에 레이블을 지정한 다음 연결을 해제합니다.
++
+
+IMPORTANT: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 끼거나 밟지 마십시오.
+
+. 제품 전면 패널에서 2개의 조임 나사를 풉니다.
++
+image::../media/sg6060_rack_retaining_screws.png[SG110 또는 SG1100 랙 고정 나사]
+
+. 장착 레일이 완전히 확장되고 양쪽에 있는 래치가 딸각하는 소리가 들릴 때까지 SG110 또는 SG1100을 랙에서 앞으로 밀어 꺼냅니다.
++
+제품 상단 덮개를 사용할 수 있습니다.
+
+. 선택 사항: 캐비닛이나 랙에서 제품을 완전히 분리하는 경우 레일 키트의 지침에 따라 레일에서 제품을 분리하십시오.
+
+
+부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반납 및 교체"^] 페이지를 참조하십시오.
+
+
+
+== SG110 또는 SG1100을 캐비닛 또는 랙에 다시 설치합니다
+
+.시작하기 전에
+제품 덮개를 다시 설치했습니다.
+
+link:reinstalling-sg110-and-sg1100-cover.html["SG110 또는 SG1100 덮개를 다시 장착합니다"]
+
+.단계
+. 파란색 레일을 누르면 두 랙 레일이 동시에 분리되고 SG110 또는 SG1100이 완전히 장착될 때까지 랙에 밀어 넣습니다.
++
+컨트롤러를 더 이상 이동할 수 없는 경우 섀시 양쪽에 있는 파란색 래치를 당겨 컨트롤러를 완전히 밀어 넣습니다.
+
++
+image::../media/sg6000_cn_rails_blue_button.gif[레일에 슬라이딩 SG110 또는 SG1100]
+
++
+
+NOTE: 컨트롤러의 전원을 켜기 전에는 전면 베젤을 연결하지 마십시오.
+
+. 컨트롤러 전면 패널의 조임 나사를 조여 컨트롤러를 랙에 고정합니다.
++
+image::../media/sg6060_rack_retaining_screws.png[SG110 또는 SG1100 랙 고정 나사]
+
+. ESD 밴드의 스트랩 끝을 손목 둘레에 감고 클립 끝을 금속 바닥에 단단히 고정하여 정전기 방전을 방지하십시오.
+. link:../installconfig/cabling-appliance.html["컨트롤러 데이터 케이블과 SFP+ 또는 SFP28 트랜시버를 다시 연결합니다"].
++
+
+IMPORTANT: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 끼거나 밟지 마십시오.
+
+. link:../installconfig/connecting-power-cords-and-applying-power.html["컨트롤러 전원 케이블을 다시 연결합니다"].
+
+
+.작업을 마친 후
+link:power-sg110-and-sg1100-off-on.html#power-on-sg110-or-sg1100-and-verify-operation.html["어플라이언스를 다시 시작하십시오"].
