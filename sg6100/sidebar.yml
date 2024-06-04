@@ -83,8 +83,4 @@ entries:
     - title: E4000 컨트롤러(SG6160)
       url: "/sg6100/replace-controller-e4000-duplex.html"
   - title: 랙에 재배치합니다
-    entries:
-    - title: SGF6112를 참조하십시오
-      url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
-    - title: SG6100-CN 컨트롤러(SG6160)
-      url: "/sg6100/reinstalling-sg6100-cn-controller-into-cabinet-or-rack.html"
+    url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"

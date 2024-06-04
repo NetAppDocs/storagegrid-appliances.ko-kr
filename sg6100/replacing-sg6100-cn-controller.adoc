@@ -18,7 +18,7 @@ SG6100-CN 컨트롤러가 최적으로 작동하지 않거나 장애가 발생�
 * 컨트롤러에 연결된 각 케이블을 식별하는 라벨이 있습니다.
 * 데이터 센터에서 물리적으로 교체할 컨트롤러를 가지고 있습니다.
 +
-link:locating-controller-in-data-center.html["데이터 센터에서 컨트롤러를 찾습니다"]
+link:locating-sgf6112-in-data-center.html["데이터 센터에서 컨트롤러를 찾습니다"]
 
 
 
@@ -45,7 +45,7 @@ NOTE: StorageGRID 소프트웨어를 설치하기 전에 컨트롤러를 교체�
 .. 입력: `*run-host-command ipmitool lan print*` 어플라이언스의 현재 BMC 구성을 표시합니다.
 
 
-. SG6100-CN 컨트롤러가 제어된 종료를 허용하기에 충분히 작동 중인 경우 link:power-sg6100-cn-controller-off-on.html#shut-down-sg6100-cn-controller["SG6100-CN 컨트롤러를 종료합니다"].
+. SG6100-CN 컨트롤러가 제어된 종료를 허용하기에 충분히 작동 중인 경우 link:power-sgf6112-off-on.html["SG6100-CN 컨트롤러를 종료합니다"].
 . 이 StorageGRID 어플라이언스의 네트워크 인터페이스 중 DHCP를 사용하도록 구성된 경우 교체 어플라이언스의 MAC 주소를 참조하도록 DHCP 서버의 영구 DHCP 임대 할당을 업데이트해야 할 수 있습니다. 업데이트는 어플라이언스에 예상 IP 주소가 할당되도록 합니다.
 . SG6100-CN 컨트롤러 분리 및 교체:
 +

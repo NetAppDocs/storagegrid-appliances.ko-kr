@@ -670,17 +670,8 @@ E2800 컨트롤러 설치 또는 통신에 실패했습니다.
 --
 .SG5800을 참조하십시오
 --
-어플라이언스 컨트롤러에는 어플라이언스 컨트롤러의 상태를 확인하는 데 도움이 되는 표시등이 포함되어 있습니다.
+어플라이언스 컨트롤러에는 어플라이언스 컨트롤러의 상태를 확인할 수 있는 표시등이 포함되어 있습니다. 이 정보를 사용하여 도움을 받으십시오 link:troubleshooting-hardware-installation.html["SG5800 하드웨어 설치 문제를 해결합니다"].
 
-* <<status_indicators_SG5800_controller,SG5800 컨트롤러의 상태 표시등>>
-* <<general_boot_codes_sg5800,일반 부팅 코드>>
-* <<boot_codes_SG5800_controller,SG5800 컨트롤러 부팅 코드>>
-* <<error_codes_SG5800_controller,SG5800 컨트롤러 오류 코드>>
-
-
-이 정보를 사용하여 도움을 받으십시오 link:troubleshooting-hardware-installation.html["SG5800 하드웨어 설치 문제를 해결합니다"].
-
-[[status_indicators_SG5800_controller]]
 SG5800 컨트롤러의 상태 표시등::
 +
 --

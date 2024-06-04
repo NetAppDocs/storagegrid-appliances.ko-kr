@@ -5061,14 +5061,7 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="e6c11d6c727d6af4a15aadeb9c8d765c" category="list-text">전면 베젤을 제거한 경우 SG6100-CN 컨트롤러에 연결합니다.</block>
   <block id="784b225f130f7d41e24cfeb95e8faec4" category="doc">SANtricity System Manager 구성(SG6160, SG6000, SG5700 및 SG5800)</block>
   <block id="e9b0f91353e7e92b0bdad4d600bf8aad" category="inline-xref">SG5800 컨트롤러의 상태 표시등</block>
-  <block id="33142c71ffb7a820e39e2d8b9b87c90d" category="list-text"><block ref="562ba6ab1f9a30f1dbd536755e8030f3" category="inline-xref-macro-rx"></block></block>
-  <block id="6e2ca3456886b60923634ed7eb9c8d7f" category="list-text"><block ref="4602dd8dedea945665f66e0efb09332c" category="inline-xref-macro-rx"></block></block>
-  <block id="f536acc32b97ad90a5740f9c6acd9249" category="inline-xref">SG5800 컨트롤러 부팅 코드</block>
-  <block id="5576c47c21553b6c80a9811f4546218f" category="list-text"><block ref="f285587c275058bc7d3d747c12066f52" category="inline-xref-macro-rx"></block></block>
-  <block id="540f46aeae603c2f4426ce72f569d476" category="inline-xref">SG5800 컨트롤러 오류 코드</block>
-  <block id="4657bcb798d90e371448f17714c8c9f9" category="list-text"><block ref="3e9e4f9184270725588680504bdaec1d" category="inline-xref-macro-rx"></block></block>
   <block id="ee0d7ce7f3f04a927e4972f514fd99c9" category="inline-link-macro">SG5800 하드웨어 설치 문제를 해결합니다</block>
-  <block id="274d64f0b9bfee260adbb6408672a4b0" category="paragraph">이 정보를 사용하여 도움을 받으십시오 <block ref="e0e94668a35b0e62f1c3c83bc6a3960d" category="inline-link-macro-rx"></block>.</block>
   <block id="6e11a1131d9974f2fd0c9ec0f8b70da1" category="paragraph">StorageGRID 어플라이언스 설치 프로그램을 시작한 후 SG5800 컨트롤러의 상태 표시기를 주기적으로 검토해야 합니다.</block>
   <block id="043b3b7e7d1cab87dcb9bbe4e09747f6" category="paragraph">다음 그림은 SG5800 컨트롤러의 상태 표시등을 보여줍니다.</block>
   <block id="ee19c832192b29abe3714f9cd076b86b" category="paragraph">다음 그림은 SG6100 제품의 표시등과 버튼입니다.</block>
@@ -5322,19 +5315,7 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="002c473abb16ba8030a796dbd755e33d" category="list-text">팬 캐니스터 핸들을 사용하여 팬 캐니스터를 제품에서 당겨 빼냅니다.</block>
   <block id="64c29ebf8cd32413c80f6ffda96405ee" category="list-text">교체용 팬 캐니스터를 제품에 완전히 밀어 넣은 다음 주황색 탭이 걸릴 때까지 팬 캐니스터 핸들을 이동합니다.</block>
   <block id="37a36b8523adcf2cc0873f9e2f41ca9c" category="doc">SGF6112 또는 SG6100-CN 덮개를 교체합니다</block>
-  <block id="854c7629d35948a4df812750dec127ee" category="summary">캐비닛 또는 랙에서 SG6100-CN 컨트롤러를 제거하여 상단 덮개에 액세스하거나 어플라이언스를 다른 위치로 이동한 다음 하드웨어 유지 관리가 완료되면 컨트롤러를 캐비닛 또는 랙에 다시 설치합니다.</block>
-  <block id="5fb243f0f549e18d4924ebf22621bb48" category="doc">SG6100-CN 컨트롤러를 캐비닛 또는 랙에 재배치합니다</block>
-  <block id="abc84ec80690dbc94a66ecc51074d3c0" category="section-title">캐비닛 또는 랙에서 SG6100-CN 컨트롤러를 분리합니다</block>
-  <block id="881b8f310c4263d181dbaedf240d3d2d" category="paragraph">상단 덮개에 액세스하거나 컨트롤러를 다른 위치로 이동하려면 캐비닛 또는 랙에서 SG6100-CN 컨트롤러를 분리합니다.</block>
-  <block id="907fea185972d8e2b273ebea2808d7f1" category="list-text">SG6100-CN 컨트롤러에 연결된 각 케이블을 식별하기 위한 레이블이 있습니다.</block>
-  <block id="fda31ec860925354771998211c7831af" category="list-text">데이터 센터에서 유지 관리를 수행하는 SG6100-CN 컨트롤러를 물리적으로 찾았습니다.</block>
   <block id="fbc4a37098bcf763b9f98fd0a2884283" category="inline-link-macro">SG6100-CN 컨트롤러를 종료합니다</block>
-  <block id="5f63238f202a5cd936c6942641733c6e" category="list-text">있습니다 <block ref="d00266d0f93b386e66854bd4e0adc388" category="inline-link-macro-rx"></block>.</block>
-  <block id="7e50f59ca73ccb860aa814cfd32bc021" category="list-text">장착 레일이 완전히 확장되고 양쪽에 있는 래치가 딸각하는 소리가 들릴 때까지 SG6100-CN 컨트롤러를 랙에서 앞으로 밀어 꺼냅니다.</block>
-  <block id="76d74a3c6e61e29e13b8b398f522989d" category="section-title">SG6100-CN 컨트롤러를 캐비닛 또는 랙에 다시 설치합니다</block>
-  <block id="27eee63b8f274f92b6fd34ad72eda57f" category="inline-link-macro">SG6100-CN 컨트롤러 덮개를 다시 장착합니다</block>
-  <block id="8f7788c169aa50f1f1d939333d3f4bcc" category="paragraph"><block ref="8f7788c169aa50f1f1d939333d3f4bcc" category="inline-link-macro-rx"></block></block>
-  <block id="e555012dca3572d0bab17db35a4008d4" category="paragraph"><block ref="e555012dca3572d0bab17db35a4008d4" category="inline-link-macro-rx"></block></block>
   <block id="4cc27b1800a32240f555e0ec4afc5cde" category="summary">E4000의 드라이브를 60-드라이브 쉘프로 교체합니다.</block>
   <block id="125aeb33ae4459fc8222ee9ed2b717aa" category="doc">스토리지 컨트롤러 쉘프 또는 확장 쉘프의 드라이브 교체(SG6160)</block>
   <block id="5ee472a2b6b33fddd49024587c88b2f3" category="paragraph">드라이브를 SG6160 스토리지 컨트롤러 쉘프 또는 확장 쉘프(DE460C)에서 교체할 수 있습니다.</block>
@@ -5466,7 +5447,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="75bae77bd5a1e5d5a3fa60c2123780ca" category="summary">SG6100-CN 컨트롤러가 최적으로 작동하지 않거나 장애가 발생한 경우 교체해야 할 수 있습니다.</block>
   <block id="34219e12808cfaa75a6d668403e35db8" category="doc">SG6100-CN 컨트롤러를 교체합니다</block>
   <block id="001591654095885fb8e8bae93eba4b37" category="paragraph">SG6100-CN 컨트롤러를 교체하면 어플라이언스 스토리지 노드에 액세스할 수 없습니다. SG6100-CN 컨트롤러가 충분히 작동하는 경우 이 절차를 시작할 때 제어된 종료를 수행할 수 있습니다.</block>
-  <block id="10f53149eec912e3988fa735d632dcc9" category="list-text">SG6100-CN 컨트롤러가 제어된 종료를 허용하기에 충분히 작동 중인 경우 <block ref="06019beeec02ceba6236461f5eafd019" category="inline-link-macro-rx"></block>.</block>
   <block id="c360904142c30f58300519e8c01b32d0" category="list-text">이 StorageGRID 어플라이언스의 네트워크 인터페이스 중 DHCP를 사용하도록 구성된 경우 교체 어플라이언스의 MAC 주소를 참조하도록 DHCP 서버의 영구 DHCP 임대 할당을 업데이트해야 할 수 있습니다. 업데이트는 어플라이언스에 예상 IP 주소가 할당되도록 합니다.</block>
   <block id="bc15f2ba1d2a4b957f06af9c2cc3e6d9" category="list-text">SG6100-CN 컨트롤러 분리 및 교체:</block>
   <block id="8145cbfa0e5fc59eb5093d29f4de5483" category="list-text">레이블을 붙인 다음 케이블을 분리합니다.</block>
@@ -5524,4 +5504,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="0c5b49805cedde0be71bd8e1248caea5" category="sidebar">SG6100-CN 컨트롤러(SG6160)</block>
   <block id="109cfb866393048721520c64b6a72dcd" category="sidebar">E4000 컨트롤러(SG6160)</block>
   <block id="1b137b50e38b53f7a19b8ae2f6114d7d" category="sidebar">랙에 재배치합니다</block>
+  <block id="d1fc100be07ba82ec7383450a44baff8" category="list-text">SG6100-CN 컨트롤러가 제어된 종료를 허용하기에 충분히 작동 중인 경우 <block ref="0a3cf65437375f485bddbc72eccdb305" category="inline-link-macro-rx"></block>.</block>
+  <block id="d0f113fd26d2007a359ab568d6af75eb" category="paragraph">어플라이언스 컨트롤러에는 어플라이언스 컨트롤러의 상태를 확인할 수 있는 표시등이 포함되어 있습니다. 이 정보를 사용하여 도움을 받으십시오 <block ref="e0e94668a35b0e62f1c3c83bc6a3960d" category="inline-link-macro-rx"></block>.</block>
 </blocks>
