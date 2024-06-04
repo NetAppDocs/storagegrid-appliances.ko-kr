@@ -36,7 +36,7 @@ indexpage:
     - title: 전원 공급 장치를 교체합니다
       url: "../sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
     - title: 스토리지 컨트롤러 쉘프 또는 확장 쉘프의 전원 공급 장치 교체(SG6160)
-      url: "/sg6100/replace-6100-cn-power-canister.html"
+      url: "../sg6100/replace-6100-cn-power-canister.html"
     - title: SGF6112 또는 SG6100-CN(SG6160)의 팬을 교체합니다.
       url: "../sg6100/replacing-fan-in-sgf6112.html"
     - title: 스토리지 컨트롤러 쉘프 또는 확장 쉘프의 팬 교체(SG6160)
@@ -48,14 +48,15 @@ indexpage:
     - title: 스토리지 컨트롤러 쉘프 또는 확장 쉘프의 드라이브 교체(SG6160)
       url: "../sg6100/replace-6160-drives-60.html"
     - title: 내부 NIC 교체(SGF6112 및 SG6160)
-      url: "/sg6100/replace-nic-in-sgf6112.html"
+      url: "../sg6100/replace-nic-in-sgf6112.html"
     - title: 외부 NIC 교체(SG6160)
-      url: "/sg6100/replace-ocp-nic-in-sg6100-cn.html"
+      url: "../sg6100/replace-ocp-nic-in-sg6100-cn.html"
     - title: DIMM 교체(SG6160)
-      url: "/sg6100/replace-dimms-e4000.html"
+      url: "../sg6100/replace-dimms-e4000.html"
     - title: 배터리 교체(SG6160)
-      url: "/sg6100/replace-battery-e4000.html"
+      url: "../sg6100/replace-battery-e4000.html"
     - title: 덮개를 다시 끼웁니다
+      url: "../sg6100/reinstalling-sgf6112-cover.html"
     - title: CMOS 배터리를 교체합니다
       url: "../sg6100/replace-cmos-in-sgf6112.html"
     - title: 배포된 SG6160에 확장 쉘프를 추가합니다
