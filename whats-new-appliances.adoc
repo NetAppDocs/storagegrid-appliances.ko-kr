@@ -18,6 +18,18 @@ StorageGRID 어플라이언스의 새로운 기능에 대해 알아보십시오.
 
 
 
+== SG5812 및 SG5860 어플라이언스
+
+새로운 StorageGRID SG5812 및 SG5860 어플라이언스는 StorageGRID 그리드에서 스토리지 노드로 작동하는 통합 스토리지 및 컴퓨팅 플랫폼입니다. 를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-appliances/installconfig/hardware-description-sg5800.html["SG5800 어플라이언스: 개요"] 을 참조하십시오.
+
+
+
+== SG6160 어플라이언스
+
+새 StorageGRID SG6160 어플라이언스에는 2개의 스토리지 컨트롤러와 60개의 드라이브, 캐싱을 위한 NVMe SSD 드라이브 2개가 포함된 컴퓨팅 컨트롤러 및 스토리지 컨트롤러 쉘프가 포함됩니다. 선택적으로 60개 드라이브 확장 쉘프를 SG6160에 추가할 수 있습니다. 을 참조하십시오 link:installconfig/hardware-description-sg6100.html["SGF6100 어플라이언스: 개요"] 을 참조하십시오.
+
+
+
 == SG110 및 SG1100 서비스 어플라이언스
 
 새로운 StorageGRID SG110 및 SG1100 서비스 어플라이언스는 향상된 관리 및 로드 밸런싱 성능을 제공하는 혁신적인 하드웨어 업데이트입니다. 을 참조하십시오 link:./installconfig/hardware-description-sg110-and-1100.html["SG110 및 SG1100 서비스 어플라이언스: 개요"].

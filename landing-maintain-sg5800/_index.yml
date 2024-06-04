@@ -1,0 +1,29 @@
+---
+indexpage:
+  tiles:
+  - title: 자주 수행하는 절차
+    links:
+    - title: 링크 구성을 변경합니다
+      url: "../sg5800/changing-link-configuration-of-sg5800-controller.html"
+    - title: SANtricity를 업그레이드합니다
+      url: "../sg5800/upgrading-santricity-os-on-storage-controller.html"
+    - title: 드라이브 펌웨어를 업그레이드합니다
+      url: "../sg5800/upgrading-drive-firmware-using-santricity-system-manager.html"
+  - title: 하드웨어 절차
+    links:
+    - title: SG5800 컴퓨팅 컨트롤러를 교체합니다
+      url: "../sg5800/replace-controller-sg5800.html"
+    - title: E4000 저장 컨트롤러를 교체합니다
+      url: "../sg5800/replace-controller-e4000-simplex.html"
+    - title: 팬 캐니스터를 교체합니다
+      url: "../sg5800/replace-fan-canister.html"
+    - title: 파워 캐니스터를 교체합니다
+      url: "../sg5800/replace-power-canister.html"
+    - title: 배터리를 교체하십시오
+      url: "../sg5800/replace-battery-e4000.html"
+    - title: DIMM을 교체합니다
+      url: "../sg5800/replace-dimms-e4000.html"
+    - title: 드라이브를 교체합니다
+      url: "../sg5800/replace-drive-e4000.html"
+    - title: 전원 공급 장치
+      url: "../sg5800/replace-power-supply.html"

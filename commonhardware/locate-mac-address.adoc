@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, mac, mac address 
 summary: 어플라이언스 교체 후 MAC 주소 참조를 업데이트해야 하는 경우도 있습니다. 
 ---
-= MAC 주소 참조를 업데이트합니다
+= MAC 주소 참조 업데이트(SG100, SG1000, SGF6024 및 SG6060)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

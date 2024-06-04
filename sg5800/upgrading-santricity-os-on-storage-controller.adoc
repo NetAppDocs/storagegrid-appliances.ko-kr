@@ -1,0 +1,30 @@
+---
+permalink: sg5800/upgrading-santricity-os-on-storage-controller.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5800, storage node, storage appliance, controller, storage controller, upgrade, upgrading, SANtricity OS, SANtricity 
+summary: 스토리지 컨트롤러가 최적의 상태로 작동하도록 하려면 StorageGRID 어플라이언스에 적합한 SANtricity OS의 최신 유지 관리 릴리즈로 업그레이드해야 합니다. 
+---
+= SG5800 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 컨트롤러가 최적의 상태로 작동하도록 하려면 StorageGRID 어플라이언스에 적합한 SANtricity OS의 최신 유지 관리 릴리즈로 업그레이드해야 합니다.
+
+StorageGRID 어플라이언스에서 사용할 수 있는 최신 SANtricity OS 버전을 확인하려면 을(를) 참조하십시오 https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab["NetApp 다운로드: StorageGRID 어플라이언스"] 필요한 경우 다운로드합니다.
+
+에서 새 SANtricity OS 소프트웨어 파일을 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab["NetApp 다운로드: StorageGRID 어플라이언스"^].
+
+현재 설치된 SANtricity OS 버전에 따라 다음 절차 중 하나를 사용하십시오.
+
+* 스토리지 컨트롤러가 SANtricity OS 08.42.20.00(11.42) 이상을 사용하는 경우 그리드 관리자를 사용하여 업그레이드를 수행합니다.
++
+link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html["그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다"]
+
+* 스토리지 컨트롤러가 08.42.20.00(11.42) 이전의 SANtricity OS 버전을 사용하는 경우 유지보수 모드를 사용하여 업그레이드를 수행합니다.
++
+link:upgrading-santricity-os-on-e4000-controller-using-maintenance-mode.html["유지보수 모드를 사용하여 E4000 컨트롤러에서 SANtricity OS를 업그레이드합니다"]
+
+

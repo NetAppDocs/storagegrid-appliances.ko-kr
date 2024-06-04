@@ -37,7 +37,7 @@ NOTE: A link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-ap
 서비스 중단을 방지하려면 CMOS 배터리 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 관리 기간 동안 배터리를 교체하십시오. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states["노드 연결 상태를 모니터링합니다"^].
 
 
-CAUTION: 개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있는 경우 예정된 유지 관리 기간 동안 배터리를 교체해야 합니다. 그렇지 않으면 이 절차 중에 해당 개체에 대한 액세스가 일시적으로 끊어질 수 있습니다. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"^].
+CAUTION: 개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 배터리를 교체해야 합니다. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"^].
 
 .단계
 . ESD 밴드의 스트랩 끝을 손목 둘레에 감고 클립 끝을 금속 바닥에 단단히 고정하여 정전기 방전을 방지하십시오.

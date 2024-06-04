@@ -74,9 +74,19 @@ NOTE: DHCP를 사용하여 IP 주소를 할당할 수 없는 경우 0.0.0.0이 �
 
 
 --
+.SG5800을 참조하십시오
+--
+image::../media/sg5800_admin_network_port.png[SG5800 컨트롤러의 관리 네트워크 포트입니다]
+
+--
 .SG6000-CN을 참조하십시오
 --
 image::../media/sg6000_cn_admin_network_port.png[SG6000-CN 컨트롤러의 관리 네트워크 포트]
+
+--
+.SG6100-CN을 참조하십시오
+--
+image::../media/sg6100_cn_admin_network_port.png[SG6000-CN 컨트롤러의 관리 네트워크 포트]
 
 --
 .SGF6112를 참조하십시오
@@ -143,11 +153,25 @@ image::../media/sg1100_link_local_port.png[SG1100 링크 - 로컬 연결]
 image::../media/e5700sg_mgmt_port_2.gif[E5500SG 컨트롤러의 관리 포트 2 위치]
 
 --
+.SG5800을 참조하십시오
+--
+이더넷 케이블을 사용하여 서비스 랩톱을 SG5800 컨트롤러의 관리 포트 1에 연결합니다.
+
+image::../media/sg5800_mgmt_port.png[SG5800 컨트롤러의 관리 포트 1의 위치입니다]
+
+--
 .SG6000-CN을 참조하십시오
 --
 이더넷 케이블을 사용하여 SG6000-CN 컨트롤러의 맨 오른쪽 RJ-45 포트에 서비스 랩톱을 직접 연결합니다.
 
 image::../media/sg6000_cn_link_local_port.png[SG6000-CN용 관리 포트 위치]
+
+--
+.SG6100-CN을 참조하십시오
+--
+이더넷 케이블을 사용하여 서비스 랩톱을 SG6100-CN 컨트롤러의 맨 오른쪽 RJ-45 포트에 직접 연결합니다.
+
+image::../media/sg6100_cn_link_local_port.png[SG6100-CN 관리 포트의 위치입니다]
 
 --
 .SGF6112를 참조하십시오

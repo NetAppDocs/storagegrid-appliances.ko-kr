@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sgf6112, locate, find, locating, finding, identify, blue led, blue light 
 summary: 데이터 센터에서 제품을 찾을 수 있도록 제품 전면에 있는 파란색 식별 LED를 켤 수 있습니다. 
 ---
-= SGF6112 어플라이언스 식별 LED를 켜고 끕니다
+= SGF6112 어플라이언스 또는 SG6100-CN 컨트롤러 식별 LED를 켜고 끕니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

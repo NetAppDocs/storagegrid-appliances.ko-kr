@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage node, storage appliance, SANtricity System Manager, SANtricity, System Manager, configure, configuring, setup, set up, setting up, access, accessing, E-Series AutoSupport, autosupport, configure, configuring, setup, set up, setting up, access, accessing, hardware, status, diagnostic, environment drives, drive, temperature, IP, IP address, management port, Appliance Installer 
 summary: SANtricity 시스템 관리자를 사용하여 스토리지 컨트롤러 쉘프에 있는 스토리지 컨트롤러, 스토리지 디스크 및 기타 하드웨어 구성 요소의 상태를 모니터링할 수 있습니다. 또한 관리 포트를 사용하지 않고 어플라이언스에서 AutoSupport 메시지를 보낼 수 있도록 E-Series AutoSupport에 대한 프록시를 구성할 수도 있습니다. 
 ---
-= SANtricity 시스템 관리자 구성(SG6000 및 SG5700)
+= SANtricity System Manager 구성(SG6160, SG6000, SG5700 및 SG5800)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

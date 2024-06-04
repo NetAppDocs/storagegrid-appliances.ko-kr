@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: sgf6112 
 summary: 어플라이언스에서 어떤 하드웨어 구성 요소를 교체해야 하는지 잘 모르는 경우 이 절차를 수행하여 데이터 센터에서 해당 구성 요소와 제품의 위치를 확인하십시오. 
 ---
-= SGF6112에서 교체할 구성 요소를 확인합니다
+= SGF6112 또는 SG6100-CN에서 교체할 구성요소를 확인합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

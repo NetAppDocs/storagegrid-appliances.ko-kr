@@ -4,23 +4,23 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, storage node, storage appliance, install, installing, installation, cabinet, rack 
 summary: 캐비닛 또는 랙에서 SGF6112를 분리하여 상단 덮개에 액세스하거나 제품을 다른 위치로 이동한 다음 하드웨어 유지 관리가 완료되면 캐비닛이나 랙에 어플라이언스를 다시 설치합니다. 
 ---
-= 캐비닛 또는 랙에 SGF6112를 재배치합니다
+= 캐비닛 또는 랙에서 SGF6112 또는 SG6100-CN을 재배치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-캐비닛 또는 랙에서 SGF6112를 분리하여 상단 덮개에 액세스하거나 제품을 다른 위치로 이동한 다음 하드웨어 유지 관리가 완료되면 캐비닛이나 랙에 어플라이언스를 다시 설치합니다.
+캐비닛 또는 랙에서 SGF6112 또는 SG6100-CN을 제거하여 상단 덮개에 접근하거나 어플라이언스를 다른 위치로 이동한 다음 하드웨어 유지 관리가 완료되면 캐비닛이나 랙에 어플라이언스를 다시 설치합니다.
 
 
 
-== 캐비닛 또는 랙에서 SGF6112를 제거합니다
+== 캐비닛 또는 랙에서 SGF6112 또는 SG6100-CN을 분리합니다
 
 .시작하기 전에
-* SGF6112에 연결된 각 케이블을 식별하는 라벨이 있습니다.
-* 있습니다 link:locating-sgf6112-in-data-center.html["SGF6112의 물리적 위치"] 데이터 센터에서 유지 관리를 수행하는 단계입니다.
-* 있습니다 link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance["SGF6112를 종료합니다"].
+* SGF6112 또는 SG6100-CN에 연결된 각 케이블을 식별하기 위한 레이블이 있습니다.
+* 있습니다 link:locating-sgf6112-in-data-center.html["SGF6112 또는 SG6100-CN의 위치를 물리적으로 지정했습니다"] 데이터 센터에서 유지 관리를 수행하는 단계입니다.
+* 있습니다 link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance["SGF6112 또는 SG6100-CN을 종료합니다"].
 +
 
 CAUTION: 전원 스위치를 사용하여 제품을 끄지 마십시오.
@@ -37,9 +37,9 @@ NOTE: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 끼�
 
 . 제품 전면 패널에서 2개의 조임 나사를 풉니다.
 +
-image::../media/sg6060_rack_retaining_screws.png[SGF6112 랙 고정 나사]
+image::../media/sg6060_rack_retaining_screws.png[SGF6112 또는 SG6100-CN 랙 고정 나사]
 
-. 장착 레일이 완전히 펼쳐지고 양쪽의 래치가 딸깍 소리가 날 때까지 SGF6112를 랙에서 앞쪽으로 밉니다.
+. 장착 레일이 완전히 확장되고 양쪽에 있는 래치가 딸각하는 소리가 들릴 때까지 SGF6112 또는 SG6100-CN을 랙에서 앞으로 밀어 꺼냅니다.
 +
 제품 상단 덮개를 사용할 수 있습니다.
 
@@ -50,7 +50,7 @@ image::../media/sg6060_rack_retaining_screws.png[SGF6112 랙 고정 나사]
 
 
 
-== 캐비닛 또는 랙에 SGF6112를 다시 설치합니다
+== SGF6112 또는 SG6100-CN을 캐비닛 또는 랙에 다시 설치합니다
 
 .시작하기 전에
 있습니다 link:reinstalling-sgf6112-cover.html["제품 덮개를 다시 설치했습니다"].

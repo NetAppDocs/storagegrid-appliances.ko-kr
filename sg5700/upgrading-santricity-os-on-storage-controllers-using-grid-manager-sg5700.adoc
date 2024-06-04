@@ -14,15 +14,14 @@ summary: '현재 SANtricity OS 08.42.20.00\(11.42\) 이상을 사용하는 스�
 현재 SANtricity OS 08.42.20.00(11.42) 이상을 사용하는 스토리지 컨트롤러의 경우 그리드 관리자를 사용하여 업그레이드를 적용해야 합니다.
 
 .시작하기 전에
-* 을(를) 참조했습니다 https://imt.netapp.com/matrix/#welcome["NetApp 상호 운용성 매트릭스 툴(IMT)"^] 업그레이드에 사용 중인 SANtricity OS 버전이 어플라이언스와 호환되는지 확인합니다.
+* 에서 업그레이드할 SANtricity OS 버전을 받지 못한 경우 https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab["NetApp 다운로드: StorageGRID 어플라이언스"^], 자문을 구했습니다 https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab["NetApp 다운로드: StorageGRID 어플라이언스"^] 또는 을 누릅니다 https://imt.netapp.com/matrix/#welcome["NetApp 상호 운용성 매트릭스 툴(IMT)"^] 업그레이드에 사용 중인 SANtricity OS 버전이 어플라이언스와 호환되는지 확인합니다.
 * 을(를) 보유하고 있습니다 https://docs.netapp.com/us-en/storagegrid-118/admin/admin-group-permissions.html["유지 관리 또는 루트 액세스 권한"^].
 * 를 사용하여 그리드 관리자에 로그인했습니다 https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html["지원되는 웹 브라우저"^].
 * 프로비저닝 암호가 있습니다.
-* 에 액세스할 수 있습니다 https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab["NetApp 다운로드: StorageGRID 어플라이언스"^].
 
 
 .이 작업에 대해
-SANtricity OS 업그레이드 프로세스를 완료할 때까지 다른 소프트웨어 업데이트(StorageGRID 소프트웨어 업그레이드 또는 핫픽스)를 수행할 수 없습니다. SANtricity OS 업그레이드 프로세스가 완료되기 전에 핫픽스 또는 StorageGRID 소프트웨어 업그레이드를 시작하려고 하면 SANtricity OS 업그레이드 페이지로 리디렉션됩니다.
+SANtricity OS 업그레이드가 진행 중인 동안에는 다른 소프트웨어 업데이트(StorageGRID 소프트웨어 업그레이드 또는 핫픽스)를 수행할 수 없습니다. SANtricity OS 업그레이드 프로세스가 완료되기 전에 핫픽스 또는 StorageGRID 소프트웨어 업그레이드를 시작하려고 하면 SANtricity OS 업그레이드 페이지로 리디렉션됩니다.
 
 SANtricity OS 업그레이드가 업그레이드를 위해 선택된 모든 적용 가능한 노드에 적용되기 전에는 절차가 완료되지 않습니다. 각 노드에서 SANtricity OS를 로드하는 데 30분 이상, 각 StorageGRID 스토리지 어플라이언스를 재부팅하는 데 최대 90분이 걸릴 수 있습니다. 그리드에 SANtricity OS를 사용하지 않는 노드는 이 절차의 영향을 받지 않습니다.
 

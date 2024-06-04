@@ -11,7 +11,7 @@ entries:
   url: "/commonhardware/changing-mtu-setting.html"
 - title: DNS 서버 구성을 확인합니다
   url: "/commonhardware/checking-dns-server-configuration.html"
-- title: MAC 주소 참조를 업데이트합니다
+- title: MAC 주소 참조 업데이트(SG100, SG1000, SGF6024 및 SG6060)
   url: "/commonhardware/locate-mac-address.html"
 - title: 유지보수 모드에서 노드 암호화를 모니터링합니다
   url: "/commonhardware/monitoring-node-encryption-in-maintenance-mode.html"

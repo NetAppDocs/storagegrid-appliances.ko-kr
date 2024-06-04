@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, appliance, locate, find, locating, finding, identify, blue led, blue light 
 summary: 하드웨어 유지 관리 또는 업그레이드를 수행할 수 있도록 어플라이언스를 찾습니다. 
 ---
-= 데이터 센터에서 SGF6112 어플라이언스를 찾습니다
+= 데이터 센터에서 SGF6112 어플라이언스 또는 SG6100-CN 컨트롤러를 찾습니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -38,6 +38,6 @@ image::../media/sgf6112_front_panel_service_led_on.png[전면 식별 LED - 켜�
 
 
 .작업을 마친 후
-link:turning-sgf6112-identify-led-on-and-off.html["파란색 식별 LED를 끕니다"] 제품을 찾을 때 사용한 경우
+link:turning-sgf6112-identify-led-on-and-off.html["파란색 식별 LED를 끕니다"] 제품을 찾을 때 다음 방법 중 하나를 사용한 경우:
  ** 제품 전면 패널의 ID LED 스위치를 누릅니다.
  ** 어플라이언스 BMC 인터페이스를 사용하십시오.

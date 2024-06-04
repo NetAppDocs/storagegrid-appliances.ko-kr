@@ -1,7 +1,7 @@
 ---
 permalink: installconfig/gathering-installation-information-sg6100.html 
 sidebar: sidebar 
-keywords: storagegrid, sg6100, sgf6112, install, information, site, pre-install, preparing, prepare, preinstall, info, preparation, port bond, port bonding, port bond mode, port-bond mode, Network bond, Network bonding, Network bond mode, Network-bond mode, independent, active-backup, active backup 
+keywords: storagegrid, sg6100, sgf6112, SG6160, install, information, site, pre-install, preparing, prepare, preinstall, info, preparation, port bond, port bonding, port bond mode, port-bond mode, Network bond, Network bonding, Network bond mode, Network-bond mode, independent, active-backup, active backup 
 summary: 다음 표를 사용하여 어플라이언스에 연결하는 각 네트워크에 필요한 정보를 기록합니다. 이러한 값은 하드웨어를 설치하고 구성하는 데 필요합니다. 
 ---
 = 네트워크 정보 수집(SG6100)
@@ -20,7 +20,7 @@ TIP: 표를 사용하는 대신 ConfigBuilder와 함께 제공된 통합 문서�
 
 == StorageGRID 버전을 확인합니다
 
-SGF6112 어플라이언스를 설치하기 전에 StorageGRID 시스템에서 StorageGRID 소프트웨어의 필수 버전을 사용하고 있는지 확인하십시오.
+SGF6112 또는 SG6160 어플라이언스를 설치하기 전에 StorageGRID 시스템에서 필요한 버전의 StorageGRID 소프트웨어를 사용하고 있는지 확인하십시오.
 
 [cols="1a,2a"]
 |===
@@ -32,6 +32,113 @@ SGF6112를 참조하십시오
  a| 
 11.7 이상(최신 핫픽스 권장)
 
+
+
+ a| 
+SG6160
+ a| 
+11.8 이상(최신 핫픽스 권장)
+
+|===
+
+
+== SANtricity 시스템 관리자에 연결합니다
+
+SG6160 어플라이언스의 두 스토리지 컨트롤러를 SANtricity System Manager에 사용할 관리 네트워크에 연결합니다. 컨트롤러 A는 상단에, 컨트롤러 B는 하단에 있습니다.
+
+[cols="2a,1a,1a"]
+|===
+| 정보가 필요합니다 | 컨트롤러 A의 가치 | 컨트롤러 B의 값입니다 
+
+
+ a| 
+관리 포트 1에 연결할 이더넷 스위치 포트(컨트롤러에서 P1 레이블)
+ a| 
+ a| 
+
+
+
+ a| 
+관리 포트 1의 MAC 주소(포트 P1 근처의 레이블에 인쇄되어 있음)
+ a| 
+ a| 
+
+
+
+ a| 
+전원을 켠 후 사용할 수 있는 경우 관리 포트 1에 대해 DHCP 할당 IP 주소입니다
+
+* 참고: * 스토리지 컨트롤러에 연결할 네트워크에 DHCP 서버가 포함된 경우 네트워크 관리자는 MAC 주소를 사용하여 DHCP 서버에서 할당한 IP 주소를 확인할 수 있습니다.
+ a| 
+ a| 
+
+
+
+ a| 
+관리 네트워크에서 어플라이언스에 사용할 고정 IP 주소입니다
+ a| 
+IPv4의 경우:
+
+* IPv4 주소:
+* 서브넷 마스크:
+* 게이트웨이:
+
+
+IPv6의 경우:
+
+* IPv6 주소:
+* 라우팅 가능한 IP 주소:
+* 스토리지 컨트롤러 라우터 IP 주소:
+
+ a| 
+IPv4의 경우:
+
+* IPv4 주소:
+* 서브넷 마스크:
+* 게이트웨이:
+
+
+IPv6의 경우:
+
+* IPv6 주소:
+* 라우팅 가능한 IP 주소:
+* 스토리지 컨트롤러 라우터 IP 주소:
+
+
+
+
+ a| 
+IP 주소 형식입니다
+ a| 
+다음 중 하나를 선택하십시오.
+
+* IPv4
+* IPv6
+
+ a| 
+다음 중 하나를 선택하십시오.
+
+* IPv4
+* IPv6
+
+
+
+
+ a| 
+속도 및 이중 모드
+
+* 참고: * SANtricity 시스템 관리자 관리 네트워크의 이더넷 스위치가 자동 교섭으로 설정되어 있는지 확인해야 합니다.
+ a| 
+반드시:
+
+* 자동 협상(기본값)
+
+ a| 
+반드시:
+
+* 자동 협상(기본값)
+
+
 |===
 
 
@@ -39,9 +146,13 @@ SGF6112를 참조하십시오
 
 StorageGRID용 관리 네트워크는 시스템 관리 및 유지 보수에 사용되는 선택적 네트워크입니다. 어플라이언스는 어플라이언스의 다음 1/10GbE 포트를 사용하여 관리 네트워크에 연결합니다.
 
-다음 그림에서는 SGF6112 어플라이언스의 RJ-45 포트를 보여 줍니다.
+SGF6112 어플라이언스의 RJ-45 포트:
 
 image::../media/sg6100_rj_45_ports_circled.png[SGF6112 RJ-45 포트]
+
+SG6100-CN 컨트롤러의 RJ-45 포트:
+
+image::../media/sg6100_cn_rj_45_ports_circled.png[SG6100-CN RJ-45 포트]
 
 [cols="2a,1a"]
 |===
@@ -123,11 +234,12 @@ image::../media/sg6100_rj_45_ports_circled.png[SGF6112 RJ-45 포트]
  a| 
 링크 속도
  a| 
-SGF6112의 경우 다음 중 하나를 선택합니다.
+다음 중 하나를 선택하십시오.
 
 * 자동(기본값)
 * 10GbE
 * 25GbE
+* 100 GbE(SG6160만 해당)
 
 
 
@@ -318,9 +430,15 @@ NOTE: BMC를 포함하는 모든 어플라이언스에 대해 원격 IPMI 액세
 Grid Manager에서 * configuration * > * Security * > * Security settings * > * Appliances * 로 이동하고 * Enable remote IPMI access * 확인란을 선택 취소합니다. 를 누릅니다
 그리드 관리 API에서 전용 엔드포인트를 사용합니다. `PUT /private/bmc`.
 
-다음 그림은 SGF6112 어플라이언스의 BMC 관리 포트를 보여줍니다.
+다음 그림은 SGF6112 및 SG6100-CN의 BMC 관리 포트를 보여줍니다.
 
-image::../media/sgf6112_cn_bmc_management_port.png[SG6100 관리 포트]
+_SGF6112_
+
+image::../media/sgf6112_cn_bmc_management_port.png[SGF6112 관리 포트]
+
+_SG6100-CN_
+
+image::../media/sg6100_cn_bmc_management_port.png[SG6100-CN 관리 포트입니다]
 
 [cols="2a,1a"]
 |===
@@ -368,7 +486,13 @@ BMC 관리 포트에 사용할 고정 IP 주소입니다
 
 고정 포트 결합 모드는 네트워킹 포트의 기본 구성입니다.
 
+_SGF6112: _
+
 image::../media/sgf6112_fixed_port.png[SGF6112 고정 포트 본드 모드]
+
+_SG6100-CN:_
+
+image::../media/sg6100_cn_fixed_port.png[SG6100-CN 고정 포트 본드 모드입니다]
 
 [cols="1a,3a"]
 |===
@@ -403,7 +527,13 @@ NOTE: 중복 연결이 필요하지 않은 경우 각 네트워크에 대해 하
 
 애그리게이트 포트 결합 모드는 각 StorageGRID 네트워크의 처리량을 크게 증가시키고 추가 페일오버 경로를 제공합니다.
 
-image::../media/sgf6112_aggregate_ports.png[SGF6100은 포트 결합 모드를 통합합니다]
+_SGF6112: _
+
+image::../media/sgf6112_aggregate_ports.png[SGF6112 통합 포트 본드 모드입니다]
+
+_SG6100-CN:_
+
+image::../media/sg6100_cn_aggregate_ports.png[SG6100-CN 집계 포트 본드 모드입니다]
 
 [cols="1a,3a"]
 |===
@@ -435,7 +565,13 @@ NOTE: 네트워크 포트를 4개 미만으로 사용하도록 선택한 경우 
 
 1/10GbE 관리 포트 2개의 경우 독립 네트워크 연결 모드 또는 Active-Backup 네트워크 연결 모드를 선택하여 선택적 관리 네트워크에 연결할 수 있습니다.
 
-image::../media/sgf6112_bonded_management_ports.png[네트워크 관리 포트]
+_SGF6112: _
+
+image::../media/sgf6112_bonded_management_ports.png[SGF6112 네트워크 관리 포트]
+
+_SG6100-CN:_
+
+image::../media/sg6100_cn_bonded_management_ports.png[SG6100-CN 네트워크 관리 포트]
 
 [cols="1a,3a"]
 |===

@@ -1,10 +1,10 @@
 ---
 permalink: installconfig/troubleshooting-hardware-installation-sg6100.html 
 sidebar: sidebar 
-keywords: storagegrid, sg6100, sgf6112,troubleshoot, troubleshooting, hardware, install, installation, boot codes, boot-up codes, start codes, codes, boot, start, bmc, error codes, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck, connection 
+keywords: storagegrid, sg6100, sgf6112, troubleshoot, troubleshooting, hardware, install, installation, boot codes, boot-up codes, start codes, codes, boot, start, bmc, error codes, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck, connection, sg6160, sg5800, e4000 
 summary: 설치 중에 문제가 발생하는 경우 하드웨어 설정 및 연결 문제와 관련된 문제 해결 정보를 검토하는 것이 도움이 될 수 있습니다. 
 ---
-= 하드웨어 설치 문제 해결(SG6100)
+= 하드웨어 설치 문제 해결(SG5800 또는 SG6100)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -15,7 +15,7 @@ summary: 설치 중에 문제가 발생하는 경우 하드웨어 설정 및 연
 
 
 
-== 부팅 코드를 봅니다
+== 부팅 코드 보기(SGF6112 및 SG6160만 해당)
 
 장치에 전원을 공급하면 BMC가 일련의 부팅 코드를 기록합니다. BMC 관리 포트에 연결된 그래픽 콘솔에서 이러한 코드를 볼 수 있습니다.
 
@@ -52,7 +52,7 @@ KVM
  a| 
 직렬 포트
  a| 
-** DB-9 직렬 케이블
+** USB 케이블
 ** 가상 직렬 터미널
 
 
@@ -91,6 +91,10 @@ KVM
 .. BMC IP 주소 및 로그인 자격 증명을 사용하여 IPMI SOL에 연결합니다.
 +
 `ipmitool -I lanplus -H _BMC_Port_IP_ -U admin -P _Password_ sol activate`
+
++
+
+NOTE: 경우에 따라 기본 사용자 이름이 'admin' 대신 'root'일 수 있습니다.
 
 .. 가상 시리얼 터미널에서 코드를 봅니다.
 
@@ -131,6 +135,22 @@ FP
 
 
  a| 
+그는
+ a| 
+SG6160 모델만 해당:
+
+시스템이 스토리지 컨트롤러와의 연결을 기다리고 있으며 SANtricity 운영 체제와의 동기화를 기다리고 있습니다.
+
+* 참고 *: 부팅 절차가 이 단계를 지나도 진행되지 않으면 다음 단계를 수행하십시오.
+
+.. SG6100-CN 컨트롤러와 두 스토리지 컨트롤러 사이의 인터커넥트 케이블 4개가 안전하게 연결되었는지 확인합니다.
+.. 필요에 따라 하나 이상의 케이블을 교체하고 다시 시도하십시오.
+.. 그래도 문제가 해결되지 않으면 기술 지원 부서에 문의하십시오.
+
+
+
+
+ a| 
 HC
  a| 
 시스템에서 기존 StorageGRID 설치 데이터를 확인하고 있습니다.
@@ -154,7 +174,7 @@ StorageGRID가 실행 중입니다.
 
 
 
-== 오류 코드를 봅니다
+== 오류 코드 보기(SGF6112 및 SG6160만 해당)
 
 어플라이언스를 부팅할 때 하드웨어 오류가 발생하면 BMC가 오류 코드를 기록합니다. 필요한 경우 BMC 인터페이스를 사용하여 이러한 오류 코드를 확인한 다음 기술 지원 팀과 협력하여 문제를 해결할 수 있습니다.
 
@@ -525,7 +545,7 @@ MRC:ERR_interLeave_failure
 하드웨어 장애 또는 케이블 연결 오류로 인해 어플라이언스가 부팅 프로세스를 완료하지 못하는 경우 StorageGRID 어플라이언스 설치 프로그램을 사용할 수 없습니다.
 
 .단계
-. 어플라이언스의 LED와 BMC에 표시되는 부팅 및 오류 코드를 검토합니다.
+. 어플라이언스의 LED 및/또는 BMC에 표시되는 부팅 및 오류 코드(장착된 경우)를 검토합니다.
 . 문제 해결에 도움이 필요한 경우 기술 지원 부서에 문의하십시오.
 
 
@@ -533,11 +553,41 @@ MRC:ERR_interLeave_failure
 
 == 연결 문제
 
-어플라이언스에 연결할 수 없는 경우 네트워크 문제가 있거나 하드웨어 설치가 성공적으로 완료되지 않았을 수 있습니다.
+
+
+=== 확장 셸프가 어플라이언스 설치 프로그램에 나타나지 않음(SG6160)
+
+확장 셸프가 설치되어 있고 StorageGRID 어플라이언스 설치 프로그램에 나타나지 않는 경우 셸프가 완전히 설치되어 있고 전원이 켜져 있는지 확인해야 합니다.
+
+.이 작업에 대해
+StorageGRID 어플라이언스 설치 프로그램에서 다음 정보를 확인하여 확장 쉘프가 어플라이언스에 연결되어 있는지 확인할 수 있습니다.
+
+* 홈 * 페이지에는 확장 셸프에 대한 메시지가 포함되어 있습니다.
++
+image::../media/expansion_shelf_home_page_msg.png[확장 셸프 메시지]
+
+* 고급 * > * RAID 모드 * 페이지는 어플라이언스에 확장 쉘프가 포함되어 있는지 여부에 관계 없이 드라이브 수로 표시됩니다.
+
+
+StorageGRID 어플라이언스 설치 프로그램 페이지에 확장 셸프가 있는 것으로 표시되지 않으면 다음 절차를 따르십시오.
+
+.단계
+. 필요한 모든 케이블이 단단히 연결되어 있는지 확인합니다. 을 참조하십시오 link:cabling-appliance.html["케이블 제품"].
+. 확장 셸프의 전원을 켰는지 확인합니다. 을 참조하십시오 link:connecting-power-cords-and-applying-power.html["전원 코드 연결 및 전원 공급(SG6100)"].
+. 문제 해결에 도움이 필요한 경우 기술 지원 부서에 문의하십시오.
+
+
+
+
+=== 어플라이언스에 연결할 수 없습니다
+
+스토리지 어플라이언스에 연결할 수 없는 경우 네트워크 문제이거나 하드웨어 설치가 성공적으로 완료되지 않았을 수 있습니다.
 
 .단계
 . 어플라이언스의 IP 주소 + 를 사용하여 어플라이언스에 ping을 시도해 보십시오
-`*ping _appliance_IP_*`
++
+`*ping _appliance/controller_IP_*`
+
 . Ping에서 응답이 없는 경우 올바른 IP 주소를 사용하고 있는지 확인합니다.
 +
 그리드 네트워크, 관리 네트워크 또는 클라이언트 네트워크에서 어플라이언스의 IP 주소를 사용할 수 있습니다.
@@ -548,7 +598,7 @@ MRC:ERR_interLeave_failure
 그래도 문제가 해결되지 않으면 기술 지원 부서에 문의하십시오.
 
 . Ping에 성공하면 웹 브라우저를 엽니다.
-. StorageGRID 어플라이언스 설치 프로그램의 URL을 입력합니다
+. StorageGRID 어플라이언스 설치 관리자 또는 SANtricity 시스템 관리자의 URL을 입력합니다
 `*https://_appliances_controller_IP_:8443*`
 +
 홈 페이지가 나타납니다.

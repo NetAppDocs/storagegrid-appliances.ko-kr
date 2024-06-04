@@ -1,10 +1,10 @@
 ---
 permalink: sg6100/replace-cmos-in-sgf6112.html 
 sidebar: sidebar 
-keywords: storagegrid, sg6100, SGF6112, storage node, storage appliance, Replacing, replace, CMOS, battery 
+keywords: storagegrid, sg6100, SGF6112, storage node, storage appliance, Replacing, replace, CMOS, battery, sg6160 
 summary: 이 절차를 사용하여 시스템 보드에 CMOS 코인 셀 전지를 장착합니다. 
 ---
-= SGF6112 CMOS 배터리를 교체합니다
+= SGF6112 또는 SG6100-CN CMOS 배터리를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -25,7 +25,7 @@ summary: 이 절차를 사용하여 시스템 보드에 CMOS 코인 셀 전지�
 
 .시작하기 전에
 * 있습니다 link:verify-component-to-replace.html["CMOS 배터리를 교체해야 하는 제품을 확인했습니다"].
-* 있습니다 link:locating-sgf6112-in-data-center.html["SGF6112 어플라이언스의 물리적 위치에 있습니다"] 데이터 센터의 CMOS 배터리를 교체하는 위치입니다.
+* 있습니다 link:locating-sgf6112-in-data-center.html["SGF6112 어플라이언스 또는 SG6100-CN 컨트롤러를 물리적으로 배치했습니다"] 데이터 센터의 CMOS 배터리를 교체하는 위치입니다.
 +
 
 NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance["제품의 제어된 셧다운"] 제품을 랙에서 분리하기 전에 필요합니다.
@@ -37,7 +37,7 @@ NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance["제품�
 서비스 중단을 방지하려면 CMOS 배터리 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 관리 기간 동안 배터리를 교체하십시오. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states["노드 연결 상태를 모니터링합니다"^].
 
 
-CAUTION: 개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있는 경우 예정된 유지 관리 기간 동안 배터리를 교체해야 합니다. 그렇지 않으면 이 절차 중에 해당 개체에 대한 액세스가 일시적으로 끊어질 수 있습니다. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"^].
+CAUTION: 개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 배터리를 교체해야 합니다. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"^].
 
 .단계
 . ESD 밴드의 스트랩 끝을 손목 둘레에 감고 클립 끝을 금속 바닥에 단단히 고정하여 정전기 방전을 방지하십시오.

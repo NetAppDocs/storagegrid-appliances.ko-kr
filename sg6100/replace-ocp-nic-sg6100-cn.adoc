@@ -1,0 +1,71 @@
+---
+permalink: sg6100/replace-ocp-nic-in-sg6100-cn.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6100, storage node, storage appliance, Replacing, replace, NIC, network interface card 
+summary: 'SG6100-CN의 네트워크 인터페이스 카드\(NIC\)가 최적으로 작동하지 않거나 장애가 발생한 경우 교체해야 할 수 있습니다.' 
+---
+= SG6100-CN의 외부 NIC를 교체합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SG6100-CN의 외부 NIC(네트워크 인터페이스 카드)가 최적으로 작동하지 않거나 장애가 발생한 경우 교체해야 할 수 있습니다.
+
+다음 절차를 따르십시오.
+
+* NIC를 분리합니다
+* NIC를 다시 설치합니다
+
+
+.시작하기 전에
+* 올바른 교체용 NIC가 있습니다.
+* 을(를) 결정했습니다 link:verify-component-to-replace.html["교체할 NIC의 위치입니다"].
++
+image::../media/sg6100_cn_ocp_nic_location.png[NIC 전면판.]
+
+* 있습니다 link:locating-sgf6112-in-data-center.html["SG6100-CN 컨트롤러를 물리적으로 배치했습니다"] 데이터 센터에서 NIC를 교체하는 위치입니다.
++
+
+NOTE: 이 절차에서는 핫 스왑이 * 지원되지 않습니다 *. A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance["제품의 제어된 셧다운"] 케이블을 분리하고 NIC를 제거하기 전에 필요합니다.
+
+* SG6100-CN의 전원 코드 2개를 포함하여 모든 케이블을 분리했습니다.
+* *선택 사항*: 현지 규정에 따라 필요한 경우 랙에서 컨트롤러를 분리했습니다. NIC를 외부에서 액세스할 수 있으므로 분리할 필요가 없습니다.
+
+
+.이 작업에 대해
+서비스 중단을 방지하려면 NIC(Network Interface Card) 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 NIC를 교체하십시오. 에 대한 정보를 참조하십시오 link:https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states["통합 노드 연결 상태"].
+
+
+CAUTION: 개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 NIC를 교체해야 합니다. 에 대한 정보를 참조하십시오 link:https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"].
+
+
+
+== 외부 NIC를 분리합니다
+
+.단계
+. ESD 밴드의 스트랩 끝을 손목에 감고 정전기 방전을 방지하기 위해 클립 끝을 금속 접지에 고정합니다.
+. 드라이버를 사용하여 NIC의 전면판에 있는 나사를 풉니다.
++
+
+CAUTION: 이 절차에서는 핫 스왑이 * 지원되지 않습니다 *. NIC를 분리하기 전에 컨트롤러의 전원을 차단해야 합니다.
+
+. 전면판 핸들을 당겨 NIC를 조심스럽게 분리합니다. NIC를 정전기 방지 평평한 표면에 놓습니다.
+
+
+
+
+== 외부 NIC를 다시 설치합니다
+
+.단계
+. ESD 밴드의 스트랩 끝을 손목에 감고 정전기 방전을 방지하기 위해 클립 끝을 금속 접지에 고정합니다.
+. 교체용 NIC를 포장에서 꺼냅니다.
+. NIC를 섀시의 입구에 맞추고 완전히 장착될 때까지 조심스럽게 밀어 넣습니다.
+. NIC의 전면판에 있는 나사를 조입니다.
+
+
+.작업을 마친 후
+제품에서 수행해야 할 다른 유지 보수 절차가 없는 경우 제품을 랙에 장착하고 케이블을 연결한 후 전원을 공급하십시오.
+
+부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반납 및 교체"^] 페이지를 참조하십시오.

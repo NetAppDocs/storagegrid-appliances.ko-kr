@@ -18,6 +18,7 @@ StorageGRID 어플라이언스를 설치하기 전에 어플라이언스에 연�
 * link:gathering-installation-information-sg100-and-sg1000.html["SG100 및 SG1000입니다"]
 * link:gathering-installation-information-sg110-and-sg1100.html["SG110 및 SG1100"]
 * link:gathering-installation-information-sg5700.html["SG5700입니다"]
+* link:gathering-installation-information-sg5800.html["SG5800을 참조하십시오"]
 * link:gathering-installation-information-sg6000.html["SG6000 을 참조하십시오"]
 * link:gathering-installation-information-sg6100.html["SG6100"]
 

@@ -1,0 +1,16 @@
+---
+permalink: sg6100/upgrading-drive-firmware-using-santricity-system-manager.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6160, storage node, storage appliance, upgrade, firmware, drive, disk, SANtricity System Manager, SANtricity 
+summary: 드라이브 펌웨어를 업그레이드하여 최신 기능 및 버그 수정 사항이 모두 있는지 확인합니다. 
+---
+= SANtricity System Manager를 사용하여 SG6160 드라이브 펌웨어를 업그레이드합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+어플라이언스의 드라이브에 있는 펌웨어를 업그레이드하여 모든 최신 기능과 버그 수정 사항이 있는지 확인하십시오.
+
+<stdin>-include:../_include/upgrading-drive-firmware-using-sSANtricity-system-manager.adoc[]

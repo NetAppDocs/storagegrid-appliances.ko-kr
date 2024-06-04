@@ -25,7 +25,7 @@ image::../media/appliance_label.gif[일련 번호를 포함한 라벨]
 
 NOTE: SG6000 스토리지 어플라이언스에는 여러 개의 일련 번호가 있습니다. 스토리지 컨트롤러 쉘프의 일련 번호는 SG6000 어플라이언스에서 서비스 또는 지원을 요청할 경우 등록 및 사용해야 하는 일련 번호입니다.
 
-. NetApp Support 사이트 로 이동합니다 http://mysupport.netapp.com/["mysupport.netapp.com"^].
+. 로 이동합니다 http://mysupport.netapp.com/["NetApp Support 사이트"^].
 . 하드웨어를 등록해야 하는지 여부를 확인합니다.
 +
 [cols="1a,2a"]

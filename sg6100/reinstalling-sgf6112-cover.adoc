@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg6100, sgf6112, storage node, storage appliance, cover, install, installing, installation, reinstall, reinstalling, reinstallation 
 summary: 유지관리 시 제품 덮개를 분리하여 내부 부품에 액세스하고, 작업이 끝나면 덮개를 다시 끼우십시오. 
 ---
-= SGF6112 덮개를 교체합니다
+= SGF6112 또는 SG6100-CN 덮개를 교체합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

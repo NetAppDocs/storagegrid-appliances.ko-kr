@@ -41,8 +41,9 @@ NOTE: LACP 전송 해시 정책은 layer2 + 3입니다.
 * link:gathering-installation-information-sg100-and-sg1000.html#port-bond-modes["포트 결합 모드(SG1000 및 SG100)"]
 * link:gathering-installation-information-sg110-and-sg1100.html#port-bond-modes["포트 결합 모드(SG1100 및 SG110)"]
 * link:gathering-installation-information-sg5700.html#port-bond-modes["포트 결합 모드(E5500SG)"]
+* link:gathering-installation-information-sg5800.html#port-bond-modes["포트 본드 모드(SG5800)"]
 * link:gathering-installation-information-sg6000.html#port-bond-modes["포트 본드 모드(SG6000-CN)"]
-* link:gathering-installation-information-sg6100.html#port-bond-modes["포트 결합 모드(SGF6112)"]
+* link:gathering-installation-information-sg6100.html#port-bond-modes["포트 본드 모드(SGF6112 및 SG6100-CN)"]
 
 
 [role="tabbed-block"]
@@ -422,6 +423,111 @@ image::../media/e5700sg_bonded_management_ports.gif[E700SG 연결된 관리 포�
 
 
 --
+.SG5800을 참조하십시오
+--
+고정 포트 결합 모드(기본값)::
++
+--
+이 그림은 4개의 10/25-GbE 포트가 고정 포트 결합 모드(기본 구성)에서 접합되는 방식을 보여줍니다.
+
+image::../media/sg5800_fixed_port.png[SG5800 컨트롤러의 10/25-GbE 포트가 고정 모드로 접합되는 방식을 보여 주는 이미지]
+
+[cols="1a,3a"]
+|===
+| 속성 표시기 | 어떤 포트가 연결되어 있는지 확인합니다 
+
+
+ a| 
+c
+ a| 
+이 네트워크를 사용하는 경우 포트 1과 3이 클라이언트 네트워크에 대해 함께 연결됩니다.
+
+
+
+ a| 
+g
+ a| 
+포트 2와 4는 그리드 네트워크를 위해 서로 연결되어 있습니다.
+
+|===
+이 표에는 4개의 10/25-GbE 포트를 구성하는 옵션이 요약되어 있습니다. 기본이 아닌 설정을 사용하려면 구성 연결 페이지에서 설정을 구성하기만 하면 됩니다.
+
+[cols="1a,2a,2a"]
+|===
+| 네트워크 연결 모드 | 클라이언트 네트워크 비활성화(기본값) | 클라이언트 네트워크가 활성화되었습니다 
+
+
+ a| 
+Active-Backup(기본값)
+ a| 
+* 포트 2와 4는 그리드 네트워크에 액티브-백업 결합을 사용합니다.
+* 포트 1과 3은 사용되지 않습니다.
+* VLAN 태그는 선택 사항입니다.
+
+ a| 
+* 포트 2와 4는 그리드 네트워크에 액티브-백업 결합을 사용합니다.
+* 포트 1과 3은 클라이언트 네트워크에 대해 액티브-백업 연결을 사용합니다.
+* 네트워크 관리자의 편의를 위해 두 네트워크에 VLAN 태그를 지정할 수 있습니다.
+
+
+
+
+ a| 
+LACP(802.3ad)
+ a| 
+* 포트 2와 4는 그리드 네트워크에 LACP 결합을 사용합니다.
+* 포트 1과 3은 사용되지 않습니다.
+* VLAN 태그는 선택 사항입니다.
+
+ a| 
+* 포트 2와 4는 그리드 네트워크에 LACP 결합을 사용합니다.
+* 포트 1과 3은 클라이언트 네트워크에 LACP 결합을 사용합니다.
+* 네트워크 관리자의 편의를 위해 두 네트워크에 VLAN 태그를 지정할 수 있습니다.
+
+
+|===
+--
+애그리게이트 포트 결합 모드::
++
+--
+이 그림은 4개의 10/25-GbE 포트가 Aggregate 포트 결합 모드에서 결합되는 방식을 보여줍니다.
+
+image::../media/sg5800_aggregate_port.png[SG5800 컨트롤러의 10/25-GbE 포트가 애그리게이트 모드로 접합되는 방식을 보여 주는 이미지]
+
+[cols="1a,3a"]
+|===
+| 속성 표시기 | 어떤 포트가 연결되어 있는지 확인합니다 
+
+
+ a| 
+1
+ a| 
+4개 포트 모두 단일 LACP 결합으로 그룹화되므로 모든 포트를 그리드 네트워크 및 클라이언트 네트워크 트래픽에 사용할 수 있습니다.
+
+|===
+이 표에는 4개의 10/25-GbE 포트를 구성하는 옵션이 요약되어 있습니다. 기본이 아닌 설정을 사용하려면 구성 연결 페이지에서 설정을 구성하기만 하면 됩니다.
+
+[cols="1a,2a,2a"]
+|===
+| 네트워크 연결 모드 | 클라이언트 네트워크 비활성화(기본값) | 클라이언트 네트워크가 활성화되었습니다 
+
+
+ a| 
+LACP(802.3ad)만 해당
+ a| 
+* 포트 1-4는 그리드 네트워크에 단일 LACP 결합을 사용합니다.
+* 단일 VLAN 태그는 그리드 네트워크 패킷을 식별합니다.
+
+ a| 
+* 포트 1-4는 그리드 네트워크 및 클라이언트 네트워크에 단일 LACP 결합을 사용합니다.
+* 두 개의 VLAN 태그를 통해 그리드 네트워크 패킷을 클라이언트 네트워크 패킷과 분리할 수 있습니다.
+
+
+|===
+--
+
+
+--
 .SG6000 을 참조하십시오
 --
 고정 포트 결합 모드(기본값)::
@@ -535,14 +641,20 @@ image::../media/sg6000_cn_bonded_managemente_ports.png[연결된 관리 네트�
 
 
 --
-.SGF6112를 참조하십시오
+.SG6100
 --
 고정 포트 결합 모드(기본값)::
 +
 --
 이 그림은 4개의 네트워크 포트가 고정 포트 결합 모드(기본 구성)에서 어떻게 결합되는지 보여줍니다.
 
+* SGF6112 *:
+
 image::../media/sgf6112_fixed_port.png[SGF6112 고정 포트 본드 모드]
+
+* SG6100 *:
+
+image::../media/sg6100_cn_fixed_port.png[SG6100-CN 고정 포트 본드 모드입니다]
 
 [cols="1a,3a"]
 |===
@@ -604,7 +716,13 @@ LACP(802.3ad)
 --
 이 그림은 4개의 네트워크 포트가 애그리게이트 포트 결합 모드에서 결합되는 방식을 보여줍니다.
 
+* SGF6112 *:
+
 image::../media/sgf6112_aggregate_ports.png[SGF6112 Aggregate 포트 본드 모드]
+
+* SG6100 *:
+
+image::../media/sg6100_cn_aggregate_ports.png[SG6100-CN 통합 포트 본드 모드]
 
 [cols="1a,3a"]
 |===
@@ -640,9 +758,15 @@ LACP(802.3ad)만 해당
 Active - 관리 포트를 위한 백업 네트워크 연결 모드입니다::
 +
 --
-이 그림은 SGF6112의 1GbE 관리 포트 2개가 관리 네트워크의 Active-Backup 네트워크 연결 모드에서 어떻게 연결되는지를 보여 줍니다.
+이 그림에서는 관리 네트워크에 대해 두 개의 1GbE 관리 포트가 Active-Backup 네트워크 연결 모드에서 연결되는 방법을 보여 줍니다.
+
+* SGF6112 *:
 
 image::../media/sgf6112_bonded_management_ports.png[관리 네트워크 포트 본드 결합됨 SGF6112]
+
+* SG6100 *:
+
+image::../media/sg6100_cn_bonded_management_ports.png[관리 네트워크 포트 본드 SG6100-CN]
 
 --
 
@@ -673,12 +797,12 @@ image::../media/sgf6112_bonded_management_ports.png[관리 네트워크 포트 �
 그리드 네트워크 및 클라이언트 네트워크에 대해 사용 중인 네트워크 스위치도 이 속도를 지원하고 구성해야 합니다. 구성된 링크 속도에 적절한 어댑터 또는 트랜시버를 사용해야 합니다. 이 옵션은 링크 파트너와 링크 속도 및 FEC(Forward Error Correction) 모드를 모두 협상하기 때문에 가능하면 자동 링크 속도를 사용하십시오.
 
 +
-SG6000 또는 SG5700 네트워크 포트에 대해 25-GbE 링크 속도를 사용하려는 경우:
+SG6100, SG6000, SG5800 또는 SG5700 네트워크 포트에 대해 25-GbE 링크 속도를 사용하려는 경우:
 
 +
 ** SFP28 트랜시버 및 SFP28 TwinAx 케이블 또는 광 케이블을 사용합니다.
 ** SG5700의 경우 * 링크 속도 * 드롭다운 목록에서 * 25GbE * 를 선택합니다.
-** SG6000의 경우 * 링크 속도 * 드롭다운 목록에서 * 자동 * 을 선택합니다.
+** SG5800, SG6000 또는 SG6100의 경우 * 링크 속도 * 드롭다운 목록에서 * 자동 * 을 선택합니다.
 
 
 . 사용하려는 StorageGRID 네트워크를 활성화 또는 비활성화합니다.

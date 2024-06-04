@@ -1,0 +1,53 @@
+---
+section: sg5800
+title: SG5800 하드웨어 유지보수
+url: "/landing-maintain-sg5800/index.html"
+entries:
+- title: 개요
+  pdf-filename: SG5800 하드웨어 유지 관리
+  url: "/sg5800/index.html"
+- title: 유지보수 구성 절차
+  pdf-filename: 유지보수 구성 절차 - SG5800
+  entries:
+  - title: 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다
+    url: "/sg5800/upgrading-santricity-os-on-storage-controller.html"
+    entries:
+    - title: 그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다
+      url: "/sg5800/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html"
+    - title: 유지보수 모드를 사용하여 E4000 컨트롤러에서 SANtricity OS를 업그레이드합니다
+      url: "/sg5800/upgrading-santricity-os-on-e4000-controller-using-maintenance-mode.html"
+  - title: SANtricity 시스템 관리자를 사용하여 드라이브 펌웨어를 업그레이드합니다
+    entries:
+    - title: SANtricity System Manager 온라인 방법을 사용하여 SG5800 드라이브 펌웨어를 업그레이드합니다
+      url: "/sg5800/upgrading-drive-firmware-using-santricity-system-manager-online.html"
+    - title: SANtricity System Manager 오프라인 방법을 사용하여 SG5800 드라이브 펌웨어를 업그레이드합니다
+      url: "/sg5800/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
+    - title: 드라이브 펌웨어의 업그레이드 오류 문제 해결
+      url: "/sg5800/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html"
+  - title: SG5800 컨트롤러의 링크 구성을 변경합니다
+    url: "/sg5800/changing-link-configuration-of-sg5800-controller.html"
+- title: 하드웨어 절차
+  pdf-filename: 하드웨어 절차 - SG5800
+  entries:
+  - title: SG5800 컨트롤러를 교체합니다
+    url: "/sg5800/replace-controller-sg5800.html"
+  - title: E4000 컨트롤러를 교체합니다
+    url: "/sg5800/replace-controller-e4000-simplex.html"
+  - title: 팬 교체(SG5860)
+    url: "/sg5800/replace-fan-canister.html"
+  - title: 전원 공급 장치 교체(SG5812)
+    url: "/sg5800/replace-power-supply.html"
+  - title: 전원 캐니스터 교체(SG5860)
+    url: "/sg5800/replace-power-canister.html"
+  - title: 배터리를 교체하십시오
+    url: "/sg5800/replace-battery-e4000.html"
+  - title: DIMM을 교체합니다
+    url: "/sg5800/replace-dimms-e4000.html"
+  - title: 드라이브를 교체합니다
+    entries:
+    - title: 개요 및 요구 사항
+      url: "/sg5800/replace-drive-e4000.html"
+    - title: SG5812
+      url: "/sg5800/replace-drives-12-24.html"
+    - title: SG5860
+      url: "/sg5800/replace-drives-60.html"

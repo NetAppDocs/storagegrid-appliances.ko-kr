@@ -11,7 +11,7 @@ summary: BMC 인터페이스에 액세스하려면 SG6000-CN 컨트롤러 또는
 
 
 [role="lead"]
-BMC 인터페이스에 액세스하려면 SGF6112, SG6000-CN 컨트롤러 또는 서비스 어플라이언스에서 BMC 관리 포트의 IP 주소를 구성하십시오.
+BMC 인터페이스에 액세스하려면 먼저 SGF6112, SG6000-CN 컨트롤러, SG6100-CN 컨트롤러 또는 서비스 어플라이언스에서 BMC 관리 포트의 IP 주소를 구성하십시오.
 
 ConfigBuilder를 사용하여 JSON 파일을 생성하는 경우 IP 주소를 자동으로 구성할 수 있습니다. 을 참조하십시오 link:automating-appliance-installation-and-configuration.html["어플라이언스 설치 및 구성 자동화"].
 
@@ -49,7 +49,13 @@ image::../media/sg6000_cn_bmc_management_port.gif[SG6000-CN 컨트롤러의 BMC 
 --
 .SG6100
 --
+_SGF6112_:
+
 image::../media/sgf6112_cn_bmc_management_port.png[BMC 관리 포트 SGF6112]
+
+_SG6100-CN_:
+
+image::../media/sg6100_cn_bmc_management_port.png[BMC 관리 포트 SG610-CN]
 
 --
 ====

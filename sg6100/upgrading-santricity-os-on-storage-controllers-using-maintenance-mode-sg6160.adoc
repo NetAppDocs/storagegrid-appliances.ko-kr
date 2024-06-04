@@ -1,0 +1,67 @@
+---
+permalink: sg6100/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6160.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6160, storage node, storage appliance, controller, storage controller, upgrade, upgrading, SANtricity OS, SANtricity, maintenance mode 
+summary: '현재 SANtricity OS가 08.42.20.00\(11.42\)보다 오래된 스토리지 컨트롤러의 경우 유지보수 모드 절차를 사용하여 업그레이드를 적용해야 합니다.' 
+---
+= 유지보수 모드를 사용하여 SG6160 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+유지보수 모드를 사용하여 SG6160 컨트롤러에서 SANtricity OS를 업그레이드할 수 있습니다.
+
+현재 08.42.20.00(11.42) 이전의 SANtricity OS를 사용하는 스토리지 컨트롤러의 경우, 업그레이드를 적용하려면 유지보수 모드 절차를 사용해야 합니다.
+
+
+NOTE: 현재 08.42.20.00(11.42) 이상의 SANtricity OS를 사용 중인 스토리지 컨트롤러의 경우 를 권장합니다 link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html["Grid Manager를 사용하여 업그레이드를 적용합니다"]. 그러나 원하는 경우나 기술 지원 부서의 지시가 있는 경우에는 유지보수 모드 절차를 사용할 수 있습니다.
+
+.시작하기 전에
+* 을(를) 참조했습니다 https://imt.netapp.com/matrix/#welcome["NetApp 상호 운용성 매트릭스 툴(IMT)"^] 업그레이드에 사용 중인 SANtricity OS 버전이 어플라이언스와 호환되는지 확인합니다.
+* SG6160 컨트롤러를 에 배치해야 합니다 link:../commonhardware/placing-appliance-into-maintenance-mode.html["유지보수 모드"]E4000 스토리지 컨트롤러에 대한 모든 입출력을 중지합니다.
++
+
+NOTE: StorageGRID 어플라이언스를 유지보수 모드로 전환하면 원격 액세스가 불가능한 경우가 드물게 있습니다.
+
+
+
+.이 작업에 대해
+한 번에 둘 이상의 StorageGRID 어플라이언스의 스토리지 컨트롤러에서 SANtricity OS 또는 NVSRAM을 업그레이드하지 마십시오.
+
+
+CAUTION: 배포 모델 및 ILM 정책에 따라 한 번에 둘 이상의 StorageGRID 어플라이언스를 업그레이드할 경우 데이터를 사용할 수 없게 될 수 있습니다.
+
+.단계
+. 제품이 에 있는지 확인하십시오 link:../commonhardware/placing-appliance-into-maintenance-mode.html["유지보수 모드"].
+. 서비스 랩톱에서 SANtricity System Manager에 액세스하고 로그인합니다.
+. 관리 클라이언트에 새 SANtricity OS 소프트웨어 파일 및 NVSRAM 파일을 다운로드합니다.
++
+
+CAUTION: NVSRAM은 StorageGRID 어플라이언스에만 적용됩니다. 표준 NVSRAM 다운로드는 사용하지 마십시오.
+
+. 펌웨어 및 NVSRAM을 업그레이드하려면, _Upgrading SANtricity OS_guide 또는 SANtricity 시스템 관리자 온라인 도움말의 지침을 따르십시오.
++
+
+NOTE: 업그레이드 파일을 즉시 활성화합니다. 활성화를 지연하지 마십시오.
+
+. 이 절차가 성공적으로 완료되었고 노드가 유지보수 모드일 때 수행할 추가 절차가 있는 경우 지금 수행합니다. 작업을 완료했거나 오류가 발생하여 다시 시작하려면 * 고급 * > * 컨트롤러 재부팅 * 을 선택하고 다음 옵션 중 하나를 선택합니다.
++
+** StorageGRID * 로 재부팅 * 을 선택합니다
+** 유지보수 모드로 재부팅 * 을 선택하여 유지보수 모드로 남아 있는 노드를 사용하여 컨트롤러를 재부팅합니다.  절차 중에 오류가 발생하여 다시 시작하려면 이 옵션을 선택합니다.  노드가 유지보수 모드로 재부팅된 후 장애가 발생한 절차의 적절한 단계에서 다시 시작하십시오.
++
+image::../media/reboot_controller_from_maintenance_mode.png[유지보수 모드에서 컨트롤러를 재부팅합니다]
+
++
+어플라이언스가 재부팅되고 그리드에 다시 가입하는 데 최대 20분이 걸릴 수 있습니다. 재부팅이 완료되고 노드가 그리드에 다시 결합되었는지 확인하려면 Grid Manager로 돌아갑니다. 노드 페이지에는 정상 상태(녹색 확인 표시 아이콘)가 표시되어야 합니다 image:../media/icon_alert_green_checkmark.png["녹색 확인 표시"] (노드 이름 왼쪽) 어플라이언스 노드에 대해 알림이 활성화되어 있지 않고 노드가 그리드에 연결되어 있음을 나타냅니다.
+
++
+image::../media/nodes_menu.png[어플라이언스 노드가 그리드에 다시 합류했습니다]
+
+
+
+
+
+.관련 정보
+link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html["그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다"]

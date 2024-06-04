@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sgf6112, link configuration, link, configure, configuring, ethernet, port bond mode, port bond, network bond mode, network bond, link speed, vlan tagging, vlan tag 
 summary: 포트 결합 모드, 네트워크 연결 모드 및 링크 속도를 포함하여 어플라이언스의 이더넷 링크 구성을 변경할 수 있습니다. 
 ---
-= SGF6112 어플라이언스의 링크 구성을 변경합니다
+= SGF6112 어플라이언스 또는 SG6100-CN 컨트롤러의 링크 구성을 변경합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

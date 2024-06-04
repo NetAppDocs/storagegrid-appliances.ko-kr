@@ -1,0 +1,64 @@
+---
+permalink: sg6100/replace-drive-sg6100-cn.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6160, sg6100, service appliance, services appliance, gateway Node, admin node, Replacing, replace, drive, remove, removing, removal, install, installing, installation 
+summary: SG6160 어플라이언스에는 SG6100-CN 컨트롤러에 읽기 캐시로 작동하는 SSD 드라이브 2개가 포함되어 있습니다. 이러한 드라이브 중 하나에 장애가 발생하면 성능에 미치는 영향을 최소화하기 위해 가능한 한 빨리 드라이브를 교체해야 합니다. 
+---
+= SG6100-CN의 드라이브를 교체합니다
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SG6160 어플라이언스에는 SG6100-CN 컨트롤러에 읽기 캐시로 작동하는 SSD 드라이브 2개가 포함되어 있습니다. 이러한 드라이브 중 하나에 장애가 발생하면 성능에 미치는 영향을 최소화하기 위해 가능한 한 빨리 드라이브를 교체해야 합니다.
+
+.시작하기 전에
+* 있습니다 link:locating-sgf6112-in-data-center.html["제품을 물리적으로 위치했습니다"].
+* 왼쪽 LED가 주황색으로 고정되어 있는지 확인하거나 에 Grid Manager를 사용하여 장애가 발생한 드라이브를 확인했습니다 link:verify-component-to-replace.html["오류가 발생한 드라이브로 인해 발생한 경고를 봅니다"].
+* 교체 드라이브를 받았습니다.
+* 적절한 ESD 보호 조치를 받았습니다.
+
+
+.단계
+. 드라이브의 왼쪽 오류 LED가 주황색인지 확인하거나 경고의 드라이브 슬롯 ID를 사용하여 드라이브를 찾습니다.
++
+드라이브는 섀시의 다음 위치에 있습니다(베젤이 분리된 섀시의 전면).
+
++
+image::../media/sg6160_front_with_ssds.png[SG6160의 SSD 위치]
+
+. ESD 밴드의 스트랩 끝을 손목 둘레에 감고 클립 끝을 금속 바닥에 단단히 고정하여 정전기 방전을 방지하십시오.
+. 교체용 드라이브의 포장을 풀고 제품 근처의 정전기가 없는 평평한 표면에 놓습니다.
++
+포장재를 모두 보관하십시오.
+
+. 오류가 발생한 드라이브의 분리 단추를 누릅니다.
++
+image::../media/h600s_driveremoval.gif[드라이브 분리]
+
++
+드라이브 스프링의 핸들이 부분적으로 열리고 드라이브가 슬롯에서 풀리게 됩니다.
+
+. 핸들을 열고 드라이브를 밀어 빼낸 다음 정전기가 없는 평평한 표면에 놓습니다.
+. 드라이브 슬롯에 삽입하기 전에 교체 드라이브의 분리 단추를 누릅니다.
++
+래치 스프링이 열립니다.
+
++
+image::../media/h600s_driveinstall.gif[드라이브 설치]
+
+. 슬롯에 교체 드라이브를 삽입한 다음 드라이브 핸들을 닫습니다.
++
+
+CAUTION: 핸들을 닫는 동안 과도한 힘을 가하지 마십시오.
+
++
+드라이브가 완전히 삽입되면 딸깍 소리가 납니다.
+
++
+두 SSD 드라이브가 정상적으로 작동하는 경우 시스템은 자동으로 읽기 캐시 기능을 복원합니다. 가능합니다 https://docs.netapp.com/us-en/storagegrid-118/monitor/running-diagnostics.html["진단 유틸리티를 실행합니다"^] 읽기 캐시 적중률을 모니터링합니다. 캐시가 방금 재구축되었기 때문에 처음에는 적중률이 낮을 수 있지만 개체 데이터에 액세스하는 클라이언트가 캐시를 다시 채울 때 시간이 지남에 따라 증가해야 합니다.
+
+
+
+부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반납 및 교체"^] 페이지를 참조하십시오.

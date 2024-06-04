@@ -9,6 +9,20 @@ entries:
 - title: 유지보수 구성 절차
   pdf-filename: 유지보수 구성 절차 - SG6100
   entries:
+  - title: SANtricity 업그레이드(SG6160)
+    entries:
+    - title: 그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다
+      url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html"
+    - title: 유지보수 모드를 사용하여 SG6160 컨트롤러에서 SANtricity OS를 업그레이드합니다
+      url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6160.html"
+  - title: SANtricity System Manager(SG6160)를 사용하여 드라이브 펌웨어 업그레이드
+    entries:
+    - title: SANtricity System Manager 온라인 방법을 사용하여 SG6100 드라이브 펌웨어를 업그레이드합니다
+      url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager-online.html"
+    - title: SANtricity System Manager의 오프라인 방법을 사용하여 SG6100 드라이브 펌웨어를 업그레이드합니다
+      url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
+    - title: 드라이브 펌웨어의 업그레이드 오류 문제 해결
+      url: "/sg6100/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html"
   - title: 드라이브 관리 탭을 사용합니다
     url: "/sg6100/manage-drives-tab.html"
   - title: 식별 LED를 켜고 끕니다
@@ -24,19 +38,53 @@ entries:
   entries:
   - title: 교체할 구성 요소를 확인합니다
     url: "/sg6100/verify-component-to-replace.html"
-  - title: 하나 이상의 전원 공급 장치를 교체합니다
-    url: "/sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
   - title: 팬을 교체합니다
-    url: "/sg6100/replacing-fan-in-sgf6112.html"
+    entries:
+    - title: SGF6112 또는 SG6100-CN(SG6160)
+      url: "/sg6100/replacing-fan-in-sgf6112.html"
+    - title: 스토리지 컨트롤러 쉘프 또는 확장 쉘프(SG6160)
+      url: "/sg6100/replace-e4000-fan-canister.html"
+  - title: 전원 공급 장치를 교체합니다
+    entries:
+    - title: SGF6112 또는 SG6100-CN(SG6160)
+      url: "/sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
+    - title: 스토리지 컨트롤러 쉘프 또는 확장 쉘프(SG6160)
+      url: "/sg6100/replace-6100-cn-power-canister.html"
   - title: 드라이브를 교체합니다
-    url: "/sg6100/replacing-drive-in-sgf6112.html"
+    entries:
+    - title: SGF6112를 참조하십시오
+      url: "/sg6100/replacing-drive-in-sgf6112.html"
+    - title: SG6100-CN(SG6160)
+      url: "/sg6100/replace-drive-sg6100-cn.html"
+    - title: 스토리지 컨트롤러 쉘프 또는 확장 쉘프(SG6160)
+      url: "/sg6100/replace-6160-drives-60.html"
   - title: NIC를 교체합니다
-    url: "/sg6100/replace-nic-in-sgf6112.html"
+    entries:
+    - title: 내부 NIC(SGF6112 및 SG6160)
+      url: "/sg6100/replace-nic-in-sgf6112.html"
+    - title: 외부 NIC(SG6160)
+      url: "/sg6100/replace-ocp-nic-in-sg6100-cn.html"
   - title: CMOS 배터리를 교체합니다
     url: "/sg6100/replace-cmos-in-sgf6112.html"
+  - title: DIMM을 교체합니다
+    url: "/sg6100/replace-dimms-e4000.html"
+  - title: 배터리를 교체하십시오
+    url: "/sg6100/replace-battery-e4000.html"
   - title: 덮개를 다시 끼웁니다
     url: "/sg6100/reinstalling-sgf6112-cover.html"
-  - title: SGF6112 어플라이언스를 교체하십시오
-    url: "/sg6100/replacing-sgf6112-appliance.html"
-  - title: 랙에 SGF6112를 재배치합니다
-    url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
+  - title: 배포된 SG6160에 확장 쉘프를 추가합니다
+    url: "/sg6100/adding-expansion-shelf-to-deployed-sg6160.html"
+  - title: 제품을 교체하십시오
+    entries:
+    - title: SGF6112를 참조하십시오
+      url: "/sg6100/replacing-sgf6112-appliance.html"
+    - title: SG6100-CN 컨트롤러(SG6160)
+      url: "/sg6100/replacing-sg6100-cn-controller.html"
+    - title: E4000 컨트롤러(SG6160)
+      url: "/sg6100/replace-controller-e4000-duplex.html"
+  - title: 랙에 재배치합니다
+    entries:
+    - title: SGF6112를 참조하십시오
+      url: "/sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
+    - title: SG6100-CN 컨트롤러(SG6160)
+      url: "/sg6100/reinstalling-sg6100-cn-controller-into-cabinet-or-rack.html"
