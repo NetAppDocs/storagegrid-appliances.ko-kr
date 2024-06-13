@@ -4921,7 +4921,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="f3a0ab2289e5d894b80255c441fc9f46" category="list-text">각 스토리지 컨트롤러에 10/25GbE 포트 2개</block>
   <block id="2e869104086dd4cd2c4b722cc80e77b6" category="paragraph">각 스토리지 컨트롤러를 SG6100-CN 컨트롤러에 연결합니다.</block>
   <block id="776053d9d5cca53346c2eb33c73396bf" category="paragraph">5(SG6160만 해당)</block>
-  <block id="d14bfbc5b95f245a7cd1ac38c7f3ce2d" category="list-text">1개의 100-GbE GSFP28-4x25-GbE SFP28 케이블을 사용하여 각 스토리지 컨트롤러에 있는 2개의 인터커넥트 포트를 SG6100-CN 컨트롤러의 100GbE 포트에 연결합니다.</block>
   <block id="fcb7aea9a14248650fc2b4195b723923" category="cell">링크 속도(GbE)</block>
   <block id="20d4ad7302d59cc00a8fda9a9f549883" category="list-text">그리드 및 클라이언트 네트워크 포트는 자동 협상이 링크 속도로 선택되고 포트 결합 모드로 고정이 선택된 경우에만 다른 속도로 실행될 수 있습니다. 그렇지 않으면 포트 4개가 모두 같은 속도로 실행됩니다.</block>
   <block id="76caeddfbf7a30108ac0c230c0790b19" category="paragraph">SG6160, SG6000, SG5800 및 SG5700의 경우 SANtricity System Manager를 구성합니다. SANtricity 소프트웨어는 이러한 어플라이언스의 하드웨어를 모니터링하는 데 사용됩니다.</block>
@@ -5506,4 +5505,5 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="1b137b50e38b53f7a19b8ae2f6114d7d" category="sidebar">랙에 재배치합니다</block>
   <block id="d1fc100be07ba82ec7383450a44baff8" category="list-text">SG6100-CN 컨트롤러가 제어된 종료를 허용하기에 충분히 작동 중인 경우 <block ref="0a3cf65437375f485bddbc72eccdb305" category="inline-link-macro-rx"></block>.</block>
   <block id="d0f113fd26d2007a359ab568d6af75eb" category="paragraph">어플라이언스 컨트롤러에는 어플라이언스 컨트롤러의 상태를 확인할 수 있는 표시등이 포함되어 있습니다. 이 정보를 사용하여 도움을 받으십시오 <block ref="e0e94668a35b0e62f1c3c83bc6a3960d" category="inline-link-macro-rx"></block>.</block>
+  <block id="a0fdf2c022cdb2b6d6cca277318ea2b2" category="list-text">1개의 100GbE QSFP28-4x25-GbE SFP28 케이블을 사용하여 각 스토리지 컨트롤러에 있는 2개의 인터커넥트 포트를 SG6100-CN 컨트롤러의 100GbE 포트에 연결합니다.</block>
 </blocks>
