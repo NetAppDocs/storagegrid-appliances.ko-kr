@@ -67,6 +67,9 @@ entries:
         url: "/installconfig/sg6000-cn-installing-into-cabinet-or-rack.html"
     - title: SG6100
       entries:
+      - title: 개요
+        pdf-filename: SG6100을 캐비닛 또는 랙에 설치합니다
+        url: "/installconfig/installing-hardware-sg6100.html"
       - title: 60개 드라이브 쉘프 설치(SG6160)
         url: "/installconfig/sg6160-installing-60-drive-shelves-into-cabinet-or-rack.html"
       - title: 12 드라이브 쉘프 설치(SGF6112)

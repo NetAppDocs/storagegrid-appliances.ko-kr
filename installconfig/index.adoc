@@ -36,13 +36,7 @@ summary: 이러한 높은 수준의 단계에 따라 StorageGRID 어플라이언
 ** link:installing-appliance-in-cabinet-or-rack-sg5700.html["SG5700입니다"]
 ** link:installing-appliance-in-cabinet-or-rack-sg5800.html["SG5800을 참조하십시오"]
 ** link:installing-hardware-sg6000.html["SG6000 을 참조하십시오"]
-** link:installing-appliance-in-cabinet-or-rack-sgf6112.html["SGF6112를 참조하십시오"]
-** SG6160:
-+
-*** link:sg6100-cn-installing-into-cabinet-or-rack.html["SG6100-CN 컨트롤러"]
-*** link:sg6160-installing-60-drive-shelves-into-cabinet-or-rack.html["60-드라이브 쉘프"]
-
-
+** link:installing-hardware-sg6100.html["SG6100"]
 
 
 . link:cabling-appliance.html["케이블 제품"]

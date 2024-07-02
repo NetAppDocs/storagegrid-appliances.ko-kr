@@ -1,0 +1,46 @@
+---
+permalink: installconfig/installing-hardware-sg6100.html 
+sidebar: sidebar 
+keywords: install, sg6100, sg6112, expansion shelf, cabinet, rack, drives 
+summary: SG6160 및 SGF6112의 경우 캐비닛 또는 랙에 레일을 설치하고 컨트롤러 쉘프, 확장 쉘프 및 컴퓨팅 컨트롤러를 레일에 밀어넣습니다. 
+---
+= 캐비닛 또는 랙에 설치(SG6100)
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SG6160 및 SGF6112의 경우 캐비닛 또는 랙에 레일을 설치하고 컨트롤러 쉘프, 확장 쉘프 및 컴퓨팅 컨트롤러를 레일에 밀어넣습니다.
+
+[cols="1a,2a,2a"]
+|===
+| 모델 | 설치합니다 | 를 참조하십시오 
+
+
+ a| 
+SG6160
+ a| 
+60-드라이브 컨트롤러 쉘프와 60-드라이브 확장 쉘프 및 모든 쉘프
+ a| 
+link:sg6160-installing-60-drive-shelves-into-cabinet-or-rack.html["60-드라이브 쉘프를 설치합니다"]
+
+
+
+ a| 
+SG6112를 참조하십시오
+ a| 
+12-드라이브 어플라이언스 쉘프
+ a| 
+link:installing-appliance-in-cabinet-or-rack-sgf6112.html["12-드라이브 쉘프를 설치합니다"]
+
+
+
+ a| 
+SG6160
+ a| 
+SG6100-CN 컴퓨팅 컨트롤러
+ a| 
+link:sg6100-cn-installing-into-cabinet-or-rack.html["SG6100-CN 컨트롤러를 설치합니다"]
+
+|===
