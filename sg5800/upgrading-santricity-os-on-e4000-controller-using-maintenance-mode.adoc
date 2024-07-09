@@ -19,8 +19,8 @@ summary: '현재 SANtricity OS가 08.42.20.00\(11.42\)보다 오래된 스토리
 NOTE: 현재 08.42.20.00(11.42) 이상의 SANtricity OS를 사용 중인 스토리지 컨트롤러의 경우 를 권장합니다 link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html["Grid Manager를 사용하여 업그레이드를 적용합니다"]. 그러나 원하는 경우나 기술 지원 부서의 지시가 있는 경우에는 유지보수 모드 절차를 사용할 수 있습니다.
 
 .시작하기 전에
-* 을(를) 참조했습니다 https://imt.netapp.com/matrix/#welcome["NetApp 상호 운용성 매트릭스 툴(IMT)"^] 업그레이드에 사용 중인 SANtricity OS 버전이 어플라이언스와 호환되는지 확인합니다.
-* SG5800 컨트롤러를 에 배치해야 합니다 link:../commonhardware/placing-appliance-into-maintenance-mode.html["유지보수 모드"]E4000 컨트롤러와의 연결을 중단합니다.
+* 에서 업그레이드할 SANtricity OS 버전을 받지 못한 경우 https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab["NetApp 다운로드: StorageGRID 어플라이언스"^], 자문을 구했습니다 https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab["NetApp 다운로드: StorageGRID 어플라이언스"^] 또는 을 누릅니다 https://imt.netapp.com/matrix/#welcome["NetApp 상호 운용성 매트릭스 툴(IMT)"^] 업그레이드에 사용 중인 SANtricity OS 버전이 어플라이언스와 호환되는지 확인합니다.
+* SG5800 컨트롤러를 에 배치해야 link:../commonhardware/placing-appliance-into-maintenance-mode.html["유지보수 모드"]E4000 컨트롤러에 대한 모든 I/O가 중지됩니다.
 +
 
 NOTE: StorageGRID 어플라이언스를 유지보수 모드로 전환하면 원격 액세스가 불가능한 경우가 드물게 있습니다.

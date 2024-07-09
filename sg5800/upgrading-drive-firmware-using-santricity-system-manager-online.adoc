@@ -26,9 +26,7 @@ CAUTION: 한 번에 둘 이상의 StorageGRID 어플라이언스에서 드라이
 
 [NOTE]
 ====
-중복성이 없는 볼륨에 속한 드라이브는 를 사용하여 업데이트해야 합니다 link:upgrading-drive-firmware-using-santricity-system-manager-offline.html["오프라인 방법입니다"]. 오프라인 방법은 현재 성능이 저하된 풀 또는 볼륨 그룹에 사용해야 합니다.
-
-를 사용해야 합니다 link:upgrading-drive-firmware-using-santricity-system-manager-offline.html["오프라인 방법입니다"] SSD 드라이브를 업그레이드할 때.
+중복성이 없는 볼륨에 속한 드라이브는 를 사용하여 업데이트해야 link:upgrading-drive-firmware-using-santricity-system-manager-offline.html["오프라인 방법입니다"]합니다.
 
 ====
 .단계

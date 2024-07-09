@@ -11,13 +11,13 @@ summary: 'SG5800 StorageGRID 어플라이언스는 StorageGRID 그리드에서 �
 
 
 [role="lead"]
-SG5800 StorageGRID 어플라이언스는 StorageGRID 그리드에서 스토리지 노드로 작동하는 통합 스토리지 및 컴퓨팅 플랫폼입니다.
+SG5800 시리즈 StorageGRID 어플라이언스는 StorageGRID 그리드에서 스토리지 노드로 작동하는 통합 스토리지 및 컴퓨팅 플랫폼입니다.
 
 StorageGRID SG5800 시리즈 어플라이언스는 다음과 같은 기능을 제공합니다.
 
 * StorageGRID 스토리지 노드의 스토리지 및 컴퓨팅 요소 통합
 * 스토리지 노드 구축 및 구성을 단순화하기 위해 StorageGRID 어플라이언스 설치 프로그램을 포함합니다.
-* 하드웨어 관리 및 모니터링을 위한 E-Series SANtricity System Manager 포함.
+* 하드웨어 관리 및 모니터링을 위한 E-Series SANtricity System Manager가 포함됩니다.
 * StorageGRID 그리드 네트워크 및 클라이언트 네트워크에 대한 10GbE 또는 25GbE 연결을 최대 4개까지 지원합니다.
 * FDE(전체 디스크 암호화) 드라이브 또는 FIPS 드라이브를 지원합니다. 이러한 드라이브를 SANtricity 시스템 관리자의 드라이브 보안 기능과 함께 사용하면 데이터에 대한 무단 액세스가 방지됩니다.
 
@@ -274,7 +274,7 @@ image::../media/e4000_controller_with_callouts.png[E4000 컨트롤러의 커넥�
 
 * 참고 *: 관리 포트를 유선으로 두도록 선택하면 정확한 로그 타임스탬프를 위한 NTP 동기화와 같은 일부 선택적 SANtricity 기능을 사용할 수 없습니다.
 
-* 참고 *: StorageGRID 11.8 이상 및 SANtricity 11.8 이상은 관리 업무를 무선으로 방치할 때 필요합니다.
+* 참고 *: 관리 포트를 유선으로 사용하지 않을 때는 StorageGRID 11.8 이상 및 SANtricity 11.8 이상이 필요합니다.
 
 
 

@@ -59,7 +59,7 @@ summary: 이러한 높은 수준의 단계에 따라 StorageGRID 어플라이언
 
 
 . link:accessing-and-configuring-santricity-system-manager.html["SANtricity 시스템 관리자 액세스 및 구성"] (SG6160, SG5700, SG5800 및 SG6000)
-. link:configuring-bmc-interface.html["BMC 인터페이스를 구성합니다"] (SG6000, SG6100 및 서비스 어플라이언스)
+. link:configuring-bmc-interface.html["BMC 인터페이스를 구성합니다"] (SG6100, SG6000 및 서비스 어플라이언스)
 . 옵션 설정 단계를 수행합니다
 +
 ** link:optional-enabling-node-encryption.html["노드 또는 드라이브 암호화를 사용합니다"]

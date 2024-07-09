@@ -4134,7 +4134,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="d751b295bd431b789da8da77d91a8a1d" category="doc">SG1100 및 SG110 서비스 어플라이언스 하드웨어를 유지 관리합니다</block>
   <block id="70bca0055a2d38054af0059da4e459ed" category="inline-link-macro">SG110 및 SG1100</block>
   <block id="9310c6e3b94e3baa60a2b31f7b80cc71" category="list-text"><block ref="9310c6e3b94e3baa60a2b31f7b80cc71" category="inline-link-macro-rx"></block></block>
-  <block id="e3654db4a646d23dc2d3d64204192d91" category="list-text"><block ref="e010cba544d581fc50562d9eaf281bf3" category="inline-link-macro-rx"></block> (SG6000, SG6100 및 서비스 어플라이언스)</block>
   <block id="aadf1dcd60cf75ec60913a8a677fcd35" category="list-text">SG110의 경우 포트에 광 케이블을 사용하려는 경우 SFP+ 또는 SFP28 트랜시버 1~4개가 필요합니다.</block>
   <block id="11a92f98e01c18d06291aad0e993ba9b" category="list-text">SG1100의 경우 포트에 광 케이블을 사용할 계획인 경우 QSFP+ 또는 QSFP28 트랜시버 1~4개가 필요합니다.</block>
   <block id="7be200e96b3561254643e0c9ae88d200" category="paragraph">SG110 포트 연결:</block>
@@ -4577,7 +4576,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="ebc31fad1cf84954196a7706294df684" category="paragraph">이 절차는 DCM 및 DCM2 드라이브 쉘프에 적용됩니다.</block>
   <block id="e813fd422366d0dc5a37186d7430e09a" category="list-text">드라이브 취급 요구 사항을 검토합니다.</block>
   <block id="f1563c8d87cc2966328e9cb0166c5704" category="list-text">NetApp에서 지원하는 컨트롤러 쉘프 또는 드라이브 쉘프 대체 드라이브</block>
-  <block id="12cb93ac5470b7b9ed9a176553005bef" category="list-text">컨트롤러의 SANtricity 시스템 관리자에 액세스할 수 있는 브라우저가 있는 관리 스테이션. System Manager 인터페이스를 열려면 브라우저에서 컨트롤러의 도메인 이름 또는 IP 주소를 가리킵니다.</block>
   <block id="d9de1ae5a4126bb7bbc28768a5dd593d" category="section-title">1단계: 드라이브 교체 준비</block>
   <block id="38ee00be25940e25c51d24be5c9b1598" category="paragraph">SANtricity 시스템 관리자의 Recovery Guru를 확인하고 필수 단계를 완료하여 드라이브를 교체할 준비를 합니다. 그런 다음 장애가 발생한 구성 요소를 찾을 수 있습니다.</block>
   <block id="fd781fa19cba325b3cc9ca7a79f8d928" category="list-text">SANtricity System Manager의 Recovery Guru에서 드라이브 오류가 발생했다는 메시지가 표시되지만 아직 드라이브에 오류가 발생하지 않은 경우 Recovery Guru의 지침에 따라 드라이브에 장애가 발생한 것입니다.</block>
@@ -5180,8 +5178,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="f887919b93b68994cd6d9e7819b5afeb" category="list-text">SG5800, SG6000 또는 SG6100의 경우 * 링크 속도 * 드롭다운 목록에서 * 자동 * 을 선택합니다.</block>
   <block id="dcba35698266a429ba97a9df72d33ecb" category="summary">SG5800 StorageGRID 어플라이언스는 StorageGRID 그리드에서 스토리지 노드로 작동하는 통합 스토리지 및 컴퓨팅 플랫폼입니다. 어플라이언스는 어플라이언스 스토리지 노드와 가상\(소프트웨어 기반\) 스토리지 노드를 결합하는 하이브리드 그리드 환경에서 사용할 수 있습니다.</block>
   <block id="64b3db60a66ac8bd04ca4a159cac1af8" category="doc">SG5800 어플라이언스: 개요</block>
-  <block id="40b657fa8f8023ed6227dc3d31464c39" category="paragraph">SG5800 StorageGRID 어플라이언스는 StorageGRID 그리드에서 스토리지 노드로 작동하는 통합 스토리지 및 컴퓨팅 플랫폼입니다.</block>
-  <block id="9f075e4e966103728835fe79072cf374" category="paragraph">StorageGRID SG5800 시리즈 어플라이언스는 다음과 같은 기능을 제공합니다.</block>
   <block id="bc0affc4503a133a51781ca78ac8bdaa" category="paragraph">SG5800 어플라이언스는 SG5812와 SG5860의 두 가지 모델로 제공됩니다.</block>
   <block id="1d59ebac544f15dc4241a8a4af7a618d" category="section-title">SG5800 구성 요소</block>
   <block id="5581a20a3b85686c910dfa4dab223387" category="paragraph">SG5800 모델에는 다음과 같은 구성 요소가 포함되어 있습니다.</block>
@@ -5217,7 +5213,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
 ** 관리 네트워크에 연결하여 SANtricity 시스템 관리자에 대한 직접 TCP/IP 액세스를 활성화합니다
 **스위치 포트와 IP 주소를 저장하려면 무선을 그대로 두십시오.  그리드 관리자 또는 스토리지 그리드 어플라이언스 설치 프로그램을 사용하여 SANtricity 시스템 관리자에 액세스합니다.</block>
   <block id="fefcafe2d4912066a784d5c93bc050e1" category="paragraph">* 참고 *: 관리 포트를 유선으로 두도록 선택하면 정확한 로그 타임스탬프를 위한 NTP 동기화와 같은 일부 선택적 SANtricity 기능을 사용할 수 없습니다.</block>
-  <block id="57daf9148064308c448c842290992c39" category="paragraph">* 참고 *: StorageGRID 11.8 이상 및 SANtricity 11.8 이상은 관리 업무를 무선으로 방치할 때 필요합니다.</block>
   <block id="b155aed19819ab0c2d1e71fc3d32850b" category="paragraph">E4000 컨트롤러를 SG5800 컨트롤러에 연결합니다.</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp Support 사이트</block>
   <block id="f5c45bcc73f02c7f2b1398ee78576a7a" category="list-text">로 이동합니다<block ref="1850de052c61829b534b07ba1a2ca402" category="inline-link-rx"></block>.</block>
@@ -5427,9 +5422,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="b362454c1b783a548faa935e3a1610de" category="paragraph">제품에서 수행해야 할 다른 유지 보수 절차가 없는 경우 제품을 랙에 장착하고 케이블을 연결한 후 전원을 공급하십시오.</block>
   <block id="787d8857ce0db09ecbf6fe82bbf45a25" category="doc">SGF6112 어플라이언스 또는 SG6100-CN 컨트롤러 식별 LED를 켜고 끕니다</block>
   <block id="77291750fe959fd9ce173862b4055564" category="doc">데이터 센터에서 SGF6112 어플라이언스 또는 SG6100-CN 컨트롤러를 찾습니다</block>
-  <block id="71070479646e1da5a663f4b00abb5235" category="paragraph"><block ref="106db197e8d447cef2c47289a65f4849" category="inline-link-macro-rx"></block> 제품을 찾을 때 다음 방법 중 하나를 사용한 경우:
- ** 제품 전면 패널의 ID LED 스위치를 누릅니다.
- ** 어플라이언스 BMC 인터페이스를 사용하십시오.</block>
   <block id="f40a968e022f47cf01d4d58ef9437f0c" category="summary">SGF6112 어플라이언스 및 SG6100-CN 컨트롤러에는 8개의 냉각 팬이 있습니다. 팬 중 하나에 장애가 발생할 경우 제품이 제대로 식었는지 확인하려면 가능한 한 빨리 교체해야 합니다.</block>
   <block id="35354d3f59ef76da6c3d8d0aafc491e7" category="doc">SGF6112 또는 SG6100-CN(SG6160)의 팬을 교체합니다.</block>
   <block id="dff98198bff06709975037453d00df52" category="list-text">있습니다 <block ref="8a600a3d3695735e4213dc5c6fac3a3e" category="inline-link-macro-rx"></block> 데이터 센터에서 팬을 교체하는 위치입니다.</block>
@@ -5512,4 +5504,17 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="7c964abbff6a7b0bbf38565776b7d0b7" category="inline-link-macro">SG6100-CN 컨트롤러를 설치합니다</block>
   <block id="0d86c1e5e36df2d42690db9bf7459e93" category="paragraph"><block ref="0d86c1e5e36df2d42690db9bf7459e93" category="inline-link-macro-rx"></block></block>
   <block id="c587a2e85b76aabe41b2ff8e991a2c31" category="sidebar">SG6100을 캐비닛 또는 랙에 설치합니다</block>
+  <block id="8a1c3c9cb6907d54c29c5857f2f86c34" category="paragraph">SG5800 시리즈 StorageGRID 어플라이언스는 StorageGRID 그리드에서 스토리지 노드로 작동하는 통합 스토리지 및 컴퓨팅 플랫폼입니다.</block>
+  <block id="ce9252228bd4540f9b37b3a78a50b7d7" category="paragraph">StorageGRID SG5800 시리즈 어플라이언스는 다음과 같은 기능을 제공합니다.</block>
+  <block id="0c83dd3ac0dc38df69e11e248214a5fe" category="list-text">하드웨어 관리 및 모니터링을 위한 E-Series SANtricity System Manager가 포함됩니다.</block>
+  <block id="3127ae9dd7481eac7423d4d4aca523f1" category="paragraph">* 참고 *: 관리 포트를 유선으로 사용하지 않을 때는 StorageGRID 11.8 이상 및 SANtricity 11.8 이상이 필요합니다.</block>
+  <block id="e6f818c1056fce47a0d96a7d0f54d3da" category="list-text">읽기 캐시를 위한 2개의 NVMe SSD</block>
+  <block id="53b6162c6d4ba02de60c3ea016e48c8f" category="list-text"><block ref="e010cba544d581fc50562d9eaf281bf3" category="inline-link-macro-rx"></block> (SG6100, SG6000 및 서비스 어플라이언스)</block>
+  <block id="752e943e864c331f809892c284e5fb33" category="list-text">링크 속도를 자동(권장), 10GbE 또는 25GbE 사이에서 변경합니다.</block>
+  <block id="4918ef1e8a9f60c807f69545e97d3b6f" category="paragraph">중복성이 없는 볼륨에 속한 드라이브는 를 사용하여 업데이트해야 <block ref="179e42b86c56e7fde01fd62621c30190" category="inline-link-macro-rx"></block>합니다.</block>
+  <block id="8770dfe1902bd96b773d5b6fc8f4cf06" category="list-text">SG5800 컨트롤러를 에 배치해야 <block ref="66517df9b2a708b9947fc0143b4273f5" category="inline-link-macro-rx"></block>E4000 컨트롤러에 대한 모든 I/O가 중지됩니다.</block>
+  <block id="94ac91ca1245e36b962d4e80494dde09" category="paragraph"><block ref="106db197e8d447cef2c47289a65f4849" category="inline-link-macro-rx"></block> 제품을 찾을 때 다음 방법 중 하나를 사용한 경우:</block>
+  <block id="32560f7f516484a70333e63586d49ee8" category="list-text">제품 전면 패널의 식별 LED 스위치를 누릅니다.</block>
+  <block id="84f9f6b07fa3b7c2043dcb10969d9836" category="list-text">어플라이언스 BMC 인터페이스를 사용합니다.</block>
+  <block id="c3767fd24594af27204c85f38e6485de" category="admonition">어플라이언스가 유지 관리 모드에 있는 동안 스토리지 컨트롤러에 대한 I/O(입/출력) 작업이 중지되어 중단 없는 스토리지 작업을 안전하게 수행할 수 있습니다.</block>
 </blocks>
