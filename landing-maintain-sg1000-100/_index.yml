@@ -15,11 +15,17 @@ indexpage:
     links:
     - title: 제품을 교체하십시오
       url: "../sg100-1000/replacing-services-appliance.html"
+    - title: SG100 또는 SG1000을 랙에 재배치합니다
+      url: "../sg100-1000/reinstalling-sg100-and-sg1000-into-cabinet-or-rack.html"
   - title: 하드웨어 절차
     links:
+    - title: 덮개를 다시 끼웁니다
+      url: "../sg100-1000/reinstalling-sg100-and-sg1000-controller-cover.html"
     - title: 전원 공급 장치를 교체합니다
       url: "../sg100-1000/replacing-one-or-more-power-supplies-in-services-appliance.html"
     - title: 팬을 교체합니다
       url: "../sg100-1000/replacing-fan-in-services-appliance.html"
     - title: 드라이브를 교체합니다
       url: "../sg100-1000/replacing-drive-in-services-appliance.html"
+    - title: CMOS 배터리를 교체합니다
+      url: "../sg100-1000/replace-cmos-in-sg100-and-sg1000.html"

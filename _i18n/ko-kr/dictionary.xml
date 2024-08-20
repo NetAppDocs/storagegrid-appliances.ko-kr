@@ -2650,7 +2650,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="c7c19b3cb79ee9f5fdbc22cfac916b00" category="paragraph">어플라이언스가 재부팅되고 그리드에 다시 가입하는 데 최대 20분이 걸릴 수 있습니다. 재부팅이 완료되고 노드가 그리드에 다시 결합되었는지 확인하려면 Grid Manager로 돌아갑니다. 노드 페이지에는 정상 상태(녹색 확인 표시 아이콘)가 표시되어야 합니다 <block ref="b0c066af00a4ff17f603acf55958d068" category="inline-image-macro-rx" type="image"></block> (노드 이름 왼쪽) 어플라이언스 노드에 대해 알림이 활성화되어 있지 않고 노드가 그리드에 연결되어 있음을 나타냅니다.</block>
   <block id="5d4d9bbd71eda7ec2ba074c8e6717b0b" category="list-text">구성 요소를 교체해야 하는 스토리지 어플라이언스의 일련 번호가 있습니다.</block>
   <block id="fe96bb389ae099a3c5dcdd5b5427e3bc" category="list-text">를 사용하여 그리드 관리자에 로그인했습니다<block ref="a18f1d7592d98ae161543980d36b8697" category="inline-link-rx"></block>.</block>
-  <block id="7aa733436808f3ef7dbb843f0bfd7537" category="paragraph">다음 절차에 따라 결함이 있는 하드웨어와 교체 가능한 하드웨어 구성 요소 중 올바르게 작동하지 않는 구성 요소를 식별합니다. 교체가 필요한 구성 요소는 다음과 같습니다.</block>
   <block id="620e2edf2db0c3c3cad57aeb246c6bfe" category="list-text">전원 공급 장치</block>
   <block id="4604f841b0b16d3013cac1e2078e5b1b" category="list-text">팬</block>
   <block id="3907a0fffff4b13006f3069d9186c0d5" category="list-text">SSD(Solid State Drive)</block>
@@ -5517,4 +5516,58 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="32560f7f516484a70333e63586d49ee8" category="list-text">제품 전면 패널의 식별 LED 스위치를 누릅니다.</block>
   <block id="84f9f6b07fa3b7c2043dcb10969d9836" category="list-text">어플라이언스 BMC 인터페이스를 사용합니다.</block>
   <block id="c3767fd24594af27204c85f38e6485de" category="admonition">어플라이언스가 유지 관리 모드에 있는 동안 스토리지 컨트롤러에 대한 I/O(입/출력) 작업이 중지되어 중단 없는 스토리지 작업을 안전하게 수행할 수 있습니다.</block>
+  <block id="a5c480dfbb1146eeb42a0bcc0d8bbbb4" category="paragraph">다음 절차에 따라 결함이 있는 하드웨어와 교체 가능한 하드웨어 구성 요소 중 올바르게 작동하지 않는 구성 요소를 식별합니다. 교체가 필요한 구성 요소는 다음과 같습니다.</block>
+  <block id="a26cdf0f1745cbb76eb5328668e38b6f" category="image-alt">라이저 어셈블리 위치</block>
+  <block id="48588d23b204532125483be8736cc62b" category="list-text">손가락이나 플라스틱 지렛대 도구를 사용하여 배터리에서 고정 클립을 눌러 소켓에서 분리합니다.</block>
+  <block id="65dc474701428334be6aca7529908454" category="image-alt">라이저 조립품의 정렬 구멍</block>
+  <block id="665f25079cb5accd5eb43f2913b6c37f" category="doc">SG100 또는 SG1000 어플라이언스 덮개를 교체합니다</block>
+  <block id="f1d6d43707540812eb946d45ccef5ec4" category="section-title">SG100 또는 SG1000 어플라이언스 덮개를 분리합니다</block>
+  <block id="64e8eab7438cec59cd0671f1a5e3dbb6" category="paragraph">유지보수를 위해 내부 부품에 접근하려면 제품 덮개를 분리하십시오.</block>
+  <block id="b1d5df074b99621759036a9121b85e98" category="paragraph">캐비닛 또는 랙에서 제품을 분리하여 상단 덮개에 액세스하십시오.</block>
+  <block id="511c877284f772f66774598abeeea6f5" category="inline-link-macro">캐비닛 또는 랙에서 SG100 또는 SG1000 어플라이언스를 제거합니다</block>
+  <block id="2285eddd6702074129ac0f1ecda4b2f4" category="paragraph"><block ref="2285eddd6702074129ac0f1ecda4b2f4" category="inline-link-macro-rx"></block></block>
+  <block id="b0e7c1ff76e24cb7116c6fb8b809271c" category="image-alt">덮개 래치가 열려 있습니다</block>
+  <block id="827c9e961d14d7b5f5337e655b29df10" category="section-title">SG100 또는 SG1000 어플라이언스 덮개를 다시 설치합니다</block>
+  <block id="e1095c022f98a1bb69eb7e440dbb0ced" category="paragraph">내부 하드웨어 유지 관리가 완료되면 제품 덮개를 다시 설치하십시오.</block>
+  <block id="7b6a35b28349993ccb044f99d3cb9c05" category="image-alt">덮개 래치 정렬 핀</block>
+  <block id="77e20811baef645173a9afd272aed5f2" category="inline-link-macro">캐비닛 또는 랙에 제품을 다시 설치합니다.</block>
+  <block id="fee143211358506f5958deb39267a94d" category="paragraph"><block ref="fee143211358506f5958deb39267a94d" category="inline-link-macro-rx"></block></block>
+  <block id="8d74142d0d3a9120da2ba9c70236cdd6" category="summary">캐비닛 또는 랙에서 SG100 또는 SG1000을 제거하여 상단 덮개에 접근하거나 어플라이언스를 다른 위치로 이동한 다음 하드웨어 유지 관리가 완료되면 캐비닛이나 랙에 어플라이언스를 다시 설치합니다.</block>
+  <block id="a5b8a777a1b08a83ca76ba17d2003033" category="doc">캐비닛 또는 랙에서 SG100 또는 SG1000을 재배치합니다</block>
+  <block id="5fc59c0417d710999eccabc5f2b53e54" category="paragraph">캐비닛 또는 랙에서 SG100 또는 SG1000 어플라이언스를 제거하여 상단 덮개에 액세스하거나 어플라이언스를 다른 위치로 이동한 다음, 하드웨어 유지 관리가 완료되면 캐비닛이나 랙에 어플라이언스를 다시 설치하십시오.</block>
+  <block id="4faf0e30b4acd7fb71c04eecc674f9bb" category="section-title">캐비닛 또는 랙에서 SG100 또는 SG1000을 분리합니다</block>
+  <block id="1e2dad3dc1303cb9c34342a08ac369c2" category="paragraph">캐비닛 또는 랙에서 SG100 또는 SG1000을 제거하여 상단 덮개에 접근하거나 어플라이언스를 다른 위치로 이동합니다.</block>
+  <block id="fd4bc1e04629aac76e335abbe4b95110" category="list-text">SG100 또는 SG1000 어플라이언스에 연결된 각 케이블을 식별하기 위한 레이블이 있습니다.</block>
+  <block id="00265604d07e83e9fa37acfb58aea0a6" category="list-text">데이터 센터에서 유지보수를 수행하는 SG100 또는 SG1000 어플라이언스를 물리적으로 찾았습니다.</block>
+  <block id="e062f7e106df68638e79abdb18fac222" category="paragraph"><block ref="e062f7e106df68638e79abdb18fac222" category="inline-link-macro-rx"></block></block>
+  <block id="0fcf830f0c15b1400c1db9718be45ada" category="inline-link-macro">SG100 또는 SG1000 어플라이언스를 종료합니다</block>
+  <block id="5c1320f429c4112c2bba2f8f6cb8fa01" category="list-text">있습니다. <block ref="f1505d4606b132b8853f29fe0a332652" category="inline-link-macro-rx"></block></block>
+  <block id="9b0bec7300d43ef7de3808046f83438c" category="list-text">장착 레일이 완전히 확장되고 양쪽의 래치가 딸깍 소리를 낼 때까지 제품을 랙에서 앞으로 밀어 꺼냅니다.</block>
+  <block id="72c93dbd5f5d24a30424f10682ce2429" category="section-title">SG100 또는 SG1000을 캐비닛 또는 랙에 다시 설치합니다</block>
+  <block id="605201180c8af58706d2950dc2815425" category="paragraph">하드웨어 유지 관리가 완료되면 캐비닛 또는 랙에 어플라이언스를 다시 설치하십시오.</block>
+  <block id="185e5b18a157d76176305c8be330d521" category="inline-link-macro">SG100 또는 SG1000 덮개를 다시 장착합니다</block>
+  <block id="134ec335795fdd11457bc3cf0025baf5" category="paragraph"><block ref="134ec335795fdd11457bc3cf0025baf5" category="inline-link-macro-rx"></block></block>
+  <block id="e3cda821d00824f87e103cfa79fa642c" category="list-text">파란색 레일을 누르면 두 랙 레일이 동시에 분리되고 완전히 장착될 때까지 제품을 랙에 밀어 넣습니다.</block>
+  <block id="684fc7e3b4be959ee39744c82078ef0c" category="image-alt">랙 고정 나사</block>
+  <block id="c934d158cd3ec0bfbf3cbdd7b7827955" category="list-text">제품의 전원 케이블을 다시 연결하십시오.</block>
+  <block id="05c9535932e03bb8444cfbfc967af3e2" category="inline-link-macro">전원 코드 연결 및 전원 적용(SG100 또는 SG1000)</block>
+  <block id="a76302d15eb6041c12b94bdbf80ddf79" category="paragraph"><block ref="a76302d15eb6041c12b94bdbf80ddf79" category="inline-link-macro-rx"></block></block>
+  <block id="bbbfb5089b20d2a9a438d1f300dc3951" category="paragraph">어플라이언스를 다시 시작할 수 있습니다.</block>
+  <block id="1aab7af93e422001302d3d72d844aa68" category="doc">SG100 또는 SG1000에서 CMOS 배터리를 교체합니다</block>
+  <block id="2de23f109c4b7a2ebaf85dfa94d803d2" category="inline-link-macro">CMOS 배터리를 교체해야 하는 SG100 또는 SG1000을 확인했습니다</block>
+  <block id="d31100686fc52b53392732b7d3ae0dbb" category="list-text">있습니다. <block ref="fcfad0bf3ec87a01189dcc7ef62e31e5" category="inline-link-macro-rx"></block></block>
+  <block id="76dc6b7b32167d9bd3a9ee4280cd472c" category="inline-link-macro">SG100 또는 SG1000 어플라이언스를 실제로 찾았습니다</block>
+  <block id="295f39bc37ea49d39fdef10ffc386a4d" category="list-text"><block ref="1c34acfb2667f43feb9d3c66f2b8ed39" category="inline-link-macro-rx"></block>데이터 센터의 CMOS 배터리를 교체할 수 있습니다.</block>
+  <block id="7d406e9712f1c209336e5e697cc447ef" category="admonition">랙에서 어플라이언스를 분리하기 전에 가 <block ref="db7c721060dced196b796faf173aec6a" category="inline-link-macro-rx"></block> 필요합니다.</block>
+  <block id="126a827d213a0e5e13049b3f4047c548" category="list-text">모든 케이블 및 을(를) 분리했습니다. <block ref="b4ae088a94cfd6b68a1d3b21b7e66f50" category="inline-link-macro-rx"></block></block>
+  <block id="20015455ab5d561bb2f053becbe04427" category="doc">SG100 또는 SG1000에서 교체할 구성요소를 확인합니다</block>
+  <block id="155f05305b468da8a62a625c5bb46d08" category="paragraph"><block ref="155f05305b468da8a62a625c5bb46d08" category="inline-link-macro-rx"></block></block>
+  <block id="a3920e91582773914df89ce69b0b4103" category="doc">SG6000-CN CMOS 배터리를 교체합니다</block>
+  <block id="b3b2dfaac1200c3b68a403bd40179bdf" category="list-text">있습니다. <block ref="1ec8c115f0c3870ab94b38ffe7b9d363" category="inline-link-macro-rx"></block></block>
+  <block id="52f39f79f4d9a5685bc2024f2a087065" category="list-text"><block ref="f706bf55d44d59c0b4f06acfce2f61ee" category="inline-link-macro-rx"></block>데이터 센터의 CMOS 배터리를 교체할 수 있습니다.</block>
+  <block id="a1294f5ec4aea9551adb3b8c8723fea7" category="admonition">랙에서 어플라이언스를 분리하기 전에 가 <block ref="01cb3624578c0b6333a3e47dc48ec415" category="inline-link-macro-rx"></block> 필요합니다.</block>
+  <block id="27a168d0228d72534f07ee949d2796ff" category="list-text">모든 케이블 및 을(를) 분리했습니다. <block ref="15196f495d147a32d6ddc13b14aad025" category="inline-link-macro-rx"></block></block>
+  <block id="10fa39edb4e5d5fc91498d5271535f37" category="doc">SG6000-CN에서 교체할 구성 요소를 확인합니다</block>
+  <block id="ca37341c514b082d1be600ae89827bce" category="sidebar">SG100 또는 SG1000을 랙에 재배치합니다</block>
+  <block id="530a7cab0d75789e4984b34660953995" category="sidebar">SG6000-CN 컨트롤러의 CMOS 배터리를 교체합니다</block>
 </blocks>
