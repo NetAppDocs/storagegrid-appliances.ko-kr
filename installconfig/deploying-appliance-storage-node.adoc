@@ -38,8 +38,8 @@ NOTE: 한 번에 여러 어플라이언스 노드를 배포해야 하는 경우 
 
 * 확장 또는 복구 작업을 수행하는 경우 해당 지침을 따르십시오.
 +
-** 기존 StorageGRID 시스템에 어플라이언스 스토리지 노드를 추가하려면 의 지침을 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/expand/adding-grid-nodes-to-existing-site-or-adding-new-site.html["그리드 노드 추가"^].
-** 복구 작업의 일부로 어플라이언스 스토리지 노드를 배포하려면 지침을 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/maintain/recovering-storagegrid-appliance-storage-node.html["어플라이언스 스토리지 노드 복구"^].
+** 기존 StorageGRID 시스템에 어플라이언스 스토리지 노드를 추가하려면 의 지침을 참조하십시오 https://docs.netapp.com/us-en/storagegrid/expand/adding-grid-nodes-to-existing-site-or-adding-new-site.html["그리드 노드 추가"^].
+** 복구 작업의 일부로 어플라이언스 스토리지 노드를 배포하려면 지침을 참조하십시오. https://docs.netapp.com/us-en/storagegrid/maintain/recovering-storagegrid-appliance-storage-node.html["어플라이언스 스토리지 노드 복구"^]
 
 
 
@@ -50,8 +50,14 @@ NOTE: 한 번에 여러 어플라이언스 노드를 배포해야 하는 경우 
 +
 StorageGRID 어플라이언스 설치 관리자 홈 페이지가 나타납니다.
 
+. 노드 유형 * 을 선택합니다. 자세한 내용은 을 https://docs.netapp.com/us-en/storagegrid/primer/what-storage-node-is.html#types-of-storage-nodes["스토리지 노드 유형"]참조하십시오.
 +
-image::../media/appliance_installer_home_start_installation_enabled.gif[관리 노드 외에 다른 노드 유형에 대한 어플라이언스 설치 관리자 홈 페이지]
+
+NOTE: 메타데이터 전용은 어플라이언스 배포 중에만 선택할 수 있습니다. 메타데이터 전용을 스토리지 노드 유형으로 선택한 경우 어플라이언스가 구축된 후에는 변경할 수 없습니다.
+
+. 노드 이름 * 필드에 이 어플라이언스 노드에 사용할 시스템 이름을 입력하고 * 저장 * 을 클릭합니다.
++
+여기에 표시되는 이름은 어플라이언스 노드의 시스템 이름입니다. 시스템 이름은 내부 StorageGRID 작업에 필요하며 변경할 수 없습니다.
 
 . Primary Admin Node connection * 섹션에서 Primary Admin Node의 IP 주소를 지정해야 하는지 여부를 확인합니다.
 +
@@ -86,10 +92,6 @@ image::../media/appliance_installer_home_start_installation_enabled.gif[관리 �
 
 
 |===
-. 노드 이름 * 필드에 이 어플라이언스 노드에 사용할 시스템 이름을 입력하고 * 저장 * 을 클릭합니다.
-+
-여기에 표시되는 이름은 어플라이언스 노드의 시스템 이름입니다. 시스템 이름은 내부 StorageGRID 작업에 필요하며 변경할 수 없습니다.
-
 . 설치 * 섹션에서 현재 상태가 "설치 시작 준비 완료"인지 확인합니다 `_node name_` 기본 관리 노드가 있는 그리드로 `_admin_ip_` "및 * 설치 시작 * 버튼이 활성화되어 있습니다.
 +
 설치 시작 * 버튼이 활성화되지 않은 경우 네트워크 구성 또는 포트 설정을 변경해야 할 수 있습니다. 자세한 내용은 제품의 유지보수 지침을 참조하십시오.

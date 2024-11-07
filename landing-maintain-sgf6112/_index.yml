@@ -1,13 +1,17 @@
 ---
 indexpage:
+  title: SG6100 스토리지 어플라이언스 하드웨어를 유지 관리합니다
+  summary: SG6100 스토리지 어플라이언스의 하드웨어를 유지 관리합니다.
+  keywords: maintain storagegrid sg6100
+  lead: SG6100 스토리지 어플라이언스의 하드웨어를 유지 관리합니다.
   tiles:
   - title: 자주 수행하는 절차
     links:
-    - title: SANtricity 업그레이드(SG6160)
+    - title: SANtricity를 업그레이드합니다
       url: "../sg6100/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html"
     - title: 드라이브 펌웨어 업그레이드(SG6160)
-      url: "../sg6100/upgrading-drive-firmware-using-santricity-system-manager.html"
-    - title: 위치 LED를 켜거나 끕니다
+      url: "../sg6100/upgrade-drive-firmware-using-santricity-system-manager.html"
+    - title: 식별 LED를 켜거나 끕니다
       url: "../sg6100/turning-sgf6112-identify-led-on-and-off.html"
     - title: 데이터 센터에서 어플라이언스를 찾습니다
       url: "../sg6100/locating-sgf6112-in-data-center.html"
@@ -25,10 +29,8 @@ indexpage:
       url: "../sg6100/replacing-sg6100-cn-controller.html"
     - title: 스토리지 컨트롤러 교체(SG6160)
       url: "../sg6100/replace-controller-e4000-duplex.html"
-    - title: SGF6112를 랙에 재배치합니다
+    - title: SGF6112 또는 SG6100-CN을 랙에 재배치합니다
       url: "../sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
-    - title: SG6100-CN을 랙에 재배치합니다
-      url: "../sg6100/reinstalling-sg6100-cn-controller-into-cabinet-or-rack.html"
   - title: 하드웨어 절차
     links:
     - title: 덮개를 다시 끼웁니다
@@ -50,7 +52,7 @@ indexpage:
     - title: 내부 NIC 교체(SGF6112 및 SG6160)
       url: "../sg6100/replace-nic-in-sgf6112.html"
     - title: 외부 NIC 교체(SG6160)
-      url: "../sg6100/replace-ocp-nic-in-sg6100-cn.html"
+      url: "../sg6100/replace-ocp-nic-sg6100-cn.html"
     - title: DIMM 교체(SG6160)
       url: "../sg6100/replace-dimms-e4000.html"
     - title: 배터리 교체(SG6160)

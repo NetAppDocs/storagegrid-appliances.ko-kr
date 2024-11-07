@@ -161,12 +161,12 @@ image::../media/drw_E4000_replace_nvbattery_IEOPS-862.png[NVMEM 배터리를 제
 
 
  a| 
-image::../media/legend_icon_01.png[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 참조 1]
 | 배터리 분리 탭 
 
 
  a| 
-image::../media/legend_icon_02.png[범례 아이콘 02]
+image::../media/legend_icon_02.png[설명선 참조 2]
 | 배터리 전원 커넥터 
 |===
 
@@ -210,12 +210,12 @@ image::../media/drw_E4000_replace_dimms_IEOPS-865.png[DIMM을 분리합니다.]
 
 
  a| 
-image::../media/legend_icon_01.png[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 참조 1]
 | DIMM 이젝터 탭 
 
 
  a| 
-image::../media/legend_icon_02.png[범례 아이콘 02]
+image::../media/legend_icon_02.png[설명선 참조 2]
 | DIMM입니다 
 |===
 

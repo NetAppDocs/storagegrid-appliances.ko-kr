@@ -1,0 +1,94 @@
+---
+permalink: commonhardware/use-bmc.html 
+sidebar: sidebar 
+keywords: storagegrid, bmc 
+summary: '일부 StorageGRID 어플라이언스에는 어플라이언스 구성, 모니터링 및 진단을 위해 낮은 수준의 하드웨어 액세스를 허용하는 베이스보드 관리 컨트롤러(BMC)가 포함되어 있습니다.' 
+---
+= StorageGRID 어플라이언스의 베이스보드 관리 컨트롤러(BMC) 사용
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+일부 StorageGRID 어플라이언스에는 어플라이언스 구성, 모니터링 및 진단을 위해 낮은 수준의 하드웨어 액세스를 허용하는 베이스보드 관리 컨트롤러(BMC)가 포함되어 있습니다.
+
+BMC 인터페이스는 다음 StorageGRID 어플라이언스 모델에서 지원됩니다.
+
+* SG100을 참조하십시오
+* SG110입니다
+* SG1000입니다
+* SG1100으로 문의하십시오
+* SG6000 을 참조하십시오
+* SG6100
+
+
+이러한 어플라이언스에 대한 BMC 인터페이스 사용에 대한 자세한 내용은 를 https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide["BMC 사용 설명서 를 참조하십시오"^] 참조하십시오. 기술 지원 부서의 지시에 따라 StorageGRID 설명서에 _NOT_설명되어 있는 BMC 기능에만 액세스해야 합니다.
+
+이 BMC 사용자 안내서는 일부 StorageGRID 어플라이언스에 사용할 수 있는 최신 버전의 BMC 펌웨어를 위한 것입니다. StorageGRID 어플라이언스의 BMC 펌웨어 버전이 약간 다를 수 있습니다.
+
+* StorageGRID 소프트웨어를 업그레이드하는 동안 BMC 펌웨어를 업데이트합니다. 최신 버전의 StorageGRID 소프트웨어를 실행하지 않는 경우 어플라이언스를 최신 StorageGRID 버전으로 업데이트하여 를 설치할 수 https://docs.netapp.com/us-en/storagegrid/upgrade/how-your-system-is-affected-during-upgrade.html#appliance-firmware-is-upgraded["어플라이언스에 사용할 수 있는 최신 BMC 펌웨어 버전입니다"] 있습니다.
+* StorageGRID 업데이트 전이나 후에 BMC가 다르게 표시되는 경우 의 정보는 https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide["BMC 사용 설명서 를 참조하십시오"^] BMC 버전에 대한 지침을 조정하는 데 도움이 될 수 있습니다.
+
+
+
+
+== BMC는 StorageGRID 어플라이언스에 사용됩니다
+
+다음 BMC 절차는 지원되는 StorageGRID 어플라이언스에 사용할 수 있도록 문서화되어 있습니다.
+
+* link:../installconfig/accessing-bmc-interface.html["BMC 대시보드에 액세스합니다"]
+* link:../installconfig/configuring-snmp-settings-for-bmc.html["BMC SNMP 설정을 구성합니다"]
+* link:../installconfig/setting-up-email-notifications-for-alerts.html["이메일 경고 알림을 설정합니다"]
+* 하드웨어 설치 문제 해결:
++
+** link:../installconfig/troubleshooting-hardware-installation-sg100-and-sg1000.html["SG1000 및 SG100"]
+** link:../installconfig/troubleshooting-hardware-installation-sg110-and-sg1100.html["SG1100 및 SG110"]
+** link:../installconfig/troubleshooting-hardware-installation.html["SG6000 을 참조하십시오"]
+** link:../installconfig/troubleshooting-hardware-installation-sg6100.html["SG6100"]
+
+
+* 어플라이언스 전원 상태를 확인합니다.
++
+** link:../sg100-1000/shut-down-sg100-and-sg1000.html["SG1000 및 SG100"]
+** link:../sg110-1100/power-sg110-and-sg1100-off-on.html["SG1100 및 SG110"]
+** link:../sg6000/power-sg6000-cn-controller-off-on.html["SG6000 을 참조하십시오"]
+** link:../sg6100/power-sgf6112-off-on.html["SG6100"]
+
+
+* 어플라이언스 식별 LED를 켜고 끕니다.
++
+** link:../sg100-1000/turning-controller-identify-led-on-and-off.html["SG1000 및 SG100"]
+** link:../sg110-1100/turning-sg110-and-sg1100-identify-led-on-and-off.html["SG1100 및 SG110"]
+** link:../sg6000/turning-controller-identify-led-on-and-off.html["SG6000 을 참조하십시오"]
+** link:../sg6100/turning-sgf6112-identify-led-on-and-off.html["SG6100"]
+
+
+
+
+
+
+== BMC 기능은 StorageGRID 어플라이언스에서 지원되지 않습니다
+
+다음 BMC 기능은 StorageGRID 관련 구성과 충돌하므로 사용해서는 안 됩니다.
+
+* 설정
++
+** RAID 관리
+** SAS IT 관리
+** IPMI 인터페이스
+** 콜드 이중화
+** NIC 선택
+
+
+* 이미지 리디렉션
+* 호스트 시스템 진단
+* 유지 관리
++
+** 듀얼 이미지 구성
+** 펌웨어 정보
+** 펌웨어 업데이트
+** 출하 시 기본값 복원
+
+
+

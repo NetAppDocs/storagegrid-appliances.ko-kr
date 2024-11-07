@@ -24,10 +24,10 @@ NOTE: 절차가 동일하지 않으므로 E-Series 지침에 따라 StorageGRID 
 * ESD 밴드이거나 정전기 방지 예방 조치를 취했습니다.
 * 컨트롤러에 연결된 각 케이블을 식별하는 레이블입니다.
 * 특정 액세스 권한.
-* 를 사용하여 그리드 관리자에 로그인해야 합니다 https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html["지원되는 웹 브라우저"^].
+* 을 사용하여 그리드 관리자에 로그인해야 https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html["지원되는 웹 브라우저"^] 합니다.
 * SANtricity System Manager 액세스:
 +
-** 그리드 관리자에서 * nodes * > *_appliance node_ * > * SANtricity System Manager * 를 선택합니다. 컨트롤러 정보는 에 있습니다 https://docs.netapp.com/us-en/storagegrid-118/monitor/viewing-santricity-system-manager-tab.html["SANtricity 시스템 관리자 탭"].
+** 그리드 관리자에서 * nodes * > *_appliance node_ * > * SANtricity System Manager * 를 선택합니다. 컨트롤러 정보는 에 https://docs.netapp.com/us-en/storagegrid/monitor/viewing-santricity-system-manager-tab.html["SANtricity 시스템 관리자 탭"^]있습니다.
 ** 관리 스테이션의 브라우저에서 컨트롤러의 도메인 이름 또는 IP 주소를 가리킵니다.
 
 
@@ -180,12 +180,12 @@ image::../media/drw_E4000_replace_nvbattery_IEOPS-862.png[NVMEM 배터리를 제
 
 
  a| 
-image::../media/legend_icon_01.png[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 참조 1]
 | 배터리 분리 탭 
 
 
  a| 
-image::../media/legend_icon_02.png[범례 아이콘 02]
+image::../media/legend_icon_02.png[설명선 참조 2]
 | 배터리 전원 커넥터 
 |===
 
@@ -229,12 +229,12 @@ image::../media/drw_E4000_replace_dimms_IEOPS-865.png[DIMM을 분리합니다.]
 
 
  a| 
-image::../media/legend_icon_01.png[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 참조 1]
 | DIMM 이젝터 탭 
 
 
  a| 
-image::../media/legend_icon_02.png[범례 아이콘 02]
+image::../media/legend_icon_02.png[설명선 참조 2]
 | DIMM입니다 
 |===
 

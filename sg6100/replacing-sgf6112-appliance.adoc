@@ -14,7 +14,7 @@ summary: 제품이 최적의 상태로 작동하지 않거나 고장 난 경우 
 제품이 최적의 상태로 작동하지 않거나 고장 난 경우 교체해야 할 수 있습니다.
 
 .시작하기 전에
-* 교체 중인 제품과 동일한 부품 번호를 가진 교체용 제품이 있습니다.
+* 교체 중인 제품과 동일한 부품 번호를 가진 교체용 제품이 있습니다. 제품 전면에 부착된 태그를 확인하여 부품 번호가 일치하는지 확인하십시오.
 * 제품에 연결된 각 케이블을 식별할 수 있는 라벨이 있습니다.
 * 있습니다 link:locating-sgf6112-in-data-center.html["제품을 물리적으로 위치했습니다"].
 
@@ -42,7 +42,7 @@ NOTE: StorageGRID 소프트웨어를 설치하기 전에 어플라이언스를 �
 .. 입력: `*run-host-command ipmitool lan print*` 어플라이언스의 현재 BMC 구성을 표시합니다.
 
 
-. link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance["제품을 종료하십시오"].
+. link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance-or-sg6100-cn-controller["제품을 종료하십시오"]..
 . 이 StorageGRID 어플라이언스의 네트워크 인터페이스 중 하나라도 DHCP에 대해 구성된 경우 교체 어플라이언스의 MAC 주소를 참조하도록 DHCP 서버의 영구 DHCP 임대 할당을 업데이트해야 합니다. 그러면 어플라이언스에 필요한 IP 주소가 할당됩니다.
 +
 네트워크 또는 DHCP 서버 관리자에게 문의하여 영구 DHCP 임대 할당을 업데이트하십시오. 관리자는 DHCP 서버 로그에서 또는 어플라이언스 이더넷 포트가 연결된 스위치의 MAC 주소 테이블을 검사하여 대체 어플라이언스의 MAC 주소를 확인할 수 있습니다.
@@ -163,7 +163,7 @@ CAUTION: 드라이브에 데이터를 보존하려면 SSD 드라이브를 장애
 
 
 . 제품의 전원을 켜십시오.
-. 교체된 어플라이언스에 SED 드라이브에 대해 하드웨어 드라이브 암호화가 활성화된 경우 다음을 수행해야 합니다 link:../installconfig/optional-enabling-node-encryption.html#access-an-encrypted-drive["드라이브 암호화 암호를 입력합니다"] 교체용 어플라이언스를 처음 시작할 때 암호화된 드라이브에 액세스합니다.
+. 교체한 어플라이언스에 SED 드라이브에 대해 하드웨어 드라이브 암호화가 활성화된 경우 를 참조하십시오.link:../installconfig/optional-enabling-node-encryption.html#access-an-encrypted-drive["암호화된 드라이브에 액세스합니다"] 교체용 어플라이언스를 처음 시작할 때 지침에 따라 암호화된 드라이브에 액세스합니다. 절차를 완료하려면 재부팅해야 합니다.
 . 제품이 그리드에 다시 연결될 때까지 기다립니다. 어플라이언스가 그리드에 다시 연결되지 않는 경우 StorageGRID 어플라이언스 설치 프로그램 홈 페이지의 지침에 따라 문제를 해결하십시오.
 +
 
@@ -172,7 +172,7 @@ WARNING: 어플라이언스 설치 프로그램이 디스크 드라이브를 다
 . 교체한 어플라이언스에서 KMS(키 관리 서버)를 사용하여 노드 암호화에 대한 암호화 키를 관리하는 경우 노드가 그리드에 연결되기 전에 추가 구성이 필요할 수 있습니다. 노드가 그리드에 자동으로 연결되지 않는 경우 이러한 구성 설정이 새 어플라이언스로 전송되었는지 확인하고 필요한 구성이 없는 설정을 수동으로 구성합니다.
 +
 ** link:../installconfig/accessing-storagegrid-appliance-installer.html["StorageGRID 연결을 구성합니다"]
-** https://docs.netapp.com/us-en/storagegrid-118/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance["어플라이언스에 대한 노드 암호화를 구성합니다"^]
+** https://docs.netapp.com/us-en/storagegrid/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance["어플라이언스에 대한 노드 암호화를 구성합니다"^]
 
 
 . 교체한 어플라이언스에 로그인합니다.
@@ -217,6 +217,6 @@ WARNING: 어플라이언스 설치 프로그램이 디스크 드라이브를 다
 부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반납 및 교체"^] 페이지를 참조하십시오.
 
 .관련 정보
-link:../installconfig/viewing-status-indicators.html["상태 표시기를 봅니다"]
+* link:../installconfig/viewing-status-indicators.html["상태 표시기를 봅니다"]
+* link:../installconfig/troubleshooting-hardware-installation-sg6100.html#view-boot-codes["어플라이언스의 부팅 코드를 봅니다"]
 
-link:../installconfig/troubleshooting-hardware-installation-sg6100.html#view-error-codes["어플라이언스의 부팅 코드를 봅니다"]

@@ -37,10 +37,10 @@ image::../media/sgf6112_power_supplies.png[2개의 전원 공급 장치가 있�
 .단계
 . 하나의 전원 공급 장치만 교체하는 경우 제품을 종료할 필요가 없습니다. 로 이동합니다 <<Unplug_the_power_cord,전원 코드를 뽑습니다>> 단계. 두 전원 공급 장치를 동시에 교체하는 경우 전원 코드를 뽑기 전에 다음을 수행하십시오.
 +
-.. link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance["제품을 종료하십시오"].
+.. link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance-or-sg6100-cn-controller["제품을 종료하십시오"]..
 +
 
-CAUTION: 개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있고 두 전원 공급 장치를 동시에 교체하는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 전원 공급 장치를 교체해야 합니다. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"^].
+CAUTION: 개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있고 두 전원 공급 장치를 동시에 교체하는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 전원 공급 장치를 교체해야 합니다. 에 대한 정보를 https://docs.netapp.com/us-en/storagegrid/ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"^]참조하십시오.
 
 
 

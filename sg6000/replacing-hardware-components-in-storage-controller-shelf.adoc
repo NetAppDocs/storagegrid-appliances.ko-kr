@@ -24,7 +24,7 @@ link:locating-controller-in-data-center.html["데이터 센터에서 컨트롤�
 .이 작업에 대해
 저장 장치 컨트롤러의 전지를 교체하려면 의 지침을 참조하십시오 link:replacing-storage-controller-sg6000.html["스토리지 컨트롤러 교체"]. 이 지침은 제품에서 컨트롤러를 분리하고, 컨트롤러에서 배터리를 분리하고, 배터리를 설치하고, 컨트롤러를 교체하는 방법을 설명합니다.
 
-컨트롤러 쉘프의 다른 현장 교체 장치(FRU)에 대한 지침을 보려면 에 액세스합니다 http://mysupport.netapp.com/info/web/ECMP1658252.html["E-Series 시스템 유지 관리 절차"^].
+컨트롤러 쉘프의 다른 현장 교체 장치(FRU)에 대한 지침을 보려면 에 액세스합니다. https://docs.netapp.com/us-en/e-series-family/index.html["E-Series 시스템 유지 관리 절차"^]
 
 [cols="1a,3a"]
 |===

@@ -13,8 +13,57 @@ summary: 하드웨어에 대한 SNMP 구성에 익숙한 경우 BMC 인터페이
 [role="lead"]
 하드웨어에 대한 SNMP 구성에 익숙한 경우 BMC 인터페이스를 사용하여 SG6100, SG6000 및 서비스 어플라이언스에 대한 SNMP 설정을 구성할 수 있습니다. 보안 커뮤니티 문자열을 제공하고, SNMP 트랩을 활성화하고, 최대 5개의 SNMP 대상을 지정할 수 있습니다.
 
+[role="tabbed-block"]
+====
+.SG110, SG1100, SG6100-CN, SGF6112
+--
 .시작하기 전에
-* BMC 대시보드에 액세스하는 방법을 알고 있습니다.
+* 당신은 방법을 알고 있습니다 link:../installconfig/accessing-bmc-interface.html["BMC 대시보드에 액세스합니다"].
+* SNMPv3 장비에 대한 SNMP 설정을 구성한 경험이 있습니다.
+
+
+
+NOTE: 이 절차에서 만든 BMC 설정은 어플라이언스에 장애가 발생하여 교체해야 하는 경우 유지되지 않을 수 있습니다.  하드웨어 교체 후 필요한 경우 쉽게 다시 적용할 수 있도록 적용한 모든 설정에 대한 기록이 있어야 합니다.
+
+다음은 일부 StorageGRID 어플라이언스에 사용할 수 있는 최신 버전의 BMC 펌웨어를 보여 줍니다. StorageGRID 어플라이언스의 BMC 펌웨어 버전이 약간 다를 수 있습니다.
+
+* 최신 버전의 BMC 펌웨어는 SNMPv3만 지원합니다.
+* StorageGRID 소프트웨어를 업그레이드하는 동안 BMC 펌웨어를 업데이트합니다. 최신 버전의 StorageGRID 소프트웨어를 실행하지 않는 경우 어플라이언스를 최신 StorageGRID 버전으로 업데이트하여 를 설치할 수 https://docs.netapp.com/us-en/storagegrid/upgrade/how-your-system-is-affected-during-upgrade.html#appliance-firmware-is-upgraded["어플라이언스에 사용할 수 있는 최신 BMC 펌웨어 버전입니다"] 있습니다.
+* StorageGRID 업데이트 전이나 후에 BMC가 다르게 표시되는 경우:
++
+** SG100, SG1000, SG6000-CN 탭의 지침을 참조하십시오.
+** link:../commonhardware/use-bmc.html["StorageGRID BMC를 사용합니다"] BMC 버전에 따라 이러한 지침을 조정하는 데 도움이 되는 정보도 있을 수 있습니다.
+
+
+
+
+.단계
+. SNMP 트랩을 하나 이상의 LAN 대상으로 구성합니다.
++
+.. BMC 대시보드에서 * 설정 * > * 플랫폼 이벤트 필터 * > * LAN 대상 * 을 선택합니다.
+.. 대상 유형으로 * SNMP 트랩 * 을 선택합니다.
+.. SNMP 대상 주소에 대상 IP 주소를 입력합니다.
++
+
+NOTE: SNMP 대상 주소에 IP 주소를 사용합니다. DNS 이름은 지원되지 않습니다.
+
+.. 저장 * 을 선택합니다.
+
+
+. SNMP 트랩을 사용하여 경고 알림을 전달하는 경우 BMC를 사용하여 경고 정책 및 이벤트 필터를 구성하는 방법에 대한 자세한 내용은 의 플랫폼 이벤트 필터 섹션을 https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide["BMC 사용 설명서 를 참조하십시오"^] 참조하십시오.
+. (선택 사항) BMC 사용자에 대해 SNMP를 설정하고 구성합니다.
++
+.. BMC 대시보드에서 * 설정 * > * 사용자 관리 * 를 선택한 다음 BMC 사용자를 선택합니다.
+.. BMC 사용자에 대한 SNMP 설정 구성에 대한 자세한 내용은 의 사용자 관리 섹션을 https://kb.netapp.com/hybrid/StorageGRID/Platforms/How_to_use_StorageGRID_Appliance_BMC_with_vendor_supplied_user_guide["BMC 사용 설명서 를 참조하십시오"^] 참조하십시오.
+
+
+
+
+--
+.SG100, SG1000, SG6000-CN
+--
+.시작하기 전에
+* 당신은 방법을 알고 있습니다 link:../installconfig/accessing-bmc-interface.html["BMC 대시보드에 액세스합니다"].
 * SNMPv1-v2c 장비에 대한 SNMP 설정을 구성한 경험이 있습니다.
 
 
@@ -38,3 +87,6 @@ NOTE: IP 주소를 사용하여 각 SNMP 트랩의 대상 IP를 입력합니다.
 . 필요에 따라 * 테스트 트랩 전송 * 을 클릭하여 설정을 테스트합니다.
 . 설정이 올바르면 * 저장 * 을 클릭합니다.
 
+
+--
+====

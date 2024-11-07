@@ -23,8 +23,6 @@ entries:
       url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
     - title: 드라이브 펌웨어의 업그레이드 오류 문제 해결
       url: "/sg6100/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html"
-  - title: 드라이브 관리 탭을 사용합니다
-    url: "/sg6100/manage-drives-tab.html"
   - title: 식별 LED를 켜고 끕니다
     url: "/sg6100/turning-sgf6112-identify-led-on-and-off.html"
   - title: 데이터 센터에서 어플라이언스를 찾습니다
@@ -63,7 +61,7 @@ entries:
     - title: 내부 NIC(SGF6112 및 SG6160)
       url: "/sg6100/replace-nic-in-sgf6112.html"
     - title: 외부 NIC(SG6160)
-      url: "/sg6100/replace-ocp-nic-in-sg6100-cn.html"
+      url: "/sg6100/replace-ocp-nic-sg6100-cn.html"
   - title: CMOS 배터리를 교체합니다
     url: "/sg6100/replace-cmos-in-sgf6112.html"
   - title: DIMM을 교체합니다

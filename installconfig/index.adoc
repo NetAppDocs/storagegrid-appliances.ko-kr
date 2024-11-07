@@ -22,7 +22,7 @@ summary: 이러한 높은 수준의 단계에 따라 StorageGRID 어플라이언
 . link:preparing-site.html["현장을 준비합니다"]
 . link:unpacking-boxes.html["박스 포장을 풉니다"]
 . link:obtaining-additional-equipment-and-tools.html["추가 장비 및 공구를 준비합니다"]
-. https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html["웹 브라우저 요구 사항을 검토합니다"^]
+. https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html["웹 브라우저 요구 사항을 검토합니다"^]
 . link:reviewing-appliance-network-connections.html["네트워크 정보를 수집합니다"]
 
 

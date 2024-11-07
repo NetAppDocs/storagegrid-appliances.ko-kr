@@ -1,5 +1,9 @@
 ---
 indexpage:
+  title: 어플라이언스 하드웨어를 설치합니다
+  summary: 사이트에 어플라이언스 하드웨어를 설치합니다.
+  keywords: storagegrid install hardware, storagegrid install appliance
+  lead: 사이트에 어플라이언스 하드웨어를 설치합니다.
   tiles:
   - title: 스토리지 어플라이언스를 캐비닛 또는 랙에 설치합니다
     links:

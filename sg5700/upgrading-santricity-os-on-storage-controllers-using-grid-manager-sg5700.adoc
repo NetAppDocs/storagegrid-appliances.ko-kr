@@ -15,8 +15,8 @@ summary: '현재 SANtricity OS 08.42.20.00\(11.42\) 이상을 사용하는 스�
 
 .시작하기 전에
 * 에서 업그레이드할 SANtricity OS 버전을 받지 못한 경우 https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab["NetApp 다운로드: StorageGRID 어플라이언스"^], 자문을 구했습니다 https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab["NetApp 다운로드: StorageGRID 어플라이언스"^] 또는 을 누릅니다 https://imt.netapp.com/matrix/#welcome["NetApp 상호 운용성 매트릭스 툴(IMT)"^] 업그레이드에 사용 중인 SANtricity OS 버전이 어플라이언스와 호환되는지 확인합니다.
-* 을(를) 보유하고 있습니다 https://docs.netapp.com/us-en/storagegrid-118/admin/admin-group-permissions.html["유지 관리 또는 루트 액세스 권한"^].
-* 를 사용하여 그리드 관리자에 로그인했습니다 https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html["지원되는 웹 브라우저"^].
+* 이 https://docs.netapp.com/us-en/storagegrid/admin/admin-group-permissions.html["유지 관리 또는 루트 액세스 권한"^]있습니다.
+* 을 사용하여 그리드 관리자에 로그인되어 있습니다. https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html["지원되는 웹 브라우저"^]
 * 프로비저닝 암호가 있습니다.
 
 
@@ -32,7 +32,7 @@ CAUTION: 다음 단계는 그리드 관리자를 사용하여 업그레이드를
 NOTE: 이 절차에서는 NVSRAM을 SANtricity OS 업그레이드와 관련된 최신 버전으로 자동 업그레이드합니다. 별도의 NVSRAM 업그레이드 파일을 적용할 필요가 없습니다.
 
 
-NOTE: 이 절차를 시작하기 전에 최신 StorageGRID 핫픽스를 적용하십시오. 을 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/maintain/storagegrid-hotfix-procedure.html["StorageGRID 핫픽스 절차"^] 를 참조하십시오.
+NOTE: 이 절차를 시작하기 전에 최신 StorageGRID 핫픽스를 적용하십시오. 자세한 내용은 을 https://docs.netapp.com/us-en/storagegrid/maintain/storagegrid-hotfix-procedure.html["StorageGRID 핫픽스 절차"^] 참조하십시오.
 
 .단계
 . [[download-SANtricity-OS]]에서 새로운 SANtricity OS 소프트웨어 파일을 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab["NetApp 다운로드: StorageGRID 어플라이언스"^].
@@ -195,6 +195,6 @@ NOTE: Needs Attention(주의 필요) 상태인 모든 노드의 경우 유지보
 
 
 .관련 정보
-https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
+* link:https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
+* link:upgrading-santricity-os-on-e2800-controller-using-maintenance-mode.html["유지보수 모드를 사용하여 E2800 컨트롤러에서 SANtricity OS를 업그레이드합니다"]
 
-link:upgrading-santricity-os-on-e2800-controller-using-maintenance-mode.html["유지보수 모드를 사용하여 E2800 컨트롤러에서 SANtricity OS를 업그레이드합니다"]

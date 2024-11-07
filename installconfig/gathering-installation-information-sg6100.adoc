@@ -239,6 +239,7 @@ image::../media/sg6100_cn_rj_45_ports_circled.png[SG6100-CN RJ-45 포트]
 * 자동(기본값)
 * 10GbE
 * 25GbE
+* 100G NIC SKU(옵션)를 통한 40GbE(SG6160만 해당)
 * 100 GbE(SG6160만 해당)
 
 

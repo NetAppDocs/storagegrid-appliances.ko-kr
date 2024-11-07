@@ -14,11 +14,10 @@ summary: 필요에 따라 어플라이언스 노드의 내부 포트를 다른 �
 필요에 따라 어플라이언스 노드의 내부 포트를 다른 외부 포트에 다시 매핑할 수 있습니다. 예를 들어, 방화벽 문제로 인해 포트를 다시 매핑해야 할 수 있습니다.
 
 .시작하기 전에
-* 이전에 StorageGRID 어플라이언스 설치 프로그램에 액세스했습니다.
-
+이전에 StorageGRID 어플라이언스 설치 프로그램에 액세스했습니다.
 
 .이 작업에 대해
-로드 밸런서 끝점에는 다시 매핑된 포트를 사용할 수 없습니다. 다시 매핑된 포트를 제거해야 하는 경우 의 단계를 따릅니다 https://docs.netapp.com/us-en/storagegrid-118/maintain/removing-port-remaps.html["포트 재맵을 제거합니다"^].
+로드 밸런서 끝점에는 다시 매핑된 포트를 사용할 수 없습니다. 다시 매핑된 포트를 제거해야 하는 경우 의 단계를 https://docs.netapp.com/us-en/storagegrid/maintain/removing-port-remaps.html["포트 재맵을 제거합니다"^] 따릅니다.
 
 .단계
 . StorageGRID 어플라이언스 설치 프로그램에서 * 네트워킹 구성 * > * 재매핑 포트 * 를 선택합니다.

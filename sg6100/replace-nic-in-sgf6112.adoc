@@ -29,16 +29,16 @@ SGF6112 또는 SG6100-CN이 최적으로 작동하지 않거나 장애가 발생
 * 있습니다 link:locating-sgf6112-in-data-center.html["SGF6112 어플라이언스 또는 SG6100-CN 컨트롤러를 물리적으로 배치했습니다"] 데이터 센터에서 NIC를 교체하는 위치입니다.
 +
 
-NOTE: A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance["제품의 제어된 셧다운"] 제품을 랙에서 분리하기 전에 필요합니다.
+NOTE: 랙에서 어플라이언스를 분리하기 전에 가 link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance-or-sg6100-cn-controller["제품의 제어된 셧다운"] 필요합니다.
 
 * 모든 케이블 및 을(를) 분리했습니다 link:reinstalling-sgf6112-cover.html["제품 덮개를 분리했습니다"].
 
 
 .이 작업에 대해
-서비스 중단을 방지하려면 NIC(Network Interface Card) 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 NIC를 교체하십시오. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states["노드 연결 상태를 모니터링합니다"^].
+서비스 중단을 방지하려면 NIC(Network Interface Card) 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 NIC를 교체하십시오. 에 대한 정보를 https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states["노드 연결 상태를 모니터링합니다"^] 참조하십시오.
 
 
-CAUTION: 개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 NIC를 교체해야 합니다. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"^].
+CAUTION: 개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 NIC를 교체해야 합니다. 에 대한 정보를 https://docs.netapp.com/us-en/storagegrid/ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"^]참조하십시오.
 
 .단계
 . ESD 밴드의 스트랩 끝을 손목 둘레에 감고 클립 끝을 금속 바닥에 단단히 고정하여 정전기 방전을 방지하십시오.
@@ -47,7 +47,7 @@ CAUTION: 개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 �
 어플라이언스의 3개의 NIC는 그림에 표시된 섀시 위치에 있는 2개의 라이저 어셈블리에 있습니다(상단 덮개가 분리된 어플라이언스 후면).
 
 +
-image::../media/sgf6112-nic-positions.jpg[NIC 위치]
+image::../media/sgf6112-nic-positions.png[NIC 위치]
 
 +
 [cols="1a,2a,4a"]

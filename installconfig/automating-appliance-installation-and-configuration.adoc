@@ -62,7 +62,7 @@ NOTE: 동일한 JSON 파일을 사용하여 여러 어플라이언스를 구성�
 
 +
 
-NOTE: StorageGRID 자동화 Python 스크립트를 직접 사용하거나 직접 개발한 그리드 구축 및 구성 도구에서 StorageGRID 설치 REST API를 사용하는 방법의 예로 사용할 수 있습니다. 의 지침을 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/maintain/downloading-and-extracting-storagegrid-installation-files.html["StorageGRID 설치 파일 다운로드 및 추출"^].
+NOTE: StorageGRID 자동화 Python 스크립트를 직접 사용하거나 직접 개발한 그리드 구축 및 구성 도구에서 StorageGRID 설치 REST API를 사용하는 방법의 예로 사용할 수 있습니다. 의 지침을 https://docs.netapp.com/us-en/storagegrid/maintain/downloading-and-extracting-storagegrid-installation-files.html["StorageGRID 설치 파일 다운로드 및 추출"^] 참조하십시오.
 
 
 
@@ -76,7 +76,7 @@ JSON 파일을 생성한 후에는 StorageGRID 어플라이언스 설치 프로�
 * 이 어플라이언스는 랙에 설치되어 있고 네트워크에 연결되어 있으며 전원이 켜져 있습니다.
 * 있습니다 <<automation-options,JSON 파일을 생성했습니다>> NetApp 프로페셔널 서비스 컨설턴트의 지침이 제공됩니다.
 * 본 어플라이언스에는 StorageGRID 11.5 이상과 호환되는 최신 펌웨어가 포함되어 있습니다.
-* 를 사용하여 구성하는 어플라이언스에서 StorageGRID 어플라이언스 설치 프로그램에 연결되어 있습니다 https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html["지원되는 웹 브라우저"^].
+* 를 사용하여 구성하는 어플라이언스의 StorageGRID 어플라이언스 설치 프로그램에 연결되어 https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html["지원되는 웹 브라우저"^] 있습니다.
 
 
 .단계

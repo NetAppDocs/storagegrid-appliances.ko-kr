@@ -19,7 +19,7 @@ SG6000 어플라이언스 유지 관리 절차는 이 섹션에 나와 있으며
 
 을 참조하십시오 link:../installconfig/configuring-hardware.html["하드웨어를 설정합니다"] 최초 어플라이언스 설치 및 구성 중에도 수행되는 유지보수 절차를 위한 것입니다.
 
-서비스 중단을 방지하려면 서비스 중단 기간이 허용되는 예약된 유지 관리 기간 동안 어플라이언스를 종료하거나 종료하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하십시오. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states["노드 연결 상태를 모니터링합니다"^].
+서비스 중단을 방지하려면 서비스 중단 기간이 허용되는 예약된 유지 관리 기간 동안 어플라이언스를 종료하거나 종료하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하십시오. 에 대한 정보를 https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states["노드 연결 상태를 모니터링합니다"^] 참조하십시오.
 
 
-CAUTION: 개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있는 경우 예정된 유지 관리 기간 동안 어플라이언스를 종료해야 합니다. 그렇지 않으면 스토리지 노드의 서비스가 중지되는 유지보수 절차 중에 이러한 개체에 일시적으로 액세스할 수 없게 될 수 있습니다. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/ilm/index.html["정보 수명 주기 관리로 개체 관리"^].
+CAUTION: 개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있는 경우 예정된 유지 관리 기간 동안 어플라이언스를 종료해야 합니다. 그렇지 않으면 스토리지 노드의 서비스가 중지되는 유지보수 절차 중에 이러한 개체에 일시적으로 액세스할 수 없게 될 수 있습니다. 에 대한 정보를 https://docs.netapp.com/us-en/storagegrid/ilm/index.html["정보 수명 주기 관리로 개체 관리"^] 참조하십시오.

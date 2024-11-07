@@ -2,7 +2,7 @@
 permalink: sg110-1100/turning-sg110-and-sg1100-identify-led-on-and-off.html 
 sidebar: sidebar 
 keywords: sg110, sg1100, locate, find, locating, finding, identify, blue led, blue light 
-summary: 데이터 센터에서 제품을 찾을 수 있도록 제품 전면에 있는 파란색 식별 LED를 켤 수 있습니다. 
+summary: 데이터 센터에서 어플라이언스를 쉽게 찾을 수 있도록 어플라이언스 전면 및 후면에 있는 파란색 식별 LED를 켤 수 있습니다. 
 ---
 = SG110 또는 SG1100 식별 LED를 켜고 끕니다
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: 데이터 센터에서 제품을 찾을 수 있도록 제품 전면에 
 
 
 [role="lead"]
-데이터 센터에서 제품을 찾을 수 있도록 제품 앞면과 뒷면의 청색 식별 LED를 켤 수 있습니다.
+데이터 센터에서 어플라이언스를 쉽게 찾을 수 있도록 어플라이언스 전면 및 후면에 있는 파란색 식별 LED를 켤 수 있습니다.
 
 .시작하기 전에
 식별하려는 어플라이언스의 BMC IP 주소가 있습니다.

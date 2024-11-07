@@ -1,24 +1,26 @@
 ---
-permalink: sg6100/manage-drives-tab.html 
+permalink: commonhardware/manage-drives-tab.html 
 sidebar: sidebar 
-keywords: sgf6112, manage drives tab, locate drive, fail drive, logically replace drive 
-summary: 그리드 관리자의 드라이브 관리 탭을 사용하여 SGF6112 어플라이언스의 드라이브에 대한 문제 해결 및 유지 관리 작업을 수행할 수 있습니다. 
+keywords: sgf6112, sg110, sg1100, sg6160, manage drives tab, locate drive, fail drive, logically replace drive 
+summary: Grid Manager의 Manage drives 탭을 사용하여 이 기능을 지원하는 어플라이언스에 대한 드라이브의 문제 해결 및 유지 보수 작업을 수행할 수 있습니다. 
 ---
-= 드라이브 관리 탭 사용(SGF6112)
+= 드라이브 관리 탭(SG110, SG1100, SGF6112 및 SG6160) 사용
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-그리드 관리자의 드라이브 관리 탭을 사용하여 SGF6112 어플라이언스의 드라이브에 대한 문제 해결 및 유지 관리 작업을 수행할 수 있습니다.
+Grid Manager의 Manage drives 탭을 사용하여 이 기능을 지원하는 어플라이언스에 대한 드라이브의 문제 해결 및 유지 보수 작업을 수행할 수 있습니다.
 
 .시작하기 전에
-* 를 사용하여 그리드 관리자에 로그인했습니다 https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html["지원되는 웹 브라우저"^].
-
+을 사용하여 그리드 관리자에 로그인되어 있습니다. https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html["지원되는 웹 브라우저"^]
 
 .이 작업에 대해
-SGF6112 어플라이언스와 이 있는 경우 https://docs.netapp.com/us-en/storagegrid-118/admin/admin-group-permissions.html["스토리지 어플라이언스 관리자 또는 루트 액세스 권한"^]어플라이언스 세부 정보 페이지에 드라이브 관리 탭이 나타납니다.
+이 기능을 지원하는 어플라이언스와 이 있는 경우 https://docs.netapp.com/us-en/storagegrid/admin/admin-group-permissions.html["스토리지 어플라이언스 관리자 또는 루트 액세스 권한"^] 어플라이언스 세부 정보 페이지에 드라이브 관리 탭이 나타납니다.
+
+
+NOTE: StorageGRID 11.8의 경우 드라이브 관리 탭은 SGF6112 어플라이언스에서만 지원됩니다.
 
 드라이브 관리 탭에는 다음 보기가 포함되어 있습니다.
 

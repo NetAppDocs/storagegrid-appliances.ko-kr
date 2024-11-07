@@ -14,7 +14,7 @@ summary: 특정 유지보수 절차를 수행하기 전에 제품을 유지보�
 특정 유지보수 절차를 수행하기 전에 제품을 유지보수 모드로 전환해야 합니다.
 
 .시작하기 전에
-* 를 사용하여 그리드 관리자에 로그인했습니다 https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html["지원되는 웹 브라우저"^].
+* 을 사용하여 그리드 관리자에 로그인되어 있습니다. https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html["지원되는 웹 브라우저"^]
 * 유지 관리 또는 루트 액세스 권한이 있습니다. 자세한 내용은 StorageGRID 관리 지침을 참조하십시오.
 
 

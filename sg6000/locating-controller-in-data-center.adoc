@@ -43,8 +43,7 @@ image::../media/sg6060_front_panel_service_led_on.jpg[전면 식별 LED - 켜짐
 
 
 .관련 정보
-link:reinstalling-fibre-channel-hba.html#remove-fibre-channel-hba["Fibre Channel HBA를 제거합니다"]
+* link:reinstalling-fibre-channel-hba.html#remove-fibre-channel-hba["Fibre Channel HBA를 제거합니다"]
+* link:reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html#remove-sg6000-cn-controller-from-cabinet-or-rack["캐비닛 또는 랙에서 SG6000-CN 컨트롤러를 제거합니다"]
+* link:power-sg6000-cn-controller-off-on.html#shut-down-sg6000-cn-controller["SG6000-CN 컨트롤러를 종료합니다"]
 
-link:reinstalling-sg6000-cn-controller-into-cabinet-or-rack.html#remove-sg6000-cn-controller-from-cabinet-or-rack["캐비닛 또는 랙에서 SG6000-CN 컨트롤러를 제거합니다"]
-
-link:power-sg6000-cn-controller-off-on.html#shut-down-sg6000-cn-controller["SG6000-CN 컨트롤러를 종료합니다"]

@@ -987,8 +987,11 @@ BMC 인터페이스에 액세스하는 네트워크에 연결합니다.
  a| 
 2
  a| 
-어플라이언스에 10GbE 네트워크 포트 4개/25GbE 네트워크 포트
+SG6100-CN 컨트롤러에 네트워크 포트 4개
  a| 
+* 어플라이언스에 10GbE 네트워크 포트 4개/25GbE 네트워크 포트
+* 100G NIC SKU 옵션이 있는 10/25/40/100GbE 네트워크 포트 4개(SG6160만 해당)
+
  a| 
 그리드 네트워크 및 StorageGRID용 클라이언트 네트워크에 연결합니다. 을 참조하십시오 link:gathering-installation-information-sg6100.html#port-bond-modes["포트 본드 모드(SG6100)"]
 

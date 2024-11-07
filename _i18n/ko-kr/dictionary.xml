@@ -53,7 +53,6 @@
   <block id="1f5543fb79e26322727f6814659efacf" category="list-text">컨트롤러 BMC 인터페이스를 사용합니다.</block>
   <block id="6833d1fb2aff8ca0a43fc5ee98dc0434" category="summary">제품이 최적의 상태로 작동하지 않거나 고장 난 경우 교체해야 할 수 있습니다.</block>
   <block id="4ec9c61fe2a3dd50a4c235c04b5791be" category="doc">SG100 또는 SG1000을 교체합니다</block>
-  <block id="c3d9da76bc60daa886782280178ca9ba" category="list-text">교체 중인 제품과 동일한 부품 번호를 가진 교체용 제품이 있습니다.</block>
   <block id="4b526ad126631aeb936c11f22d031fad" category="list-text">제품에 연결된 각 케이블을 식별할 수 있는 라벨이 있습니다.</block>
   <block id="61684fbac4cfcc8514f86489f29dde1c" category="inline-link-macro">제품을 물리적으로 위치했습니다</block>
   <block id="5be2b457b6eaee65a28ec4df1db076e4" category="list-text">있습니다 <block ref="da5df71c7a92c3ba4b4a026832aaae10" category="inline-link-macro-rx"></block>.</block>
@@ -105,7 +104,6 @@
   <block id="0f6ea7c46381331636d17142aee5ff44" category="summary">컨트롤러 앞면과 뒷면의 청색 식별 LED를 켜면 데이터 센터에서 제품을 쉽게 찾을 수 있습니다.</block>
   <block id="ffd19bdfda142b2e42f2011318104bfa" category="doc">SG100 또는 SG1000 식별 LED를 켜고 끕니다</block>
   <block id="d5fb6a1b1cd32e5cd68ae8b3c4df0cff" category="paragraph">식별하려는 컨트롤러의 BMC IP 주소가 있습니다.</block>
-  <block id="15a469ca542791fd77f65608926c9d94" category="list-text">어플라이언스 BMC 인터페이스에 액세스합니다.</block>
   <block id="f33a24fc68a182cd20809d4f943f7acc" category="list-text">서버 식별 * 을 선택합니다.</block>
   <block id="5eefe070ba5b220909a2deb53522a7b6" category="paragraph">식별 LED의 현재 상태가 선택됩니다.</block>
   <block id="55ed6b7c403af83a38c4c6a71ef7f233" category="list-text">On * 또는 * Off * 를 선택한 다음 * Perform Action * 을 선택합니다.</block>
@@ -227,7 +225,6 @@
   <block id="c3c0c5e67f70ef84a493ef3942629e66" category="list-text">이 제품은 랙 또는 캐비닛에 설치되었고 네트워크에 연결되어 있으며 전원이 켜져 있습니다.</block>
   <block id="f2c92a34032f7d433f7be68580f796da" category="list-text">StorageGRID 어플라이언스 설치 프로그램을 사용하여 어플라이언스에 대해 네트워크 링크, IP 주소 및 포트 재매핑(필요한 경우)이 구성되었습니다.</block>
   <block id="5f3a27ea8c400c6170dfd23f8f4ad06a" category="inline-link">지원되는 웹 브라우저</block>
-  <block id="02b4ef414fc134933730fbee3c07a260" category="list-text">에 서비스 랩톱이 있습니다<block ref="a18f1d7592d98ae161543980d36b8697" category="inline-link-rx"></block>.</block>
   <block id="7affba66ef4869b80f35788b21790843" category="list-text">어플라이언스에 할당된 IP 주소 중 하나를 알고 있습니다. 연결된 모든 StorageGRID 네트워크에 대해 IP 주소를 사용할 수 있습니다.</block>
   <block id="584bec36fb27133ce8a721515dfb572d" category="paragraph">어플라이언스 기본 관리 노드에 StorageGRID를 설치하려면 다음을 따르십시오.</block>
   <block id="25a9aabada9e76a8d6ff5b35a1c21f72" category="list-text">StorageGRID 어플라이언스 설치 프로그램을 사용하여 StorageGRID 소프트웨어를 설치합니다. 다른 버전의 소프트웨어를 설치하려면 먼저 StorageGRID 어플라이언스 설치 프로그램을 사용하여 업로드해야 합니다.</block>
@@ -287,25 +284,20 @@
   <block id="c3354d84393c7f9e023fdee83bcf8cef" category="summary">일부 어플라이언스 모델에서는 스토리지 및 복구 요구 사항을 수용하기 위해 어플라이언스에서 다른 RAID 모드로 변경할 수 있습니다. 어플라이언스 스토리지 노드를 구축하기 전에만 모드를 변경할 수 있습니다.</block>
   <block id="a65525d2672da7612dd2225d09c7630d" category="paragraph">ConfigBuilder를 사용하여 JSON 파일을 생성하는 경우 RAID 모드를 자동으로 변경할 수 있습니다. 을 참조하십시오 <block ref="da9e5f931ee7f07fa7e39b6838d21cb5" category="inline-link-macro-rx"></block>.</block>
   <block id="dcd58c6c307af73eb2d54c28eb5aece3" category="paragraph">어플라이언스가 지원하는 경우 다음 볼륨 구성 옵션 중 하나를 선택할 수 있습니다.</block>
-  <block id="614ac3bc6b71e66c8c790d54848fdcae" category="admonition">DDP는 2개의 SSD로 인해 SG6060 어플라이언스에서 드로어 손실 보호를 제공하지 않습니다. SG6060에 추가된 확장 쉘프에서는 서랍 손실 보호를 효과적으로 수행합니다.</block>
-  <block id="5717f9383a4d8109c6b2573864de8a9d" category="list-text">* DDP16 *: 이 모드는 데이터 드라이브 16개마다 2개의 패리티 드라이브를 사용하므로 DDP에 비해 스토리지 효율성이 높습니다. DDP16은 RAID 6에 비해 시스템 성능 향상, 드라이브 장애 후 재구축 시간 단축, 관리 용이성, 스토리지 효율성 비교 등의 이점을 제공합니다. DDP16 모드를 사용하려면 구성에 최소 20개의 드라이브가 있어야 합니다. DDP16은 드로어 손실 방지 기능을 제공하지 않습니다.</block>
   <block id="353ce17a6b113e0d3e118b781dec37fe" category="list-text">* RAID6 *: 이 모드는 16개 이상의 데이터 드라이브마다 2개의 패리티 드라이브를 사용합니다. 각 디스크의 패리티 스트라이프를 사용하는 하드웨어 보호 구성표로, 데이터가 손실되기 전에 RAID 세트 내에서 2개의 디스크 장애를 허용합니다. RAID 6 모드를 사용하려면 구성에 최소 20개의 드라이브가 포함되어 있어야 합니다. RAID 6은 DDP와 비교할 때 어플라이언스의 스토리지 효율성을 높일 수 있지만 대부분의 StorageGRID 환경에서는 권장되지 않습니다.</block>
   <block id="b796cc0a751a74024ed8fce1cada225c" category="admonition">볼륨이 이미 구성되었거나 StorageGRID가 이전에 설치된 경우 RAID 모드를 변경하면 볼륨이 제거되고 교체됩니다. 해당 볼륨의 모든 데이터가 손실됩니다.</block>
   <block id="08737855a7278096a93baafac39de5b0" category="open-title">SG5760입니다</block>
   <block id="d64347d12e2b4767f06a434d5520f6c0" category="list-text">드라이브가 60개인 SG5760을 사용하는 경우 SG5712를 사용하는 경우 기본 DDP 모드를 사용해야 합니다.</block>
   <block id="99d42fc5dc10f749a2048142ea5def8c" category="list-text">StorageGRID에 연결할 수 있는 모든 클라이언트를 사용 중입니다.</block>
-  <block id="7fee251548feeae9604038084a5a9dc2" category="list-text">클라이언트에 가 있습니다<block ref="a18f1d7592d98ae161543980d36b8697" category="inline-link-rx"></block>.</block>
   <block id="3e64f994ec0b627c0d555b08876e3c52" category="list-text">서비스 랩톱을 사용하여 웹 브라우저를 열고 StorageGRID 어플라이언스 설치 프로그램:+ 에 액세스합니다<block ref="ac4c7fede3b81431cd1939fa909e07c1" prefix=" " category="inline-code"></block></block>
   <block id="d4478243cc0b93aac668f030ac3e5673" category="paragraph">위치<block ref="2b02c7982db310b39f121c968f93deb9" prefix=" " category="inline-code"></block> 은(는) E5500SG 컨트롤러의 IP 주소입니다.</block>
   <block id="ead65ee0d5026af449d4c30c565225ea" category="list-text">고급 * &gt; * RAID 모드 * 를 선택합니다.</block>
   <block id="1819ccab2ff2adb23392fc1927874be2" category="list-text">RAID 모드 구성 * 페이지의 모드 드롭다운 목록에서 원하는 RAID 모드를 선택합니다.</block>
   <block id="863f3ce437e8c6b6439536e138a5b1df" category="open-title">SG6000 을 참조하십시오</block>
-  <block id="5e17e2d0c3a20e9b9ecec4f947d35990" category="list-text">클라이언트에 가 있습니다 <block ref="a18f1d7592d98ae161543980d36b8697" category="inline-link-rx"></block>.</block>
   <block id="bf1e3f625a7e8b038f170de3cb7d3145" category="list-text">브라우저를 열고 어플라이언스의 컴퓨팅 컨트롤러에 대한 IP 주소 중 하나를 입력합니다.</block>
   <block id="d6037c87870edda3b6af0ad1f10e8dfb" category="paragraph"><block ref="c1058eb2de79f5382be517d28ca54115" prefix="" category="inline-code"></block> 는 3개의 StorageGRID 네트워크 중 하나에 있는 컴퓨팅 컨트롤러(스토리지 컨트롤러가 아님)의 IP 주소입니다.</block>
   <block id="23cc87b4dbb02f0a2b3ad6acdc107e38" category="summary">보안을 위해 BMC admin 또는 root 사용자의 암호를 변경해야 합니다.</block>
   <block id="28abc30754fbafc3d9f1a840416d928b" category="doc">BMC 인터페이스의 관리자 또는 루트 암호를 변경합니다</block>
-  <block id="8ae94beade5703d7a791e6742e938eeb" category="paragraph">관리 클라이언트에서 을 사용하고 있습니다<block ref="a18f1d7592d98ae161543980d36b8697" category="inline-link-rx"></block>.</block>
   <block id="8a16fbc661b9c58ecf6a53a89f41993b" category="paragraph">어플라이언스를 처음 설치할 때 BMC는 admin 또는 root 사용자에 대한 기본 암호를 사용합니다. 시스템을 보호하려면 admin 또는 root 사용자의 암호를 변경해야 합니다.</block>
   <block id="c61e0232b459caabc491ba6a4f815414" category="paragraph">기본 사용자는 StorageGRID 어플라이언스를 설치한 시기에 따라 다릅니다. 기본 사용자는 새 설치의 경우 * admin *, 이전 설치의 경우 * root * 입니다.</block>
   <block id="f9134265b9e9dad038e250b899e568ae" category="list-text">클라이언트에서 StorageGRID 어플라이언스 설치 프로그램의 URL을 입력합니다.</block>
@@ -326,7 +318,6 @@
   <block id="f5facf78cd580be6cde15b363186372d" category="list-text">ESD 손목 스트랩</block>
   <block id="62715b1df64a67b740fd02965ae708e9" category="list-text">서비스 노트북</block>
   <block id="c415834f3a2736a528e1cf60b3d0601c" category="inline-link">지원되는 웹 브라우저</block>
-  <block id="55a4c790323c17bde846add095bd6aa2" category="list-text"><block ref="55a4c790323c17bde846add095bd6aa2" category="inline-link-rx"></block></block>
   <block id="c7dc3f6e76727117a01a4abf420b9c2f" category="list-text">PuTTY와 같은 SSH 클라이언트</block>
   <block id="e6959787543d4b7988a7e67a400cbaae" category="list-text">1GbE(RJ-45) 포트</block>
   <block id="46b0e50dee424029f576bd12783b5158" category="admonition">일부 포트는 10/100 이더넷 속도를 지원하지 않을 수 있습니다.</block>
@@ -363,7 +354,6 @@
   <block id="c33dd574af6de69373bec97cc709ade1" category="open-title">SG6100</block>
   <block id="a84eec93e893fadf2d8ab7a8d588ddbb" category="summary">캐비닛이나 랙에 제품의 레일 세트를 설치한 다음 제품을 레일에 밀어 넣습니다.</block>
   <block id="867aaffd62f4541bca34095b90796def" category="doc">캐비닛 또는 랙에 설치(SG100 및 SG1000)</block>
-  <block id="68dfe6c342417b20bb690f11deb80f37" category="list-text">상자에 포함된 안전 고지 문서를 검토하고 하드웨어 이동 및 설치에 대한 예방 조치를 이해했습니다.</block>
   <block id="11647aec414507136a081808dc1a184c" category="list-text">레일 키트와 함께 제공된 지침이 있습니다.</block>
   <block id="e0226b31d854fbd4e1cac6c67058ab4c" category="list-text">레일 키트의 지침에 따라 캐비닛이나 랙에 레일을 설치합니다.</block>
   <block id="68a9da8ccd6fd1e485fe708d994a9f57" category="list-text">캐비닛이나 랙에 설치된 두 개의 레일에서 딸깍 소리가 날 때까지 레일의 이동식 부품을 확장합니다.</block>
@@ -394,7 +384,6 @@
   <block id="cf044a27a40c12faa07475d6c92d1c93" category="paragraph">API 설명서에 액세스하려면 어플라이언스의 StorageGRID 어플라이언스 설치 프로그램으로 이동하여 메뉴 모음에서 * 도움말 * &gt; * API Docs * 를 선택합니다.</block>
   <block id="c9a246094a3f0ddf1fca26edf0919c6d" category="paragraph">StorageGRID 어플라이언스 설치 관리자 API에는 다음 섹션이 포함되어 있습니다.</block>
   <block id="0f7268e87dda74f7c0f6de08f8a5deab" category="list-text">* 클론 *: 노드 클론 생성을 구성 및 제어하는 작업.</block>
-  <block id="ee30ac151194512491459d978496a0eb" category="list-text">* 암호화 *: 암호화를 관리하고 암호화 상태를 볼 수 있는 작업.</block>
   <block id="915078eacb9e975de2c84733ad43178a" category="list-text">* 하드웨어 구성 *: 연결된 하드웨어에서 시스템 설정을 구성하는 작업.</block>
   <block id="e827fc7e65b6336415bcff1a013d4008" category="list-text">* 설치 *: 어플라이언스 설치 시작 및 설치 상태 모니터링을 위한 작업.</block>
   <block id="132c615b1b3a897b8e6a80418be9e233" category="list-text">* 네트워킹 *: StorageGRID 어플라이언스 및 어플라이언스 포트 설정에 대한 그리드, 관리자 및 클라이언트 네트워크 구성과 관련된 작업.</block>
@@ -483,14 +472,12 @@
   <block id="c8b861feb18d64efe8a6454baf68f1f9" category="inline-link-macro">StorageGRID 구성 자동화</block>
   <block id="41263ba50e3c2460c36d2a032f4617c2" category="list-text"><block ref="01e989045e9f58aada43d013823e4520" prefix="" category="inline-code"></block>전체 StorageGRID 시스템의 다른 구성 요소("그리드")를 구성합니다. 을 참조하십시오 <block ref="8f1d6652a5389fe4ed67c47ad0c42669" category="inline-link-macro-rx"></block>.</block>
   <block id="ff7cf14f8cb80fe5e854050d8a52ba67" category="inline-link">StorageGRID 설치 파일 다운로드 및 추출</block>
-  <block id="0a4ca3868ccff9a18e635f0f41d21001" category="admonition">StorageGRID 자동화 Python 스크립트를 직접 사용하거나 직접 개발한 그리드 구축 및 구성 도구에서 StorageGRID 설치 REST API를 사용하는 방법의 예로 사용할 수 있습니다. 의 지침을 참조하십시오<block ref="0dc6afeb7353a302ce7a12b587e43c1b" category="inline-link-rx"></block>.</block>
   <block id="229ec837e1e7b0d423b18d71a52dcc5c" category="section-title">StorageGRID 어플라이언스 설치 프로그램을 사용하여 어플라이언스 구성을 자동화합니다</block>
   <block id="507a921416adb0b4fc562b170c38110b" category="paragraph">JSON 파일을 생성한 후에는 StorageGRID 어플라이언스 설치 프로그램을 사용하여 JSON 파일을 업로드하여 하나 이상의 어플라이언스 구성을 자동화할 수 있습니다.</block>
   <block id="50d937a00009c6c6b4bf6fe8178e25a6" category="list-text">이 어플라이언스는 랙에 설치되어 있고 네트워크에 연결되어 있으며 전원이 켜져 있습니다.</block>
   <block id="fb882869e2db2c6be540e8988d5861bb" category="inline-xref">JSON 파일을 생성했습니다</block>
   <block id="6ff6544aaa51426d71952e2ebef91b73" category="list-text">있습니다 <block ref="ed5233e808c737b997a7ac8b5adf83e3" category="inline-xref-macro-rx"></block> NetApp 프로페셔널 서비스 컨설턴트의 지침이 제공됩니다.</block>
   <block id="392bd3f83fb497794f409fa5908887f0" category="list-text">본 어플라이언스에는 StorageGRID 11.5 이상과 호환되는 최신 펌웨어가 포함되어 있습니다.</block>
-  <block id="0f35bbde0e42ae70f1e2305f6f54c3b5" category="list-text">를 사용하여 구성하는 어플라이언스에서 StorageGRID 어플라이언스 설치 프로그램에 연결되어 있습니다<block ref="a18f1d7592d98ae161543980d36b8697" category="inline-link-rx"></block>.</block>
   <block id="6989c71b2a87387280764a414d928c27" category="list-text">StorageGRID 어플라이언스 설치 프로그램에서 * 고급 * &gt; * 어플라이언스 구성 업데이트 * 를 선택합니다. 어플라이언스 구성 업데이트 페이지가 나타납니다.</block>
   <block id="cbe31f798cc3e7c32cac515491c124dd" category="list-text">업로드할 구성이 있는 JSON 파일을 찾아 선택합니다.</block>
   <block id="d46a96ea002a2622b5221351849dc6b1" category="paragraph">파일이 업로드되고 검증됩니다. 유효성 검사 프로세스가 완료되면 녹색 확인 표시 옆에 파일 이름이 표시됩니다.</block>
@@ -637,18 +624,14 @@
   <block id="9faa5f32fa9c79795fce93a0477e6036" category="paragraph">예를 들어, 어플라이언스 노드와 다른 사이트의 노드 간 경로를 테스트할 수 있습니다.</block>
   <block id="3042ee61d33b4d3bb987ef8d189f1c84" category="list-text">연결 테스트 * 를 클릭합니다.</block>
   <block id="a86ce482981834e0bbcc54755bde4f04" category="paragraph">네트워크 연결이 유효한 경우 ping 명령 출력이 나열된 "Ping test Passed" 메시지가 나타납니다.</block>
-  <block id="645dec9b79a5bdef727721ed35439f34" category="image-alt">StorageGRID Webscale 어플라이언스 설치 프로그램에서 Ping 테스트 결과 스크린샷</block>
   <block id="38e98d02875963692f88c8bf6f2c088a" category="list-text"><block ref="38e98d02875963692f88c8bf6f2c088a" category="inline-link-macro-rx"></block></block>
   <block id="b885d9cf5b831999956568cb8e05db9b" category="inline-link-macro">MTU 설정을 변경합니다</block>
   <block id="658de6056c8650ac6849a076a3fcbf7e" category="list-text"><block ref="658de6056c8650ac6849a076a3fcbf7e" category="inline-link-macro-rx"></block></block>
   <block id="af5e2c725312cc9f9d189977289a6c5c" category="summary">경고가 발생할 때 e-메일 알림을 보내려면 BMC 인터페이스를 사용하여 SMTP 설정, 사용자, LAN 대상, 경고 정책 및 이벤트 필터를 구성합니다.</block>
   <block id="1d46ac87d12ade0475315e467619d84f" category="doc">BMC 알림에 대한 이메일 알림을 설정합니다</block>
-  <block id="783ec4be4313fa6a1b402772064f5aaf" category="admonition">SG6000-CN 컨트롤러 또는 서비스 어플라이언스에 장애가 발생하여 교체해야 하는 경우 이 절차에 의해 수행된 BMC 설정은 보존되지 않을 수 있습니다. 하드웨어 교체 후 필요한 경우 쉽게 다시 적용할 수 있도록 적용한 모든 설정에 대한 기록이 있어야 합니다.</block>
-  <block id="b8f1814f76171b0e01680b9ba48147be" category="paragraph">BMC 대시보드에 액세스하는 방법을 알고 있습니다.</block>
   <block id="44d97ae9b656932a0ec0c337f1322020" category="paragraph">BMC 인터페이스에서 설정 페이지의 * SMTP 설정 *, * 사용자 관리 * 및 * 플랫폼 이벤트 필터 * 옵션을 사용하여 이메일 알림을 구성합니다.</block>
   <block id="eb164878e3a11cd967b58b9804f069bd" category="image-alt">BMC 설정 메뉴</block>
   <block id="8c40c4c139d612d7304b70e6f0cb8c7c" category="inline-link-macro">BMC에 대한 SNMP 설정을 구성합니다</block>
-  <block id="2feb0f58aaa9a4cecd164fb75ae4785d" category="list-text"><block ref="20ad94357ba686d39119bb8d845884fd" category="inline-link-macro-rx"></block>.</block>
   <block id="916ef707e474d612e9085b3576c42e8c" category="list-text">설정 * &gt; * SMTP 설정 * 을 선택합니다.</block>
   <block id="cc6f5de01b92b29440802debeadd4111" category="list-text">보낸 사람 e-메일 ID의 경우 유효한 e-메일 주소를 입력합니다.</block>
   <block id="f75177d1ff1ad48df8b75f8b77482961" category="paragraph">이 전자 메일 주소는 BMC가 전자 메일을 보낼 때 보내는 사람 주소로 제공됩니다.</block>
@@ -788,8 +771,6 @@
   <block id="54d7ecac4234801a52c82cee53356b93" category="list-text">포트 2는 기술 지원용으로 예약되어 있습니다.</block>
   <block id="575f5da1297a9d208194e631fe305bac" category="paragraph">드라이브 확장 포트:</block>
   <block id="101f1e2a12ec321beceff04a62a441c5" category="paragraph">사용 안 합니다.</block>
-  <block id="f8b90d96568b5e455a92272a8f48020b" category="inline-link">NetApp E-Series 시스템 문서 사이트</block>
-  <block id="75491f732985b7a2a5168dd19e83a632" category="paragraph"><block ref="75491f732985b7a2a5168dd19e83a632" category="inline-link-rx"></block></block>
   <block id="55a91a9330c6accb5c6508466f5423c6" category="summary">SG6060 및 SGF6024의 경우 캐비닛 또는 랙에 레일을 설치하고 컨트롤러 쉘프, 확장 쉘프 및 컴퓨팅 컨트롤러를 레일에 밀어넣습니다. SG6060의 경우, 쉘프를 설치할 때까지 각 쉘프에 드라이브를 설치하지 마십시오.</block>
   <block id="f9729bf75bc01b504ec3ff0ab45026be" category="doc">캐비닛 또는 랙에 설치(SG6000)</block>
   <block id="1be03eea429e62b9b7874dc3decb447a" category="paragraph">SG6060 및 SGF6024의 경우 캐비닛 또는 랙에 레일을 설치하고 컨트롤러 쉘프, 확장 쉘프 및 컴퓨팅 컨트롤러를 레일에 밀어넣습니다. SG6060의 경우, 쉘프가 설치될 때까지 각 쉘프에 드라이브를 설치하지 마십시오.</block>
@@ -862,7 +843,6 @@
   <block id="594c16ca0695f6665d7cf4971707adf6" category="paragraph">HA</block>
   <block id="dcc5169074d0d5a456ef3db5c8c66312" category="paragraph">StorageGRID가 실행 중입니다.</block>
   <block id="4e8874997097501758be968ae3c10689" category="section-title">오류 코드를 봅니다</block>
-  <block id="4d68799e6493045c7f569164b82a0d54" category="paragraph">어플라이언스를 부팅할 때 하드웨어 오류가 발생하면 BMC가 오류 코드를 기록합니다. 필요한 경우 BMC 인터페이스를 사용하여 이러한 오류 코드를 확인한 다음 기술 지원 팀과 협력하여 문제를 해결할 수 있습니다.</block>
   <block id="3021b3010c48f0d2b7c748318d470b7f" category="list-text">BMC 대시보드에서 * BIOS POST 코드 * 를 선택합니다.</block>
   <block id="9f6a064ac619f66aaa322807a61dad16" category="list-text">현재 코드 및 이전 코드에 대해 표시된 정보를 검토합니다.</block>
   <block id="af35dde73503f0e72952654c019cc720" category="paragraph">다음 오류 코드 중 하나가 표시되면 기술 지원 부서의 도움을 받고 문제를 해결하십시오.</block>
@@ -1202,7 +1182,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="aa91301685926dd0c6c99a07550217f5" category="summary">SANtricity 시스템 관리자를 사용하여 스토리지 컨트롤러 쉘프에 있는 스토리지 컨트롤러, 스토리지 디스크 및 기타 하드웨어 구성 요소의 상태를 모니터링할 수 있습니다. 또한 관리 포트를 사용하지 않고 어플라이언스에서 AutoSupport 메시지를 보낼 수 있도록 E-Series AutoSupport에 대한 프록시를 구성할 수도 있습니다.</block>
   <block id="cbc817df49c13d2739e53c6f3ab21240" category="section-title">SANtricity 시스템 관리자를 설정하고 액세스합니다</block>
   <block id="61781e904419d0ca3e48179b7b7cfa09" category="paragraph">스토리지 컨트롤러의 하드웨어를 모니터링하거나 E-Series AutoSupport를 구성하려면 스토리지 컨트롤러의 SANtricity System Manager에 액세스해야 할 수 있습니다.</block>
-  <block id="ba653269166989e83e8fe34212db15e5" category="list-text">을(를) 사용하고 있습니다<block ref="a18f1d7592d98ae161543980d36b8697" category="inline-link-rx"></block>.</block>
   <block id="49fd84925fee54ee512108fa4b5aa65a" category="list-text">그리드 관리자를 통해 SANtricity 시스템 관리자에 액세스하려면 StorageGRID를 설치했으며 스토리지 어플라이언스 관리자 권한이나 루트 액세스 권한이 있어야 합니다.</block>
   <block id="8e90c30fe589baf25a4c585b9f6587f0" category="list-text">StorageGRID 어플라이언스 설치 프로그램을 사용하여 SANtricity 시스템 관리자에 액세스하려면 SANtricity 시스템 관리자 사용자 이름과 암호가 있어야 합니다.</block>
   <block id="d70f6ae01455ba2962ff54c59769ebfd" category="list-text">웹 브라우저를 통해 SANtricity System Manager에 직접 액세스하려면 SANtricity System Manager 관리자의 사용자 이름과 암호를 알고 있어야 합니다.</block>
@@ -1223,7 +1202,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="ccff858e243f2d310a8c9501d4e241f9" category="paragraph">SANtricity 시스템 관리자를 사용하여 다음 설정을 구성할 수 있습니다.</block>
   <block id="7480b3d5b96758e9706895f9f09074a6" category="list-text">스토리지 컨트롤러 쉘프에 있는 구성 요소에 대한 e-메일 경고, SNMP 경고 또는 syslog 알림을 제공합니다</block>
   <block id="2afb5eeba8ea3c04fefb11c5aac8aaa0" category="list-text">스토리지 컨트롤러 쉘프의 구성요소에 대한 E-Series AutoSupport 설정입니다.</block>
-  <block id="3da56d2c04159b3c87b6ab07507f1fb4" category="paragraph">E-Series AutoSupport에 대한 자세한 내용은 를 참조하십시오<block ref="432706f834f68f529b4dbc054bb2fb4a" category="inline-link-rx"></block>.</block>
   <block id="0d50ff542a20edfdc030f87225abed8a" category="list-text">드라이브 보안 키 - 보안 드라이브 잠금을 해제하는 데 필요(드라이브 보안 기능이 활성화된 경우 이 단계 필요)</block>
   <block id="ee9d34135078ea9745c7862276886545" category="list-text">SANtricity 시스템 관리자에 액세스하기 위한 관리자 암호입니다</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행합니다.</block>
@@ -1245,13 +1223,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="61e433e53a32c40d973d908b38f4ca93" category="list-text">온라인 도움말의 * 지원 * &gt; * 지원 센터 * 섹션을 사용하여 AutoSupport 기능에 대해 알아보십시오.</block>
   <block id="5aa00be3ad448a2ed48c323ac961c4b9" category="list-text">AutoSupport를 관리하려면 ""방법" 지침을 따르십시오.</block>
   <block id="2732059bfabd55c422e68f46cd2e2e88" category="inline-link">스토리지 프록시 설정 구성 지침</block>
-  <block id="16c255e34e565703bc9b2912a9f5f837" category="paragraph">관리 포트를 사용하지 않고 E-Series AutoSupport 메시지를 보내기 위해 StorageGRID 프록시를 구성하는 방법에 대한 자세한 내용은 로 이동하십시오<block ref="630c32d588e4f8353f6a2bf9f10b6c87" category="inline-link-rx"></block>.</block>
-  <block id="aac4810e3f8c8188aa452c67fec614a8" category="list-text">어플라이언스에 대해 드라이브 보안 기능이 활성화된 경우 보안 키를 생성하고 관리합니다.</block>
-  <block id="3fc6d456ccf489281c9c2361f35f8701" category="list-text">드라이브 보안에 대해 알아보려면 온라인 도움말의 * 설정 * &gt; * 시스템 * &gt; * 보안 키 관리 * 섹션을 사용하십시오.</block>
-  <block id="7db12020fee27b780f4c5f155b24e026" category="list-text">""방법" 지침에 따라 보안 키를 만들고 관리합니다.</block>
-  <block id="8079c27884feb1d3043cc71127616cb8" category="list-text">필요에 따라 관리자 암호를 변경합니다.</block>
-  <block id="a4942a1fef1513691f788747dfb0e3a5" category="list-text">온라인 도움말의 * Home * &gt; * 스토리지 배열 관리 * 섹션을 사용하여 관리자 암호에 대해 알아보십시오.</block>
-  <block id="4557b71ada8c2459a71a1bddebf48c48" category="list-text">""방법" 지침에 따라 암호를 변경하십시오.</block>
   <block id="1f8ef647eb7454b535c5f38cc21488f4" category="section-title">SANtricity 시스템 관리자에서 하드웨어 상태를 검토합니다</block>
   <block id="c529dc6bdd0e3119dcb50fae08002932" category="paragraph">SANtricity 시스템 관리자를 사용하여 스토리지 컨트롤러 쉘프의 개별 하드웨어 구성요소를 모니터링 및 관리하고 하드웨어 진단 및 환경 정보(예: 구성요소 온도)와 드라이브 관련 문제를 검토할 수 있습니다.</block>
   <block id="3c974ef9fcfeb4afff838906bb3bb69d" category="list-text">그리드 관리자를 통해 SANtricity 시스템 관리자에 액세스하려면 스토리지 어플라이언스 관리자 권한이나 루트 액세스 권한이 있어야 합니다.</block>
@@ -1328,11 +1299,9 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="792d1be3fbe8d0f4a7750b3710ef9c41" category="paragraph">이 어플라이언스를 사용하면 고가용성(HA) 그룹과 S3 또는 Swift 데이터 경로 연결을 위한 지능형 로드 밸런싱을 손쉽게 사용할 수 있습니다.</block>
   <block id="a80993ad4d9595044e2bb99659e13da9" category="paragraph">다음 예에서는 제품의 기능을 극대화하는 방법을 설명합니다.</block>
   <block id="599b3e861c0fc282e1c17e2ac2a0cae4" category="list-text">2개의 SG100 또는 2개의 SG1000 어플라이언스를 사용하여 게이트웨이 노드로 구성하여 게이트웨이 서비스를 제공하십시오.</block>
-  <block id="3bc25583a9956f468ca393ff09f1ce40" category="admonition">SG100 및 SG1000 서비스 어플라이언스를 같은 사이트에 배포하지 마십시오. 성능을 예측할 수 없습니다.</block>
   <block id="05ec0cccf1a620c91d02122834efabd5" category="list-text">일부 그리드 관리 서비스의 이중화를 제공하려면 SG100 또는 SG1000 어플라이언스 2개를 사용하십시오. 각 어플라이언스를 관리자 노드로 구성하여 이 작업을 수행합니다.</block>
   <block id="2f9c95fc4e3ccbe2083cecf3223335a4" category="list-text">2개의 SG100 또는 2개의 SG1000 어플라이언스를 사용하여 하나 이상의 가상 IP 주소를 통해 액세스되는 고가용성 로드 밸런싱 및 트래픽 셰이핑 서비스를 제공합니다. 이 작업을 수행하려면 관리 노드 또는 게이트웨이 노드의 조합으로 어플라이언스를 구성하고 두 노드를 동일한 HA 그룹에 추가합니다.</block>
   <block id="09364c9c0c9f9ee4525254510fbd39cb" category="inline-link">HA 그룹 구성</block>
-  <block id="bb3a5df0194808e82820c19b55e02589" category="admonition">동일한 HA 그룹에서 관리자 노드 및 게이트웨이 노드를 사용하는 경우 관리 노드 전용 포트는 페일오버되지 않습니다. 의 지침을 참조하십시오<block ref="25133cf4ceacd5d3f14c06b415041f45" category="inline-link-rx"></block>.</block>
   <block id="ab213d2e85f6a2233d40369c0c2f5cbc" category="paragraph">SG100과 SG1000 서비스 어플라이언스를 StorageGRID 스토리지 어플라이언스와 함께 사용하면 외부 하이퍼바이저 또는 컴퓨팅 하드웨어에 종속되지 않고 어플라이언스 전용 그리드를 구축할 수 있습니다.</block>
   <block id="8792008c29e38db22b5d5fd7f32aa580" category="summary">표를 사용하여 어플라이언스에 연결하는 각 네트워크에 필요한 정보를 기록합니다. 이러한 값은 하드웨어를 설치하고 구성하는 데 필요합니다.</block>
   <block id="807819ac8145c3624026f45cc5ef715b" category="doc">네트워크 정보 수집(SG100 및 SG1000)</block>
@@ -1385,7 +1354,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="b1b79961123a39efb142dcfdd5b03450" category="list-text"><block ref="b1b79961123a39efb142dcfdd5b03450" category="inline-link-macro-rx"></block></block>
   <block id="c651e19de5b37d91430510e18dd4dd17" category="list-text"><block ref="c651e19de5b37d91430510e18dd4dd17" category="inline-link-macro-rx"></block></block>
   <block id="7b629ae6d19ce0c50c29745a4e020a0f" category="inline-link">웹 브라우저 요구 사항을 검토합니다</block>
-  <block id="95687fb6e3dd759f3ee28253d20cc282" category="list-text"><block ref="95687fb6e3dd759f3ee28253d20cc282" category="inline-link-rx"></block></block>
   <block id="5b3bc2041b779a6eb06cd20122f89cea" category="inline-link-macro">네트워크 정보를 수집합니다</block>
   <block id="adb08abc85034bf5521a8cf194dd40f7" category="list-text"><block ref="adb08abc85034bf5521a8cf194dd40f7" category="inline-link-macro-rx"></block></block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">2개</block>
@@ -1421,7 +1389,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="c1d39a1019e538dbace4710b28fbd450" category="list-text"><block ref="c1d39a1019e538dbace4710b28fbd450" category="inline-link-macro-rx"></block></block>
   <block id="1f9351567c2f8233f56447909d961f4b" category="list-text"><block ref="1f9351567c2f8233f56447909d961f4b" category="inline-link-macro-rx"></block></block>
   <block id="f0f8af5b248f2922f69167322927d507" category="doc">캐비닛 또는 랙에 설치(SGF6112)</block>
-  <block id="821a9732c77d0b7de4abdcd137524986" category="list-text">상자에 포함된 안전 고지 문서를 검토하고 하드웨어 이동 및 설치에 대한 주의 사항을 이해했습니다.</block>
   <block id="78b14e5728c83580a81b321e2deaa3a6" category="image-alt">어플라이언스 레일이 확장되었습니다</block>
   <block id="a1fecb511770b8949a257d9905a2a832" category="image-alt">레일 위 장비 슬라이딩</block>
   <block id="43dc80353c743a5e60543a489d0fdb2c" category="list-text">제품 전면 패널의 조임 나사를 조여 제품을 랙에 고정합니다.</block>
@@ -1553,7 +1520,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="78c43d469c133b7dfbfba9ad0ed00449" category="summary">StorageGRID 어플라이언스 설치 프로그램과 다른 노드 간의 액세스가 방화벽에 의해 방해 받지 않도록 하려면 StorageGRID 어플라이언스 설치 관리자가 지정된 IP 주소 또는 주소 범위의 특정 TCP 포트 또는 포트 집합에 연결할 수 있는지 확인합니다.</block>
   <block id="0167c112190737841a7ea1f6e738f5a1" category="paragraph">StorageGRID 어플라이언스 설치 프로그램에 제공된 포트 목록을 사용하여 어플라이언스와 그리드 네트워크의 다른 노드 간의 연결을 테스트할 수 있습니다.</block>
   <block id="050d9a071fca955d512832a42dc9cb05" category="inline-link">네트워크 포트 참조</block>
-  <block id="042a80c375a9d7e54685401cbc21bb34" category="paragraph">또한 외부 NFS 또는 DNS 서버에 사용되는 것과 같은 UDP 포트와 Admin 및 Client Networks에서 연결을 테스트할 수 있습니다. 이러한 포트 목록은 를 참조하십시오<block ref="5a3bbdd854b59940da18aa72ac09f01a" category="inline-link-rx"></block>.</block>
   <block id="ceb5de02541531ec508a57b924a944dc" category="admonition">포트 연결 표에 나열된 그리드 네트워크 포트는 StorageGRID 버전 11.7 이상에서만 사용할 수 있습니다. 각 노드 유형에 맞는 포트를 확인하려면 사용 중인 StorageGRID 버전에 대한 네트워킹 지침을 항상 참조해야 합니다.</block>
   <block id="f087314807378665fcdf2fee64364906" category="list-text">StorageGRID 어플라이언스 설치 프로그램에서 * 네트워킹 구성 * &gt; * 포트 연결 테스트(nmap) * 를 클릭합니다.</block>
   <block id="61d74d33db48b2a546cb5b31093e26ec" category="paragraph">포트 연결 테스트 페이지가 나타납니다.</block>
@@ -1577,7 +1543,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="31b7f4afaff44d97bd4507909ce7925a" category="summary">StorageGRID 어플라이언스를 설치하기 전에 어플라이언스에 연결할 수 있는 네트워크를 이해해야 합니다.</block>
   <block id="aeefff382472953c95a40e851dbe0e88" category="doc">StorageGRID 네트워크 유형입니다</block>
   <block id="5fd0ea78f1f4110e6a664eae5cf78486" category="inline-link">네트워킹 지침</block>
-  <block id="57190bc27f1842e60d5ee25949089ffa" category="paragraph">StorageGRID 어플라이언스를 설치하기 전에 어플라이언스에 연결할 수 있는 네트워크와 각 컨트롤러의 포트가 어떻게 사용되는지 이해해야 합니다. StorageGRID 네트워크 요구 사항은 에 자세히 설명되어 있습니다<block ref="8a63850c76a22308599ec34d045cd58e" category="inline-link-rx"></block>.</block>
   <block id="f497dcd7e6afbe3711c00f9ffabc7fc8" category="paragraph">필요한 정보를 확인하려면 해당 제품의 지침을 참조하십시오.</block>
   <block id="c49cb635a83332e10e60e5608fdd2527" category="list-text"><block ref="c49cb635a83332e10e60e5608fdd2527" category="inline-link-macro-rx"></block></block>
   <block id="13926d4b69e4eccdfdbcea01177b2381" category="list-text"><block ref="13926d4b69e4eccdfdbcea01177b2381" category="inline-link-macro-rx"></block></block>
@@ -1588,9 +1553,7 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="d64650c12bf02a6d6b6e1ac4dbdeafd4" category="list-text">* StorageGRID * 용 그리드 네트워크: 그리드 네트워크는 모든 내부 StorageGRID 트래픽에 사용됩니다. 그리드에서 모든 사이트 및 서브넷의 모든 노드 간에 연결을 제공합니다. 그리드 네트워크가 필요합니다.</block>
   <block id="edc8f42c5d3c1c2a2922bf75112aa76a" category="list-text">StorageGRID*용 관리자 네트워크: 관리자 네트워크는 시스템 관리 및 유지 보수에 사용되는 폐쇄된 네트워크입니다. 관리 네트워크는 일반적으로 사설 네트워크이며 사이트 간에 라우팅할 필요가 없습니다. 관리 네트워크는 선택 사항입니다.</block>
   <block id="a43ab4ec6314775efb16fdcbad06d69a" category="list-text">* StorageGRID용 클라이언트 네트워크: * 클라이언트 네트워크는 S3 및 Swift를 포함한 클라이언트 애플리케이션에 대한 액세스를 제공하는 데 사용되는 개방형 네트워크입니다. 클라이언트 네트워크는 그리드에 대한 클라이언트 프로토콜 액세스를 제공하므로 그리드 네트워크를 격리하고 보호할 수 있습니다. 이 네트워크를 통해 어플라이언스가 열려 있는 포트만 사용하여 액세스할 수 있도록 클라이언트 네트워크를 구성할 수 있습니다. 클라이언트 네트워크는 선택 사항입니다.</block>
-  <block id="7ac9f844973adf1cc467bcd4a52f52d5" category="list-text">* SANtricity용 관리 네트워크 * (SG6100에는 필요하지 않은 스토리지 어플라이언스의 경우 선택 사항): 이 네트워크는 SANtricity 시스템 관리자에 대한 액세스를 제공하여 어플라이언스 및 스토리지 컨트롤러 쉘프의 하드웨어 구성 요소를 모니터링하고 관리할 수 있습니다. 이 관리 네트워크는 StorageGRID용 관리 네트워크와 같을 수도 있고 독립 관리 네트워크일 수도 있습니다.</block>
   <block id="660fc24fc18dd99919bb0bc5149a6c14" category="paragraph">선택적 BMC 관리 네트워크가 연결되지 않은 경우 일부 지원 및 유지 관리 절차를 수행하기가 더 어려워집니다. 지원 목적으로 필요한 경우를 제외하고 BMC 관리 네트워크를 연결하지 않은 상태로 둘 수 있습니다.</block>
-  <block id="735397a80f406e1834aa096854796f06" category="admonition">StorageGRID 네트워크에 대한 자세한 내용은 를 참조하십시오<block ref="37d143d6aa4e97202e0da5da8774331d" category="inline-link-rx"></block>.</block>
   <block id="536913eab1d549cf61908a5576a405e6" category="summary">그리드 노드를 설치하고 구성한 후 StorageGRID 시스템의 구성을 자동화할 수 있습니다.</block>
   <block id="b8cb767b6fdae1386ae4afb50465e070" category="list-text">설치 아카이브에서 다음 파일의 위치를 알고 있습니다.</block>
   <block id="1351017ac6423911223bc19a8cb7c653" category="cell">파일 이름</block>
@@ -1604,7 +1567,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="3372b21cc5906955ba38346b8206fac3" category="paragraph">를 사용할 수 있습니다<block ref="01e989045e9f58aada43d013823e4520" prefix=" " category="inline-code"></block> Python 스크립트와<block ref="3b39322b4d4c4cc0e164289cecbf36f4" prefix=" " category="inline-code"></block> StorageGRID 시스템 구성을 자동화하는 구성 파일입니다.</block>
   <block id="0ac82a4db71d617117af13f25d1a6782" category="inline-link-macro">설치 API</block>
   <block id="62679f22de916e22b6c9e82c446561ef" category="inline-link">그리드 관리자</block>
-  <block id="f6feb1022725f4cba9fb67516f837ee4" category="admonition">를 사용하여 시스템을 구성할 수도 있습니다<block ref="71410fb1664e68d96b4fc98c9e2f536a" category="inline-link-rx"></block> 또는 을 누릅니다 <block ref="2b9b559fdbf6b83dc49f82aaedacac2d" category="inline-link-macro-rx"></block>.</block>
   <block id="91e4d99fdfc5bddf43cc25c3cc260ff4" category="list-text">설치 아카이브를 추출한 디렉토리로 변경합니다.</block>
   <block id="67412df734f463a9dbfeb08c102473fa" category="paragraph">예: +<block ref="19edd275687ad0cb7767c268469e0a88" prefix=" " category="inline-code"></block></block>
   <block id="c432843c569d7c3f7c69b4b7db76d04d" category="paragraph">위치<block ref="cb51dcc55f66c5706124e4cf1a9ec33b" prefix=" " category="inline-code"></block> 있습니다<block ref="4dda8d74681cb71c1e0677e6f5e04d4c" prefix=" " category="inline-code"></block>,<block ref="e95483cbc482269e355de71394f14c10" prefix=" " category="inline-code"></block>, 또는<block ref="02a5f48e1cd0ce4c6f422a86f2a186ca" prefix=" " category="inline-code"></block>.</block>
@@ -1634,7 +1596,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="a80345b07ff6f31d32eea0e7a8662cd5" category="doc">옵션: 어플라이언스인 네트워크 포트를 재활용합니다</block>
   <block id="e90a0912e7b857d931e7475bb0ba5ed0" category="list-text">이전에 StorageGRID 어플라이언스 설치 프로그램에 액세스했습니다.</block>
   <block id="848e39eb47ccc59c68034fb5231b5793" category="inline-link">포트 재맵을 제거합니다</block>
-  <block id="09772aab5f539188dbee2e664460c53d" category="paragraph">로드 밸런서 끝점에는 다시 매핑된 포트를 사용할 수 없습니다. 다시 매핑된 포트를 제거해야 하는 경우 의 단계를 따릅니다<block ref="91c707b97ee972c146077db4fbe6e89b" category="inline-link-rx"></block>.</block>
   <block id="0d9cc8f6f4c8730251efe65fff93cce5" category="list-text">StorageGRID 어플라이언스 설치 프로그램에서 * 네트워킹 구성 * &gt; * 재매핑 포트 * 를 선택합니다.</block>
   <block id="fb5e82922f1a41cc1cdad9c4675eb592" category="paragraph">Remap Port(재매핑 포트) 페이지가 나타납니다.</block>
   <block id="ca17720cd81c640ab82bfdd670d867a4" category="list-text">네트워크 * 드롭다운 상자에서 그리드, 관리자 또는 클라이언트 중 다시 매핑할 포트의 네트워크를 선택합니다.</block>
@@ -1769,13 +1730,11 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="1c2a7c57450bd0841ba8af585da8e2e7" category="paragraph">노드 암호화를 사용하는 경우 어플라이언스의 디스크는 물리적 손실 또는 사이트 제거로부터 보안 키 관리 서버(KMS) 암호화로 보호할 수 있습니다. 어플라이언스 설치 중에 노드 암호화를 선택하고 활성화해야 합니다. KMS 암호화 프로세스가 시작된 후에는 노드 암호화를 해제할 수 없습니다.</block>
   <block id="df20a5800890fb9c6f211a466c532c76" category="paragraph">ConfigBuilder를 사용하여 JSON 파일을 생성하는 경우 노드 암호화를 자동으로 활성화할 수 있습니다. 을 참조하십시오 <block ref="da9e5f931ee7f07fa7e39b6838d21cb5" category="inline-link-macro-rx"></block>.</block>
   <block id="1b5f13d8e622fb6f0981440cd6075b6c" category="inline-link">KMS 구성</block>
-  <block id="6e47468511627246c8919def6a32b5f3" category="paragraph">에 대한 정보를 검토합니다<block ref="7b9746056ee5aea2ea4215ef97e0afd2" category="inline-link-rx"></block>.</block>
   <block id="2d45ca949e89f1cdd1768b30b0448d87" category="paragraph">노드 암호화가 활성화된 어플라이언스는 StorageGRID 사이트에 대해 구성된 외부 키 관리 서버(KMS)에 연결됩니다. 각 KMS(또는 KMS 클러스터)는 사이트의 모든 어플라이언스 노드에 대한 암호화 키를 관리합니다. 이러한 키는 노드 암호화가 활성화된 어플라이언스에서 각 디스크의 데이터를 암호화하고 해독합니다.</block>
   <block id="5c71973a7592fd31c81277cf8963c0b1" category="paragraph">KMS는 제품을 StorageGRID에 설치하기 전이나 설치한 후에 그리드 관리자에서 설정할 수 있습니다. 자세한 내용은 StorageGRID 관리 지침의 KMS 및 어플라이언스 구성에 대한 정보를 참조하십시오.</block>
   <block id="22afb557c864e79c1c8fa5b7e0197010" category="list-text">KMS가 어플라이언스를 설치하기 전에 설정된 경우 어플라이언스에서 노드 암호화를 사용하도록 설정하고 KMS가 구성된 StorageGRID 사이트에 추가하면 KMS 제어 암호화가 시작됩니다.</block>
   <block id="9828b5fcc2aa0853e81224385cf7be51" category="list-text">KMS가 어플라이언스를 설치하기 전에 설정되지 않은 경우 KMS가 구성되고 어플라이언스 노드가 포함된 사이트에 대해 사용 가능한 즉시 노드 암호화가 활성화된 각 어플라이언스에 대해 KMS 제어 암호화가 수행됩니다.</block>
   <block id="9bba200c01aca3c41165938e4986c1f9" category="inline-link">KMS 어플라이언스 구성 개요</block>
-  <block id="e87ed838af2d5a17b818811603349cf9" category="admonition">노드 암호화가 활성화된 상태로 어플라이언스가 설치되면 임시 키가 할당됩니다. 어플라이언스가 키 관리 시스템(KMS)에 연결되고 KMS 보안 키가 설정될 때까지 어플라이언스의 데이터는 보호되지 않습니다. 를 참조하십시오<block ref="7d57422ccf1a5621419117615c6dc8b6" category="inline-link-rx"></block> 자세한 내용은 를 참조하십시오.</block>
   <block id="9a470dfb9a8484bf439126aff614b62e" category="paragraph">KMS 키를 사용하여 디스크를 해독하지 않으면 어플라이언스의 데이터를 검색할 수 없으며 효과적으로 손실됩니다. 이 경우 암호 해독 키를 KMS에서 검색할 수 없습니다. 고객이 KMS 구성을 지우거나, KMS 키가 만료되거나, KMS에 대한 연결이 끊어지거나, KMS 키가 설치된 StorageGRID 시스템에서 어플라이언스를 제거하면 이 키에 액세스할 수 없습니다.</block>
   <block id="590cbf74b84dfc73c6dc4c168b611ff4" category="admonition">KMS 키로 어플라이언스를 암호화한 후에는 동일한 KMS 키를 사용하지 않으면 어플라이언스 디스크를 해독할 수 없습니다.</block>
   <block id="cd2916f9f46b3e024123c6c0202b8d14" category="list-text">하드웨어 구성 * &gt; * 노드 암호화 * 를 선택합니다.</block>
@@ -1840,7 +1799,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="95b668160cdba261ae790b75887a7068" category="list-text">그래도 문제가 해결되지 않으면 기술 지원 부서에 문의하십시오.</block>
   <block id="0157d190f869c2f97221de4f6bb05f54" category="paragraph">StorageGRID 어플라이언스 설치 프로그램이 실행 중입니다.</block>
   <block id="2c525a718ee46f850cb00b7c8251d1bb" category="section-title">오류 코드 보기(SG6000-CN 컨트롤러)</block>
-  <block id="f68249ccb694ca2d6a238fa8a17aca77" category="paragraph">SG6000-CN 컨트롤러가 부팅 중일 때 하드웨어 오류가 발생하면 BMC가 오류 코드를 기록합니다. 필요한 경우 BMC 인터페이스를 사용하여 이러한 오류 코드를 확인한 다음 기술 지원 팀과 협력하여 문제를 해결할 수 있습니다.</block>
   <block id="2073caa24dba0fd6d24f215ffe171e69" category="section-title">하드웨어 설정이 멈춤(SG6000 또는 SG5700)</block>
   <block id="1c4af02f52caf871bdd2205522eedcdd" category="paragraph">하드웨어 장애 또는 케이블 연결 오류로 인해 스토리지 컨트롤러 또는 어플라이언스 컨트롤러가 부팅 처리를 완료하지 못하는 경우 StorageGRID 어플라이언스 설치 프로그램을 사용할 수 없습니다.</block>
   <block id="e597481de2349bed8008b189fed80099" category="inline-link-macro">SG5700 7세그먼트 디스플레이의 코드를 확인하십시오.</block>
@@ -1936,7 +1894,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="f0e4d108bd327aa0295d08fc98aaafd0" category="list-text">전면 베젤을 부착합니다.</block>
   <block id="f8f92f8e3df4caaa331a15ebf21c66fe" category="summary">설치 프로그램 버전을 확인하고 그리드 네트워크, 관리자 네트워크\(선택 사항\) 및 클라이언트 네트워크\(선택 사항\)와 같은 세 StorageGRID 네트워크 간의 연결을 구성하려면 StorageGRID 어플라이언스 설치 프로그램에 액세스해야 합니다.</block>
   <block id="5ec7f22d3e51b38237d9e49f06df79c2" category="paragraph">설치 프로그램 버전을 확인하고 그리드 네트워크, 관리자 네트워크(옵션) 및 클라이언트 네트워크(옵션)의 세 StorageGRID 네트워크와 어플라이언스 및 네트워크 사이의 연결을 구성하려면 StorageGRID 어플라이언스 설치 프로그램에 액세스해야 합니다.</block>
-  <block id="4b636b2c00fb0a20b7dbc6d6436cb44d" category="list-text">클라이언트 또는 서비스 랩톱에 가 있습니다<block ref="a18f1d7592d98ae161543980d36b8697" category="inline-link-rx"></block>.</block>
   <block id="be86e83cca4c5d05fe7d5b6b9a6e55ee" category="list-text">서비스 어플라이언스 또는 스토리지 어플라이언스 컨트롤러는 사용하려는 모든 StorageGRID 네트워크에 연결됩니다.</block>
   <block id="17afffb34f67dd060b9cdff4dad524cf" category="list-text">이러한 네트워크에서 서비스 어플라이언스 또는 스토리지 어플라이언스 컨트롤러의 IP 주소, 게이트웨이 및 서브넷을 알고 있습니다.</block>
   <block id="345d106a637952d5d6c78c87d1bd9d01" category="list-text">사용할 네트워크 스위치를 구성했습니다.</block>
@@ -1960,7 +1917,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="d40e4c2c3b0ff5d04fa853b79879165f" category="list-text">보안 경고 메시지가 나타나면 브라우저의 설치 마법사를 사용하여 인증서를 보고 설치합니다.</block>
   <block id="43cf1947f202ecdcb542c175852a5fb8" category="paragraph">다음에 이 URL에 액세스할 때 알림이 나타나지 않습니다.</block>
   <block id="e658e68c5a2726a1c4438533ca6fc194" category="paragraph">StorageGRID 어플라이언스 설치 관리자 홈 페이지가 나타납니다. 이 페이지에 처음 액세스할 때 표시되는 정보와 메시지는 어플라이언스가 현재 StorageGRID 네트워크에 연결되어 있는 방식에 따라 다릅니다. 오류 메시지가 나타날 수 있으며, 이 메시지는 이후 단계에서 해결될 것입니다.</block>
-  <block id="3e2959dd5329eedea2ff0811ae1465d2" category="image-alt">StorageGRID Webscale 어플라이언스 설치 관리자 홈 페이지의 상단 부분 스크린 샷</block>
   <block id="dcffb99a3229573aab8a609a363e0638" category="list-text">DHCP를 사용하여 IP 주소를 얻을 수 없는 경우 링크 로컬 연결을 사용할 수 있습니다.</block>
   <block id="4558954c9bea9629dda151c16492b681" category="paragraph">서비스 랩톱을 이더넷 케이블을 사용하여 서비스 어플라이언스의 맨 오른쪽 RJ-45 포트에 직접 연결합니다.</block>
   <block id="6b55dd5a07c255c477de9dc84aa6c3dd" category="image-alt">SG100 링크 - 로컬 연결</block>
@@ -2035,8 +1991,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="b9f6305da898c37246be3a9ad2940067" category="list-text">현재 위치에서 AC 전원의 전압이 올바른지 확인합니다.</block>
   <block id="9b97b7bd5e0a87be7bf218224ada83cf" category="cell">요구 사항</block>
   <block id="aa315d71a0efaf85912cc94d0fa4c161" category="paragraph">120V - 240V AC</block>
-  <block id="934636103800fa2d0ce2ea06a754e316" category="paragraph">240V AC</block>
-  <block id="f08061482d4188abc3dae7d5f27247e0" category="paragraph">120V AC</block>
   <block id="13d6a54468d2c57465721303fe79781b" category="paragraph">100 ~ 240V AC</block>
   <block id="eb1ce5b5a2051e57c63701b4be3572eb" category="list-text">19인치(48.3-cm) 캐비닛 또는 랙을 다음 크기의 선반에 맞게 준비합니다(케이블 제외).</block>
   <block id="eec6c4bdbd339edf8cbea68becb85244" category="cell">높이</block>
@@ -2106,7 +2060,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="cd667e7a5bfe576cd195b343236177f8" category="list-text"><block ref="c77bce23015d079a3b1782d6f714a451" category="inline-xref-macro-rx"></block></block>
   <block id="892298a63531bece2790cd7c6c34f3b8" category="inline-link-macro">SG100 및 SG1000 하드웨어 설치 문제를 해결합니다</block>
   <block id="e2eef7e1bab5a25242b974b22e84829d" category="paragraph">이 정보를 사용하여 도움을 받으십시오 <block ref="2f02a56a38ba5668f78b70d1451025e2" category="inline-link-macro-rx"></block>.</block>
-  <block id="274706ae3938aecdc2817c79cc2e6e76" category="paragraph">다음 그림은 SG100 및 SG1000의 상태 표시기와 단추를 보여 줍니다.</block>
   <block id="811d271fc8871f49479cd0550410bc16" category="image-alt">전면 표시등 - SG1000</block>
   <block id="b9987a246a537f4fe86f1f2e3d10dbdb" category="cell">디스플레이</block>
   <block id="46a2a41cc6e552044816a2d04634545d" category="cell">상태</block>
@@ -2238,7 +2191,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="b0ce0da2c61df2a123a327f5fc67ec1e" category="inline-link-macro">SG6000 설치 문제를 해결합니다</block>
   <block id="8d7b44769faa31ca0795ef22e5e5abad" category="paragraph">이 정보를 사용하여 도움을 받으십시오 <block ref="7185001606303bd572016512cba439f2" category="inline-link-macro-rx"></block>.</block>
   <block id="b93283f45556daa23823ae488be334e4" category="paragraph">SG6000-CN 컨트롤러에는 다음 표시등 및 단추를 포함하여 컨트롤러의 상태를 확인하는 데 도움이 되는 표시등이 포함되어 있습니다.</block>
-  <block id="c29cf9f5d99d397cca4af2178f7bdf05" category="paragraph">다음 그림은 SG6000-CN 컨트롤러의 상태 표시등 및 단추를 보여줍니다.</block>
   <block id="cc64e2baaea130f098dabae1e21d5005" category="image-alt">전면 표시등 - SG6000-CN</block>
   <block id="adcb6bac9bed11040d097243d4646284" category="list-text">파란색: 컨트롤러의 전원이 켜져 있습니다.</block>
   <block id="ed3e3432e98f906cb4b8f8932f5c3266" category="list-text">꺼짐: 컨트롤러의 전원이 꺼져 있습니다.</block>
@@ -2534,11 +2486,8 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="26ea01749d8fe9ba54d34006d7b711eb" category="list-text">어플라이언스 설치 작업이 중간에 일시 중지되면 그리드 관리자에 로그인하고 모든 그리드 노드를 승인하고 StorageGRID 설치 및 배포 프로세스를 완료하여 설치를 다시 시작합니다.</block>
   <block id="3da6a7d0bb47cd64f8de58da564ed961" category="list-text">확장 또는 복구 작업을 수행하는 경우 해당 지침을 따르십시오.</block>
   <block id="3b485651b0f8c9bae0428480b41d029a" category="inline-link">그리드 노드 추가</block>
-  <block id="99ff77ddad436b4aa4cfe20cc0b05ade" category="list-text">기존 StorageGRID 시스템에 어플라이언스 스토리지 노드를 추가하려면 의 지침을 참조하십시오<block ref="f2b9f2a623f458b464404f68e70d646c" category="inline-link-rx"></block>.</block>
   <block id="295d6a9c6c9a9b74aae70d676dadb9c9" category="inline-link">어플라이언스 스토리지 노드 복구</block>
-  <block id="1db4030625b77471b38dbe3afa660dcb" category="list-text">복구 작업의 일부로 어플라이언스 스토리지 노드를 배포하려면 지침을 참조하십시오<block ref="f9cb95fb9122ae24b1bee4e15b33cda1" category="inline-link-rx"></block>.</block>
   <block id="bce65269f41e11f840ba14739e9745a3" category="list-text">브라우저를 열고 어플라이언스의 컴퓨팅 컨트롤러에 대한 IP 주소 중 하나를 입력합니다. 를 누릅니다<block ref="535c0115ab5cd897dcfefd414bb52887" prefix=" " category="inline-code"></block></block>
-  <block id="74338052fed8244d69eb24f9f847adee" category="image-alt">관리 노드 외에 다른 노드 유형에 대한 어플라이언스 설치 관리자 홈 페이지</block>
   <block id="5d3ae9fd20ce11abbf1c69e5e5ba2dbb" category="list-text">Primary Admin Node connection * 섹션에서 Primary Admin Node의 IP 주소를 지정해야 하는지 여부를 확인합니다.</block>
   <block id="73231881e6fea0c98729cd77e6d2cc87" category="list-text">설치 * 섹션에서 현재 상태가 "설치 시작 준비 완료"인지 확인합니다<block ref="b63eb060814c4999e77b01e66538f258" prefix=" " category="inline-code"></block> 기본 관리 노드가 있는 그리드로<block ref="2f9ba536b02b69b5417cd803edfcffc0" prefix=" " category="inline-code"></block> "및 * 설치 시작 * 버튼이 활성화되어 있습니다.</block>
   <block id="8e6aacddb5c6d59f03cd6dca3d42cce4" category="admonition">스토리지 노드 어플라이언스를 노드 클론 생성 타겟으로 구축하는 경우 여기에서 구축 프로세스를 중지하고 를 계속하십시오
@@ -2649,7 +2598,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="ff893ef835261129935a9f82f297a8d3" category="list-text">* 유지 관리 모드로 재부팅 *. 컨트롤러를 재부팅하고 노드를 유지보수 모드로 유지합니다. 절차 중에 오류가 발생하여 다시 시작하려면 이 옵션을 선택합니다. 노드가 유지보수 모드로 재부팅된 후 장애가 발생한 절차의 적절한 단계에서 다시 시작하십시오.</block>
   <block id="c7c19b3cb79ee9f5fdbc22cfac916b00" category="paragraph">어플라이언스가 재부팅되고 그리드에 다시 가입하는 데 최대 20분이 걸릴 수 있습니다. 재부팅이 완료되고 노드가 그리드에 다시 결합되었는지 확인하려면 Grid Manager로 돌아갑니다. 노드 페이지에는 정상 상태(녹색 확인 표시 아이콘)가 표시되어야 합니다 <block ref="b0c066af00a4ff17f603acf55958d068" category="inline-image-macro-rx" type="image"></block> (노드 이름 왼쪽) 어플라이언스 노드에 대해 알림이 활성화되어 있지 않고 노드가 그리드에 연결되어 있음을 나타냅니다.</block>
   <block id="5d4d9bbd71eda7ec2ba074c8e6717b0b" category="list-text">구성 요소를 교체해야 하는 스토리지 어플라이언스의 일련 번호가 있습니다.</block>
-  <block id="fe96bb389ae099a3c5dcdd5b5427e3bc" category="list-text">를 사용하여 그리드 관리자에 로그인했습니다<block ref="a18f1d7592d98ae161543980d36b8697" category="inline-link-rx"></block>.</block>
   <block id="620e2edf2db0c3c3cad57aeb246c6bfe" category="list-text">전원 공급 장치</block>
   <block id="4604f841b0b16d3013cac1e2078e5b1b" category="list-text">팬</block>
   <block id="3907a0fffff4b13006f3069d9186c0d5" category="list-text">SSD(Solid State Drive)</block>
@@ -2698,13 +2646,11 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="697ea025ecb303d4f40d1bf3a8b4bde0" category="inline-link">NetApp 상호 운용성 매트릭스 툴(IMT)</block>
   <block id="1ad48ec3a7913e569a91ccc60227023f" category="list-text">을(를) 참조했습니다<block ref="59eff0a7409a2083b143c03284b14f62" category="inline-link-rx"></block> 업그레이드에 사용 중인 SANtricity OS 버전이 어플라이언스와 호환되는지 확인합니다.</block>
   <block id="82828b75bd7c1299c73c3da5ba0b0b2d" category="inline-link">유지 관리 또는 루트 액세스 권한</block>
-  <block id="f444b7c02a193b7d5b0e553d416d92ca" category="list-text">을(를) 보유하고 있습니다<block ref="b0a3545f40488f39b71de1f5af9d2d3f" category="inline-link-rx"></block>.</block>
   <block id="9a4832beec51f38ad760c485e07c9b9c" category="list-text">프로비저닝 암호가 있습니다.</block>
   <block id="5973629dedc46aea0b358220d599bfbd" category="paragraph">SANtricity OS 업그레이드가 업그레이드를 위해 선택된 모든 적용 가능한 노드에 적용되기 전에는 절차가 완료되지 않습니다. 각 노드에서 SANtricity OS를 로드하는 데 30분 이상, 각 StorageGRID 스토리지 어플라이언스를 재부팅하는 데 최대 90분이 걸릴 수 있습니다. 그리드에 SANtricity OS를 사용하지 않는 노드는 이 절차의 영향을 받지 않습니다.</block>
   <block id="78b2a3316e8d5167c09213c366ccdf88" category="admonition">다음 단계는 그리드 관리자를 사용하여 업그레이드를 수행하는 경우에만 적용됩니다. 컨트롤러가 08.42.20.00(11.42) 이전의 SANtricity OS를 사용하는 경우 그리드 관리자를 사용하여 어플라이언스의 스토리지 컨트롤러를 업그레이드할 수 없습니다.</block>
   <block id="61d38d1cdbd76386b6ca992b9d0137ee" category="admonition">이 절차에서는 NVSRAM을 SANtricity OS 업그레이드와 관련된 최신 버전으로 자동 업그레이드합니다. 별도의 NVSRAM 업그레이드 파일을 적용할 필요가 없습니다.</block>
   <block id="19ad05ce216828cf31d75db3b5189076" category="inline-link">StorageGRID 핫픽스 절차</block>
-  <block id="962421f523a30432ee56d13b4bfeb0f7" category="admonition">이 절차를 시작하기 전에 최신 StorageGRID 핫픽스를 적용하십시오. 을 참조하십시오<block ref="bfbdb3d0778b5cd64604bf15c516b66d" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="64b1188ca4b7a6d7d7865cd0446674b5" category="list-text">[[download-SANtricity-OS]]에서 새로운 SANtricity OS 소프트웨어 파일을 다운로드합니다<block ref="17b838622e0459e6c950b0d070de6b4f" category="inline-link-rx"></block>.</block>
   <block id="a2e0fe599ce2640e2f1503063be0609a" category="paragraph">스토리지 컨트롤러의 SANtricity OS 버전을 선택해야 합니다.</block>
   <block id="7daa4593875eaec3bb3ad0aa81b013a8" category="list-text">유지보수 * &gt; * 시스템 * &gt; * 소프트웨어 업데이트 * 를 선택합니다.</block>
@@ -2773,7 +2719,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="40e6ec0ba08691f8bf73f78bc177c657" category="admonition">Needs Attention(주의 필요) 상태인 모든 노드의 경우 유지보수 모드를 사용하여 업그레이드를 수행합니다.</block>
   <block id="39e51c89e2fbc9bd58b8301b9be1e07e" category="doc">NIC를 다시 설치합니다</block>
   <block id="c0ce89e53f48ad69404bd79d5a7f6151" category="inline-link">노드 연결 상태를 모니터링합니다</block>
-  <block id="7879a141f29939fce0aabd7f2fee03d9" category="paragraph">서비스 중단을 방지하려면 NIC(Network Interface Card) 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 NIC를 교체하십시오. 에 대한 정보를 참조하십시오<block ref="742191401cce2d2da7992b41915ad587" category="inline-link-rx"></block>.</block>
   <block id="2476382d1fb7937c6e08639e92e9d711" category="inline-link">단일 복사본 복제를 사용하지 않아야 하는 이유</block>
   <block id="4a878637c5e3724ecaa541f40a4bef16" category="list-text">제품 뒷면에서 NIC가 포함된 라이저 조립품을 찾습니다.</block>
   <block id="6075a4acaf64fb38fadff43698028748" category="paragraph">어플라이언스의 3개의 NIC는 그림에 표시된 섀시 위치에 있는 2개의 라이저 어셈블리에 있습니다(상단 덮개가 분리된 어플라이언스 후면).</block>
@@ -2835,8 +2780,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="f127bf70eac06d5cd43bc646d9b61a11" category="list-text">링크 구성 변경 사항이 적용되면 노드를 재부팅합니다. StorageGRID 어플라이언스 설치 프로그램에서 * 고급 * &gt; * 컨트롤러 재부팅 * 을 선택한 후 다음 옵션 중 하나를 선택합니다.</block>
   <block id="9bab1ecdd4bd4e687b0585e9cdb2dce3" category="list-text">노드를 그리드에 다시 조인하는 상태에서 컴퓨팅 컨트롤러를 재부팅하려면 * StorageGRID로 재부팅 * 을 선택합니다. 유지보수 모드에서 작업을 수행하고 노드를 정상 운영으로 전환할 준비가 되었으면 이 옵션을 선택합니다.</block>
   <block id="08c9cceee0a6966bea233700fc31e63c" category="list-text">유지보수 모드로 재부팅 * 을 선택하여 유지보수 모드로 남아 있는 노드를 사용하여 컴퓨팅 컨트롤러를 재부팅합니다. (이 옵션은 컨트롤러가 유지보수 모드일 때만 사용할 수 있습니다.) 노드를 그리드에 다시 연결하기 전에 노드에서 수행해야 하는 추가 유지보수 작업이 있는 경우 이 옵션을 선택합니다.</block>
-  <block id="9a18cbee573ae5e0a81c57565a8239d3" category="paragraph">서비스 중단을 방지하려면 팬 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 팬을 교체합니다. 에 대한 정보를 참조하십시오<block ref="742191401cce2d2da7992b41915ad587" category="inline-link-rx"></block>.</block>
-  <block id="aa7a430b5102e55ec29d486c5165e7ba" category="paragraph">사진은 제품의 팬을 보여줍니다. 전기 커넥터가 하이라이트됩니다. 제품에서 상단 덮개를 분리한 후 냉각 팬에 액세스할 수 있습니다.</block>
   <block id="dc55836577fc02b16cce59c34c0bd0f3" category="admonition">두 개의 전원 공급 장치 각각에는 팬도 포함되어 있습니다. 전원 공급 장치 팬은 이 절차에 포함되어 있지 않습니다.</block>
   <block id="c36b4cc7c715c27cf89053ed16076b2a" category="list-text">교체해야 하는 팬을 찾습니다.</block>
   <block id="faaae5a36ccc39581b4a36a48818db1a" category="image-alt">팬 위치</block>
@@ -2855,7 +2798,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="a06a89697080d39b76934f673e0f7142" category="paragraph">팬의 커넥터를 회로 보드의 소켓에 맞춥니다.</block>
   <block id="25d33805c4fc3fc9ef5848f3d1c76650" category="list-text">팬 커넥터를 회로 보드에 단단히 누릅니다(소켓 강조 표시).</block>
   <block id="28e41029e41676fc4c53ea6a68e37bf2" category="doc">CMOS 배터리를 다시 설치합니다</block>
-  <block id="d52f3d0f799abea307b13972c0f9af3d" category="paragraph">서비스 중단을 방지하려면 CMOS 배터리 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 관리 기간 동안 배터리를 교체하십시오. 에 대한 정보를 참조하십시오<block ref="742191401cce2d2da7992b41915ad587" category="inline-link-rx"></block>.</block>
   <block id="37d27b84d37ca2c4710cb9b17554424e" category="list-text">제품 뒷면에서 2슬롯 라이저 조립품을 찾습니다.</block>
   <block id="76245833024f1d80f06ad708ab46663e" category="image-alt">2슬롯 라이저 위치</block>
   <block id="a9d1558f7b5cfc455393c7b1b00db64c" category="list-text">파란색 표시가 있는 구멍을 통해 라이저 조립품을 잡고 조심스럽게 위로 들어 올립니다. 라이저 조립품을 들어 올릴 때 섀시 앞쪽으로 이동하여 설치된 NIC의 외부 커넥터가 섀시에서 분리되도록 합니다.</block>
@@ -2876,7 +2818,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="46f19b3ee8dedf83d42c3a4ff5d0c6bb" category="list-text">교체한 어플라이언스에서 KMS(키 관리 서버)를 사용하여 노드 암호화에 대한 암호화 키를 관리하는 경우 노드가 그리드에 연결되기 전에 추가 구성이 필요할 수 있습니다. 노드가 그리드에 자동으로 연결되지 않는 경우 이러한 구성 설정이 새 어플라이언스로 전송되었는지 확인하고 필요한 구성이 없는 설정을 수동으로 구성합니다.</block>
   <block id="7deed07135df9d94ea323d9469e424d3" category="list-text"><block ref="7deed07135df9d94ea323d9469e424d3" category="inline-link-macro-rx"></block></block>
   <block id="5d5e7579cc415f2940c02cee9b12c42d" category="inline-link">어플라이언스에 대한 노드 암호화를 구성합니다</block>
-  <block id="0a5611066cc6dfa6acb00a3c98785ae8" category="list-text"><block ref="0a5611066cc6dfa6acb00a3c98785ae8" category="inline-link-rx"></block></block>
   <block id="6c60c1ebcaf910de2a51a8c828bc0f5e" category="list-text">어플라이언스에 로그인합니다.</block>
   <block id="350f00799e345da9d8437a6755232692" category="paragraph">식별하려는 어플라이언스의 BMC IP 주소가 있습니다.</block>
   <block id="12d42de975e694d332bec59aed70bded" category="inline-link-macro">어플라이언스 BMC 인터페이스에 액세스합니다</block>
@@ -2988,7 +2929,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="28afc5014d72f3ea174bc5a65cd9630e" category="list-text">이제 소스 노드는 타겟 노드에 처음 할당된 임시 IP 주소를 사용합니다.</block>
   <block id="7b94aafd236e4ceea865c931a85dfffa" category="list-text">타겟 노드가 유지보수 모드를 종료하고 StorageGRID를 결합하여 소스 노드를 대체합니다.</block>
   <block id="2d19d406fa4b8c7f970985fd245d9c26" category="inline-link">재설치를 준비했습니다</block>
-  <block id="11f0130e9caa644f96bf62e2f723dca8" category="list-text">소스 어플라이언스는 이미 설치되어 있는 상태입니다<block ref="9808e60ae6558350cc51bc72520015f6" category="inline-link-rx"></block>.</block>
   <block id="7943ed1a95e98b8db345a9a611617fc2" category="paragraph">소스 어플라이언스를 다른 그리드에 새 노드로 설치하거나 확장하면 오래된 사용자 데이터를 덮어씁니다.</block>
   <block id="e2e3ccf7097647279c88916257208b9b" category="paragraph">소스 어플라이언스에서 컨트롤러 구성을 재설정하여 이 데이터에 액세스할 수 없도록 할 수도 있습니다.</block>
   <block id="b96c8101a1845adc76ac9c16a415d845" category="inline-link-macro">StorageGRID 어플라이언스 설치 프로그램</block>
@@ -3017,7 +2957,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="d990067089901370b250a673e0bb0286" category="paragraph">교체 어플라이언스를 설치할 때 StorageGRID 연결 및 데이터 전송을 위한 임시 IP 주소를 지정해야 합니다. 교체 어플라이언스는 대체 어플라이언스와 동일한 네트워크에 속하므로 교체 어플라이언스에서 이러한 각 네트워크에 대한 임시 IP 주소를 지정해야 합니다.</block>
   <block id="e8d170c1d01b5214a9b97ee8fbc40398" category="section-title">대상 어플라이언스 호환성</block>
   <block id="6cca792a53335169aad8581043148997" category="paragraph">교체 어플라이언스는 교체 중인 소스 노드와 유형이 같아야 하며 두 어플라이언스 모두 동일한 논리 StorageGRID 사이트의 일부여야 합니다.</block>
-  <block id="3514507af11b532760b83d61e1cfa58d" category="list-text">교체 서비스 어플라이언스는 교체되는 관리 노드 또는 게이트웨이 노드와 다를 수 있습니다.</block>
   <block id="8853412a153551cfcaa29f811be54d2a" category="list-text">SG1000 소스 노드 어플라이언스를 SG100 서비스 대상 어플라이언스로 교체하면 네트워크 포트의 최대 속도가 100GbE에서 25GbE로 줄어듭니다.</block>
   <block id="953cb2571b5956e3ac9d0120f56a1235" category="list-text">서비스 어플라이언스에는 서로 다른 네트워크 커넥터가 있습니다. 어플라이언스 유형을 변경하려면 케이블이나 SFP 모듈을 교체해야 할 수 있습니다.</block>
   <block id="f99ba690ef7c0b4d695af7ef97254d6b" category="list-text">교체 스토리지 어플라이언스의 용량은 교체할 스토리지 노드보다 커야 합니다.</block>
@@ -3025,10 +2964,8 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="3a71fcb87182b5371fb2ff3a6f8ac071" category="list-text">소스 노드에서 사용된 것과 동일한 RAID 모드를 타겟 노드에서 사용하려는 경우 또는 스토리지 효율성이 떨어지는 RAID 모드(예: RAID 6에서 DDP로 전환)에서는 타겟 어플라이언스의 드라이브가 소스 어플라이언스의 드라이브보다 크거나(TB 단위) 않아야 합니다.</block>
   <block id="59ac238e8a3da571e29e8244d7c11945" category="list-text">SSD(Solid State Drive) 설치로 인해 타겟 스토리지 어플라이언스에 설치된 표준 드라이브 수가 소스 노드의 드라이브 수보다 적은 경우(TB) 타겟 어플라이언스에 있는 표준 드라이브의 전체 스토리지 용량 소스 스토리지 노드에 있는 모든 드라이브의 총 기능 드라이브 용량을 초과해야 합니다.</block>
   <block id="6eb1cd521483763cff5db43da35f9bf8" category="paragraph">예를 들어, 60개의 드라이브를 사용하여 SG5760 소스 스토리지 노드 어플라이언스를 58개의 표준 드라이브를 사용하는 SG6060 타겟 어플라이언스에 클론 생성할 경우, 스토리지 용량을 유지하기 위해 클론 생성 전에 더 큰 드라이브를 SG6060 타겟 어플라이언스에 설치해야 합니다. (타겟 어플라이언스에 SSD가 포함된 드라이브 슬롯 2개는 총 어플라이언스 스토리지 용량에 포함되지 않습니다.)</block>
-  <block id="b9b679a3df24cf16a8eedf98d68b51a2" category="paragraph">하지만 60 드라이브 SG5760 소스 노드 어플라이언스가 SANtricity Dynamic Disk Pools DDP-8로 구성된 경우, DDP-16을 사용하여 58 드라이브 동일 크기 드라이브 SG6060 타겟 어플라이언스를 구성하면 스토리지 효율성이 향상되기 때문에 SG6060 어플라이언스가 유효한 클론 타겟이 될 수 있습니다.</block>
   <block id="8ff591a1e680b38c258c3e2d245be715" category="paragraph">Grid Manager의 * nodes * 페이지에서 소스 어플라이언스 노드의 현재 RAID 모드에 대한 정보를 볼 수 있습니다. 어플라이언스에 대한 * Storage * 탭을 선택합니다.</block>
   <block id="d557e651015d70d07c70796e3d6e3938" category="section-title">클론이 생성되지 않는 정보는 무엇입니까?</block>
-  <block id="a4cf88fa9b5c91a818bbd7e14f3e1753" category="paragraph">클론 생성 중에는 다음 어플라이언스 구성이 교체 어플라이언스로 전송되지 않습니다. 교체 어플라이언스의 초기 설정 중에 구성해야 합니다.</block>
   <block id="795db7e2cbe110c6a7442f6bf5064f61" category="list-text">노드 암호화 상태입니다</block>
   <block id="1b014c8cd505ebe6bb399042771165bd" category="list-text">SANtricity 시스템 관리자(스토리지 노드의 경우)</block>
   <block id="4844c7e6c1b74d1152ca01c1f70eff94" category="list-text">RAID 모드(스토리지 노드의 경우)</block>
@@ -3039,16 +2976,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="59d2f54bed9c6d1ff315a058a4a52671" category="list-text">소스 및 타겟 어플라이언스가 호환되지 않습니다</block>
   <block id="89e16c9efc1a3195a41f4ac0343ca036" category="list-text">스토리지 노드의 경우 용량이 부족한 대체 어플라이언스입니다</block>
   <block id="82a441e64c838645d368374b712e97b3" category="paragraph">복제를 계속하려면 각 문제를 해결해야 합니다.</block>
-  <block id="402e8d8cc774faa0ffb103ec31191db4" category="summary">스토리지 노드 유지 관리</block>
-  <block id="e7c0a65f4f23da917c7102456d8d0604" category="doc">스토리지 노드 유지 관리</block>
-  <block id="b0c50a65e98390901450bc32a964e787" category="paragraph">스토리지 노드 유지 관리 이것이 통합하는 것이 타당합니까?</block>
-  <block id="5fa0fd1f50f3110e2175d5795ac69d7a" category="paragraph">(새로운 소개 주제)</block>
-  <block id="fc5f302da9bb1f5799e5cd7b3cb39553" category="section-title">스토리지 컨트롤러(스토리지 노드)에서 SANtricity OS 업그레이드</block>
-  <block id="d36a4e9199bb0968845f5e1b3aaee31c" category="paragraph">(기존 어플라이언스 항목에서 선택 - 결합 필요)</block>
-  <block id="d10e5d41523095f7dacd475aaa2d0eff" category="section-title">그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS 업그레이드</block>
-  <block id="c8f13ecdc85c3bfef60908e267408347" category="section-title">유지보수 모드를 사용하여 스토리지 컨트롤러에서 SANtricity OS 업그레이드</block>
-  <block id="459f2b9e083f1fd61f3a8e35a2ef5caf" category="section-title">SANtricity 시스템 관리자를 사용하여 드라이브 펌웨어를 업그레이드합니다</block>
-  <block id="01ff43a1e319756e65e4b39009e3bc21" category="paragraph">(기존 어플라이언스 항목에서 선택 - 이미 통합됨)</block>
   <block id="e4652cabe8177b6898c3fceccf7e0889" category="summary">이 지침에 따라 StorageGRID 시스템을 유지보수하십시오.</block>
   <block id="286c486c26bacda407659736abf834d2" category="doc">노드 유지 보수를 위한 일반 절차: 개요</block>
   <block id="0eb7986c87b6853bd0db330cbf27b26c" category="section-title">참조하십시오</block>
@@ -3067,9 +2994,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="93d3f6eb9501413ec1870e64b9c76218" category="inline-link-macro">SG5700 어플라이언스 유지</block>
   <block id="085484ecf7fd2a03ad70870c4bf28af1" category="list-text"><block ref="085484ecf7fd2a03ad70870c4bf28af1" category="inline-link-macro-rx"></block></block>
   <block id="27be1a5983fb2c4f30e1d820650b881d" category="list-text"><block ref="27be1a5983fb2c4f30e1d820650b881d" category="inline-link-macro-rx"></block></block>
-  <block id="4ad4a12ff38ac52055189ca016f10e31" category="summary">소프트웨어 기반 노드 유지 관리</block>
-  <block id="2822e59777c738749518fe3d946b263e" category="doc">소프트웨어 기반 노드 유지 관리</block>
-  <block id="6f90ad7f13dfc3945ef0b06e82dedf45" category="paragraph">소프트웨어 기반 노드 유지 관리 여기에 필요한 것이 있습니까?</block>
   <block id="54188b6ff21cd050b26982264997918f" category="summary">어플라이언스 노드를 클론 복제하기 전에 고려 사항 및 요구 사항을 이해해야 합니다.</block>
   <block id="b959fd8ab2a0acd7b6945c942f03d2a7" category="section-title">교체 어플라이언스에 대한 하드웨어 요구 사항</block>
   <block id="8b817ddf1c4850340f6d234f071fae76" category="paragraph">교체 제품이 다음 기준을 충족하는지 확인하십시오.</block>
@@ -3094,7 +3018,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="e485a2bb58eff1a96bc2f6c877e4c6e8" category="summary">설치 중에 어플라이언스에 대한 노드 암호화를 활성화한 경우 노드 암호화 상태 및 키 관리 서버(KMS\) 세부 정보를 포함하여 각 어플라이언스 노드의 노드 암호화 상태를 모니터링할 수 있습니다.</block>
   <block id="a7a12ea1a4c80643b85cc22b459bd606" category="paragraph">설치 중에 어플라이언스에 대한 노드 암호화를 활성화한 경우 노드 암호화 상태 및 키 관리 서버(KMS) 세부 정보를 포함하여 각 어플라이언스 노드의 노드 암호화 상태를 모니터링할 수 있습니다.</block>
   <block id="91fba6642e220c9d6b627c272ca1f4b0" category="inline-link">키 관리 서버를 구성합니다</block>
-  <block id="e6e81a590b45b0448e651a5dd5254f8b" category="paragraph">을 참조하십시오<block ref="78ee7fe02fa869d03d2c3104510b6aaa" category="inline-link-rx"></block> StorageGRID 어플라이언스용 KMS 구현에 대한 자세한 내용은</block>
   <block id="629dd4a72c9a27968c541923d0344da9" category="list-text">설치 중에 어플라이언스에 대한 노드 암호화를 활성화했습니다. 어플라이언스를 설치한 후에는 노드 암호화를 설정할 수 없습니다.</block>
   <block id="b25287ab8cd241c0615caa9ee3977f49" category="list-text">StorageGRID 어플라이언스 설치 프로그램에서 * 하드웨어 구성 * &gt; * 노드 암호화 * 를 선택합니다.</block>
   <block id="60c896bdd4a0f80aba9556a7b4ddc643" category="image-alt">kms clear 설정</block>
@@ -3102,7 +3025,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="02f3eed45638835e6c2a74a9381b7d99" category="list-text">암호화 상태 는 어플라이언스에 대해 노드 암호화가 활성화되었는지 여부를 표시합니다.</block>
   <block id="58af1337eff937c1778b18fc1d2d04ea" category="list-text">키 관리 서버 세부 정보 는 어플라이언스를 암호화하는 데 사용되는 KMS에 대한 정보를 보여 줍니다. 서버 및 클라이언트 인증서 섹션을 확장하여 인증서 세부 정보 및 상태를 볼 수 있습니다.</block>
   <block id="68504c39869669c6b5389a2274d4dffa" category="inline-link">KMS 구성 지침</block>
-  <block id="f082340427789106aeba0cbae89026d9" category="list-text">만료된 인증서 갱신과 같은 인증서 자체의 문제를 해결하려면 을 참조하십시오<block ref="52b6d0f13c9fabd38c359a1231580697" category="inline-link-rx"></block>.</block>
   <block id="aa1ca147ed573253c2d79c0899278a0f" category="inline-link-macro">DNS 서버가 올바릅니다</block>
   <block id="152f82af2ae59cf239a7fb0a9d4c089f" category="inline-link-macro">어플라이언스 네트워킹이 올바르게 구성되었습니다</block>
   <block id="99cddd386e75287f63d4a5f2ffdc2bf6" category="list-text">KMS 호스트에 연결할 때 예기치 않은 문제가 발생하는 경우, 를 확인하십시오 <block ref="b3a5acbebadde76cd0f90c861034dd80" category="inline-link-macro-rx"></block> 그리고 그것입니다 <block ref="1f5071c48334f38d678039b6a4da7b7e" category="inline-link-macro-rx"></block>.</block>
@@ -3116,7 +3038,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="d9744099bf6539e9413b885aa8b82a8b" category="paragraph">어플라이언스의 데이터를 보존해야 하는 경우 KMS 구성을 지우기 전에 노드 서비스 해제 절차를 수행하거나 노드를 복제해야 합니다.</block>
   <block id="d87465c58386df7fcac3df78509842b5" category="admonition">KMS를 삭제하면 제품의 데이터가 영구적으로 삭제되고 더 이상 액세스할 수 없게 됩니다. 이 데이터는 복구할 수 없습니다.</block>
   <block id="9b6d5caacf9a5a2c0276599c5f09a29f" category="inline-link">노드 서비스 해제</block>
-  <block id="b2144970c69c4f2cf3445b6414613bd5" category="paragraph"><block ref="c0d2e088b84e8b44ecef73c636830bfa" category="inline-link-rx"></block> 포함된 데이터를 StorageGRID의 다른 노드로 이동하려면 다음을 사용합니다.</block>
   <block id="859d99fa7b935e6325ebfeb0207ded39" category="paragraph">어플라이언스 KMS 구성을 지우면 노드 암호화가 비활성화되므로 어플라이언스 노드와 StorageGRID 사이트의 KMS 구성 간의 연결이 제거됩니다. 그러면 어플라이언스의 데이터가 삭제되고 어플라이언스가 사전 설치 상태로 유지됩니다. 이 프로세스는 되돌릴 수 없습니다.</block>
   <block id="1167f3d404dbe49b0ea77711d0270d7f" category="paragraph">KMS 구성을 지워야 합니다.</block>
   <block id="d0fa678397c6ce5dd9fa67cff3137f5d" category="list-text">KMS를 사용하지 않거나 다른 KMS를 사용하는 다른 StorageGRID 시스템에 제품을 설치하기 전에</block>
@@ -3132,7 +3053,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="d02998317920f8f7ad0339e0f94f8513" category="list-text">노드 암호화가 비활성화되었으며 * 키 관리 서버 세부 정보 * 및 * KMS 키 지우기 및 데이터 삭제 * 컨트롤의 키 및 인증서 정보가 창에서 제거되었는지 확인합니다.</block>
   <block id="30bf3ba32c51e5f7438ddf7451d5b0b7" category="paragraph">그리드에 다시 설치하기 전에는 어플라이언스에서 노드 암호화를 다시 활성화할 수 없습니다.</block>
   <block id="66a05384c891c390cd34f3b79245d267" category="inline-link">어플라이언스 재설치 준비 지침</block>
-  <block id="10d8553c02ec2ebbc54cd39fa8829035" category="paragraph">어플라이언스가 재부팅되고 KMS가 삭제되었으며 제품이 사전 설치 상태인지 확인한 후에는 StorageGRID 시스템에서 어플라이언스를 물리적으로 제거할 수 있습니다. 를 참조하십시오<block ref="be190adfb867dba565a711deb99e1561" category="inline-link-rx"></block>.</block>
   <block id="20145658ea802eba7489d76c2eccb4ed" category="summary">어플라이언스 노드에 대한 IP 주소를 구성할 때 할당한 MTU 설정을 변경할 수 있습니다.</block>
   <block id="b70bb7ceeb11d97c10297430b5e98808" category="inline-xref">IP 변경 도구를 사용합니다</block>
   <block id="a1677671d199d2d1a1f100c491a2509f" category="paragraph">어플라이언스 노드를 재부팅하지 않고 MTU 설정을 변경하려면 <block ref="643a99033afcb6b904d10375cb789042" category="inline-xref-macro-rx"></block>.</block>
@@ -3141,7 +3061,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="629f71aaa22e2c436012eb1ba4640efe" category="section-title">IP 변경 도구를 사용하여 MTU 설정을 변경합니다</block>
   <block id="55f0a36e8001f5a40768044169b8038d" category="paragraph">을(를) 보유하고 있습니다<block ref="28325afa13c532a62489ef0d7bee3061" prefix=" " category="inline-code"></block> 파일 - IP 변경 도구를 사용합니다.</block>
   <block id="fc09154f621c355dcaaf65ce69981b52" category="inline-link">노드 네트워크 구성을 변경합니다</block>
-  <block id="c4ee09b7063a859f2e7a87a22cc5aa3c" category="paragraph">IP 변경 도구에 액세스하여 에 설명된 대로 MTU 설정을 업데이트합니다<block ref="5cd7a4cd1ce06b78f3f5634edc47cb8a" category="inline-link-rx"></block>.</block>
   <block id="54a74c2628c753d91428e7a61b1f07cc" category="section-title">유지보수 모드를 사용하여 MTU 설정을 변경합니다</block>
   <block id="e4e0d35e946a7f92ce7c9ae138d1014b" category="paragraph">Change IP(IP 변경) 도구를 사용하여 이러한 설정에 액세스할 수 없는 경우 유지보수 모드를 사용하여 MTU 설정을 변경합니다.</block>
   <block id="d0e2b01c55d6145ba7a5e301667aa5b0" category="inline-link-macro">유지보수 모드로 전환되었습니다</block>
@@ -3229,12 +3148,10 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="e9eeb29aa106609d6de499c60a1bb7ab" category="inline-link-macro">CMOS 배터리를 교체해야 하는 제품을 확인했습니다</block>
   <block id="ea70b6ae5e8e6000f846a5a8a6fee1d9" category="list-text">있습니다 <block ref="5813a66984e2f107697524f5da800ff8" category="inline-link-macro-rx"></block>.</block>
   <block id="af649bc3ca89bac5478860bada27d6ff" category="inline-link-macro">제품의 제어된 셧다운</block>
-  <block id="b58cf6331a388f8ca4d6c2d9ba4dcb68" category="admonition">A <block ref="6bb1c156f9acfcc4bd439f64de9f6179" category="inline-link-macro-rx"></block> 제품을 랙에서 분리하기 전에 필요합니다.</block>
   <block id="f53242e4269fef805877f4a607bfeb25" category="inline-link-macro">제품 덮개를 분리했습니다</block>
   <block id="e57884dd2b5e54d870c527b3ffb5c0c7" category="list-text">모든 케이블 및 을(를) 분리했습니다 <block ref="0dfdedc6ae01c44f83284cd76e2de63a" category="inline-link-macro-rx"></block>.</block>
   <block id="1447aad49731047d58031226a72b264a" category="doc">SGF6112 어플라이언스를 교체하십시오</block>
   <block id="8d05a10a07f31ac269bed1ae8269a3b2" category="list-text">있습니다 <block ref="5ae0b19c26e1799f1a1f36587bc3c697" category="inline-link-macro-rx"></block>.</block>
-  <block id="18d1f71ff9d7db9c5dca8144a0fbaa78" category="list-text"><block ref="661ec4b50e1bcae5fbe3a04c5ab12ebe" category="inline-link-macro-rx"></block>.</block>
   <block id="aef13b89b7eea46d56501e677144b024" category="list-text">이 StorageGRID 어플라이언스의 네트워크 인터페이스 중 하나라도 DHCP에 대해 구성된 경우 교체 어플라이언스의 MAC 주소를 참조하도록 DHCP 서버의 영구 DHCP 임대 할당을 업데이트해야 합니다. 그러면 어플라이언스에 필요한 IP 주소가 할당됩니다.</block>
   <block id="79f315a3efc8106e7c8d3f6476b65f48" category="paragraph">네트워크 또는 DHCP 서버 관리자에게 문의하여 영구 DHCP 임대 할당을 업데이트하십시오. 관리자는 DHCP 서버 로그에서 또는 어플라이언스 이더넷 포트가 연결된 스위치의 MAC 주소 테이블을 검사하여 대체 어플라이언스의 MAC 주소를 확인할 수 있습니다.</block>
   <block id="78ac9393380e8b7e2814df80349428c1" category="inline-link-macro">캐비닛 또는 랙에서 장애가 발생한 어플라이언스를 제거합니다</block>
@@ -3264,7 +3181,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="05af8dc3b0588fc5c9ecb2b6c178bee0" category="list-text">제품의 전원을 켜십시오.</block>
   <block id="4245635d62a9242eb35a7e4ec5a56abd" category="list-text">제품이 그리드에 다시 연결될 때까지 기다립니다. 어플라이언스가 그리드에 다시 연결되지 않는 경우 StorageGRID 어플라이언스 설치 프로그램 홈 페이지의 지침에 따라 문제를 해결하십시오.</block>
   <block id="a7c99d1b44c3cfef060bab2387eba42e" category="admonition">어플라이언스 설치 프로그램이 디스크 드라이브를 다른 슬롯으로 이동하는 등의 물리적 하드웨어 변경이 필요하다고 표시하는 경우 데이터 손실을 방지하려면 하드웨어를 변경하기 전에 어플라이언스의 전원을 끕니다.</block>
-  <block id="ca2048aa7418bfc8c45e3193b5be5e0d" category="paragraph"><block ref="ca2048aa7418bfc8c45e3193b5be5e0d" category="inline-link-macro-rx"></block></block>
   <block id="5c7a2a67a862c92aebc2865b7c819287" category="summary">캐비닛 또는 랙에서 SGF6112를 분리하여 상단 덮개에 액세스하거나 제품을 다른 위치로 이동한 다음 하드웨어 유지 관리가 완료되면 캐비닛이나 랙에 어플라이언스를 다시 설치합니다.</block>
   <block id="e7398e21823a1d6850d98f9f0adb90af" category="admonition">전원 스위치를 사용하여 제품을 끄지 마십시오.</block>
   <block id="dc4aada9d719c5cd8b6b1b2e23cb1371" category="list-text">제품 전원 케이블에 레이블을 부착한 다음 전원 케이블을 분리합니다.</block>
@@ -3280,8 +3196,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="c5e193e61c8068cebd4cb4fba2c27866" category="inline-link-macro">컨트롤러 전원 케이블을 다시 연결합니다</block>
   <block id="b6b0dd970889f43cc1c52597b7622743" category="list-text"><block ref="6f9f5a65c301bc92abf7bdeee5c6a76d" category="inline-link-macro-rx"></block>.</block>
   <block id="37abf98b4de9f33857b199b4587f5694" category="inline-link-macro">어플라이언스를 다시 시작하십시오</block>
-  <block id="75a0a5a5fe162a7f9fdba4837463d44f" category="summary">데이터 센터에서 제품을 찾을 수 있도록 제품 전면에 있는 파란색 식별 LED를 켤 수 있습니다.</block>
-  <block id="debdd98b0f5a40d3b21e412c9c782a4d" category="paragraph">데이터 센터에서 제품을 찾을 수 있도록 제품 앞면과 뒷면의 청색 식별 LED를 켤 수 있습니다.</block>
   <block id="8d0a484f63561e569cf5b352c5be813a" category="inline-link-macro">데이터 센터에서 어플라이언스를 찾습니다</block>
   <block id="48ce381161753a96507e349f7aa77165" category="paragraph"><block ref="48ce381161753a96507e349f7aa77165" category="inline-link-macro-rx"></block></block>
   <block id="93fbb9aaa73dda71ec648251dcaa9967" category="summary">제품에 대한 유지보수 절차를 수행해야 할 수 있습니다. SG6100 어플라이언스 유지 관리에 대한 절차는 이 섹션에 나와 있습니다.</block>
@@ -3336,7 +3250,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="6adc7b56a9a705255ff5ae88c4727673" category="admonition">이 어플라이언스에 녹색 아이콘이 없으면 다른 어플라이언스 노드를 오프라인으로 전환하지 마십시오.</block>
   <block id="11462fb2917b851e5fb3f96bec8ba764" category="list-text">PuTTY 또는 다른 ssh 클라이언트를 사용하여 그리드 노드에 로그인하여 새 어플라이언스가 완벽하게 작동하는지 확인합니다.</block>
   <block id="8a319d9f1f8fa62d913f59ab432b8f1a" category="list-text">다음 명령을 입력합니다.<block ref="604b3aa6831925c337f9cec38597d65a" prefix=" " category="inline-code"></block></block>
-  <block id="4a4df9fcde02f4c20df662c4d87783a1" category="summary">그리드 관리자의 드라이브 관리 탭을 사용하여 SGF6112 어플라이언스의 드라이브에 대한 문제 해결 및 유지 관리 작업을 수행할 수 있습니다.</block>
   <block id="bf8542827bf52ff1d2d3ca74de649b6a" category="inline-link">스토리지 어플라이언스 관리자 또는 루트 액세스 권한</block>
   <block id="bf5f327428f0175033f3cbe43e6e7b3e" category="paragraph">드라이브 관리 탭에는 다음 보기가 포함되어 있습니다.</block>
   <block id="ebd9bec4d70abc789d439c1f136b0538" category="list-text">레이아웃</block>
@@ -3374,7 +3287,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="42928a49b52d5c63d01891c29be24fcd" category="inline-link-macro">교체할 전원 공급 장치의 위치를 확인했습니다</block>
   <block id="67cb15c24e3f11a79e492d24bd1a36ef" category="list-text">있습니다 <block ref="3f87d3899d1e937c5ab71f93f4b1094d" category="inline-link-macro-rx"></block>.</block>
   <block id="20ba337feb638d326a67a2659467dddc" category="image-alt">2개의 전원 공급 장치가 있는 SGF6112 뒷면</block>
-  <block id="e79ffaa46a9eac9da0887c44b78a5e76" category="admonition">개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있고 두 전원 공급 장치를 동시에 교체하는 경우 예정된 유지 관리 창에서 전원 공급 장치를 교체해야 합니다. 그렇지 않으면 이 절차 중에 해당 개체에 대한 액세스가 일시적으로 끊어질 수 있습니다. 에 대한 정보를 참조하십시오<block ref="f69c469323896c5f53b0b141dcfc1ae2" category="inline-link-rx"></block>.</block>
   <block id="3977df58bd7e96da4f405bc4b0f8539e" category="paragraph">제품 뒷면에서 본 경우 전원 공급 장치 A(PSU0)는 오른쪽에, 전원 공급 장치 B(PSU1)는 왼쪽에 있습니다.</block>
   <block id="ba93c8761a840149d924b3d530ed14ec" category="list-text">교체할 첫 번째 공급 장치의 핸들을 들어 올립니다.</block>
   <block id="d5483b5e98966500a9192029cc9e4ec2" category="image-alt">손잡이를 들어 올려 PSU를 분리합니다</block>
@@ -3421,7 +3333,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="2bb86ccc72619207d683e45635d07991" category="list-text">컨트롤러에 연결된 각 케이블을 식별하는 라벨이 있습니다.</block>
   <block id="822f3e8582776cbafa8007c1adb5ec11" category="admonition">저장된 키로 드라이브를 잠금 해제할 때까지 제품을 사용할 수 없습니다.</block>
   <block id="b865bb98d9b0550e0a993612bafda00d" category="list-text">특정 액세스 권한이 있어야 합니다.</block>
-  <block id="8ff1ab4da14b392126e0be753ff139ad" category="list-text">를 사용하여 그리드 관리자에 로그인해야 합니다<block ref="a18f1d7592d98ae161543980d36b8697" category="inline-link-rx"></block>.</block>
   <block id="ed685b27fc1f2fa59a4dd9211c2e329c" category="paragraph">다음 두 가지 방법으로 오류가 발생한 컨트롤러 캐니스터가 있는지 확인할 수 있습니다.</block>
   <block id="f7e01d9dca1569b4e2686ae3201b9f37" category="list-text">SANtricity 시스템 관리자의 Recovery Guru에서 컨트롤러를 교체하도록 안내합니다.</block>
   <block id="f8e24f4f8665beda2711e14f280abf35" category="list-text">컨트롤러의 주황색 주의 LED가 켜져 컨트롤러에 장애가 있음을 나타냅니다.</block>
@@ -3500,7 +3411,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="1652d3ef680f0a24a213e53a3684a726" category="list-text">Ping 테스트 도구를 사용하여 에서 변경한 링크 구성의 영향을 받을 수 있는 네트워크의 IP 주소에 대한 연결을 확인합니다  <block ref="251a79c2543cfdb5bc7318665d28751a" category="inline-xref-macro-rx"></block> 단계.</block>
   <block id="ec7d8a941260858e7a2c615bc0712041" category="paragraph">수행할 다른 테스트 외에도 운영 관리 노드의 그리드 IP 주소와 하나 이상의 다른 스토리지 노드의 그리드 IP 주소를 ping할 수 있는지 확인합니다. 필요한 경우 링크 구성 문제를 해결하십시오.</block>
   <block id="6917659e38973f6eb0e35216f7b11a68" category="summary">스토리지 컨트롤러가 최적의 상태로 작동하도록 하려면 StorageGRID 어플라이언스에 적합한 SANtricity OS의 최신 유지 관리 릴리즈로 업그레이드해야 합니다.</block>
-  <block id="c681fd0baeee7cbeb31c91910e5a075d" category="doc">SG5700 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다</block>
   <block id="b5dd35ba554436566b3e8f9a2a7a26d5" category="paragraph">을 참조하십시오<block ref="59eff0a7409a2083b143c03284b14f62" category="inline-link-rx"></block> 사용할 버전을 확인합니다.</block>
   <block id="c32e3124620c00511f694597c85f886b" category="paragraph">에서 새 SANtricity OS 소프트웨어 파일을 다운로드합니다<block ref="17b838622e0459e6c950b0d070de6b4f" category="inline-link-rx"></block>.</block>
   <block id="1fc307f4912476cad93bc35528367a92" category="paragraph">현재 설치된 SANtricity OS 버전에 따라 다음 절차 중 하나를 사용하십시오.</block>
@@ -3534,7 +3444,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="2f68de2edb01ee7da5e8aff5da82aa89" category="inline-link-macro">E2800 컨트롤러 교체</block>
   <block id="ccec4171b3aa679daffaf6d180f0a8ed" category="paragraph">E2800 컨트롤러의 배터리를 교체하려면 에 대한 지침에 따라 지침을 참조하십시오 <block ref="08b7b963baf956de14da253f81baadff" category="inline-link-macro-rx"></block>. 이 지침은 제품에서 컨트롤러를 분리하고, 컨트롤러에서 배터리를 분리하고, 배터리를 설치하고, 컨트롤러를 교체하는 방법을 설명합니다.</block>
   <block id="3007aafe39334f42091e0f5b3576429c" category="inline-link">E-Series 절차를 참조하십시오</block>
-  <block id="48b42f1017a20a8026dda3fab8b8bf63" category="paragraph">어플라이언스의 드라이브, 전원 팬 캐니스터, 팬 캐니스터, 전원 캐니스터 또는 드라이브 드로어를 교체하려면 에 액세스합니다<block ref="651c02e99012dab891794fa14233e234" category="inline-link-rx"></block>.</block>
   <block id="460e3df6135602b462c67bd8cfc3bfca" category="section-title">SG5712 구성 요소 교체 지침</block>
   <block id="c19f6f3bf60ec1c67dea7fd48493e085" category="cell">FRU</block>
   <block id="8a241f77eb8c1ca141cc3dce253f97de" category="cell">에 대한 E-Series 지침을 참조하십시오</block>
@@ -3553,8 +3462,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="8674320d8404bd4a6fd6610d435d59f7" category="doc">SG1000 및 SG100 서비스 어플라이언스 하드웨어를 유지 관리합니다</block>
   <block id="7dedc14c3c2da16d1cf49266e55250dd" category="summary">StorageGRID 시스템을 구성하고 사용하는 방법에 대해 알아봅니다.</block>
   <block id="932c9337fec4ec6d783d14e18a8f8937" category="doc">StorageGRID 소프트웨어 설명서</block>
-  <block id="15b870e7b175a7af88e1f39b1dd67be6" category="inline-link">StorageGRID 11.8 설명서</block>
-  <block id="ce54c2d81d85f4c3602ab64f20ca089c" category="paragraph">로 이동합니다<block ref="0bf55bf828dd8d18af99f238c2aa3c65" category="inline-link-rx"></block> StorageGRID 11.8 시스템을 구성 및 사용하는 방법을 알아봅니다.</block>
   <block id="042c7e26fe8aab5fa2f5f2c216686078" category="paragraph">StorageGRID 문서 사이트에는 다음과 같은 정보가 포함되어 있습니다.</block>
   <block id="9d9d8a3b9e08531839387ac7728d7fc0" category="list-text">네트워킹 지침.</block>
   <block id="7f811504bb717d099e7d5960667aa1ad" category="list-text">Linux 및 VMware 노드에 대한 설치 지침</block>
@@ -3637,7 +3544,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="a6b3ba0004b2a9a8396f15a73114a062" category="list-text">어플라이언스 스토리지 노드 및 새 확장 셸프의 상태를 확인합니다.</block>
   <block id="6b5138f4d805b8079a4f07b226e6885a" category="list-text">Grid Manager에서 * nodes * 를 선택하고 어플라이언스 스토리지 노드에 녹색 확인 표시 아이콘이 있는지 확인합니다.</block>
   <block id="3323a22b50b501b0a1012ae5490e2561" category="inline-link">노드 연결 상태를 모니터링합니다</block>
-  <block id="2d5c32d5d75282dd8d640653b98ce73d" category="paragraph">녹색 확인 표시 아이콘은 활성화된 알림이 없고 노드가 그리드에 연결되어 있음을 의미합니다. 노드 아이콘에 대한 설명은 를 참조하십시오<block ref="5cbbac3dc1cf3f6e667c1cdfad1f31fe" category="inline-link-rx"></block>.</block>
   <block id="14596e3f470c9db656d16ab3f2b12a1e" category="list-text">Storage * 탭을 선택하고 추가한 확장 셸프마다 Object Storage 테이블에 16개의 새 오브젝트 저장소가 표시되는지 확인합니다.</block>
   <block id="22c69228c329b5116431e025cc44e63d" category="list-text">각 새 확장 셸프의 쉘프 상태가 공칭 이고 구성 상태가 구성됨 인지 확인합니다.</block>
   <block id="a270effeecbb6963016e75f06ac62cdb" category="summary">확장 쉘프에 있는 입출력 모듈, 전원 공급 장치 또는 팬을 교체해야 할 수 있습니다.</block>
@@ -3654,7 +3560,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="f3f0bb7df8a5df54b93b12a935d9a5cf" category="list-text">StorageGRID 어플라이언스가 StorageGRID 시스템에서 실행 중인 경우 SG6000-CN 컨트롤러를 에 장착했습니다 <block ref="66517df9b2a708b9947fc0143b4273f5" category="inline-link-macro-rx"></block>.</block>
   <block id="36fde19ae1fdd276915f6d40cd16218b" category="admonition">유지보수 모드는 스토리지 컨트롤러에 대한 연결을 중단합니다.</block>
   <block id="50528405c48a12ce4f7dcffb683cba7c" category="list-text">제품이 에 있는지 확인하십시오 <block ref="66517df9b2a708b9947fc0143b4273f5" category="inline-link-macro-rx"></block>.</block>
-  <block id="62f8a82e3dc73d6f7b5281835ada3bdc" category="list-text">펌웨어 및 NVSRAM을 업그레이드하려면, _Upgrading SANtricity OS_guide 또는 SANtricity 시스템 관리자 온라인 도움말의 지침을 따르십시오.</block>
   <block id="93e4518c31af3640d240d4efc6bc5019" category="paragraph"><block ref="93e4518c31af3640d240d4efc6bc5019" category="inline-link-rx"></block></block>
   <block id="15b3987f6e8f0fed9b679cf950924c37" category="paragraph"><block ref="15b3987f6e8f0fed9b679cf950924c37" category="inline-link-macro-rx"></block></block>
   <block id="476f00f04fb8d0b6d5a144c5059893fa" category="summary">파이버 채널 HBA가 최적으로 작동하지 않거나 장애가 발생한 경우 파이버 채널 HBA를 교체해야 할 수 있습니다.</block>
@@ -3685,9 +3590,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="bb91d90513b11ba0cde4d827b8b6189f" category="list-text">있습니다 <block ref="04cfa1a1def5b2a22a4d1b75e8621252" category="inline-link-macro-rx"></block>.</block>
   <block id="f070b4ead572fee92f168d61cb6a6faa" category="inline-link-macro">컨트롤러 덮개를 분리했습니다</block>
   <block id="2a43f5efe797669d447814b1cdd36894" category="list-text">있습니다 <block ref="96975b66771a6cb1b5238746a1126bdb" category="inline-link-macro-rx"></block>.</block>
-  <block id="fc98bf5544404a6ebde1117198acbc14" category="paragraph">서비스 중단을 방지하려면 Fibre Channel HBA 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 어댑터를 교체하십시오. 에 대한 정보를 참조하십시오<block ref="742191401cce2d2da7992b41915ad587" category="inline-link-rx"></block>.</block>
-  <block id="8bf33482d5cb3ab2368971d76d70b792" category="admonition">개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 예약된 유지 관리 기간 동안 파이버 채널 HBA를 교체해야 합니다. 그렇지 않으면 이 절차 중에 해당 개체에 대한 액세스가 일시적으로 끊어질 수 있습니다. 를 누릅니다
-에 대한 정보를 참조하십시오<block ref="f69c469323896c5f53b0b141dcfc1ae2" category="inline-link-rx"></block>.</block>
   <block id="159de4d0f279530b02961025bd5110cb" category="list-text">파이버 채널 HBA를 포함하는 컨트롤러 후면에서 라이저 어셈블리를 찾습니다.</block>
   <block id="3b9dbd7ec583332e8e82592d28507b10" category="image-alt">SG6060 라이저 조립품 위치</block>
   <block id="078f7888ee57016d6ef976c61af2ca58" category="list-text">파란색 표시가 있는 구멍을 통해 라이저 조립품을 잡고 조심스럽게 위로 들어 올립니다. 라이저 조립품을 들어 올릴 때 섀시 앞쪽으로 이동하여 설치된 어댑터의 외부 커넥터가 섀시에서 분리되도록 합니다.</block>
@@ -3716,7 +3618,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="8e35462b461cf867d6412ed05c1b3321" category="section-title">SG6000-CN 컨트롤러를 종료합니다</block>
   <block id="1ca9c37b6efff7aabf07372129fd87c5" category="paragraph">SG6000-CN 컨트롤러를 종료하여 하드웨어 유지 관리를 수행합니다.</block>
   <block id="eea0642a1d6761b6cb0df3399ff32b89" category="list-text">데이터 센터의 유지 관리가 필요한 SG6000-CN 컨트롤러를 물리적으로 배치했습니다. 을 참조하십시오 <block ref="d3e2bdffcf0415bf12feb01b0c3df297" category="inline-link-macro-rx"></block>.</block>
-  <block id="83bf1903def806459d5726a82b9fb315" category="paragraph">서비스 중단을 방지하려면 서비스 중단 기간이 허용되는 예약된 유지 관리 기간 동안 컨트롤러를 종료하거나 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하십시오. 에 대한 정보를 참조하십시오<block ref="742191401cce2d2da7992b41915ad587" category="inline-link-rx"></block>.</block>
   <block id="3e16c46c9ebc6489c58ece6add7335b4" category="admonition">개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있는 경우에는 예약된 유지 관리 기간 동안 컨트롤러를 종료해야 합니다. 그렇지 않으면 이 절차 중에 해당 개체에 대한 액세스가 일시적으로 끊어질 수 있습니다. 를 누릅니다
 정보 수명 주기 관리를 사용하여 개체 관리에 대한 정보를 참조하십시오.</block>
   <block id="6b5ef9dc21032000727d333484296ee7" category="list-text">SG6000-CN 컨트롤러를 종료합니다.</block>
@@ -3806,10 +3707,7 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="9e8de8207a27e38055372b6f8749b8ce" category="summary">SG6000 어플라이언스에서 유지보수 절차를 수행해야 할 수 있습니다. 이 섹션의 절차에서는 어플라이언스가 이미 StorageGRID 시스템의 스토리지 노드로 구축되었다고 가정합니다.</block>
   <block id="141e448e72da84941411a863213f2c09" category="paragraph">SG6000 어플라이언스에서 유지보수 절차를 수행해야 할 수 있습니다.</block>
   <block id="e2509dc9991f44c246272375b8a847a1" category="paragraph">SG6000 어플라이언스 유지 관리 절차는 이 섹션에 나와 있으며 해당 어플라이언스가 StorageGRID 시스템에서 스토리지 노드로 이미 배포되어 있다고 가정합니다.</block>
-  <block id="73af0f80bf96e942698f82207466896b" category="paragraph">서비스 중단을 방지하려면 서비스 중단 기간이 허용되는 예약된 유지 관리 기간 동안 어플라이언스를 종료하거나 종료하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하십시오. 에 대한 정보를 참조하십시오<block ref="742191401cce2d2da7992b41915ad587" category="inline-link-rx"></block>.</block>
   <block id="b8d2b8725b2e030a515d72c8a63d952f" category="inline-link">정보 수명 주기 관리로 개체 관리</block>
-  <block id="1f5b15c067723f69c6847d697546abc5" category="admonition">개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있는 경우 예정된 유지 관리 기간 동안 어플라이언스를 종료해야 합니다. 그렇지 않으면 스토리지 노드의 서비스가 중지되는 유지보수 절차 중에 이러한 개체에 일시적으로 액세스할 수 없게 될 수 있습니다. 에 대한 정보를 참조하십시오<block ref="cd1ef74e74db107110af05b0e30dd0cc" category="inline-link-rx"></block>.</block>
-  <block id="037ffcc9ae7a32db479755efe2598ed5" category="doc">SG6000 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다</block>
   <block id="d441e9af212dd125aa8aab1e2197a504" category="inline-link-macro">유지보수 모드를 사용하여 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다</block>
   <block id="51e4a82d19fd91f3cf084d63f52ecd24" category="paragraph"><block ref="51e4a82d19fd91f3cf084d63f52ecd24" category="inline-link-macro-rx"></block></block>
   <block id="5e56321203b6b5dd968187ab3777997c" category="admonition">스토리지 어플라이언스에 대한 SANtricity OS를 업그레이드할 때는 StorageGRID 설명서의 지침을 따라야 합니다. 다른 지침을 사용하면 제품이 작동하지 않을 수 있습니다.</block>
@@ -3828,7 +3726,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="39249c9931daa900d69b1741171b0d74" category="list-text">[[link_config_changes, start=2]]링크 설정을 원하는 대로 변경합니다.</block>
   <block id="54bf1be0a1b6120efcd0e5edc79f7254" category="admonition">연결된 네트워크 또는 링크를 변경한 경우 연결이 끊어질 수 있습니다. 1분 내에 다시 연결되지 않으면 어플라이언스에 할당된 다른 IP 주소 중 하나를 사용하여 StorageGRID 어플라이언스 설치 프로그램의 URL을 다시 입력합니다<block ref="52d1bfd6b3ee81a73b41df0f5e09504c" prefix=" " category="inline-code"></block></block>
   <block id="9578cffd970cec1182dcb54a4d3f788f" category="inline-link">IP 주소를 구성합니다</block>
-  <block id="49689c780944c9c0200ed69ee29ed779" category="paragraph">VLAN 설정을 변경한 경우 어플라이언스의 서브넷이 변경되었을 수 있습니다. 어플라이언스의 IP 주소를 변경해야 하는 경우 에 따르십시오<block ref="c26e38c8e7107914e422d7c5dd3245be" category="inline-link-rx"></block> 지침.</block>
   <block id="130dad3fc255a765151e34f1dedaeab1" category="inline-xref">링크 구성 변경</block>
   <block id="ca0207a23fdc7eb15925595284432b74" category="list-text">Ping 테스트 도구를 사용하여 에서 변경한 링크 구성의 영향을 받을 수 있는 네트워크의 IP 주소에 대한 연결을 확인합니다 <block ref="7afc8857c1a1d694504049da9c46e74a" category="inline-xref-macro-rx"></block> 단계.</block>
   <block id="81697b9af295bc0f7ef9d9c8847a0cee" category="paragraph">수행할 다른 테스트 외에도 기본 관리 노드의 그리드 네트워크 IP 주소와 하나 이상의 다른 스토리지 노드의 그리드 네트워크 IP 주소를 ping할 수 있는지 확인합니다. 필요한 경우 로 돌아갑니다 <block ref="7afc8857c1a1d694504049da9c46e74a" category="inline-xref-macro-rx"></block> 링크 구성 문제를 단계별로 해결합니다.</block>
@@ -3838,7 +3735,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="9972e3c27a30d4e8595ff51251aa5042" category="list-text">데이터 센터의 스토리지 쉘프 하드웨어 구성요소를 교체할 스토리지 어플라이언스를 물리적으로 배치했습니다.</block>
   <block id="9369c94747a1ec47fffa77ecf3cdeaa2" category="paragraph">저장 장치 컨트롤러의 전지를 교체하려면 의 지침을 참조하십시오 <block ref="14cc25446d54ba6e716abd5472dcaf03" category="inline-link-macro-rx"></block>. 이 지침은 제품에서 컨트롤러를 분리하고, 컨트롤러에서 배터리를 분리하고, 배터리를 설치하고, 컨트롤러를 교체하는 방법을 설명합니다.</block>
   <block id="1341efb2b0c1641ae667c22aff048f1a" category="inline-link">E-Series 시스템 유지 관리 절차</block>
-  <block id="24a6c2074191b7644937ad35e163738e" category="paragraph">컨트롤러 쉘프의 다른 현장 교체 장치(FRU)에 대한 지침을 보려면 에 액세스합니다<block ref="7aebff414119a02eceeb8a93ad29b549" category="inline-link-rx"></block>.</block>
   <block id="c2722d3c32348b7adce5bfed9f61449a" category="cell">지침을 참조하십시오</block>
   <block id="07f4d2a10bd82d72a5d65f382db25d2b" category="paragraph">StorageGRID(다음 지침): 스토리지 컨트롤러 교체</block>
   <block id="e8ced6b6f8edec510f4bdfce8d8d4ce8" category="paragraph">E-Series:</block>
@@ -3910,7 +3806,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="cb8bece9fb25f8108101de99e31c5592" category="summary">StorageGRID 어플라이언스 노드를 구축하고 작동을 확인합니다.</block>
   <block id="bc03a6dfa9c6afbbaed3ab51e165c652" category="doc">어플라이언스 노드를 구축합니다</block>
   <block id="0411119e4f79ad1707ac7d0f4dcfe1f9" category="sidebar">자주 수행하는 절차</block>
-  <block id="314d609d30807d8299f0792c00758f67" category="sidebar">위치 LED를 켜거나 끕니다</block>
   <block id="aefc32c543633d03426c4468621c16d0" category="sidebar">제품의 전원을 껐다가 켭니다</block>
   <block id="a676111fb737fcb72e7e7c965f76150f" category="sidebar">SANtricity를 업그레이드합니다</block>
   <block id="c55b834e11341e1ae1654b547833e156" category="sidebar">드라이브 펌웨어를 업그레이드합니다</block>
@@ -3947,7 +3842,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="ae8cb7f5f8b1efdc9458aa7fea7da202" category="sidebar">E2800 시리즈 스토리지 컨트롤러를 교체합니다</block>
   <block id="6075bc4c409cef5de2e19d8ffc49b559" category="sidebar">다른 SG5700 구성 요소를 교체합니다</block>
   <block id="aefc997600f67bde12a1da00bc26814a" category="sidebar">교체할 구성 요소를 확인합니다</block>
-  <block id="6b81b1112af1a88409239a22bc0ab3b7" category="sidebar">SGF6112를 랙에 재배치합니다</block>
   <block id="78ca94519eab9faa83c3d6f49938a157" category="sidebar">덮개를 다시 끼웁니다</block>
   <block id="10c9d5e9c31fe9ef3ac5e544a2d1af8b" category="sidebar">팬을 교체합니다</block>
   <block id="14d746b21dcfe93e11bc84dec69f92fc" category="sidebar">드라이브를 교체합니다</block>
@@ -4011,7 +3905,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="77d2b0ac8e200595c2f4d240b0c80f51" category="sidebar">어플라이언스 구성 유지(모든 노드)</block>
   <block id="48889e269a4d7fca4c265f4a2f877e26" category="sidebar">SG6100 하드웨어 유지 관리</block>
   <block id="14975bfde92215c95436649cec8f726d" category="sidebar">SG6100 하드웨어 유지 관리</block>
-  <block id="43669fdd9ce1157a7238aa25102bb3ab" category="sidebar">드라이브 관리 탭을 사용합니다</block>
   <block id="26b6d36b296274fea73c7b0861022842" category="sidebar">제품의 전원을 껐다가 다시 켜십시오</block>
   <block id="f038cfedcecfda2c0df73e7e4b3e5a5f" category="sidebar">하드웨어 유지보수 절차</block>
   <block id="04151f4bdc7338545b601e95ffdb3628" category="sidebar">하드웨어 유지 관리 절차 - SG6100</block>
@@ -4029,7 +3922,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="70aa111f5c2fa3551f9e0918c56a7284" category="sidebar">SG6000 하드웨어 유지보수</block>
   <block id="48b36b52af150902ed9f2d41190c8f15" category="sidebar">SG6000 하드웨어 유지 관리</block>
   <block id="cf84eddab29b86bbe42255f7a00531eb" category="sidebar">유지보수 구성 절차 - SG6000</block>
-  <block id="0feef34cc82f50f31bfa1fabfc7fda07" category="sidebar">스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다</block>
   <block id="8ba05f33923228afdc642451d0590be3" category="sidebar">컨트롤러 식별 LED를 켜고 끕니다</block>
   <block id="da009f0b9535f1833958c8e9226dbaf5" category="sidebar">컨트롤러 전원을 껐다가 켭니다</block>
   <block id="5750df12204d549c403e7201cbc6e59e" category="sidebar">하드웨어 절차 - SG6000</block>
@@ -4037,8 +3929,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="297057bf431ff214cf5fb064c5a836ac" category="sidebar">옵션 60-드라이브 확장 쉘프로 하드웨어 구성요소 교체</block>
   <block id="6e59386fb6d09c0b4945ad4afa8a4092" category="sidebar">SG6000-CN 컨트롤러의 파이버 채널 HBA를 교체합니다</block>
   <block id="46621f49f52b2e7735202aeadc8627bc" category="paragraph"><block ref="46621f49f52b2e7735202aeadc8627bc" category="inline-link-rx"></block></block>
-  <block id="39822573479d4d01c9fc52445e6f90d4" category="paragraph">을 참조하십시오<block ref="182f5524fe0d353d40aacb3022a6d00c" category="inline-link-rx"></block> StorageGRID 어플라이언스에 사용할 수 있는 모든 암호화 방법에 대한 정보를 참조하십시오.</block>
-  <block id="38863f5650b2800fa51be4d3a390b203" category="paragraph">에 대한 정보를 검토합니다<block ref="182f5524fe0d353d40aacb3022a6d00c" category="inline-link-rx"></block>.</block>
   <block id="c114b6896b71306b6ff5217eebf1d7eb" category="doc">단계 4: 새 컨트롤러로 배터리를 이동합니다</block>
   <block id="eed22a946ecb2d3652178906c8adb5c5" category="paragraph">장애가 발생한 컨트롤러에서 배터리를 분리하여 교체 컨트롤러에 설치합니다.</block>
   <block id="a9c0cea0fa970dd78f5c9b732ed7af82" category="doc">단계 3: 컨트롤러를 제거합니다</block>
@@ -4050,7 +3940,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="bee477a851e07f638eb69240b1b317bc" category="paragraph">E2800A 컨트롤러 덮개를 교체하고 로 이동합니다 <block ref="4bd98407e7ac018ef33f15dc5a2ef6d6" category="inline-xref-macro-rx"></block></block>
   <block id="b186f28a62d42b7cdd50516610c1e839" category="open-title">E2800B</block>
   <block id="477f610d0d161e316a6f06600c56252b" category="paragraph">오류가 발생한 E2800B 컨트롤러에서 교체 컨트롤러로 HIC를 이동합니다.</block>
-  <block id="bfc87e4ee97496c70a38995efddf5be3" category="paragraph">SGF6112 어플라이언스와 이 있는 경우<block ref="5540729631f9c458d692d5b76bbc9b38" category="inline-link-rx"></block>어플라이언스 세부 정보 페이지에 드라이브 관리 탭이 나타납니다.</block>
   <block id="b8325740c6f1fdf42bd83d726c080c9a" category="inline-link">단일 E2800 시리즈 컨트롤러 교체 절차</block>
   <block id="0f31bf890cf0f06d20912d7da5d50990" category="list-text">모든 드라이브가 보안된 경우 의 단계를 검토했습니다<block ref="ab9bcc1613fce025138f2bd863db4580" category="inline-link-rx"></block>, 여기에는 NetApp Support 사이트에서 E-Series SANtricity System Manager를 다운로드 및 설치한 다음 EMW(엔터프라이즈 관리 창)를 사용하여 컨트롤러를 교체한 후 안전한 드라이브의 잠금을 해제하는 작업이 포함됩니다.</block>
   <block id="16cd89923af48ed14de009bdd8e2993f" category="section-title">1단계: 컨트롤러 분리 준비</block>
@@ -4115,10 +4004,8 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="fd5bba691683ef3a201e310f70f6d8e4" category="list-text">어플라이언스 구성이 만족스러우면 를 사용하십시오<block ref="19ad89bc3e3c9d7ef68b89523eff1987" prefix=" " category="inline-code"></block> 및<block ref="08b5411f848a2581a41672a759c87380" prefix=" " category="inline-code"></block> 어플라이언스를 설치하기 위한 하위 명령: +<block ref="cb22ba99985d4320f9b56e53345a6646" prefix=" " category="inline-code"></block> 를 누릅니다<block ref="09148fb6c91acb8535552973f29c5302" prefix=" " category="inline-code"></block></block>
   <block id="c931565ed17682d74235819a1b30dffd" category="list-text">어플라이언스를 재부팅하려면 + 를 입력합니다<block ref="8c1be57a6b5e4d6606e9b616bc4b786c" prefix=" " category="inline-code"></block></block>
   <block id="21f8809422673987244d000d11281874" category="paragraph">모든 설치 단계가 완료된 후 창을 닫습니다.</block>
-  <block id="a7beb022c93acd3d0673dc51befd93b8" category="list-text">기본 관리자 노드를 제외한 모든 어플라이언스 노드의 경우 StorageGRID 설치 단계가 일시 중지되고 내장 콘솔에 메시지가 표시되어 를 사용하여 관리자 노드에서 이 노드를 승인하라는 메시지를 표시합니다<block ref="e3d100a9dd7fc524c056b793772558c8" category="inline-link-rx"></block>. 다음 단계로 이동합니다.</block>
   <block id="42af9b60b35d6bca9c17ff477c884ccc" category="admonition">어플라이언스 기본 관리자 노드를 설치하는 동안 다섯 번째 단계가 StorageGRID 설치 프로그램을 로드하는 것으로 나타납니다(예제 스크린샷은 처음 4단계만 보여줍니다). StorageGRID 설치 프로그램 로드(5단계)가 10분 이상 진행 중인 경우 웹 페이지를 수동으로 새로 고칩니다.</block>
   <block id="cc6d0074c1cc81f39341600a31c22eea" category="inline-link">그리드 관리자로 이동합니다</block>
-  <block id="2402f41c48e7f4bce703c793014a7f2b" category="list-text"><block ref="6f57cab9a4fe2b585805d3a0181ee3a1" category="inline-link-rx"></block> 기본 관리자 노드에서 보류 중인 그리드 노드를 승인하고 StorageGRID 설치 프로세스를 완료합니다.</block>
   <block id="cc721c163db74d07c83f165fac1cbd51" category="list-text">관리자 노드 또는 게이트웨이 노드 어플라이언스의 경우 소스 노드 어플라이언스와 타겟 어플라이언스가 동일한 어플라이언스 모델일 필요는 없지만, 어플라이언스 모델을 변경하려면 케이블이나 SFP 모듈을 교체해야 할 수 있습니다.</block>
   <block id="186e64d4b1a267ec9b06d82dfc3ea37a" category="list-text">스토리지 노드 어플라이언스의 경우 소스 노드 어플라이언스와 타겟 어플라이언스가 동일한 유형의 어플라이언스일 필요는 없습니다.</block>
   <block id="28cb9e1a7b17557df2dab7da635677b4" category="list-text">타겟 어플라이언스의 스토리지 용량은 소스 어플라이언스보다 커야 합니다.</block>
@@ -4152,9 +4039,7 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="6eeb10812f878395fd42337316644656" category="admonition">SG100 또는 SG110과 SG1000 또는 SG1100과 같이 동일한 사이트에서 서로 다른 수준의 성능을 가진 서비스 어플라이언스를 혼합하면 고가용성 그룹에 여러 노드를 사용하거나 여러 서비스 어플라이언스에서 클라이언트 로드 밸런싱을 수행할 때 예측할 수 없고 일관되지 않은 결과가 발생할 수 있습니다.</block>
   <block id="9624989f81bd52d3ffbdafbb5e213112" category="list-text">SG110입니다</block>
   <block id="f067c1ad51f888c421e417d3c8174d73" category="list-text">SG1100으로 문의하십시오</block>
-  <block id="7372a975d9635ea096cdb2e16635d786" category="list-text">SG100, SG110, SG1000 및 SG1100의 BMC 인터페이스에 액세스합니다</block>
   <block id="db9ca1297cfefe282f7bf704613373d2" category="inline-link-macro">SG110 또는 SG1100 서비스 어플라이언스의 링크 구성을 변경합니다</block>
-  <block id="819eab2ae3e43020e15c4fc95f7ca327" category="list-text"><block ref="819eab2ae3e43020e15c4fc95f7ca327" category="inline-link-macro-rx"></block></block>
   <block id="fdb721fb29bb12d395a4c90d75692893" category="doc">하드웨어 설치 문제 해결(SG110 및 SG1100)</block>
   <block id="1c8c4e98a896cf2ad92d989eaeee5a54" category="doc">BMC 인터페이스:개요(SG100, SG110, SG1000, SG1100, SG6000, 및 SG6100)</block>
   <block id="65e3a43d7f14275aee46dca655a5201f" category="list-text"><block ref="8a17bb4a8f8c3bd8049fbe657de9b51a" category="inline-xref-macro-rx"></block></block>
@@ -4162,7 +4047,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="7844be79442a1f1fad55f9da176b627e" category="list-text"><block ref="be6fab1e0dd362a8d9a11399bc350f55" category="inline-xref-macro-rx"></block></block>
   <block id="f968bb219612a257c41171656737117f" category="inline-link-macro">SG110 및 SG1100 하드웨어 설치 문제를 해결합니다</block>
   <block id="c0a584d4f9599ff521011752760b603a" category="paragraph">이 정보를 사용하여 도움을 받으십시오 <block ref="948381f0a6f9865418651bea4346a2f1" category="inline-link-macro-rx"></block>.</block>
-  <block id="c46d134b23d9b2e563bf4be88b43e659" category="paragraph">다음 그림은 SG110 및 SG1100 어플라이언스의 표시등과 버튼입니다.</block>
   <block id="387739340ec21ff77eb9e92d094b5b92" category="image-alt">전면 표시등 - SG110 및 SG1100</block>
   <block id="587a73f22155129c5ce79bff0c6b56b1" category="paragraph">이 표시등은 SG110 및 SG1100 어플라이언스에서 사용되지 않으며 꺼져 있습니다.</block>
   <block id="d01d11481ba69485897f98be94d33893" category="paragraph">다음 그림은 SG110 및 SG1100 어플라이언스의 SSD 표시등을 보여줍니다.</block>
@@ -4229,7 +4113,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="2352b2130f44ff234de0d0ef0c2249d0" category="paragraph">케이블 또는 트랜시버 유형, 스위치 속도 및 구성된 링크 속도를 기반으로 하는 10/25/40/100GbE QSFP56(100GbE/포트로 제한), QSFP28(100GbE) 및 QSFP+(40GbE)는 기본적으로 지원됩니다. SFP+(10GbE) 또는 SFP28(25GbE) 트랜시버는 QSA(별도 판매)와 함께 사용할 수 있습니다.</block>
   <block id="f0454101a72342bdb68e3f847866df68" category="section-title">SG110 및 SG1100 애플리케이션</block>
   <block id="2becee645abbd8209a2519e1ba8c9610" category="list-text">2개의 SG110 또는 2개의 SG1100 어플라이언스를 사용하여 게이트웨이 노드를 게이트웨이 노드로 구성하여 게이트웨이 서비스를 제공합니다.</block>
-  <block id="6f0a69f03c1ff183d86866b1f99ec9db" category="admonition">SG110 및 SG1100 서비스 어플라이언스를 같은 사이트에 배포하지 마십시오. 성능을 예측할 수 없습니다.</block>
   <block id="8ea4bf911293cfb2bf04ca96e05c3f41" category="list-text">일부 그리드 관리 서비스의 이중화를 제공하려면 2개의 SG110 또는 2개의 SG1100 어플라이언스를 사용합니다. 각 어플라이언스를 관리자 노드로 구성하여 이 작업을 수행합니다.</block>
   <block id="9a36aee0eed152f42afba806fe379d97" category="list-text">2개의 SG110 또는 2개의 SG1100 어플라이언스를 사용하여 하나 이상의 가상 IP 주소를 통해 액세스되는 고가용성 로드 밸런싱 및 트래픽 셰이핑 서비스를 제공합니다. 이 작업을 수행하려면 관리 노드 또는 게이트웨이 노드의 조합으로 어플라이언스를 구성하고 두 노드를 동일한 HA 그룹에 추가합니다.</block>
   <block id="d8a93d72c559dd827dcc442c95aad95b" category="paragraph">StorageGRID 스토리지 어플라이언스와 함께 사용할 경우 SG110 및 SG1100 서비스 어플라이언스를 사용하면 외부 하이퍼바이저 또는 컴퓨팅 하드웨어에 종속되지 않고 어플라이언스 전용 그리드를 배포할 수 있습니다.</block>
@@ -4237,16 +4120,11 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="174d39beebf966f8b0fd97a60a1b64fd" category="list-text">* BMC 관리 네트워크 * (SG100, SG110, SG1000, SG1100, SG6000, 및 SG6100): 이 네트워크는 SG100, SG1000, SG6000 및 SG6100 어플라이언스의 베이스보드 관리 컨트롤러에 대한 액세스를 제공하여 어플라이언스의 하드웨어 구성요소를 모니터링하고 관리할 수 있도록 합니다. 이 관리 네트워크는 StorageGRID용 관리 네트워크와 같을 수도 있고 독립 관리 네트워크일 수도 있습니다.</block>
   <block id="768c56127fcc2636d57e4635785f71f3" category="section-title">SG110 및 SG1100 서비스 어플라이언스</block>
   <block id="cb8480a76ca9faf13ba8cdaa026a4115" category="inline-link-macro">SG110 및 SG1100 서비스 어플라이언스: 개요</block>
-  <block id="a83eeae8b6fd32d08a2347f7444c21ee" category="admonition">어플라이언스가 유지보수 모드일 때 수행한 IP 구성 변경 사항은 설치된 StorageGRID 환경에 적용되지 않습니다. 를 실행합니다
-<block ref="cca79d77d4e26ceed98b8b75d018051a" category="inline-link-rx"></block><block ref="921c87cca9b14f15a73f4570ad9f3247" prefix="[" category="inline-code"></block> Command]를 눌러 어플라이언스를 StorageGRID로 재부팅합니다.</block>
   <block id="673f51a198147ee01f0eda8def081663" category="paragraph">8개의 팬이 섀시에서 다음 위치에 있습니다(상단 덮개가 분리된 StorageGRID 어플라이언스의 전면 절반 참조).</block>
   <block id="3bd0d1998d06f546858be89f67dafb1c" category="inline-link-macro">SG110 및 SG1100 어플라이언스를 유지 관리합니다</block>
   <block id="e18debed2185f73ee8477857562ba4ee" category="list-text"><block ref="e18debed2185f73ee8477857562ba4ee" category="inline-link-macro-rx"></block></block>
   <block id="6632e86febb1a2e603ec2700897f8a86" category="list-text">SG100 소스 노드 어플라이언스를 SG110, SG1000 또는 SG1100 서비스 대상 어플라이언스에 클론 복제할 수 있습니다. SG100을 SG1000 또는 SG1100 서비스 대상 어플라이언스에 복제하면 관리자 노드 또는 게이트웨이 노드 더 큰 기능이 제공됩니다.</block>
   <block id="b4dbdb727139e5ead70576ff4386d050" category="list-text">SG110 소스 노드 어플라이언스를 SG1100 서비스 어플라이언스 대상에 클론 복제하여 관리자 노드 또는 게이트웨이 노드 더 큰 기능을 제공할 수 있습니다.</block>
-  <block id="977b528f03583de0752d1521f2d8acb9" category="list-text">SG1000 소스 노드 어플라이언스를 SG100, SG110 또는 SG1100 서비스 대상 어플라이언스에 클론 복제할 수 있습니다. SG1000을 SG100 또는 SG110 서비스 대상 어플라이언스에 클론 복제하면 보다 까다로운 애플리케이션을 위해 SG1000을 다시 배포할 수 있습니다.</block>
-  <block id="3c893022293982e3947a5e3e05078f75" category="list-text">SG1100 소스 노드 어플라이언스를 SG110 서비스 대상 어플라이언스에 클론 복제하여 보다 까다로운 애플리케이션을 위해 SG1100을 다시 배포할 수 있습니다.</block>
-  <block id="59830b85779f0e0f99f6eae5dedae7e3" category="paragraph">예를 들어, SG1100 또는 SG1000 소스 노드 어플라이언스를 관리자 노드로 사용 중인 경우 이를 전용 로드 밸런싱 노드로 사용하고자 합니다.</block>
   <block id="b35c0ef428ec255e038f1521fe8a0683" category="list-text">SG1100 소스 노드 어플라이언스를 SG110 서비스 대상 어플라이언스로 교체하면 네트워크 포트의 최대 속도를 100GbE에서 25GbE로 줄일 수 있습니다.</block>
   <block id="e84c89730f464a482aef94ee1a675b10" category="paragraph">이 섹션에서는 SG110 또는 SG1100 어플라이언스 유지 관리에 대한 절차를 다룹니다.</block>
   <block id="ac7d3872004b0a65fa2be33e24e28d8a" category="doc">데이터 센터에서 SG110 또는 SG1100을 찾습니다</block>
@@ -4270,12 +4148,10 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="66104298dc21ba6c0533bc9d0b9b6bf8" category="image-alt">SG110 및 SG1100 드라이브 위치</block>
   <block id="bd7f3d409571f64d9e17003a1374da04" category="paragraph">교체된 드라이브는 작동 중인 드라이브의 미러링된 데이터로 자동으로 재구축됩니다.  그리드 관리자를 사용하여 재생성 상태를 확인할 수 있습니다. nodes *&gt;로 이동합니다<block ref="dde8ded2884e27f868b3a8c4b5416bb3" prefix=" " category="inline-code"></block> &gt; * 하드웨어 *. 드라이브가 완전히 재구성될 때까지 스토리지 RAID 모드 필드에 "재구축" 메시지가 표시됩니다.</block>
   <block id="dc707ffba727d12356011f9f73a992eb" category="doc">SG110 또는 SG110 어플라이언스를 교체합니다</block>
-  <block id="f2a5a8758ca15c3a23a2ddbd079a95ee" category="list-text"><block ref="e02d1a5e1dc87cd7778b4a75e2317828" category="inline-link-macro-rx"></block>.</block>
   <block id="5409d0965e779fcc5620d3cd745ab01f" category="list-text"><block ref="4fa0895d2a03c9ce7010299dc730cc37" category="inline-link-macro-rx"></block>.</block>
   <block id="a48af9b61164e86b2280ebe2bd272712" category="list-text">장애가 발생한 어플라이언스에서 교체 가능한 구성 요소(전원 공급 장치 2개, 냉각 팬 8개, NIC 3개 및 SSD 2개)의 위치를 기록해 둡니다.</block>
   <block id="8b1659eb1302c159af7985a2c22fa27e" category="paragraph">2개의 드라이브는 섀시의 다음 위치에 있습니다(베젤이 분리된 섀시의 전면).</block>
   <block id="c2b15088afc135982ed6160ae5eac813" category="list-text"><block ref="f6c9cca69a348acd8905bc371eb6fc7a" category="inline-link-macro-rx"></block>.</block>
-  <block id="94be36ec44c8318cfab0eec6871e7823" category="list-text">교체된 어플라이언스에 SED 드라이브에 대해 하드웨어 드라이브 암호화가 활성화된 경우 다음을 수행해야 합니다 <block ref="8ca8505552d3e0acf0b7c638e20906f9" category="inline-link-macro-rx"></block> 교체용 어플라이언스를 처음 시작할 때 암호화된 드라이브에 액세스합니다.</block>
   <block id="0a5b0b97f6329c71c665a41fb8e50546" category="paragraph"><block ref="0a5b0b97f6329c71c665a41fb8e50546" category="inline-link-macro-rx"></block></block>
   <block id="77a3632ce069e04667f3c07729bc12e6" category="doc">SG110 및 SG1100 덮개를 교체합니다</block>
   <block id="17f139a2fd45164bf31db4cbc506794e" category="paragraph"><block ref="94283cdb05b445a973e84301f97caf0b" category="inline-link-macro-rx"></block> 상단 덮개에 접근합니다.</block>
@@ -4285,7 +4161,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="4c68b0943e79e049731958e525193bbd" category="paragraph">SG110 또는 SG1100에서 NIC(네트워크 인터페이스 카드)가 최적으로 작동하지 않거나 장애가 발생한 경우 교체해야 할 수 있습니다.</block>
   <block id="927be83d9035c123f8d7d9e8cfafeb94" category="inline-link-macro">SG110 또는 SG1100 어플라이언스를 실제로 찾았습니다</block>
   <block id="24bf7ce85a6fb58803cea8f5c88ca74b" category="list-text">있습니다 <block ref="452dbc820d5040c6f7a26972163c857d" category="inline-link-macro-rx"></block> 데이터 센터에서 NIC를 교체하는 위치입니다.</block>
-  <block id="73a2518b7d3a736d59aa912a57abda34" category="admonition">A <block ref="937f3ef5575067c7f2242672e77298dc" category="inline-link-macro-rx"></block> 제품을 랙에서 분리하기 전에 필요합니다.</block>
   <block id="6c5d9be04e7c66d804e9922fc591088c" category="list-text">모든 케이블 및 을(를) 분리했습니다 <block ref="dc7225cbd8d4b68386891f4f43bfe53f" category="inline-link-macro-rx"></block>.</block>
   <block id="f9cae9b628024fbe396a0cbabe539188" category="doc">SG110 또는 SG1100에서 CMOS 배터리를 교체합니다</block>
   <block id="bfe3df71e69779f16f86cfe5c2c8630c" category="inline-link-macro">CMOS 배터리를 교체해야 하는 SG110 또는 SG1100을 확인했습니다</block>
@@ -4301,7 +4176,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="e8a36eefffb270e7fdfcbe70cfae02c8" category="inline-link-macro">SG110 또는 SG1100의 물리적 위치</block>
   <block id="da293f6803f9457d5e25775b4d7ba62c" category="list-text">있습니다 <block ref="cbbe557358a36c0ce95c8f4a10b6af30" category="inline-link-macro-rx"></block> 데이터 센터에서 유지 관리를 수행하는 단계입니다.</block>
   <block id="c9c52f1bbaf493c0bd060f99e9b4d31b" category="inline-link-macro">SG110 또는 SG1100을 종료합니다</block>
-  <block id="a356c4d9c1948b8dc45c1ffca6f88115" category="list-text">있습니다 <block ref="7c024e7b821ea2605c8d62e2c8b78fe4" category="inline-link-macro-rx"></block>.</block>
   <block id="654b557c64cf80df53d669b5e931d3da" category="image-alt">SG110 또는 SG1100 랙 고정 나사</block>
   <block id="4187702a620626981506c308f62e0442" category="list-text">장착 레일이 완전히 확장되고 양쪽에 있는 래치가 딸각하는 소리가 들릴 때까지 SG110 또는 SG1100을 랙에서 앞으로 밀어 꺼냅니다.</block>
   <block id="609dfb79180e75d183414141ff1c7699" category="section-title">SG110 또는 SG1100을 캐비닛 또는 랙에 다시 설치합니다</block>
@@ -4310,7 +4184,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="c95bfc841349ab8679294cc677e88c9d" category="paragraph"><block ref="c95bfc841349ab8679294cc677e88c9d" category="inline-link-macro-rx"></block></block>
   <block id="e19587ca009fb28c16d995c5edbd1fa5" category="list-text">파란색 레일을 누르면 두 랙 레일이 동시에 분리되고 SG110 또는 SG1100이 완전히 장착될 때까지 랙에 밀어 넣습니다.</block>
   <block id="22dc184830c2cbda4b043ab5a3cce6bb" category="image-alt">레일에 슬라이딩 SG110 또는 SG1100</block>
-  <block id="74c2ea6aca800b8766b877c2b16a7728" category="paragraph"><block ref="c8ee67fa13b2b241963a60e9659d4d7f" category="inline-link-macro-rx"></block>.</block>
   <block id="b4b1ae13ff19104a2638fac1e91cf92f" category="doc">SG110 또는 SG1100의 전원을 껐다가 켭니다</block>
   <block id="b9240936ed31e305085463f5cce2c053" category="paragraph">SG110 또는 SG1100 어플라이언스를 종료한 후 전원을 다시 켜서 유지 관리를 수행할 수 있습니다.</block>
   <block id="b1c1dfb471a6f1f3fd2166422e5ee696" category="section-title">SG110 또는 SG1100 어플라이언스를 종료합니다</block>
@@ -4323,11 +4196,9 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="a494d05ff2448de4863300634404b00e" category="list-text"><block ref="7605313cc83fe468541967e7fefdaac9" category="inline-link-macro-rx"></block>래치를 아래로 눌러 덮개를 제자리에 고정합니다.</block>
   <block id="2b714c159ee37bfcda3d8997dbf8c34a" category="list-text"><block ref="d562fca429c3ba3818e1a9ce8be74798" category="inline-link-macro-rx"></block> 어플라이언스 LED 및 부팅 코드를 모니터링합니다.</block>
   <block id="b337d01c3682624445d3043b34d4f142" category="paragraph">* 유지관리 구성 절차 * 는 어플라이언스 설치 프로그램, 그리드 관리자 또는 BMC 인터페이스를 사용하여 수행됩니다. 이러한 절차에는 다음이 포함됩니다.</block>
-  <block id="e26ffb539a1b2a0b29867450005b8bee" category="paragraph"><block ref="e6765e58c61518e3539dcb7717155370" category="inline-link-macro-rx"></block>.</block>
   <block id="e7e49b9f955135fd24f83c367558f704" category="sidebar">SG110 또는 SG1100 어플라이언스를 교체합니다</block>
   <block id="b2f29fa8f4a845926f04c6b42a76608e" category="sidebar">SG110 또는 SG1100을 랙에 재배치합니다</block>
   <block id="05e5b945264ec2a7a4fb43cd609f1363" category="sidebar">SG110 및 SG1100 네트워크 정보입니다</block>
-  <block id="74c62c67c3d6082d54f23ecf0b6db84a" category="sidebar">SG110 및 SG1100(신규)</block>
   <block id="d6fca2602ac9cbcfb8a14dfb1f7739de" category="sidebar">BMC 인터페이스 구성(SG100, SG110, SG1000, SG1100, SG6000, 및 SG6100)</block>
   <block id="3cedc3146b91b16ed8ebb1fee915113d" category="sidebar">설치 문제 해결(SG110 및 SG1100)</block>
   <block id="a2e2012b6b8c458228b1e15b454770f0" category="sidebar">SG110 및 SG1100 하드웨어 유지보수</block>
@@ -4359,7 +4230,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="824c69f392afac52cf0df413bba182db" category="list-text">컨트롤러 캐니스터에 연결된 각 케이블을 식별하는 레이블입니다.</block>
   <block id="7205b64f3f16e1d51e7a5571ef199fc1" category="list-text">SANtricity System Manager 액세스:</block>
   <block id="5bae71ef74f18a1eafb4dd38d03179fc" category="inline-link">SANtricity 시스템 관리자 탭</block>
-  <block id="f1bc9a7acb92fc530debe4876b5fa6f8" category="list-text">그리드 관리자에서 * nodes * &gt; *_appliance node_ * &gt; * SANtricity System Manager * 를 선택합니다. 컨트롤러 정보는 에 있습니다<block ref="8cda1b10cdeda80d8878af8201ad4b36" category="inline-link-rx"></block>.</block>
   <block id="ee2e86ae661f8d5f1b2929908e487683" category="admonition">이 절차의 특정 단계에서는 그리드 관리자를 사용하여 SANtricity 시스템 관리자에 액세스하지 못할 수 있습니다. SG5800 컨트롤러가 종료된 경우 브라우저를 사용하여 SANtricity System Manager에 액세스해야 합니다.</block>
   <block id="748a16873acefe7987ba1df0537fdde0" category="list-text">관리 스테이션의 브라우저에서 컨트롤러의 도메인 이름 또는 IP 주소를 가리킵니다.</block>
   <block id="580a98b407c693e5484cd51c02eb9563" category="section-title">1단계: DIMM을 교체해야 하는지 확인합니다</block>
@@ -4415,9 +4285,7 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="685636dc5350b778abfb785eaf60ca39" category="list-text">DIMM을 끝까지 돌린 다음 소켓에서 DIMM을 꺼냅니다.</block>
   <block id="bc6f68ddb18a2f2b33244b2f8f11420b" category="admonition">DIMM 회로 보드의 구성 요소에 압력이 가해질 수 있으므로 DIMM의 가장자리를 조심스럽게 잡으십시오.</block>
   <block id="e4f96ad3979c5e1ad029cfb1aef791cc" category="image-alt">DIMM을 분리합니다.</block>
-  <block id="9e64f9f7a827c26fc2d5c89975330a4c" category="image-alt">범례 아이콘 01</block>
   <block id="cfc8a707905d308742a0633fefb9ba76" category="cell">DIMM 이젝터 탭</block>
-  <block id="cd8fc17dc540949d4a2220442f92f1e4" category="image-alt">범례 아이콘 02</block>
   <block id="5550b5c21becc525ad89172c3f6562a7" category="cell">DIMM입니다</block>
   <block id="780061b11a4f33cc8eecc0c1fd85c471" category="list-text">정전기 방지 포장용 백에서 교체용 DIMM을 제거하고 DIMM을 모서리에 맞춰 슬롯에 맞춥니다.</block>
   <block id="54c4ac61314c29265db975e7abc3e29f" category="paragraph">DIMM의 핀 사이의 노치가 소켓의 탭과 일직선이 되어야 합니다.</block>
@@ -4684,8 +4552,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="0a0e11a593a1ae795c58a7ea1751517a" category="list-text">지원 데이터 수집 을 선택합니다.</block>
   <block id="b54c595bb71cefacd0ee6e5a4d68dc02" category="list-text">수집 을 클릭합니다.</block>
   <block id="efd279df83f7980b63864ad37d922c7b" category="paragraph">배터리 교체가 완료되었습니다. 일반 작업을 다시 시작할 수 있습니다.</block>
-  <block id="18933f9d2ebf6f8bf7e7947ab0bce7d7" category="doc">SG5800 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다</block>
-  <block id="5ea91833755ea0a0d17e74ee434bf41d" category="paragraph">StorageGRID 어플라이언스에서 사용할 수 있는 최신 SANtricity OS 버전을 확인하려면 을(를) 참조하십시오<block ref="e7b75487549954e00354c6731ea3ca9e" category="inline-link-rx"></block> 필요한 경우 다운로드합니다.</block>
   <block id="cd39d2cd100c7fba2f06debd14ee7b94" category="doc">SG5800 드라이브 펌웨어의 업그레이드 오류 문제 해결</block>
   <block id="432fc9ca6a732f41755849d144322681" category="summary">전원 이중화를 위해 2개의 전원 캐니스터가 포함된 60-드라이브 컨트롤러 쉘프 또는 드라이브 쉘프를 교체합니다.</block>
   <block id="fc9d2a7031883dd4802020b9492deded" category="doc">SG5860의 전원 캐니스터를 교체합니다</block>
@@ -4700,7 +4566,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="35dad50be3b954e82fa1f029dca60fb0" category="paragraph">파워 캐니스터를 교체할 준비를 합니다.</block>
   <block id="715982174e7e4dcda393bbe2bb35e421" category="list-text">지원 [지원 센터 &gt; 진단] 메뉴를 선택합니다.</block>
   <block id="893ab1ae5c17160128a9140e253794ab" category="list-text">SANtricity 시스템 관리자에서 실패한 전원 캐니스터를 확인합니다.</block>
-  <block id="61840a278143b576453579e28a6c98f6" category="list-text">파워를 보십시오 <block ref="5c179093712741c1ac6d83d8605b855b" category="inline-image-macro-rx" type="image"></block> 아이콘을 * Shelf * 드롭다운 목록의 오른쪽에 클릭하여 장애 전원 캐니스터가 있는 쉘프를 확인합니다.</block>
   <block id="8092906792979c8b780953ad0d13e083" category="paragraph">구성 요소에 장애가 발생한 경우 이 아이콘은 빨간색입니다.</block>
   <block id="e902c8e51932ed0636fb1d2879d9372d" category="list-text">빨간색 아이콘이 있는 쉘프를 찾은 경우 * Show back of shelf * 를 선택합니다.</block>
   <block id="d41778d835aaa9f2630fdeb56c8cfe13" category="list-text">전원 캐니스터 또는 빨간색 전원 아이콘을 선택합니다.</block>
@@ -4755,7 +4620,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="773c2723d6a9a0d160532312c104863d" category="section-title">1단계: 팬 캐니스터 교체 준비</block>
   <block id="83eeb9945d1dc6f7b70309d62a09af0b" category="paragraph">스토리지 배열에 대한 지원 데이터를 수집하고 장애가 발생한 구성 요소를 찾아 팬 캐니스터 교체를 준비합니다.</block>
   <block id="a70c638aa6442dd0cd4bd489333586ac" category="list-text">SANtricity 시스템 관리자에서 어떤 팬 캐니스터가 고장났는지 확인합니다.</block>
-  <block id="a53ae7e73bae0d5966dfe3f672b56332" category="list-text">팬을 살펴봅니다 <block ref="05e710a523d2bede5c636c5e4f922688" category="inline-image-macro-rx" type="image"></block> 아이콘을 * Shelf * 드롭다운 목록의 오른쪽에 클릭하여 장애 발생 팬 캐니스터가 있는 쉘프를 확인합니다.</block>
   <block id="50cc8192e748bb17a8df770d5a32cf75" category="list-text">팬 캐니스터 또는 빨간색 팬 아이콘을 선택합니다.</block>
   <block id="54f2a1ff285dde23857c41e5f7c6ec19" category="list-text">Fans* 탭에서 팬 캐니스터의 상태를 확인하여 어떤 팬 캐니스터를 교체해야 하는지 확인합니다.</block>
   <block id="7c04b30a180a09ed131bbe1dd9ccbb51" category="admonition">선반에 있는 두 번째 팬 캐니스터가 * Optimal * (최적 *) 상태가 아니면 고장난 팬 캐니스터를 핫 스왑하지 마십시오. 대신 기술 지원 부서에 지원을 요청하십시오.</block>
@@ -4790,7 +4654,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="152913b57dc0f6847aa70f4ee84c4c44" category="list-text">지원 &gt; 지원 센터 &gt; 진단 * 을 선택합니다.</block>
   <block id="2c38f05e53de6004289a3631a4250cc8" category="list-text">SANtricity 시스템 관리자에서 실패한 전원 공급 장치를 확인합니다.</block>
   <block id="209efedd4d6d66610471d4b9281405e1" category="paragraph">이 정보는 Recovery Guru의 세부 정보 영역에서 찾거나 쉘프에 대해 표시되는 정보를 검토할 수 있습니다.</block>
-  <block id="05c53e0ddd1f2e97904a4e7a0715bee0" category="list-text">파워를 보십시오 <block ref="5c179093712741c1ac6d83d8605b855b" category="inline-image-macro-rx" type="image"></block> 팬 <block ref="05e710a523d2bede5c636c5e4f922688" category="inline-image-macro-rx" type="image"></block> 쉘프 * 드롭다운 목록 오른쪽에 있는 아이콘을 클릭하여 장애 전원 공급 장치가 있는 쉘프를 확인합니다.</block>
   <block id="b4cf459575f55b9522f5a3df6c095dce" category="paragraph">구성 요소에 오류가 발생한 경우 이러한 아이콘 중 하나 또는 둘 다 빨간색입니다.</block>
   <block id="60f50fc085055091f055cf0f3bf2fb86" category="list-text">전원 공급 장치를 선택합니다.</block>
   <block id="10c055892271a83993e7398f73245393" category="list-text">전원 공급 장치* 및 *팬* 탭에서 전원 팬 캐니스터, 전원 공급 장치 및 팬의 상태를 보고 어떤 전원 공급 장치를 교체해야 하는지 확인합니다.</block>
@@ -4917,7 +4780,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="20d4ad7302d59cc00a8fda9a9f549883" category="list-text">그리드 및 클라이언트 네트워크 포트는 자동 협상이 링크 속도로 선택되고 포트 결합 모드로 고정이 선택된 경우에만 다른 속도로 실행될 수 있습니다. 그렇지 않으면 포트 4개가 모두 같은 속도로 실행됩니다.</block>
   <block id="76caeddfbf7a30108ac0c230c0790b19" category="paragraph">SG6160, SG6000, SG5800 및 SG5700의 경우 SANtricity System Manager를 구성합니다. SANtricity 소프트웨어는 이러한 어플라이언스의 하드웨어를 모니터링하는 데 사용됩니다.</block>
   <block id="e1625de3f6c73370d4238f76e2d7c923" category="list-text">하드웨어 모니터링에 사용할 SANtricity 시스템 관리자(SG5700, SG5800, SG6000 및 SG6100)를 구성합니다</block>
-  <block id="5c805d9f17dbca3e765899fe3c79ad03" category="list-text">SG6000-CN 또는 SG6100-CN 컨트롤러용 BMC 인터페이스에 액세스합니다</block>
   <block id="d50073bc1f70506eed0240c89301c447" category="summary">StorageGRID SG6100 시리즈 어플라이언스는 StorageGRID 시스템에서 스토리지 노드로 작동합니다.  다른 모든 StorageGRID 어플라이언스와 마찬가지로, 한 번의 구축으로 다른 어플라이언스 모델 및 소프트웨어 전용 노드와 자유롭게 혼합할 수 있습니다.</block>
   <block id="238b2f6f0befef83f791adc9c97aab03" category="paragraph">StorageGRID SG6160 어플라이언스에는 읽기 캐시로 작동하는 NVMe SSD 쌍이 포함된 컴퓨팅 컨트롤러와 스토리지 컨트롤러 2개와 NL-SAS 하드 드라이브 60개를 포함하는 스토리지 컨트롤러 쉘프가 포함됩니다. 최대 2개의 선택적 확장 셸프를 추가하여 최대 180개의 NL-SAS 하드 드라이브까지 확장할 수 있습니다. StorageGRID SGF6112 어플라이언스는 12개의 NVMe SSD가 채워진 소형 1U 폼 팩터를 갖춘 All-Flash 어플라이언스입니다.</block>
   <block id="77783d17070c097b0b2bdefcf60a58a8" category="paragraph">SGF6112 및 SG6160 어플라이언스는 다음과 같은 기능을 제공합니다.</block>
@@ -4961,7 +4823,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="7f515b7b271e2f2650ab9205041ae23a" category="section-title">SG6100 컨트롤러</block>
   <block id="e095a9ee88152254e105acb911c6ddc3" category="section-title">SG6100-CN 컴퓨팅 컨트롤러</block>
   <block id="9e6efa9cf5cab14b623ece7b4484e851" category="image-alt">SG6100-CN 후면 커넥터</block>
-  <block id="fc001ab6e2d7a82822431bab29184e34" category="paragraph">케이블 또는 SFP 트랜시버 유형, 스위치 속도 및 구성된 링크 속도를 기반으로 하는 10GbE, 25GbE 또는 100GbE</block>
   <block id="adf89afa6fb2cb5790764d361c1197ad" category="paragraph">SG6100-CN 베이스보드 관리 컨트롤러에 연결합니다.</block>
   <block id="eecadf3f4a72170ab05bbffe174574b6" category="paragraph">SG6100-CN을 StorageGRID용 관리 네트워크에 연결합니다.</block>
   <block id="c32f651c9723102d4736cde6f2380926" category="paragraph">상호 연결 포트입니다</block>
@@ -4989,15 +4850,12 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="df1b95911c4f6882e45d24f2259a56e6" category="list-text">확장 쉘프가 있는 경우 다음 단계를 반복하여 각 확장 쉘프의 각 드로어에 NL-SAS 드라이브 12개를 설치합니다.</block>
   <block id="b218bef4cfb11040fa05a34d90fae202" category="list-text">SG6100-CN을 캐비닛이나 랙에 설치하는 지침을 진행합니다.</block>
   <block id="f80088ee28f7604e9f8592d90fa6728a" category="inline-link-macro">SG5800 컨트롤러의 링크 구성을 변경합니다</block>
-  <block id="06670f0887e1e6231759b0c18c236453" category="list-text"><block ref="06670f0887e1e6231759b0c18c236453" category="inline-link-macro-rx"></block></block>
   <block id="55c62a33f4c4845aa583cada0c7c5cc2" category="doc">하드웨어 설치 문제 해결(SG5800 또는 SG6100)</block>
-  <block id="67829ca668814889b20e11dd7ae1278b" category="section-title">부팅 코드 보기(SGF6112 및 SG6160만 해당)</block>
   <block id="223443ade3977f88b0b9803a5b6b9269" category="list-text">USB 케이블</block>
   <block id="545471d8f02ab7e136641a52e51a2a01" category="admonition">경우에 따라 기본 사용자 이름이 'admin' 대신 'root'일 수 있습니다.</block>
   <block id="c93ea9c6b3ac300738245274f885b4b1" category="paragraph">SG6160 모델만 해당:</block>
   <block id="43e28363ded43d73ad8ac28a6111392d" category="paragraph">* 참고 *: 부팅 절차가 이 단계를 지나도 진행되지 않으면 다음 단계를 수행하십시오.</block>
   <block id="fca532d96db500a0a69be39e5b335bdb" category="list-text">SG6100-CN 컨트롤러와 두 스토리지 컨트롤러 사이의 인터커넥트 케이블 4개가 안전하게 연결되었는지 확인합니다.</block>
-  <block id="9b7f2dc0ae072f34841a60d1d7640cc8" category="section-title">오류 코드 보기(SGF6112 및 SG6160만 해당)</block>
   <block id="d42295299a1cbc4cb6230b793ee6e5da" category="list-text">어플라이언스의 LED 및/또는 BMC에 표시되는 부팅 및 오류 코드(장착된 경우)를 검토합니다.</block>
   <block id="9ae5b4acced88571bf83d9099f626ab3" category="section-title">확장 셸프가 어플라이언스 설치 프로그램에 나타나지 않음(SG6160)</block>
   <block id="cbcf875f9db88c03ec6dd7149506babb" category="paragraph">확장 셸프가 설치되어 있고 StorageGRID 어플라이언스 설치 프로그램에 나타나지 않는 경우 셸프가 완전히 설치되어 있고 전원이 켜져 있는지 확인해야 합니다.</block>
@@ -5017,7 +4875,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="32ffda78ae2a587b5d8e5c836a950931" category="image-alt">SG6100 레일 슬라이딩</block>
   <block id="820701e6693a357bbb41eaa4bab830d0" category="image-alt">SG6160 랙 고정 나사</block>
   <block id="beec78facd678008d6aba848431e2f9b" category="doc">선택 사항: RAID 모드 변경(SG5760, SG5860, SG6000 및 SG6160)</block>
-  <block id="9c4a3ebc6e3cc35cf21692e17aaa9763" category="list-text">* DDP(동적 디스크 풀) *: 이 모드는 데이터 드라이브 8개마다 2개의 패리티 드라이브를 사용합니다. 모든 어플라이언스에 대한 기본 권장 모드입니다. DDP는 RAID 6과 비교하여 시스템 성능을 향상하고, 드라이브 장애 후 리빌드 시간을 줄이고, 관리를 간소화합니다. DDP는 또한 SG5760, SG5860 및 SG6160 어플라이언스에서 드로어 손실 보호를 제공합니다.</block>
   <block id="89d7713591083db229780baef1fd7a93" category="open-title">SG5860</block>
   <block id="8097e6b5736f5902818ddcd581b46b25" category="list-text">60개의 드라이브가 있는 SG5860이 있습니다. SG5812가 있는 경우 기본 DDP 모드를 사용해야 합니다.</block>
   <block id="644a9662bfc608c4e24ec9f9d1c53dc6" category="list-text">서비스 랩톱을 사용하여 웹 브라우저를 열고 StorageGRID 어플라이언스 설치 프로그램:+ 에 액세스합니다<block ref="543c5eba2770d8d7b78d53a6e96eec12" prefix=" " category="inline-code"></block></block>
@@ -5055,7 +4912,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="ee0d7ce7f3f04a927e4972f514fd99c9" category="inline-link-macro">SG5800 하드웨어 설치 문제를 해결합니다</block>
   <block id="6e11a1131d9974f2fd0c9ec0f8b70da1" category="paragraph">StorageGRID 어플라이언스 설치 프로그램을 시작한 후 SG5800 컨트롤러의 상태 표시기를 주기적으로 검토해야 합니다.</block>
   <block id="043b3b7e7d1cab87dcb9bbe4e09747f6" category="paragraph">다음 그림은 SG5800 컨트롤러의 상태 표시등을 보여줍니다.</block>
-  <block id="ee19c832192b29abe3714f9cd076b86b" category="paragraph">다음 그림은 SG6100 제품의 표시등과 버튼입니다.</block>
   <block id="a1d1c5c3d0d9a5f37b3e9c802075363c" category="paragraph">이 표시등은 SG6100 제품에서 사용되지 않으며 꺼져 있습니다.</block>
   <block id="26d3431ec32e39ad87b42dd94029fd5d" category="paragraph">다음 그림은 SGF6112 또는 SG6160 어플라이언스의 SSD 표시등을 보여줍니다.</block>
   <block id="0b393e9e1f5538879c19f759d1a006f7" category="paragraph">*참고:* 정상 작동하는 새 SSD가 작동 중인 SGF6112 또는 SG6160 StorageGRID 노드에 삽입되면 SSD의 LED가 처음에는 깜박이지만, 시스템이 드라이브의 용량이 충분하고 작동 중임을 확인하자마자 깜박임을 멈춥니다.</block>
@@ -5106,8 +4962,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="b311407ac8f1e864f5265bfcfbc86e13" category="list-text">100-GbE QSFP28</block>
   <block id="a2561c0e281fe3a4373beff950cd8c01" category="paragraph">120볼트 - 240볼트 AC</block>
   <block id="01db6415639d41cb635a63f3dd76ce67" category="paragraph">SG5812</block>
-  <block id="ee1ebf14afa6f51d0bdc0c7b7d95e0fd" category="paragraph">120 ~ 240V AC</block>
-  <block id="c645bb2671c75a31858237b9ef960e1d" category="paragraph">100 ~ 240V AC</block>
   <block id="53c0fd4bf33a4f5209bcd292aca9cd4a" category="paragraph">3.4형.</block>
   <block id="8dcceeb66c6a4bd4aa5d09b0cca30d0a" category="paragraph">(8.6cm)</block>
   <block id="d6864ab259d3d42319bb56dbe4b90b65" category="paragraph">(44.8cm)</block>
@@ -5219,14 +5073,9 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="8c153a995614ef0a6ba70a818a49be84" category="summary">SG5800 스토리지 어플라이언스의 하드웨어를 유지 관리합니다.</block>
   <block id="7d090f8d618279a3d149398716b33fdb" category="doc">SG5800 스토리지 어플라이언스 하드웨어를 유지보수 합니다</block>
   <block id="f7e2b8e3d85d290dcca43cce02c80067" category="section-title">SG5812 및 SG5860 어플라이언스</block>
-  <block id="d7efad05f54e12d8b229dc0d62771c27" category="paragraph">새로운 StorageGRID SG5812 및 SG5860 어플라이언스는 StorageGRID 그리드에서 스토리지 노드로 작동하는 통합 스토리지 및 컴퓨팅 플랫폼입니다. 를 참조하십시오<block ref="1734786df2c4f776b6423022989a975b" category="inline-link-rx"></block> 을 참조하십시오.</block>
   <block id="f9b87deff325082cc0a1f50f4e181511" category="inline-link-macro">SGF6100 어플라이언스: 개요</block>
-  <block id="f188677f8280c9744bd1ef6fee35d5db" category="paragraph">새 StorageGRID SG6160 어플라이언스에는 2개의 스토리지 컨트롤러와 60개의 드라이브, 캐싱을 위한 NVMe SSD 드라이브 2개가 포함된 컴퓨팅 컨트롤러 및 스토리지 컨트롤러 쉘프가 포함됩니다. 선택적으로 60개 드라이브 확장 쉘프를 SG6160에 추가할 수 있습니다. 을 참조하십시오 <block ref="dc1838b204cabed776c113546e2bd56a" category="inline-link-macro-rx"></block> 을 참조하십시오.</block>
   <block id="e12ebc016927211d63794de19e7cf124" category="paragraph">새로운 StorageGRID SG110 및 SG1100 서비스 어플라이언스는 향상된 관리 및 로드 밸런싱 성능을 제공하는 혁신적인 하드웨어 업데이트입니다. 을 참조하십시오 <block ref="3c058555c619096548fbed1bbe78e3c7" category="inline-link-macro-rx"></block>.</block>
-  <block id="f27ed0a94f9eee56d32bbb5c205f81eb" category="admonition">개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 대한 액세스가 일시적으로 손실될 수 있으므로 예약된 유지 관리 기간 동안 팬을 교체해야 합니다. 에 대한 정보를 참조하십시오<block ref="f69c469323896c5f53b0b141dcfc1ae2" category="inline-link-rx"></block>.</block>
   <block id="b60e3f350dfafff923b7172d86b066de" category="doc">내장 NIC를 다시 설치합니다</block>
-  <block id="94d010826f8f96b560725f0d09c13a79" category="admonition">개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 NIC를 교체해야 합니다. 에 대한 정보를 참조하십시오<block ref="f69c469323896c5f53b0b141dcfc1ae2" category="inline-link-rx"></block>.</block>
-  <block id="e60a5d7fc05dc7aa04ee5e7026a49fa5" category="admonition">개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 배터리를 교체해야 합니다. 에 대한 정보를 참조하십시오<block ref="f69c469323896c5f53b0b141dcfc1ae2" category="inline-link-rx"></block>.</block>
   <block id="3f069ee729875ead128854e2d4b0be0c" category="list-text"><block ref="3f069ee729875ead128854e2d4b0be0c" category="inline-link-macro-rx"></block></block>
   <block id="3f05f5216237fcf2b2bad4efa8026d10" category="list-text">교체 어플라이언스의 StorageGRID 어플라이언스 설치 프로그램 버전이 필요한 경우 StorageGRID 어플라이언스 설치 프로그램 펌웨어를 업그레이드 또는 다운그레이드하는 StorageGRID 시스템의 소프트웨어 버전과 일치하는지 확인했습니다.</block>
   <block id="476162db1ad0a3ccd8baf4c31ab26fb4" category="doc">MAC 주소 참조 업데이트(SG100, SG1000, SGF6024 및 SG6060)</block>
@@ -5287,7 +5136,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="1ecc95a39ea26f34e7268be87dbc3786" category="paragraph">드라이브는 섀시의 다음 위치에 있습니다(베젤이 분리된 섀시의 전면).</block>
   <block id="aed3a6e51582511fdf422c24d584d1a7" category="image-alt">SG6160의 SSD 위치</block>
   <block id="53edb80130864b9cb5a075e3fe5b3e03" category="inline-link">진단 유틸리티를 실행합니다</block>
-  <block id="becc5747410d6d3b9373c76a2c82269e" category="paragraph">두 SSD 드라이브가 정상적으로 작동하는 경우 시스템은 자동으로 읽기 캐시 기능을 복원합니다. 가능합니다<block ref="49a773a5019753255d2d2b6f10a54073" category="inline-link-rx"></block> 읽기 캐시 적중률을 모니터링합니다. 캐시가 방금 재구축되었기 때문에 처음에는 적중률이 낮을 수 있지만 개체 데이터에 액세스하는 클라이언트가 캐시를 다시 채울 때 시간이 지남에 따라 증가해야 합니다.</block>
   <block id="6afe076d745c28e67848c230c127f912" category="doc">SGF6112 또는 SG6100-CN에서 교체할 구성요소를 확인합니다</block>
   <block id="99333dae3b0ba16106970b638ebd27fc" category="doc">스토리지 컨트롤러 쉘프 또는 확장 쉘프의 팬 캐니스터 교체(SG6160)</block>
   <block id="d07f54da4fcb4b065be41f5c4be9a44d" category="paragraph">SG6160의 팬 캐니스터를 교체할 수 있습니다.</block>
@@ -5296,7 +5144,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="21ca0a6d008a3f0d6fadcffb1f54e4ba" category="list-text">팬 캐니스터의 황색 주의 LED가 켜져 있고 팬에 결함이 있음을 나타내는지 확인합니다. 어플라이언스의 두 팬 캐니스터에 황색 주의 LED가 켜지면 기술 지원 부서에 문의하십시오.</block>
   <block id="0ecdbc8b9a11e80bf7c8f9a74c14dc53" category="paragraph">어플라이언스에 대한 지원 데이터를 수집하고 결함이 있는 구성 요소를 찾아 팬 캐니스터 교체를 준비합니다.</block>
   <block id="83aaf3642bbba28d36f4da51adfee35e" category="list-text">Support Center &gt; 진단 * 을 선택합니다.</block>
-  <block id="fc8caa2eed66d0f248d4ec071522cfc4" category="list-text">팬을 살펴봅니다 <block ref="05e710a523d2bede5c636c5e4f922688" category="inline-image-macro-rx" type="image"></block> 아이콘을 클릭하여 팬 캐니스터가 고장난 어플라이언스를 확인합니다.</block>
   <block id="ec354b1258c06ae6583157f8ef2196b3" category="list-text">빨간색 아이콘이 있는 제품을 찾으면 * 선반 뒷면 표시 * 를 선택합니다.</block>
   <block id="f7adda54e6937a70013a89b48b669c86" category="admonition">어플라이언스의 두 번째 팬 캐니스터가 * 최적 * 상태가 아니면 고장난 팬 캐니스터를 핫스왑하지 마십시오. 대신 기술 지원 부서에 지원을 요청하십시오.</block>
   <block id="3b33e5703e1569451a346dd29af50b51" category="list-text">새 팬 캐니스터의 포장을 풀고 제품 근처의 평평한 표면에 놓습니다.</block>
@@ -5375,11 +5222,9 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="a1810e1ee9dc4a56e47017d6a63bd3d2" category="inline-link-macro">SGF6112 또는 SG6100-CN의 위치를 물리적으로 지정했습니다</block>
   <block id="843764d471e95f5a4269bb5e6d2b145b" category="list-text">있습니다 <block ref="cf3c649780f1306d5adbe47d3f7a2d2c" category="inline-link-macro-rx"></block> 데이터 센터에서 유지 관리를 수행하는 단계입니다.</block>
   <block id="79a966caab2b12effdf2053e5e4f55d6" category="inline-link-macro">SGF6112 또는 SG6100-CN을 종료합니다</block>
-  <block id="3bf41c406f5766d1b62e764d78815006" category="list-text">있습니다 <block ref="49296b47acea766c5c7d891047bed3f2" category="inline-link-macro-rx"></block>.</block>
   <block id="ceedd6bc488978da982637b521428bf5" category="image-alt">SGF6112 또는 SG6100-CN 랙 고정 나사</block>
   <block id="9b6b980304823e819d6a10f2887e228a" category="list-text">장착 레일이 완전히 확장되고 양쪽에 있는 래치가 딸각하는 소리가 들릴 때까지 SGF6112 또는 SG6100-CN을 랙에서 앞으로 밀어 꺼냅니다.</block>
   <block id="ea451a7e000e56ca9723a7327e0a5ee5" category="section-title">SGF6112 또는 SG6100-CN을 캐비닛 또는 랙에 다시 설치합니다</block>
-  <block id="486637db4093d2e7f93d6c755fc52ef2" category="doc">드라이브 관리 탭 사용(SGF6112)</block>
   <block id="e68af6822729f2d13a6e09c482933d41" category="doc">유지보수 모드를 사용하여 SG6160 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다</block>
   <block id="26057f35f4601a7c8747345c376102c0" category="paragraph">유지보수 모드를 사용하여 SG6160 컨트롤러에서 SANtricity OS를 업그레이드할 수 있습니다.</block>
   <block id="60f3c8de41561e30c6a1bb54457dead2" category="admonition">현재 08.42.20.00(11.42) 이상의 SANtricity OS를 사용 중인 스토리지 컨트롤러의 경우 를 권장합니다 <block ref="676f8e0aaa6d1091bae102dc63249cf0" category="inline-link-macro-rx"></block>. 그러나 원하는 경우나 기술 지원 부서의 지시가 있는 경우에는 유지보수 모드 절차를 사용할 수 있습니다.</block>
@@ -5397,19 +5242,15 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="77442a88ebd7cb0929276245bb6fa261" category="doc">SGF6112 또는 SG6100-CN의 하나 또는 두 전원 공급 장치를 교체합니다</block>
   <block id="b40f48980b91f6eeeaca45a02098961f" category="paragraph">이 그림은 SGF6112 어플라이언스 또는 SG6100-CN 컴퓨팅 노드에 대한 2개의 전원 공급 장치를 보여줍니다. 전원 공급 장치는 제품 뒷면에서 액세스할 수 있습니다.</block>
   <block id="56347f82384b21f0e089b756280bf350" category="image-alt">2개의 전원 공급 장치가 있는 SGF6112 또는 SG6100-CN 후면</block>
-  <block id="dcbfe91a20e41ca1166b39996007957a" category="admonition">개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있고 두 전원 공급 장치를 동시에 교체하는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 전원 공급 장치를 교체해야 합니다. 에 대한 정보를 참조하십시오<block ref="f69c469323896c5f53b0b141dcfc1ae2" category="inline-link-rx"></block>.</block>
   <block id="45c26226adb5ac780361eb67562102b4" category="summary">SG6100-CN의 네트워크 인터페이스 카드\(NIC\)가 최적으로 작동하지 않거나 장애가 발생한 경우 교체해야 할 수 있습니다.</block>
   <block id="b64bc50a417ed89b6f98a9cf7702f4c6" category="doc">SG6100-CN의 외부 NIC를 교체합니다</block>
   <block id="68389729ef500c851bd175b61c435629" category="paragraph">SG6100-CN의 외부 NIC(네트워크 인터페이스 카드)가 최적으로 작동하지 않거나 장애가 발생한 경우 교체해야 할 수 있습니다.</block>
   <block id="873f4e1b6b1acfd0f6ea7fc4a7cee73c" category="image-alt">NIC 전면판.</block>
   <block id="a906778e494f0b40580e1e85dcb33e85" category="inline-link-macro">SG6100-CN 컨트롤러를 물리적으로 배치했습니다</block>
   <block id="58e70c1ae42267f307cdffab0cdfbbe4" category="list-text">있습니다 <block ref="5c1fa18bafcc8d60bd46b368c02cb91a" category="inline-link-macro-rx"></block> 데이터 센터에서 NIC를 교체하는 위치입니다.</block>
-  <block id="63f8fca3cb7c8b6c25c6c9a37f3c0e4a" category="admonition">이 절차에서는 핫 스왑이 * 지원되지 않습니다 *. A <block ref="6bb1c156f9acfcc4bd439f64de9f6179" category="inline-link-macro-rx"></block> 케이블을 분리하고 NIC를 제거하기 전에 필요합니다.</block>
   <block id="eaf231f4003aa68f6123cc0e6d604d87" category="list-text">SG6100-CN의 전원 코드 2개를 포함하여 모든 케이블을 분리했습니다.</block>
   <block id="17b208d64aae491214f3782c0ff2d452" category="list-text">*선택 사항*: 현지 규정에 따라 필요한 경우 랙에서 컨트롤러를 분리했습니다. NIC를 외부에서 액세스할 수 있으므로 분리할 필요가 없습니다.</block>
   <block id="e2023a44c961f3f4470bb5e3006ff4cb" category="inline-link-macro">통합 노드 연결 상태</block>
-  <block id="37a4367f9d2138846d7d30345a9222b6" category="paragraph">서비스 중단을 방지하려면 NIC(Network Interface Card) 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 NIC를 교체하십시오. 에 대한 정보를 참조하십시오 <block ref="d14796012b1b468838045204e28fa845" category="inline-link-macro-rx"></block>.</block>
-  <block id="d639274428f4ac031f1908faa6990c49" category="admonition">개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 NIC를 교체해야 합니다. 에 대한 정보를 참조하십시오 <block ref="4aae144d8fbb767d73fa7fd90a3dc263" category="inline-link-macro-rx"></block>.</block>
   <block id="45aabce7da28d01db08ff5344a11d65d" category="section-title">외부 NIC를 분리합니다</block>
   <block id="746181094439f6c85453dfb13c07c646" category="list-text">ESD 밴드의 스트랩 끝을 손목에 감고 정전기 방전을 방지하기 위해 클립 끝을 금속 접지에 고정합니다.</block>
   <block id="f06ce8aaa962b8310bab87422709eca7" category="list-text">드라이버를 사용하여 NIC의 전면판에 있는 나사를 풉니다.</block>
@@ -5425,10 +5266,8 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="35354d3f59ef76da6c3d8d0aafc491e7" category="doc">SGF6112 또는 SG6100-CN(SG6160)의 팬을 교체합니다.</block>
   <block id="dff98198bff06709975037453d00df52" category="list-text">있습니다 <block ref="8a600a3d3695735e4213dc5c6fac3a3e" category="inline-link-macro-rx"></block> 데이터 센터에서 팬을 교체하는 위치입니다.</block>
   <block id="7a70e2c3c98205b7029ea7982add5e80" category="summary">현재 SANtricity OS 08.42.20.00\(11.42\) 이상을 사용하는 스토리지 컨트롤러의 경우 그리드 관리자 또는 유지보수 모드를 사용하여 업그레이드를 적용할 수 있습니다.</block>
-  <block id="3b289339a5f46c375f3026b8b50cb446" category="doc">Grid Manager를 사용하여 SG6160 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다</block>
   <block id="73b13828240be2d4ed9ff2f029c5ac9c" category="paragraph">현재 SANtricity OS 08.42.20.00(11.42) 이상을 사용 중인 스토리지 컨트롤러의 경우 그리드 관리자 또는 유지보수 모드를 사용하여 업그레이드를 적용할 수 있습니다.</block>
   <block id="80bcdb369c1aaaea9daefaf6cf5773ae" category="inline-link-macro">유지보수 모드를 사용하여 SG6160 컨트롤러에서 SANtricity OS를 업그레이드합니다</block>
-  <block id="57ca482829cf5cc3cae5f2129c23fbb1" category="paragraph"><block ref="57ca482829cf5cc3cae5f2129c23fbb1" category="inline-link-macro-rx"></block></block>
   <block id="75bae77bd5a1e5d5a3fa60c2123780ca" category="summary">SG6100-CN 컨트롤러가 최적으로 작동하지 않거나 장애가 발생한 경우 교체해야 할 수 있습니다.</block>
   <block id="34219e12808cfaa75a6d668403e35db8" category="doc">SG6100-CN 컨트롤러를 교체합니다</block>
   <block id="001591654095885fb8e8bae93eba4b37" category="paragraph">SG6100-CN 컨트롤러를 교체하면 어플라이언스 스토리지 노드에 액세스할 수 없습니다. SG6100-CN 컨트롤러가 충분히 작동하는 경우 이 절차를 시작할 때 제어된 종료를 수행할 수 있습니다.</block>
@@ -5455,7 +5294,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="bb16bf046b2fd7560a2b14a7f9ad9e54" category="sidebar">드라이브 펌웨어 업그레이드(SG6160)</block>
   <block id="1dc91b81c3c8c4d17ed44a4e5d4339f6" category="sidebar">SG6100-CN 컨트롤러 교체(SG6160)</block>
   <block id="e96b749f34b2756fc2a0b8eac5a9e783" category="sidebar">스토리지 컨트롤러 교체(SG6160)</block>
-  <block id="21b373ec754df40d02f0cfeb18c105fe" category="sidebar">SG6100-CN을 랙에 재배치합니다</block>
   <block id="4b1c1ad38150ad91104a761cfb5a1382" category="sidebar">스토리지 컨트롤러 쉘프 또는 확장 쉘프의 전원 공급 장치 교체(SG6160)</block>
   <block id="982ae3aea4734aa7e1eded70b7f60794" category="sidebar">SGF6112 또는 SG6100-CN(SG6160)의 팬을 교체합니다.</block>
   <block id="febcfd461af3265bdb47b88615490ba4" category="sidebar">스토리지 컨트롤러 쉘프 또는 확장 쉘프의 팬 교체(SG6160)</block>
@@ -5570,4 +5408,357 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="10fa39edb4e5d5fc91498d5271535f37" category="doc">SG6000-CN에서 교체할 구성 요소를 확인합니다</block>
   <block id="ca37341c514b082d1be600ae89827bce" category="sidebar">SG100 또는 SG1000을 랙에 재배치합니다</block>
   <block id="530a7cab0d75789e4984b34660953995" category="sidebar">SG6000-CN 컨트롤러의 CMOS 배터리를 교체합니다</block>
+  <block id="7598dd87f6ccb051188b1a78a7189afc" category="admonition">어플라이언스가 유지보수 모드일 때 수행한 IP 구성 변경 사항은 설치된 StorageGRID 환경에 적용되지 않습니다. run the <block ref="9cdb103f4828cad5c0e4dadc89ebc345" category="inline-link-rx"></block><block ref="921c87cca9b14f15a73f4570ad9f3247" prefix="[" category="inline-code"></block> command] 명령을 실행하여 어플라이언스를 StorageGRID로 재부팅하십시오.</block>
+  <block id="0ea8ee68566cf4949af61a6a8aa12755" category="list-text"><block ref="8c47f64a0b2720e9b32669186a53a9df" category="inline-link-rx"></block>상자에 포함된 문서를 검토하고 하드웨어 이동 및 설치에 대한 주의 사항을 이해했습니다.</block>
+  <block id="d50522e241adda84c1d25a8d6f13385b" category="list-text"><block ref="d50522e241adda84c1d25a8d6f13385b" category="inline-link-rx"></block></block>
+  <block id="4b54fdb089f1e4859471d4b0b7418787" category="list-text">을 사용하여 그리드 관리자에 로그인되어 있습니다.<block ref="b84b4e728cab50bf316de2913d9bfde1" category="inline-link-rx"></block></block>
+  <block id="961b9bf06406cfb8ca3a4eb1a65b7049" category="paragraph">전원 공급 장치 LED</block>
+  <block id="1a7a26e11de8230795faee52af8c0999" category="list-text">녹색, 켜짐: 제품에 전원이 공급되고 전원 버튼이 켜져 있습니다.</block>
+  <block id="66645350bde260cb99c9b398d22a4321" category="list-text">녹색, 깜박임: 제품에 전원이 공급되고 전원 단추가 꺼져 있습니다.</block>
+  <block id="dd3358b2289b8e2eddff605e6002a733" category="list-text">꺼짐: 어플라이언스에 전원이 공급되지 않습니다.</block>
+  <block id="0d62b6adecaf87bf7af8afc6946e6857" category="list-text">주황색: 전원 공급 장치에 오류가 있습니다.</block>
+  <block id="9eda08f277c75d2cbd6cbe89a3a578b1" category="paragraph">LED를 식별합니다</block>
+  <block id="b673288e438383d0a8a5fd24fa185140" category="list-text">이<block ref="4b9b8ad1fd2d0c7e2de41ab41c589ff5" category="inline-link-rx"></block>있습니다.</block>
+  <block id="609295eb0c681d6c1424fff83e27f505" category="admonition">이 절차를 시작하기 전에 최신 StorageGRID 핫픽스를 적용하십시오. 자세한 내용은 을<block ref="4c6c5bde6eefe6b83cf8fcf6cfafcbf0" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="53a1c12160c727fefa8453478aa1dd20" category="list-text">소스 어플라이언스가 미리 설치된 상태이므로<block ref="d8179f874ceb9655a4c19cb17f6c7478" category="inline-link-rx"></block></block>
+  <block id="66cc02950de74fa96e9f918a807f3106" category="paragraph">에 설명된 대로 IP 변경 도구에 액세스하여 MTU 설정을 업데이트합니다<block ref="8adfe8e8a2d3ccaaf3f07fd9e52d3fc4" category="inline-link-rx"></block>.</block>
+  <block id="4e1662db936106068fd744ad81e3f5f1" category="paragraph">클론 생성 중에는 다음 어플라이언스 구성이 교체 어플라이언스로 전송되지 않습니다. 교체용 제품의 초기 설정 중에 구성해야 합니다.</block>
+  <block id="3765af3134e36278ca2d69a872d2407b" category="paragraph">클론을 생성하기 전에 각 어플라이언스 유형에 대한 일반 클론 생성 고려 사항 및 특정 클론 생성 정보 및 제한 사항을 검토하십시오.</block>
+  <block id="8ddf7a21881801ae08477effbd5d7af6" category="section-title">일반 서비스 어플라이언스 클론 생성 고려 사항</block>
+  <block id="57f93d2de2695868a5e26368333757c4" category="list-text">교체 서비스 어플라이언스는 관리 노드 또는 게이트웨이 노드 모델과 다를 수 있습니다.</block>
+  <block id="79763293798557ed13d222b355f68616" category="section-title">일반적인 스토리지 어플라이언스 클론 생성 고려 사항</block>
+  <block id="7dc91f8105cebed0ab7d7beace6ce686" category="list-text">일반적인 스토리지 어플라이언스 클론 생성 고려 사항은 다음과 같습니다.</block>
+  <block id="d76cfefba37f805cdd3b91e78261ca7a" category="paragraph">그러나 60-드라이브 SG5760 소스 노드 어플라이언스가 SANtricity Dynamic Disk Pools DDP-8(DDP)으로 구성된 경우, DDP-16으로 58-드라이브 동일 크기 드라이브 SG6060 타겟 어플라이언스를 구성하면 스토리지 효율성이 개선되어 SG6060 어플라이언스가 유효한 클론 타겟이 될 수 있습니다.</block>
+  <block id="f194ba33da90ab8375effcb158038558" category="section-title">SG100 어플라이언스 클론 복제 정보 및 제한 사항</block>
+  <block id="48b148bae67ee305a9705ca4e7c2572c" category="section-title">SG110 어플라이언스 클론 복제 정보 및 제한 사항</block>
+  <block id="05c21975da1846682c7fd4373ea0bc11" category="section-title">SG1000 어플라이언스의 클론 복제 정보 및 제한 사항</block>
+  <block id="f25a4ebffe6943c6d8d6ac878765b867" category="paragraph">SG1000 소스 노드 어플라이언스를 SG100, SG110 또는 SG1100 서비스 대상 어플라이언스에 클론 복제할 수 있습니다.</block>
+  <block id="eb5817ef78e02dfd5d2d219c5166ad05" category="list-text">SG1000을 SG100 또는 SG110 서비스 대상 어플라이언스에 클론 복제하면 보다 까다로운 애플리케이션을 위해 SG1000을 다시 배포할 수 있습니다.</block>
+  <block id="e5cd2c5b5147b30ea505c3f6aefea96b" category="section-title">SG1100 어플라이언스 클론 생성 정보 및 제한 사항</block>
+  <block id="2ea5af75041fffbbfdb516fcf376bd7b" category="paragraph">SG1100 소스 노드 어플라이언스를 SG110 서비스 대상 어플라이언스에 클론 복제할 수 있습니다.</block>
+  <block id="8ad280867ec027eaebd3b5769c5692d0" category="list-text">SG1100을 SG110 서비스 대상 어플라이언스에 클론 복제하면 보다 까다로운 애플리케이션을 위해 SG1100을 재배포할 수 있습니다. 예를 들어 SG1100 소스 노드 어플라이언스를 관리 노드로 사용하고 있고 이를 전용 로드 밸런싱 노드로 사용하려는 경우</block>
+  <block id="414b4ae28f40631a9454c27f6d27fff4" category="section-title">SG5712 어플라이언스 클론 복제 정보 및 제한 사항</block>
+  <block id="47da0c0a63a296a2f4eca41b2b301443" category="paragraph">DDP로 구성된 SG5712 소스 노드 어플라이언스를 SG5812 스토리지 타겟 어플라이언스에 클론 복제할 수 있습니다.</block>
+  <block id="261c05e27ab0717960f01603179953e1" category="section-title">SG5760 어플라이언스 클론 복제 정보 및 제한 사항</block>
+  <block id="e348992d19da9ca6dffcfcd62dcd5de1" category="list-text">DDP16으로 구성된 SG5760 소스 노드 어플라이언스를 DDP16으로 구성된 SG5860 스토리지 타겟 어플라이언스로 클론 복제할 수 있습니다.</block>
+  <block id="29454823f33ea920fd499f50643cad31" category="list-text">DDP_Cannot_으로 구성된 SG5760 소스 노드 어플라이언스를 DDP로 구성된 SG5860 스토리지 타겟 어플라이언스에 클론 복제할 수 있습니다.</block>
+  <block id="94d47c4ef3b8b28b73c37a860a7d1b8c" category="list-text">DDP 또는 DDP-16_cannot_으로 구성된 SG5760 소스 노드 어플라이언스는 일치하는 RAID 모드를 통해 SG6160 스토리지 타겟 어플라이언스에 클론 복제할 수 없습니다.</block>
+  <block id="2c6d9b9a9c0600160c2b64ce62430068" category="section-title">SG5812 어플라이언스 클론 생성 정보 및 제한 사항</block>
+  <block id="cbdcf0e08a6f453f5d5f464ddc5670fe" category="paragraph">SG5812 어플라이언스를 소스 또는 타겟으로 클론 복제할 수 있습니다.</block>
+  <block id="9808dd89c99bc174be3451ce1ad3fb12" category="section-title">SG5860 어플라이언스 클론 정보 및 제한 사항</block>
+  <block id="26c52a4163a0fad600b7845f86bcd80a" category="paragraph">SG5860 어플라이언스를 소스 또는 타겟으로 클론 복제할 수 있습니다. 단, 어플라이언스 클론 생성 정보 및 각 소스에 대한 제한 사항에 나와 있습니다.</block>
+  <block id="c9dc7c9220f912dfb636713044860c30" category="section-title">SG6060 어플라이언스 클론 복제 정보 및 제한 사항</block>
+  <block id="19898146b3790e98ad6057dfb9809f49" category="list-text">DDP 또는 DDP16으로 구성된 SG6060 소스 노드 어플라이언스를 일치하는 RAID 모드를 사용하여 SG5860 스토리지 타겟 어플라이언스에 클론 복제할 수 있습니다.</block>
+  <block id="336173098aaa8541a973a255c2116444" category="list-text">드라이브 크기와 RAID 모드가 같은 경우 확장 쉘프 없이 SG6160 스토리지 타겟 어플라이언스에 확장 쉘프 없이 SG6060 소스 노드 어플라이언스를 클론 복제할 수 있습니다.</block>
+  <block id="96ad7433b185e1ce5a49b5f0bbcbb713" category="list-text">개수에 제한이 없는 SG6060 소스 노드 어플라이언스는 확장 쉘프의 수, 드라이브 크기 및 RAID 모드가 같더라도 SG6160 스토리지 타겟 어플라이언스에 클론 복제할 수 없습니다.</block>
+  <block id="a7b46b54b459e5411aaf4e74fe9d4b53" category="section-title">SG6160 어플라이언스 클론 복제 정보 및 제한 사항</block>
+  <block id="4f1956ec8d1137e6475bc51b75fd0530" category="paragraph">SG6160 어플라이언스를 소스 또는 타겟으로 클론 복제할 수 있습니다. 단, 어플라이언스 클론 정보 및 각 소스에 대한 제한 사항에 나와 있습니다.</block>
+  <block id="9a9f5437c95d85ac1ffbe90c9992003f" category="summary">Grid Manager의 Manage drives 탭을 사용하여 이 기능을 지원하는 어플라이언스에 대한 드라이브의 문제 해결 및 유지 보수 작업을 수행할 수 있습니다.</block>
+  <block id="118ba6cc75f24f399710c6ae5b006004" category="doc">드라이브 관리 탭(SG110, SG1100, SGF6112 및 SG6160) 사용</block>
+  <block id="39de5bbb672d392153253bbba450f378" category="paragraph">이 기능을 지원하는 어플라이언스와 이 있는 경우<block ref="b0cf970b620483f230cbd78040cd621f" category="inline-link-rx"></block> 어플라이언스 세부 정보 페이지에 드라이브 관리 탭이 나타납니다.</block>
+  <block id="cb52a12b6397a5a5e8762d18c90ff4c4" category="admonition">StorageGRID 11.8의 경우 드라이브 관리 탭은 SGF6112 어플라이언스에서만 지원됩니다.</block>
+  <block id="4540ea92c58b7662e69ee02f3ab2f0bf" category="paragraph">StorageGRID 어플라이언스용 KMS 구현에 대한 자세한 내용은 을<block ref="ff71524e9d8daf6c894ae193c213a6fe" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="aea1a9bca2ed2ae05ea4cd371fd4daaf" category="list-text">만료된 인증서 갱신과 같은 인증서 자체의 문제를 해결하려면 를 참조하십시오<block ref="bea470a7f8c799e316c6ab2e0d35b4de" category="inline-link-rx"></block>.</block>
+  <block id="8e3fbee6dbf4e5f488f04bce27a5d306" category="paragraph"><block ref="94da1bd5a7fd88ca6c3595ede9cb4388" category="inline-link-rx"></block> 포함된 데이터를 StorageGRID의 다른 노드로 이동합니다.</block>
+  <block id="308f745346e907eb916ad0ef1725ff55" category="paragraph">어플라이언스가 재부팅되고 KMS가 삭제되었으며 제품이 사전 설치 상태인지 확인한 후에는 StorageGRID 시스템에서 어플라이언스를 물리적으로 제거할 수 있습니다. 를<block ref="fd8c1f6608c39b7dc09cb321b339ae19" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="ae1236673f683ee092e2e2cfcdb21cb3" category="summary">일부 StorageGRID 어플라이언스에는 어플라이언스 구성, 모니터링 및 진단을 위해 낮은 수준의 하드웨어 액세스를 허용하는 베이스보드 관리 컨트롤러(BMC)가 포함되어 있습니다.</block>
+  <block id="81afb0d680e166dfb6e54ba04669269a" category="doc">StorageGRID 어플라이언스의 베이스보드 관리 컨트롤러(BMC) 사용</block>
+  <block id="078f1b8735576824de05382d7ef4a179" category="paragraph">BMC 인터페이스는 다음 StorageGRID 어플라이언스 모델에서 지원됩니다.</block>
+  <block id="e4eee474413c60f8ab8cda9428725eb9" category="inline-link">BMC 사용 설명서 를 참조하십시오</block>
+  <block id="11075fc62346a79fdbddbbe7388604ae" category="paragraph">이러한 어플라이언스에 대한 BMC 인터페이스 사용에 대한 자세한 내용은 를<block ref="aa4ae73a3679e76122102799e4b86b83" category="inline-link-rx"></block> 참조하십시오. 기술 지원 부서의 지시에 따라 StorageGRID 설명서에 _NOT_설명되어 있는 BMC 기능에만 액세스해야 합니다.</block>
+  <block id="ff32464e26cc664354809e6d1df0c510" category="paragraph">이 BMC 사용자 안내서는 일부 StorageGRID 어플라이언스에 사용할 수 있는 최신 버전의 BMC 펌웨어를 위한 것입니다. StorageGRID 어플라이언스의 BMC 펌웨어 버전이 약간 다를 수 있습니다.</block>
+  <block id="9604df8d6440862442953f75ceb84783" category="inline-link">어플라이언스에 사용할 수 있는 최신 BMC 펌웨어 버전입니다</block>
+  <block id="390cb8453e37075315513f4f5c46d4d9" category="list-text">StorageGRID 소프트웨어를 업그레이드하는 동안 BMC 펌웨어를 업데이트합니다. 최신 버전의 StorageGRID 소프트웨어를 실행하지 않는 경우 어플라이언스를 최신 StorageGRID 버전으로 업데이트하여 를 설치할 수<block ref="a4a90e880bd58f91178e3e1166ec1e4f" category="inline-link-rx"></block> 있습니다.</block>
+  <block id="a02904807f194e4823db1b8506329c03" category="list-text">StorageGRID 업데이트 전이나 후에 BMC가 다르게 표시되는 경우 의 정보는<block ref="aa4ae73a3679e76122102799e4b86b83" category="inline-link-rx"></block> BMC 버전에 대한 지침을 조정하는 데 도움이 될 수 있습니다.</block>
+  <block id="15e9b7003c5c62d90363beb80fddd032" category="section-title">BMC는 StorageGRID 어플라이언스에 사용됩니다</block>
+  <block id="d019f1659ff584f055e58c3a71e0c315" category="paragraph">다음 BMC 절차는 지원되는 StorageGRID 어플라이언스에 사용할 수 있도록 문서화되어 있습니다.</block>
+  <block id="88b81829dd703f80c8fd4a07f63958af" category="inline-link-macro">BMC 대시보드에 액세스합니다</block>
+  <block id="621a11fe1e8bf422bb8328f9258640bb" category="list-text"><block ref="621a11fe1e8bf422bb8328f9258640bb" category="inline-link-macro-rx"></block></block>
+  <block id="c38637e5a2715d0bb936f43783cd1539" category="inline-link-macro">BMC SNMP 설정을 구성합니다</block>
+  <block id="e24b87fcc932b825bd444b4eb3763ab8" category="list-text"><block ref="e24b87fcc932b825bd444b4eb3763ab8" category="inline-link-macro-rx"></block></block>
+  <block id="ab81dbb5d70b7380211a1bb39188eafb" category="inline-link-macro">이메일 경고 알림을 설정합니다</block>
+  <block id="f9d6356cbbcb02bdeebd7713145a4cbd" category="list-text"><block ref="f9d6356cbbcb02bdeebd7713145a4cbd" category="inline-link-macro-rx"></block></block>
+  <block id="e5365cfcf47367301a16e803e5331188" category="list-text">하드웨어 설치 문제 해결:</block>
+  <block id="bc496fc4f5adb6c66aa628a721d4b883" category="inline-link-macro">SG1000 및 SG100</block>
+  <block id="fb3e0941711899b6c35bad168539dee3" category="list-text"><block ref="fb3e0941711899b6c35bad168539dee3" category="inline-link-macro-rx"></block></block>
+  <block id="8689233f5d4a8728d77b1b3f854ab436" category="inline-link-macro">SG1100 및 SG110</block>
+  <block id="a898761362fedf57114d5726c4a9929e" category="list-text"><block ref="a898761362fedf57114d5726c4a9929e" category="inline-link-macro-rx"></block></block>
+  <block id="cd5041ccda9fe39d95ecf190ac9aed5b" category="list-text"><block ref="cd5041ccda9fe39d95ecf190ac9aed5b" category="inline-link-macro-rx"></block></block>
+  <block id="ecc8bfe86d95b45a1295a67752b9421b" category="list-text"><block ref="ecc8bfe86d95b45a1295a67752b9421b" category="inline-link-macro-rx"></block></block>
+  <block id="b231262bfbb651020f3a4d665910f0fa" category="list-text">어플라이언스 전원 상태를 확인합니다.</block>
+  <block id="102166831b892b4632edd6636ddfa9d7" category="list-text"><block ref="102166831b892b4632edd6636ddfa9d7" category="inline-link-macro-rx"></block></block>
+  <block id="f330aafe9bb7f349056104bd5153e6ee" category="list-text"><block ref="f330aafe9bb7f349056104bd5153e6ee" category="inline-link-macro-rx"></block></block>
+  <block id="681154c2bb1727c4ed4e9f4cfed95ce9" category="list-text"><block ref="681154c2bb1727c4ed4e9f4cfed95ce9" category="inline-link-macro-rx"></block></block>
+  <block id="ace8bebab8a8e24ad1824bb8262398c6" category="list-text"><block ref="ace8bebab8a8e24ad1824bb8262398c6" category="inline-link-macro-rx"></block></block>
+  <block id="61ad48de05b0851c00b3d3cf59f57d1c" category="list-text">어플라이언스 식별 LED를 켜고 끕니다.</block>
+  <block id="8f2c45f953ca0730fbd2c49675874c20" category="list-text"><block ref="8f2c45f953ca0730fbd2c49675874c20" category="inline-link-macro-rx"></block></block>
+  <block id="90a036c1d1de7e0cc71a4017b413591d" category="list-text"><block ref="90a036c1d1de7e0cc71a4017b413591d" category="inline-link-macro-rx"></block></block>
+  <block id="60fe38c42b29c8f4c84801f6ec3dc5f9" category="list-text"><block ref="60fe38c42b29c8f4c84801f6ec3dc5f9" category="inline-link-macro-rx"></block></block>
+  <block id="56c13a43d940c636dbc77d275f042118" category="list-text"><block ref="56c13a43d940c636dbc77d275f042118" category="inline-link-macro-rx"></block></block>
+  <block id="1017a641af9d542aad6ad2cb58687d9c" category="section-title">BMC 기능은 StorageGRID 어플라이언스에서 지원되지 않습니다</block>
+  <block id="2f8a47b463b9cc5e9dd4f7377a356ff9" category="paragraph">다음 BMC 기능은 StorageGRID 관련 구성과 충돌하므로 사용해서는 안 됩니다.</block>
+  <block id="f4f70727dc34561dfde1a3c529b6205c" category="list-text">설정</block>
+  <block id="84a4385e5a5707dda4a6776c101f4dd4" category="list-text">RAID 관리</block>
+  <block id="95af14f7b91e327fe25f48cef3201810" category="list-text">SAS IT 관리</block>
+  <block id="6ffd91d71317a9575936e547c6b63760" category="list-text">IPMI 인터페이스</block>
+  <block id="8c152b849012b502e6962a0b5cb2a6ec" category="list-text">콜드 이중화</block>
+  <block id="e2c1f07338c1939e615dd2ef2c16c2ea" category="list-text">NIC 선택</block>
+  <block id="a840cf47a8332894d0f0ff896f7c6fde" category="list-text">이미지 리디렉션</block>
+  <block id="538dacced78393560ce03a512034104a" category="list-text">호스트 시스템 진단</block>
+  <block id="10d0de28911c5f66463b9c8783f8148a" category="list-text">유지 관리</block>
+  <block id="2744600dbb7829921afa43a5e51d6960" category="list-text">듀얼 이미지 구성</block>
+  <block id="9cb3ce93829d820e18cc10a3b66fe1ee" category="list-text">펌웨어 정보</block>
+  <block id="8f8bb20031f4e802d79980b675b8efee" category="list-text">펌웨어 업데이트</block>
+  <block id="26820296116eb425fde2606d377822e2" category="list-text">출하 시 기본값 복원</block>
+  <block id="b3cd8f3e800ae32f9597c2c967eaafce" category="list-text">을 사용하고<block ref="b84b4e728cab50bf316de2913d9bfde1" category="inline-link-rx"></block> 있습니다.</block>
+  <block id="285a5479fcd9e929929e1251959923b8" category="inline-link">NetApp E-Series 설명서</block>
+  <block id="9f72865d275f78716a892682df58dbb9" category="paragraph">E-Series AutoSupport에 대한 자세한 내용은 를<block ref="1bea79f343ec419edecfabb887851d1a" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="eedf14cd2857eb0f649a10ed03bbc089" category="paragraph">관리 포트를 사용하지 않고 E-Series AutoSupport 메시지를 보내도록 StorageGRID 프록시를 구성하는 방법에 대한 자세한 내용은 를 참조하십시오.<block ref="371380525086e2f2ae59c12f120aa200" category="inline-link-rx"></block></block>
+  <block id="7a91b845254c912250f757dd44b4e866" category="inline-link">드라이브 보안</block>
+  <block id="50e17ddccb3b5e51d480bad851e192ff" category="list-text">어플라이언스에 대해 이 설정된 경우<block ref="838f63b5450b1f57f3e8b865bc58c585" category="inline-link-rx"></block> 보안 키를 생성하고 관리합니다.</block>
+  <block id="637caad455a57e19afcd30b9c02674b0" category="open-title">SG5700 및 SG5800</block>
+  <block id="eb1a4beef110ceda19ffa08d7d3c5511" category="inline-link">드라이브 보안을 구현합니다</block>
+  <block id="edc7c6a0a6b43c141f2158dab7e2fe46" category="paragraph">SG5700 및 SG5800 스토리지 어플라이언스의 경우 SANtricity System Manager 의 단계를 자세히<block ref="30ac7c9d072f9a088ff3ecff057331d7" category="inline-link-rx"></block> 따릅니다.</block>
+  <block id="7c069ddd5dad8ecd4ee00173477e13a1" category="paragraph">SG6060 스토리지 어플라이언스의 경우 스토리지 어플라이언스를 설치하기 전에 키 관리가 구성된 경우에만 SSD 드라이브에서 드라이브 보안을 자동으로 활성화할 수 있습니다.</block>
+  <block id="b321866a74d5de79233bf6878dbd4501" category="list-text">스토리지 어레이에 보안 지원 드라이브(FDE 드라이브 또는 FIPS 드라이브)를 구축합니다.</block>
+  <block id="12696fff85009a1ef2901d8929335983" category="list-text">FIPS 지원이 필요한 볼륨의 경우 FIPS 드라이브만 사용합니다.</block>
+  <block id="a8f349d358cf5164a86a3b184efab1c3" category="list-text">볼륨 그룹 또는 풀에서 FIPS와 FDE 드라이브를 혼합하면 모든 드라이브가 FDE 드라이브로 취급됩니다.</block>
+  <block id="5a9a863055dc29aed89d8c77f4e168a4" category="list-text">FDE 드라이브는 All-FIPS 볼륨 그룹 또는 풀에 추가하거나 스페어로 사용할 수 없습니다.</block>
+  <block id="0579aa3685f75e3b2f4e2835bd1277f2" category="list-text">E4000 컨트롤러 쉘프의 경우 보안 키(읽기 및 쓰기 액세스를 위해 컨트롤러에서 공유하는 문자 및 드라이브 문자열)를 생성합니다.</block>
+  <block id="febebabfe962a13cf87eb0ff7729dcb2" category="inline-link">내부 키를 만듭니다</block>
+  <block id="2c6c5c9b7b46bbd4da92a18c67ee7c48" category="list-text">컨트롤러의 영구 메모리에서 또는 키 관리 서버에서 제공하는 외부 키를 사용할 수 있습니다<block ref="6ec3cd897a97c3edb24a1fe750b56c9b" category="inline-link-rx"></block>.</block>
+  <block id="3b38026201c87a4c8932e38d5e80aa11" category="inline-link">키 관리 서버로 인증을 설정합니다</block>
+  <block id="3f6fc27ceab845d15af8823c525b2242" category="list-text">키 관리 서버에서 제공하는 외부 키를 사용하려면 먼저 SANtricity System Manager에서 확인해야<block ref="ee23b2a40609e43ea56b18882ab214d1" category="inline-link-rx"></block> 합니다.</block>
+  <block id="235394a9c7f981205eb308d4434be6dc" category="inline-link-macro">설치를 시작합니다</block>
+  <block id="4d6a3c10acfa05f8204809df03f0d4fc" category="list-text"><block ref="213531d86724f578f5ac920bc89e3edb" category="inline-link-macro-rx"></block> 있습니다.</block>
+  <block id="1a3d83a11843bc2c9a2b5405af4f8e34" category="inline-link">풀 또는 볼륨 그룹에 대한 보안을 설정합니다</block>
+  <block id="54f776eb1acdab445c42db5e101bc6ee" category="list-text">어플라이언스 설치가 완료된 후 StorageGRID 플래시 캐시에 드라이브 보안이 설정되어 있는지 확인하고, 나머지 모든 디스크 풀 또는 볼륨 그룹에 대해 드라이브 보안을 설정합니다(SANtricity System Manager의 참조<block ref="1b58f1b8b5df796e256daeb0bc52d11c" category="inline-link-rx"></block>).</block>
+  <block id="8b001191a2ce8c5c2e038da330cb4069" category="paragraph">SG6160 스토리지 어플라이언스는 SG6100-CN 컴퓨팅 컨트롤러 및 E4000 컨트롤러 쉘프 모두에 FIPS 호환 드라이브를 장착할 수 있습니다. 드라이브 암호화는 SG6100-CN 드라이브 및 E4000 드라이브에 대해 별도로 구성됩니다.</block>
+  <block id="1f125f33fb9a90850c7507027dd55faf" category="inline-link-macro">드라이브 암호화를 활성화합니다</block>
+  <block id="f0db51e4358831ab70bc4473904069e4" category="list-text"><block ref="24129ff5f8bfd7e7061cdf8a81a4dc6d" category="inline-link-macro-rx"></block> SG6100-CN 컴퓨팅 노드에 설치된 SED SSD의 경우</block>
+  <block id="c254efa19103013981a41d6545334a49" category="list-text">보안 키(읽기/쓰기 액세스를 위해 컨트롤러와 드라이브에서 공유하는 문자열)를 생성합니다.</block>
+  <block id="589493108a7eb4f4efcb602f89f5bc3a" category="inline-link">드라이브 보안을 활성화합니다</block>
+  <block id="00eb0afe39b7bb07ee33907e04143322" category="list-text">설치가 완료된 후<block ref="7c1ab5b17d759a83d6a4eac233344f46" category="inline-link-rx"></block> SANtricity System Manager에서 모든 디스크 풀 또는 볼륨 그룹을 확인합니다.</block>
+  <block id="e7d1344a53b797c760231d6d67e01bd9" category="list-text">관리 클라이언트가 를 사용하고<block ref="b84b4e728cab50bf316de2913d9bfde1" category="inline-link-rx"></block> 있습니다.</block>
+  <block id="b54a31b113abaae54f0e1d652d40bd79" category="list-text">클라이언트 또는 서비스 랩톱에 가<block ref="b84b4e728cab50bf316de2913d9bfde1" category="inline-link-rx"></block>있습니다.</block>
+  <block id="92cc52a4541f1cee178e5e7bb1312d38" category="image-alt">StorageGRID 어플라이언스 설치 프로그램 홈 페이지 상단 부분의 스크린 샷</block>
+  <block id="15c2366d765d58299bad2b1257f33e5c" category="admonition">StorageGRID 자동화 Python 스크립트를 직접 사용하거나 직접 개발한 그리드 구축 및 구성 도구에서 StorageGRID 설치 REST API를 사용하는 방법의 예로 사용할 수 있습니다. 의 지침을<block ref="8f6f997668adf715032c29362b329763" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="b070f93443d48805f685978787f43388" category="list-text">를 사용하여 구성하는 어플라이언스의 StorageGRID 어플라이언스 설치 프로그램에 연결되어<block ref="b84b4e728cab50bf316de2913d9bfde1" category="inline-link-rx"></block> 있습니다.</block>
+  <block id="39ed22a75288844801e288ae98729e0c" category="admonition">또는 를 사용하여 시스템을 구성할 수도<block ref="211fd8fdc92725b38616205e7f1e7a76" category="inline-link-rx"></block><block ref="2b9b559fdbf6b83dc49f82aaedacac2d" category="inline-link-macro-rx"></block> 있습니다.</block>
+  <block id="7983c6c3a58e03f9d9ce8d8c7067d5b9" category="paragraph">SG6100-CN 컨트롤러에 네트워크 포트 4개</block>
+  <block id="2e5ed6cbd1cadc389aee4d24a4981060" category="list-text">100G NIC SKU 옵션이 있는 10/25/40/100GbE 네트워크 포트 4개(SG6160만 해당)</block>
+  <block id="b6b7fd4f926edf48bae64f263f2d6483" category="inline-link-macro">BMC 인터페이스에 액세스합니다</block>
+  <block id="b4c16ea7e0860df6d3a2eadc7d9613d7" category="list-text"><block ref="4b155d78a925ee15ae7148fef37d5200" category="inline-link-macro-rx"></block> SG6000-CN 또는 SG6100-CN 컨트롤러의 경우</block>
+  <block id="9e52145db24a83afe34c9fc8cdbab864" category="list-text"><block ref="4b155d78a925ee15ae7148fef37d5200" category="inline-link-macro-rx"></block> SG100, SG110, SG1000 및 SG1100의 경우</block>
+  <block id="a6611236fb5ed0c6289bf5534f3ad0b7" category="open-title">SG110, SG1100, SG6100-CN, SGF6112</block>
+  <block id="1520a0ec06669cf96539fb6f13561c88" category="list-text">SNMPv3 장비에 대한 SNMP 설정을 구성한 경험이 있습니다.</block>
+  <block id="c436b13053b39bb6d0fccbe01cf53b6b" category="paragraph">다음은 일부 StorageGRID 어플라이언스에 사용할 수 있는 최신 버전의 BMC 펌웨어를 보여 줍니다. StorageGRID 어플라이언스의 BMC 펌웨어 버전이 약간 다를 수 있습니다.</block>
+  <block id="71d938b7fb691da4578757e7dcdca152" category="list-text">최신 버전의 BMC 펌웨어는 SNMPv3만 지원합니다.</block>
+  <block id="9e311bd1614cee9ae7e59fa2233f3e69" category="list-text">StorageGRID 업데이트 전이나 후에 BMC가 다르게 표시되는 경우:</block>
+  <block id="a8b884bc046348681c269cc31cbcba37" category="list-text">SG100, SG1000, SG6000-CN 탭의 지침을 참조하십시오.</block>
+  <block id="13d5066be46ca75b93fc715d729a2b93" category="inline-link-macro">StorageGRID BMC를 사용합니다</block>
+  <block id="70be2c269e1ec62ce94970522a5ac0d1" category="list-text"><block ref="d8535bd983aba4fed9c9950640034d6e" category="inline-link-macro-rx"></block> BMC 버전에 따라 이러한 지침을 조정하는 데 도움이 되는 정보도 있을 수 있습니다.</block>
+  <block id="586cd3d9e6b6ddc4c09a09ba2157629a" category="list-text">SNMP 트랩을 하나 이상의 LAN 대상으로 구성합니다.</block>
+  <block id="ef99a9bac1414b3cc22a43ed27acce9f" category="list-text">BMC 대시보드에서 * 설정 * &gt; * 플랫폼 이벤트 필터 * &gt; * LAN 대상 * 을 선택합니다.</block>
+  <block id="e1fb8c865feef0b0a68de4c37b670c28" category="list-text">대상 유형으로 * SNMP 트랩 * 을 선택합니다.</block>
+  <block id="27ec1e87314cbfe4bef59b80d816d847" category="list-text">SNMP 대상 주소에 대상 IP 주소를 입력합니다.</block>
+  <block id="d1256add23a5fe0c0c1ed03986a7cfbe" category="admonition">SNMP 대상 주소에 IP 주소를 사용합니다. DNS 이름은 지원되지 않습니다.</block>
+  <block id="e36d411646ecd3215170b48deb1ef9b1" category="list-text">SNMP 트랩을 사용하여 경고 알림을 전달하는 경우 BMC를 사용하여 경고 정책 및 이벤트 필터를 구성하는 방법에 대한 자세한 내용은 의 플랫폼 이벤트 필터 섹션을<block ref="aa4ae73a3679e76122102799e4b86b83" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="d568f84c80b58eb6816cdd0315219fe3" category="list-text">(선택 사항) BMC 사용자에 대해 SNMP를 설정하고 구성합니다.</block>
+  <block id="47ad274f9ed0cdf62664abe92fe98517" category="list-text">BMC 대시보드에서 * 설정 * &gt; * 사용자 관리 * 를 선택한 다음 BMC 사용자를 선택합니다.</block>
+  <block id="538523202ca6bf0633149bc88b6c2126" category="list-text">BMC 사용자에 대한 SNMP 설정 구성에 대한 자세한 내용은 의 사용자 관리 섹션을<block ref="aa4ae73a3679e76122102799e4b86b83" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="161ee13679977973b428693dfc5b3491" category="open-title">SG100, SG1000, SG6000-CN</block>
+  <block id="4ca88c2129a665829add8557995fcd74" category="list-text">기존 StorageGRID 시스템에 어플라이언스 스토리지 노드를 추가하려면 의 지침을 참조하십시오<block ref="d99e0d4e560b97e8eacc8d5509d73ab4" category="inline-link-rx"></block>.</block>
+  <block id="057c9d3da970ff17e05a9a548122da9b" category="list-text">복구 작업의 일부로 어플라이언스 스토리지 노드를 배포하려면 지침을 참조하십시오.<block ref="2a061ee6da6d61c2699c951fe86594f4" category="inline-link-rx"></block></block>
+  <block id="21028a6c060e43785f90af52efd9b299" category="inline-link">스토리지 노드 유형</block>
+  <block id="5dadc9e66f2393a92237ef6bb355b0d3" category="list-text">노드 유형 * 을 선택합니다. 자세한 내용은 을<block ref="c8e4f0e4f024966e7a8e7ecd14b02811" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="943a6532b2bb4031bd3bed2b35df9b89" category="admonition">메타데이터 전용은 어플라이언스 배포 중에만 선택할 수 있습니다. 메타데이터 전용을 스토리지 노드 유형으로 선택한 경우 어플라이언스가 구축된 후에는 변경할 수 없습니다.</block>
+  <block id="f8ea739552206c512584fe1d62a3e1df" category="list-text">가 있는 서비스 랩톱이<block ref="b84b4e728cab50bf316de2913d9bfde1" category="inline-link-rx"></block> 있습니다.</block>
+  <block id="d8245442f7bde2be0097d61d1cf79482" category="list-text">100G NIC SKU(옵션)를 통한 40GbE(SG6160만 해당)</block>
+  <block id="3aa6cf276b3b604ce70f1314ba05482a" category="paragraph">이 그림에서는 전원 공급 장치의 위치를 보여 주고 SG100 및 SG1000 후면의 LED를 식별합니다. 추가 상태 및 작동 상태 표시등은 어플라이언스 포트에 있습니다. 이러한 LED는 어플라이언스 모델에 따라 다를 수 있습니다.</block>
+  <block id="54d3d8e2802a1847f5c5b9105c41a775" category="image-alt">후면 LED SG100 및 SG1000입니다</block>
+  <block id="5ce07e9f32961d03db1932b73d06c3ef" category="admonition">동일한 HA 그룹에서 관리자 노드 및 게이트웨이 노드를 사용하는 경우 관리 노드 전용 포트는 페일오버되지 않습니다. 의 지침을<block ref="e1a46353ec4f82573a1930167f651a2b" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="f84e92af65c35e8a3a0f82dea32c8d9e" category="paragraph">이 그림에서는 전원 공급 장치의 위치를 보여 주고 SG110 및 SG1100 뒷면에서 LED를 식별합니다. 추가 상태 및 작동 상태 표시등은 어플라이언스 포트에 있습니다. 이러한 LED는 어플라이언스 모델에 따라 다를 수 있습니다.</block>
+  <block id="99b0b1be4be516226726c4988e84e957" category="image-alt">후면 LED SG110 및 SG1100</block>
+  <block id="7a2b330d303e524bd05f96dc96e3d197" category="admonition">SG100 또는 SG110과 SG1000 또는 SG1100과 같이 동일한 사이트에서 서로 다른 수준의 성능을 가진 서비스 어플라이언스를 혼합하면 고가용성 그룹에 여러 노드를 사용하거나 여러 서비스 어플라이언스에서 클라이언트 로드 밸런싱을 수행할 때 예측할 수 없고 일관되지 않은 결과가 발생할 수 있습니다</block>
+  <block id="d1420a3e9b83f07de3c98fe031506f01" category="paragraph"><block ref="d1420a3e9b83f07de3c98fe031506f01" category="inline-link-rx"></block></block>
+  <block id="56d20f9269053e1fdaff50f8878fd060" category="paragraph">이 그림에서는 전원 공급 장치의 위치를 보여 주고 SG6060 및 SG6060X에 사용된 SG6000-CN 컴퓨팅 컨트롤러 후면의 LED를 식별합니다. 추가 상태 및 작동 상태 표시등은 어플라이언스 포트에 있습니다. 이러한 LED는 어플라이언스 모델에 따라 다를 수 있습니다.</block>
+  <block id="43d4cb361f931c29f7ab67092b7d9ec6" category="image-alt">후면 LED SG6000-CN</block>
+  <block id="0d72e60e6c6588a795f623a06b4cd95a" category="paragraph">이 그림에서는 전원 공급 장치의 위치를 보여 주고 SGF6112의 후면에 있는 LED를 식별합니다. 추가 상태 및 작동 상태 표시등은 어플라이언스 포트에 있습니다. 이러한 LED는 어플라이언스 모델에 따라 다를 수 있습니다.</block>
+  <block id="d336bc1ebecea1684c8b113e9cbaa22b" category="image-alt">후면 LED SGF6112</block>
+  <block id="6dfd79974cfa36e257e92bc1e4d1c1ed" category="paragraph">이 그림에서는 SG6100-CN 컴퓨팅 컨트롤러 후면의 포트를 보여줍니다.</block>
+  <block id="659b617e7798afa778e28cdccca6d6cd" category="list-text">케이블 또는 SFP 트랜시버 유형(SFP28 및 SFP+ 모듈 지원) 기준 10/25GbE, 스위치 속도 및 구성된 링크 속도</block>
+  <block id="e607d94480c3d12398f751ba8352b6e6" category="list-text">100G NIC SKU(SG6160만 해당) 옵션, 케이블 또는 트랜시버 유형, 스위치 속도 및 구성된 링크 속도를 기반으로 하는 10/25/40/100GbE. QSFP56(100GbE/포트로 제한), QSFP28(100GbE) 및 QSFP+(40GbE)는 기본적으로 지원됩니다. SFP+(10GbE) 또는 SFP28(25GbE) 트랜시버는 QSA(별도 판매)와 함께 사용할 수 있습니다.</block>
+  <block id="3874b74af884b67f89c6c2adc59d6564" category="paragraph">이 그림에서는 전원 공급 장치의 위치를 보여 주고 SG6100-CN 컴퓨팅 컨트롤러 후면의 LED를 식별합니다. 추가 상태 및 작동 상태 표시등은 어플라이언스 포트에 있습니다. 이러한 LED는 어플라이언스 모델에 따라 다를 수 있습니다.</block>
+  <block id="2e6dfafd88c45e0ec399efb6c48564d4" category="image-alt">후면 LED SG6100-CN</block>
+  <block id="65243f9b11da4aff53ef2492bd2914b0" category="list-text"><block ref="65243f9b11da4aff53ef2492bd2914b0" category="inline-link-rx"></block></block>
+  <block id="21e4cc108031bba39206d7b6b9caf5eb" category="list-text">기본 관리자 노드를 제외한 모든 어플라이언스 노드의 경우 StorageGRID 설치 단계가 일시 중지되고 내장 콘솔에 메시지가 표시되어 를 사용하여 관리자 노드에서 이 노드를 승인하라는 메시지를 표시합니다<block ref="e9b839af5117614531eec6994f76d987" category="inline-link-rx"></block>. 다음 단계로 이동합니다.</block>
+  <block id="c4343f2a5127528d5f6935b01fef86a5" category="list-text"><block ref="6f88de86b8743bbe23202c83b893e250" category="inline-link-rx"></block> 기본 관리자 노드에서 보류 중인 그리드 노드를 승인하고 StorageGRID 설치 프로세스를 완료합니다.</block>
+  <block id="d08e16a033b319c3d200b9268a3bdf72" category="list-text"><block ref="d08e16a033b319c3d200b9268a3bdf72" category="inline-link-rx"></block></block>
+  <block id="2ba45c55f69f733db3f04d7fc73830ff" category="admonition">볼륨 크기가 모든 DDP 및 RAID 유형에서 일관되지 않습니다. DDP 및 RAID6의 작동 방식이 다르면 볼륨 크기가 달라집니다.</block>
+  <block id="89b29f1df208250a7c684a6d065ce222" category="list-text">* DDP(동적 디스크 풀) *: 이 모드는 데이터 드라이브 8개마다 2개의 패리티 드라이브를 사용합니다. 모든 어플라이언스에 대한 기본 권장 모드입니다.</block>
+  <block id="2657c66a9f6017ec7ea3d635c75a9066" category="list-text">DDP는 RAID 6과 비교하여 시스템 성능을 향상하고, 드라이브 장애 후 리빌드 시간을 줄이고, 관리를 간소화합니다.</block>
+  <block id="73a395853ac89ccaebf08978ea1b0986" category="list-text">스토리지 어플라이언스 또는 확장 쉘프당 하나의 디스크 풀이 생성됩니다.</block>
+  <block id="f26649dce28dd5e1d86ed8b5c92bf3b7" category="list-text">DDP는 SG5760, SG5860 및 SG6160 어플라이언스에서 드로어 손실 보호를 제공합니다.</block>
+  <block id="f92aa9f3253830e1851d9ed2af3d86cc" category="admonition">DDP는 두 개의 SSD로 인해 SG6060 어플라이언스에는 드로어 손실 보호를 제공하지 않습니다. SG6060에 추가된 확장 쉘프에서는 서랍 손실 보호를 효과적으로 수행합니다.</block>
+  <block id="19c93c667ef2cc13e93ecfe64327890c" category="list-text">* DDP16 *: 이 모드는 데이터 드라이브 16개마다 2개의 패리티 드라이브를 사용하므로 DDP에 비해 스토리지 효율성이 높습니다.</block>
+  <block id="5754a263b23f44c63b8215bbbee707fe" category="list-text">RAID 6에 비해 DDP16은 향상된 시스템 성능, 드라이브 장애 후 재구축 시간 단축, 관리 용이성 및 스토리지 효율성을 제공합니다.</block>
+  <block id="02a221d4c920873196eae410e8e27dc0" category="list-text">DDP16 모드를 사용하려면 저장 장치에 최소 20개의 드라이브가 있어야 합니다.</block>
+  <block id="c842ed21a3be5df18a08a7175bcbe688" category="list-text">DDP16은 드로어 손실 방지 기능을 제공하지 않습니다.</block>
+  <block id="66288b09f1575aedd4dce484482c0652" category="list-text">RAID 6는 확장 쉘프당 하나의 글로벌 핫 스페어를 제공합니다. 예를 들어, 확장 쉘프가 2개인 SG6160에는 핫 스페어 3개가 있습니다.</block>
+  <block id="fa3b6dffc44fdf2a5bea27671ba42222" category="list-text">60-드라이브 스토리지 어플라이언스에서 StorageGRID은 3개의 볼륨 그룹을 생성합니다. 각 그룹은 최소 18개 드라이브(16+2), 최대 21개 드라이브(19+2).</block>
+  <block id="c21f5bafb47f9e353888eb55dd2c48e2" category="list-text">SGF6024에서 RAID 6 볼륨 그룹은 핫 스페어 1개를 포함하는 23개의 드라이브로 구성됩니다.</block>
+  <block id="acb2a90c3a0b57de73de69f0404b05e4" category="list-text">RAID 6 볼륨은 약간 더 크므로 DDP16에서 노드를 복제할 수 있는 경우가 많습니다. RAID 6 구성의 볼륨 크기는 볼륨 그룹마다 다를 수 있습니다.</block>
+  <block id="4ac07674a7081b86680597503f30774b" category="list-text">클라이언트에는 가<block ref="b84b4e728cab50bf316de2913d9bfde1" category="inline-link-rx"></block>있습니다.</block>
+  <block id="4e566fed33a5fbe94f583058b0167bb7" category="list-text">클라이언트에는 가 <block ref="b84b4e728cab50bf316de2913d9bfde1" category="inline-link-rx"></block>있습니다.</block>
+  <block id="0f7cdc2213ae0614b6880519b807dd83" category="paragraph">StorageGRID 어플라이언스에 사용할 수 있는 모든 암호화 방법에 대한 자세한 내용은 를<block ref="9240b1c7fca3b4c00aaf60d976e6caee" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="a18c863efe264b8a820a3aa5f15dce6e" category="paragraph">에 대한 정보를<block ref="1ab6cf7b725cd1db8724fbcf79291fd1" category="inline-link-rx"></block> 검토합니다.</block>
+  <block id="6c36a8ed89f3113c9a4d345d07c525a3" category="admonition">노드 암호화가 활성화된 상태로 어플라이언스가 설치되면 임시 키가 할당됩니다. 어플라이언스가 키 관리 시스템(KMS)에 연결되고 KMS 보안 키가 설정될 때까지 어플라이언스의 데이터는 보호되지 않습니다. 자세한 내용은 를<block ref="1b141fe85ee275193be0bd326245089d" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="d453e448de3170f088f49a44683b6aaf" category="paragraph">에 대한 정보를<block ref="9240b1c7fca3b4c00aaf60d976e6caee" category="inline-link-rx"></block> 검토합니다.</block>
+  <block id="a834eba1793fd24a3b0df9777ed08ac4" category="paragraph">로드 밸런서 끝점에는 다시 매핑된 포트를 사용할 수 없습니다. 다시 매핑된 포트를 제거해야 하는 경우 의 단계를<block ref="ddc2fed20f0a5902c2e31af029d5bc0b" category="inline-link-rx"></block> 따릅니다.</block>
+  <block id="37718a7243f3d42aa9519f9d8931c1b7" category="list-text">* 드라이브 암호화 * (StorageGRID 11.8 이상): 드라이브 암호화를 관리하고 드라이브 암호화 상태를 확인하는 작업입니다.</block>
+  <block id="da4a2d6800ce0679984c088566051916" category="list-text">* 암호화 * : 노드 암호화를 관리하고 노드 암호화 상태를 보는 작업입니다.</block>
+  <block id="51635520d5b0468a18837fd93d6b53a9" category="paragraph">240볼트 AC</block>
+  <block id="d096b064f353634cafcde4024d6f0389" category="paragraph">120볼트 AC</block>
+  <block id="e68e16a439ac6f0d69ed3c29e912a12a" category="list-text">사용자의 위치가 어플라이언스의 전원 요구 사항을 충족하는지 확인합니다.</block>
+  <block id="835447e8e565cf411579559df9c8a431" category="admonition">StorageGRID 어플라이언스의 전원 공급 장치는 최대 전력 소비량이 있는 기간에도 StorageGRID 어플라이언스 하드웨어 사용에 비해 훨씬 높은 와트율을 제공합니다. NetApp은 다음 표의 숫자를 사용하여 StorageGRID 어플라이언스를 포함하는 제안된 랙 레이아웃이 귀사의 랙 전원 예산과 호환되는지 여부를 결정할 것을 권장합니다.</block>
+  <block id="2b5b64a60bc631586234f5544da3749e" category="cell">필요한 평균 전력(W)</block>
+  <block id="d610d425d035c971ae38a91c6059ba0e" category="cell">필요한 최대 전력(W)</block>
+  <block id="4734ba6f3de83d861c3176a6273cac6d" category="paragraph">273</block>
+  <block id="18d8042386b79e2c279fd162df0205c8" category="paragraph">400</block>
+  <block id="357a6fdf7642bf815a88822c447d9dc4" category="paragraph">337</block>
+  <block id="d490d7b4576290fa60eb31b5fc917ad1" category="paragraph">600</block>
+  <block id="371bce7dc83817b7893bcdeed13799b5" category="paragraph">352</block>
+  <block id="cee631121c2ec9232f3a2f028ad5c89b" category="paragraph">500</block>
+  <block id="f85454e8279be180185cac7d243c5eb3" category="paragraph">422</block>
+  <block id="e5841df2166dd424a57127423d276bbe" category="paragraph">700</block>
+  <block id="a8849b052492b5106526b2331e526138" category="paragraph">578</block>
+  <block id="f016e59c7ad8b1d72903bb1aa5720d53" category="paragraph">1394</block>
+  <block id="f39ae9ff3a81f499230c4126e01f421b" category="paragraph">1800</block>
+  <block id="d61e4bbd6393c9111e6526ea173a7c8b" category="paragraph">449</block>
+  <block id="7cce53cf90577442771720a370c3c723" category="paragraph">1048</block>
+  <block id="6f3e29a35278d71c7f65495871231324" category="paragraph">1300</block>
+  <block id="883e881bb4d22a7add958f2d6b052c9f" category="paragraph">1027</block>
+  <block id="9fdb62f932adf55af2c0e09e55861964" category="paragraph">1900</block>
+  <block id="729c68884bd359ade15d5f163166738a" category="paragraph">1484</block>
+  <block id="46a558d97954d0692411c861cf78ef79" category="paragraph">2300</block>
+  <block id="1a5b1e4daae265b790965a275b53ae50" category="paragraph">446</block>
+  <block id="f29b38f160f87ae86df31cee1982066f" category="paragraph">1312</block>
+  <block id="dfd298f661fce8aa9b8b039f6fcfd317" category="paragraph">StorageGRID 어플라이언스를 설치하기 전에 어플라이언스에 연결할 수 있는 네트워크와 각 컨트롤러의 포트가 어떻게 사용되는지 이해해야 합니다. StorageGRID 네트워크 요구 사항은 에 자세히<block ref="3b358f12dd038279fdaf0d1808df91ba" category="inline-link-rx"></block> 설명되어 있습니다.</block>
+  <block id="2060996e4ea036c84fe524f4bb640ff0" category="list-text">* SANtricity용 관리 네트워크 * (SGF6112에는 필요하지 않은 스토리지 어플라이언스의 경우 선택 사항): 이 네트워크는 SANtricity 시스템 관리자에 대한 액세스를 제공하여 어플라이언스 및 스토리지 컨트롤러 쉘프의 하드웨어 구성 요소를 모니터링하고 관리할 수 있습니다. 이 관리 네트워크는 StorageGRID용 관리 네트워크와 같을 수도 있고 독립 관리 네트워크일 수도 있습니다.</block>
+  <block id="e6b3f8c787f110e738041acfec63cd45" category="admonition">StorageGRID 네트워크에 대한 자세한 내용은 를<block ref="c9a67c39cb366102345c95ea9d802249" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="79ffe998f527a3998a83d054ff067c7e" category="list-text"><block ref="79ffe998f527a3998a83d054ff067c7e" category="inline-link-macro-rx"></block></block>
+  <block id="44ef269732748f70c763abafc0361990" category="list-text"><block ref="44ef269732748f70c763abafc0361990" category="inline-link-macro-rx"></block></block>
+  <block id="2b5994be0ad1518a670726d49503aef3" category="admonition">컨트롤러 또는 어플라이언스가 고장나서 교체해야 하는 경우 이 절차에 의해 수행된 BMC 설정이 유지되지 않을 수 있습니다. 하드웨어 교체 후 필요한 경우 쉽게 다시 적용할 수 있도록 적용한 모든 설정에 대한 기록이 있어야 합니다.</block>
+  <block id="156e455630a4e49e7afff2a829c35531" category="open-title">StorageGRID 11.9 이상</block>
+  <block id="1433f3dea3005561ee1f9e94e4de877d" category="paragraph">BMC 인터페이스에서 설정 페이지의 * 사용자 관리 * 및 * 플랫폼 이벤트 필터 * 옵션을 사용하여 이메일 알림을 구성합니다.</block>
+  <block id="a24c4a49e0637c9ce9a5d3e3763c71a7" category="list-text">StorageGRID 11.8 탭의 지침을 참조하십시오.</block>
+  <block id="a6a395448459048fdaeb07e54b94b267" category="list-text">이메일 알림을 하나 이상의 LAN 대상으로 구성합니다.</block>
+  <block id="0c8ef26903a3b776adc43b99b18c9e2e" category="list-text">대상 유형으로 * 전자 메일 * 을 선택합니다.</block>
+  <block id="c7b5a36a19e8301eff4fc9451bd33dea" category="list-text">BMC 사용자 이름을 선택하여 BMC 사용자 목록에서 이메일 알림을 받습니다. 이 사용자에 대해 구성된 이메일 주소로 경고 이메일이 전송됩니다. 참고: BMC 사용자를 구성하려면 * 설정 * &gt; * 사용자 관리 * 를 선택하십시오. 자세한 내용은 의 사용자 관리 섹션을<block ref="aa4ae73a3679e76122102799e4b86b83" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="1175a7000fca77edd90d690277c3ed44" category="list-text">이메일 알림에 대한 이메일 제목 및 이메일 메시지를 입력합니다.</block>
+  <block id="1de1c8446868458ccee2581f78aec976" category="admonition">AMI 형식 전자 메일 사용자에게는 전자 메일 제목 및 전자 메일 메시지가 사용되지 않습니다.</block>
+  <block id="e7ffe24adcffdb8065ff9e62767b1cb4" category="list-text">BMC를 사용하여 경고 정책 및 이벤트 필터를 구성하는 방법에 대한 자세한 내용은 의 플랫폼 이벤트 필터 섹션을<block ref="aa4ae73a3679e76122102799e4b86b83" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="0c116dd1f4daf14c460a0c77a9e0e674" category="open-title">StorageGRID 11.8</block>
+  <block id="f2fd1a71b7c294443da01bf7801b5884" category="list-text">BMC에 대한 SMTP 설정을 구성합니다.</block>
+  <block id="90d64eeba8247d656ef6b4800ec0f52f" category="paragraph">높이</block>
+  <block id="01004ca4b4cda083a59d7ef1cfc90475" category="paragraph">마스터 부팅 스크립트가 OS 부팅이 완료될 때까지 기다리고 있습니다.</block>
+  <block id="5651d908d5b3ab8d4a8fe8089b4e7d83" category="paragraph">에이치비</block>
+  <block id="e8ab6a7dc89e99a70ee4788e32f81415" category="paragraph">어플라이언스를 부팅할 때 하드웨어 오류가 발생하면 BMC가 오류 코드를 기록합니다. 필요에 따라 BMC 인터페이스 또는 어플라이언스 직렬 포트를 사용하여 이러한 오류 코드를 확인한 다음 기술 지원 부서와 협력하여 문제를 해결할 수 있습니다.</block>
+  <block id="1ee2c044ca8cf52433cc3a62a7cad31b" category="admonition">BMC에 BIOS POST 코드 메뉴 항목이 없는 경우 어플라이언스 직렬 포트를 사용하여 오류 코드에 액세스합니다.</block>
+  <block id="38a427148a620f2d51fd1f486f845a8e" category="list-text">BMC를 사용하는 경우 방법을 알고 있어야 <block ref="53b3502becaef2024da9e6edc66a9fa0" category="inline-link-macro-rx"></block>합니다.</block>
+  <block id="5fc4ac7c66fdffe8401fe52c2a46019f" category="list-text">직렬 포트와 터미널을 사용하는 경우 필요한 장비를 수집합니다.</block>
+  <block id="230e9ec0c8f1943db724a00dd136d924" category="list-text">다음 방법 중 하나를 사용하여 오류 코드에 액세스합니다.</block>
+  <block id="396262ee936f3d3e26ff0e60bea6cae0" category="open-title">BMC</block>
+  <block id="b3f994a8ec5d98ac49568364e3796eef" category="paragraph">BMC를 사용하는 경우 다음 단계를 수행하십시오.</block>
+  <block id="9c3afca0e22b83712c6663246c37c5a0" category="list-text"><block ref="3823cbfd1384af1b7d12448c89b77fd1" category="inline-link-macro-rx"></block>..</block>
+  <block id="9bd7f548a0adc76ee297f5abc7430291" category="paragraph">직렬 포트와 터미널을 사용하는 경우 다음 단계를 수행하여 오류 코드를 확인하십시오. 어플라이언스가 재부팅되면 직렬 콘솔에 BIOS POST 코드가 표시됩니다.</block>
+  <block id="250c0b0a67f024ab7cd29d7df958eaf4" category="paragraph">어플라이언스를 부팅할 때 하드웨어 오류가 발생하면 BMC가 오류 코드를 기록합니다. 필요에 따라 어플라이언스 직렬 포트를 사용하여 이러한 오류 코드를 확인한 다음 기술 지원 부서와 협력하여 문제를 해결할 수 있습니다.</block>
+  <block id="85fd8dbcb292a18c6e134c11d34b8b85" category="list-text">필요한 장비 수집:</block>
+  <block id="4c7f4b4177a8afabdfb2e79cd5bb5558" category="list-text">현재 코드 및 이전 코드에 대해 직렬 터미널에 인쇄된 정보를 검토합니다.</block>
+  <block id="e6523bc6b0aa210bcea1be5b2e6318ec" category="section-title">[[view-boot-codes]] 부팅 코드 보기(SGF6112 및 SG6160만 해당)</block>
+  <block id="badc9a052fb8dc6b6ee7a3020215193b" category="section-title">[[view-error-codes]] 오류 코드 보기(SGF6112 및 SG6160만 해당)</block>
+  <block id="a318b0e440c8e88d015bff11ce8a6e4c" category="paragraph">SG6000-CN 컨트롤러가 부팅 중일 때 하드웨어 오류가 발생하면 BMC가 오류 코드를 기록합니다. 필요에 따라 BMC 인터페이스 또는 어플라이언스 직렬 포트를 사용하여 이러한 오류 코드를 확인한 다음 기술 지원 부서와 협력하여 문제를 해결할 수 있습니다.</block>
+  <block id="99095f0bedc8e3d1410fe6eff42af5fc" category="image-alt">StorageGRID 어플라이언스 설치 프로그램의 핑 테스트 결과 스크린샷</block>
+  <block id="e7ea23a54c0ddebee1c1492e0cc1ea3d" category="paragraph">또한 외부 NFS 또는 DNS 서버에 사용되는 것과 같은 UDP 포트와 Admin 및 Client Networks에서 연결을 테스트할 수 있습니다. 이러한 포트 목록은 를<block ref="1e586dd4a6252c59d7456ca897ae854e" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="bdf32cd6e5bfe0d5860a2d5151fe3289" category="paragraph">다음 그림에서는 SG100 및 SG1000 전면의 상태 표시기와 단추를 보여 줍니다.</block>
+  <block id="1a2ed7d39e0db03d9b5d4d6a46779876" category="paragraph">다음 그림에서는 전원 공급 장치의 위치를 보여 주고 SG100 및 SG1000 후면의 LED를 식별합니다. 추가 상태 및 작동 상태 표시등은 어플라이언스 포트에 있습니다. 이러한 LED는 어플라이언스 모델에 따라 다를 수 있습니다.</block>
+  <block id="d74a4b83ad81c51e5fafde7ae7461979" category="paragraph">다음 그림은 SG110 및 SG1100 어플라이언스 전면의 표시등과 버튼입니다.</block>
+  <block id="20e957672cdc3dd43e0123cfc44ed26b" category="paragraph">다음 그림에서는 전원 공급 장치의 위치를 보여 주고 SG110 및 SG1100 뒷면에서 LED를 식별합니다. 추가 상태 및 작동 상태 표시등은 어플라이언스 포트에 있습니다. 이러한 LED는 어플라이언스 모델에 따라 다를 수 있습니다.</block>
+  <block id="64f2a2a9a6275d1679af729cb7fec6ac" category="paragraph"><block ref="64f2a2a9a6275d1679af729cb7fec6ac" category="inline-link-macro-rx"></block></block>
+  <block id="64dc56b6855e747e49efa5dfe185c62b" category="paragraph">다음 그림은 SG6000-CN 컨트롤러 전면에 있는 상태 표시기와 버튼을 보여줍니다.</block>
+  <block id="89a12c9cfe23a1dee6be66e2fb554131" category="paragraph">다음 그림에서는 전원 공급 장치의 위치를 보여 주고 SG6000-CN 컨트롤러 후면에 있는 LED를 식별합니다. 추가 상태 및 작동 상태 표시등은 어플라이언스 포트에 있습니다. 이러한 LED는 어플라이언스 모델에 따라 다를 수 있습니다.</block>
+  <block id="6caee75b38d61d4801420e3aec0b9ea6" category="paragraph">다음 그림은 SG6100 어플라이언스 전면의 표시등과 버튼입니다.</block>
+  <block id="fe624da545a0997cc5d2c3d30f369af3" category="paragraph">다음 그림에서는 전원 공급 장치의 위치를 보여 주고 SGF6112 및 SG6100-CN 후면의 LED를 식별합니다. 추가 상태 및 작동 상태 표시등은 어플라이언스 포트에 있습니다. 이러한 LED는 어플라이언스 모델에 따라 다를 수 있습니다.</block>
+  <block id="f95ca0912808abe2270cd1f418b6e89a" category="image-alt">후면 LED SGF6112 및 SG6100-CN</block>
+  <block id="0f47986745ce840c10499664283d7b6b" category="paragraph"><block ref="0f47986745ce840c10499664283d7b6b" category="inline-link-rx"></block></block>
+  <block id="810b48be331213357ad3b610c2ba8a84" category="paragraph">서비스 중단을 방지하려면 CMOS 배터리 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 관리 기간 동안 배터리를 교체하십시오. 에 대한 정보를<block ref="b3f58d00ee93c32201d0681addeea5ad" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="ae08639bb3ed33f2b9c5b58d9cddd031" category="list-text">교체 중인 제품과 동일한 부품 번호를 가진 교체용 제품이 있습니다. 제품 전면에 부착된 태그를 확인하여 부품 번호가 일치하는지 확인하십시오.</block>
+  <block id="4a9949b1653a4c2d26a04be273526cc5" category="list-text">있습니다. <block ref="1f3a73fe731b4a5896a19ff9b9d6fda4" category="inline-link-macro-rx"></block></block>
+  <block id="aa3035df8358cb3ce6b87fc939c73bbe" category="paragraph"><block ref="d1b4cf48faff4ebf5184bd2d02096bd0" category="inline-link-macro-rx"></block>..</block>
+  <block id="02d004373a5767dc8e2794e1c333439b" category="paragraph">서비스 중단을 방지하려면 NIC(Network Interface Card) 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 NIC를 교체하십시오. 에 대한 정보를<block ref="b3f58d00ee93c32201d0681addeea5ad" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="a11b7604b2e5565658b835219c8e4f8b" category="paragraph">서비스 중단을 방지하려면 팬 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 팬을 교체합니다. 에 대한 정보를<block ref="b3f58d00ee93c32201d0681addeea5ad" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="e3b64f91fe1b1f4d62193ee25017383c" category="paragraph">이미지는 전기 커넥터가 강조 표시된 제품의 팬을 보여줍니다. 제품에서 상단 덮개를 분리한 후 냉각 팬에 액세스할 수 있습니다.</block>
+  <block id="176b214d5da79715417a4dd8edc62741" category="summary">데이터 센터에서 어플라이언스를 쉽게 찾을 수 있도록 어플라이언스 전면 및 후면에 있는 파란색 식별 LED를 켤 수 있습니다.</block>
+  <block id="729e9f8a1afa4afe767302dd73394d10" category="list-text">을 사용하여 그리드 관리자에 로그인해야<block ref="b84b4e728cab50bf316de2913d9bfde1" category="inline-link-rx"></block> 합니다.</block>
+  <block id="ba435d2f285faf2c9d0a780aaf4916ed" category="paragraph">어플라이언스의 드라이브, 전원 팬 캐니스터, 팬 캐니스터, 전원 캐니스터 또는 드라이브 드로어를 교체하려면 에 액세스합니다<block ref="305b653a8d7ae8e7e9656f618c2cf6b6" category="inline-link-rx"></block>.</block>
+  <block id="3d73a67961e1a613e0b4583610182b70" category="doc">SG5700 스토리지 컨트롤러에서 SANtricity OS를 업그레이드하는 방법에 대해 알아보겠습니다</block>
+  <block id="a3fb3bbf2cf1bd106246d3e5db977eee" category="list-text"><block ref="a3fb3bbf2cf1bd106246d3e5db977eee" category="inline-link-macro-rx"></block></block>
+  <block id="d440998a1c8beb2d7f6513462969f958" category="list-text">Ping 테스트 도구를 사용하여 해당 단계에서 변경한 링크 구성 변경의 영향을 받았을 수 있는 네트워크의 IP 주소에 대한 연결을 <block ref="2b33924fedc837b12bedd9a200e4d03f" category="inline-xref-macro-rx"></block>확인합니다.</block>
+  <block id="89da1e2c5db02ccb941cd0e6d0b78782" category="list-text">그리드 관리자에서 * nodes * &gt; *_appliance node_ * &gt; * SANtricity System Manager * 를 선택합니다. 컨트롤러 정보는 에<block ref="a1aaf7bb5ac3c80e5c2b1588aa506a0d" category="inline-link-rx"></block>있습니다.</block>
+  <block id="a5ee4cd59c510c6a402f181d8d799c9b" category="image-alt">설명선 참조 1</block>
+  <block id="0757f3b26ab245447cc41936cd3afefe" category="image-alt">설명선 참조 2</block>
+  <block id="3cbfcbda43179f1df024e2d6051f5271" category="list-text">그리드 관리자에서 * nodes * &gt; *_appliance node_ * &gt; * SANtricity System Manager * 를 선택합니다. 컨트롤러 정보는 에<block ref="5f7e3517d1392ee1637563255b3cc9f7" category="inline-link-rx"></block>있습니다.</block>
+  <block id="dd3e050849166c9b784e0ff7ea3bc78b" category="inline-image-macro">팬 아이콘</block>
+  <block id="54e682c1e932dd0c4bfed689b5838167" category="list-text">Shelf* 드롭다운 목록 오른쪽에 있는 팬 <block ref="d8ed16a4ae23dc8d3334a7f3c4e05005" category="inline-image-macro-rx" type="image"></block> 아이콘을 확인하여 어떤 선반에 장애가 있는 팬 캐니스터가 있는지 확인합니다.</block>
+  <block id="192a91d56dc6ef980c24ab2e0ae1423b" category="inline-image-macro">전원 아이콘</block>
+  <block id="0b1e2ac5c16b80c880fa2636f10e31c2" category="list-text">Shelf* 드롭다운 목록 오른쪽에 있는 전원  아이콘을 확인하여 어떤 선반에 장애가 있는 전원 <block ref="2acf1b34d22964e8dbaecf0651bd6755" category="inline-image-macro-rx" type="image"></block>캐니스터가 있는지 확인합니다.</block>
+  <block id="d5dc60c63c442be4b800edee5dfd7825" category="list-text">쉘프 * 드롭다운 목록 오른쪽에 있는 전원  및 팬 <block ref="d8ed16a4ae23dc8d3334a7f3c4e05005" category="inline-image-macro-rx" type="image"></block> 아이콘을 확인하여 장애가 발생한 전원 <block ref="2acf1b34d22964e8dbaecf0651bd6755" category="inline-image-macro-rx" type="image"></block>공급 장치가 있는 쉘프를 확인합니다.</block>
+  <block id="385670e63395d954db81d385b46f8236" category="doc">SG5800 스토리지 컨트롤러에서 SANtricity OS를 업그레이드하는 것에 대해 알아보십시오</block>
+  <block id="461fe7b94ee4ef21c8144bcd702f1c6b" category="paragraph">필요한 경우 어플라이언스에 대해 사용 가능한 최신 OS 버전을 확인하여 해당 StorageGRID 어플라이언스에서 사용할 수 있는 자격을 갖춘 최신 SANtricity OS 버전을<block ref="17b838622e0459e6c950b0d070de6b4f" category="inline-link-rx"></block> 확인합니다.</block>
+  <block id="b87441e57987f2ad30acc24d0989a299" category="paragraph">녹색 확인 표시 아이콘은 활성화된 알림이 없고 노드가 그리드에 연결되어 있음을 의미합니다. 노드 아이콘에 대한 설명은 을<block ref="9d01e9b7dd507e2d1821030b4fd4830d" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="9b7df7c7893533ac85953b325941fb3b" category="paragraph">VLAN 설정을 변경한 경우 어플라이언스의 서브넷이 변경되었을 수 있습니다. 어플라이언스의 IP 주소를 변경해야 하는 경우<block ref="9eb689c81bebacfe8c9452246eece765" category="inline-link-rx"></block> 지침을 따르십시오.</block>
+  <block id="d80c84e576fe98bc08893a257604be7d" category="paragraph">서비스 중단을 방지하려면 서비스 중단 기간이 허용되는 예약된 유지 관리 기간 동안 어플라이언스를 종료하거나 종료하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하십시오. 에 대한 정보를<block ref="b3f58d00ee93c32201d0681addeea5ad" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="ea1ecedab3555fb0adf3fd24fc5107bb" category="admonition">개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있는 경우 예정된 유지 관리 기간 동안 어플라이언스를 종료해야 합니다. 그렇지 않으면 스토리지 노드의 서비스가 중지되는 유지보수 절차 중에 이러한 개체에 일시적으로 액세스할 수 없게 될 수 있습니다. 에 대한 정보를<block ref="02302a9f780d0f227b7003a48943822d" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="096c2190c4224592568161b84626fdbc" category="paragraph">서비스 중단을 방지하려면 서비스 중단 기간이 허용되는 예약된 유지 관리 기간 동안 컨트롤러를 종료하거나 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하십시오. 에 대한 정보를<block ref="b3f58d00ee93c32201d0681addeea5ad" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="99b7499d29e0b4c92013708a5a36981e" category="paragraph">서비스 중단을 방지하려면 Fibre Channel HBA 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 어댑터를 교체하십시오. 에 대한 정보를<block ref="b3f58d00ee93c32201d0681addeea5ad" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="cf2a6241dc04a8d5bee62e55ba159d5d" category="admonition">개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 예약된 유지 관리 기간 동안 파이버 채널 HBA를 교체해야 합니다. 그렇지 않으면 이 절차 중에 해당 개체에 대한 액세스가 일시적으로 끊어질 수 있습니다. + 에 대한 정보를<block ref="7b41c2a82ff7a44a340b8559b6012e92" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="5ff2938bdba727cdd0ed16126bccac9b" category="admonition">개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 배터리를 교체해야 합니다. 에 대한 정보를<block ref="7b41c2a82ff7a44a340b8559b6012e92" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="75fa2073dc16039e973e9242607939fa" category="paragraph">컨트롤러 쉘프의 다른 현장 교체 장치(FRU)에 대한 지침을 보려면 에 액세스합니다.<block ref="96926f38e4586f8b487862e63472a27b" category="inline-link-rx"></block></block>
+  <block id="4d2f463540a5360143a293cf6af90e59" category="list-text">교체할 컨트롤러와 부품 번호가 동일한 교체 컨트롤러가 있습니다. 컨트롤러 전면에 부착된 태그를 확인하여 부품 번호가 일치하는지 확인합니다.</block>
+  <block id="bf521ae758eb336e5dd7164da362b975" category="inline-link">_SANtricity OS 업그레이드_가이드</block>
+  <block id="ea5248ca8d12f622fb0872382b7ae167" category="list-text">펌웨어 및 NVSRAM을 업그레이드하려면 또는 SANtricity System Manager 온라인 도움말의 지침을<block ref="8ac6e3aa056487ab7380cf9c558bf6f1" category="inline-link-rx"></block> 따르십시오.</block>
+  <block id="50b9cd40eadd70d8b653fd8f03084bec" category="doc">SG6000 스토리지 컨트롤러에서 SANtricity OS 업그레이드 정보</block>
+  <block id="ae8e7ea880d097d7e9a0bde508c7e81d" category="list-text">있습니다. <block ref="68174fa3bab4ce6c72c57fb3530fdfd7" category="inline-link-macro-rx"></block></block>
+  <block id="c844d01687ddbc9954f7c427da1d4706" category="paragraph"><block ref="865edf77b3eba053e29e61ca4d9fc799" category="inline-link-macro-rx"></block>..</block>
+  <block id="9a221fc8827a4991817e2b249cd1cf3d" category="admonition">랙에서 어플라이언스를 분리하기 전에 가 <block ref="441002811e4fb104a452cffe39690fc5" category="inline-link-macro-rx"></block> 필요합니다.</block>
+  <block id="638734fcdf0d50595d78d81bb639fd1b" category="paragraph">두 SSD 드라이브가 정상적으로 작동하는 경우 시스템은 자동으로 읽기 캐시 기능을 복원합니다. 읽기 캐시 적중률을 모니터링할 수<block ref="735aff2661f88efa8f6e8cceeb96bac0" category="inline-link-rx"></block> 있습니다. 캐시가 방금 재구축되었기 때문에 처음에는 적중률이 낮을 수 있지만 개체 데이터에 액세스하는 클라이언트가 캐시를 다시 채울 때 시간이 지남에 따라 증가해야 합니다.</block>
+  <block id="ae4fa539a7c5cac501cec6d0e59f538b" category="list-text">Shelf* 드롭다운 목록 오른쪽에 있는 팬 <block ref="d8ed16a4ae23dc8d3334a7f3c4e05005" category="inline-image-macro-rx" type="image"></block> 아이콘을 확인하여 어떤 어플라이언스가 고장난 팬 캐니스터를 가지고 있는지 확인합니다.</block>
+  <block id="b8e55daf0cd7d7e3973b1e259f86f0cd" category="admonition">개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 NIC를 교체해야 합니다. 에 대한 정보를<block ref="7b41c2a82ff7a44a340b8559b6012e92" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="7da93c6e68a43a9bce834b5ab317044f" category="admonition">이 절차에서는 핫 스왑이 * 지원되지 않습니다 *. 케이블을 분리하고 NIC를 제거하기 전에 A가 <block ref="441002811e4fb104a452cffe39690fc5" category="inline-link-macro-rx"></block>필요합니다.</block>
+  <block id="f23564587172dfdbfe2370e00a02a9e5" category="paragraph">서비스 중단을 방지하려면 NIC(Network Interface Card) 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 NIC를 교체하십시오. 에 대한 정보를 <block ref="5059dc4531f4f3adf649d818b95a89ff" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="84504c6b7f2491dc5bc7090a8c2b9821" category="admonition">개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 NIC를 교체해야 합니다. 에 대한 정보를 <block ref="f62f9b0fd270f830287bb631ff88ea28" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="04690c654e14c31aaff7dcdf3ee29f7f" category="admonition">개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 대한 액세스가 일시적으로 손실될 수 있으므로 예약된 유지 관리 기간 동안 팬을 교체해야 합니다. 에 대한 정보를<block ref="7b41c2a82ff7a44a340b8559b6012e92" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="57f986120565d62fe336f74024a0a5dc" category="list-text"><block ref="b8ccfb419e995cdda7f100cd08c73614" category="inline-link-macro-rx"></block>..</block>
+  <block id="cdc6c3e5556c763f3a315ba4edf24802" category="admonition">개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있고 두 전원 공급 장치를 동시에 교체하는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 전원 공급 장치를 교체해야 합니다. 에 대한 정보를<block ref="7b41c2a82ff7a44a340b8559b6012e92" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="1b7d4d3c0c1dc6813d5940e856960dd4" category="list-text">교체한 어플라이언스에 SED 드라이브에 대해 하드웨어 드라이브 암호화가 활성화된 경우 를 참조하십시오.<block ref="942fcf41c1144a1a8b0cde84a2954b64" category="inline-link-macro-rx"></block> 교체용 어플라이언스를 처음 시작할 때 지침에 따라 암호화된 드라이브에 액세스합니다. 절차를 완료하려면 재부팅해야 합니다.</block>
+  <block id="8b2f35ba079b66e821fbe2ecbf079a0b" category="list-text"><block ref="8b2f35ba079b66e821fbe2ecbf079a0b" category="inline-link-macro-rx"></block></block>
+  <block id="6df3b6aa83b520cdd88f98e9d7ae2f92" category="doc">Grid Manager를 사용하여 SG6100 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다</block>
+  <block id="73ceb72d67ba34612609e1f83759b680" category="inline-link-macro">유지보수 모드를 사용하여 SG6100 컨트롤러에서 SANtricity OS를 업그레이드합니다</block>
+  <block id="35be643dd560ae241670f92b1cd69cf6" category="list-text"><block ref="35be643dd560ae241670f92b1cd69cf6" category="inline-link-macro-rx"></block></block>
+  <block id="2f0574719ffbf08aeb528b5265507fb2" category="inline-link">StorageGRID 11.9 설명서</block>
+  <block id="fb9bf062d669886ba82eb2cef6e06bb0" category="paragraph">StorageGRID 11.9 시스템을 구성 및 사용하는 방법은 를<block ref="8a6d41e812d44c3c4b339dfb6a2bafbd" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="d9419a01ee4fdcd160bf1446e5a481f5" category="list-text"><block ref="d9419a01ee4fdcd160bf1446e5a481f5" category="inline-link-rx"></block></block>
+  <block id="0ceab7293af6c07bc39db5e5d82dd9d5" category="section-title">BMC 정보입니다</block>
+  <block id="383618c189ef21ef243ef8ab02426094" category="paragraph">이제 StorageGRID 어플라이언스 BMC 인터페이스 사용에 대한 자세한 정보를 확인할 수 있습니다. 을 <block ref="df528c7928eba5c1226970c2705dfb3a" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="4c3023a359ba4319887ce079f8ee7f9b" category="paragraph">새로운 StorageGRID SG5812 및 SG5860 어플라이언스는 StorageGRID 그리드에서 스토리지 노드로 작동하는 통합 스토리지 및 컴퓨팅 플랫폼입니다. 자세한 내용은 를 <block ref="2a413e9ad740d8bf3ae3102a4c99aa8a" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="32b906eb47adfda8201e47113c29db5b" category="paragraph">새 StorageGRID SG6160 어플라이언스에는 2개의 스토리지 컨트롤러와 60개의 드라이브, 캐싱을 위한 NVMe SSD 드라이브 2개가 포함된 컴퓨팅 컨트롤러 및 스토리지 컨트롤러 쉘프가 포함됩니다. 선택적으로 60개 드라이브 확장 쉘프를 SG6160에 추가할 수 있습니다. 자세한 내용은 를 <block ref="476efecdba735494e72d7970bc2f3e26" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="a875f4e3e98d1c995967b1dfb394ca2e" category="sidebar">StorageGRID 11.9 설명서</block>
+  <block id="8bd00e89826dbd3fcf80ca108d7a008d" category="sidebar">드라이브 관리</block>
+  <block id="d9435157d60631f5b40942f8da9f9d4f" category="sidebar">식별 LED를 켜거나 끕니다</block>
+  <block id="9e0d42c7b934dc5cdf1101e6790d4586" category="sidebar">드라이브 펌웨어 업그레이드(온라인 방법)</block>
+  <block id="e54c8c67c50fc4b3207c84f37536f504" category="sidebar">드라이브 펌웨어 업그레이드(오프라인 방법)</block>
+  <block id="51130a506eed4d61508de06399ef34da" category="sidebar">SGF6112 또는 SG6100-CN을 랙에 재배치합니다</block>
+  <block id="4f45c0c0b55884bea7e7649654813e35" category="sidebar">드라이브 관리(SG110, SG1100, SGF6112 및 SG6160)</block>
+  <block id="3f7fe61f120f9ba5cf2d622ad7597a37" category="sidebar">BMC 인터페이스를 사용합니다</block>
 </blocks>

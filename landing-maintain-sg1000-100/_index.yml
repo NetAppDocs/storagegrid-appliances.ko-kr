@@ -1,9 +1,13 @@
 ---
 indexpage:
+  title: SG1000 및 SG100 서비스 어플라이언스 하드웨어를 유지 관리합니다
+  summary: SG1000 및 SG100 서비스 어플라이언스의 하드웨어를 유지 관리합니다.
+  keywords: maintain storagegrid sg100, maintain storagegrid sg1000
+  lead: SG1000 및 SG100 서비스 어플라이언스의 하드웨어를 유지 관리합니다.
   tiles:
   - title: 자주 수행하는 절차
     links:
-    - title: 위치 LED를 켜거나 끕니다
+    - title: 식별 LED를 켜거나 끕니다
       url: "../sg100-1000/turning-controller-identify-led-on-and-off.html"
     - title: 데이터 센터에서 어플라이언스를 찾습니다
       url: "../sg100-1000/locating-controller-in-data-center.html"

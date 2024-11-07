@@ -15,7 +15,7 @@ summary: '설치 프로그램 버전을 확인하고 그리드 네트워크, 관
 
 .시작하기 전에
 * StorageGRID 관리 네트워크에 연결할 수 있는 관리 클라이언트를 사용 중이거나 서비스 랩톱을 사용 중입니다.
-* 클라이언트 또는 서비스 랩톱에 가 있습니다 https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html["지원되는 웹 브라우저"^].
+* 클라이언트 또는 서비스 랩톱에 가 https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html["지원되는 웹 브라우저"^]있습니다.
 * 서비스 어플라이언스 또는 스토리지 어플라이언스 컨트롤러는 사용하려는 모든 StorageGRID 네트워크에 연결됩니다.
 * 이러한 네트워크에서 서비스 어플라이언스 또는 스토리지 어플라이언스 컨트롤러의 IP 주소, 게이트웨이 및 서브넷을 알고 있습니다.
 * 사용할 네트워크 스위치를 구성했습니다.
@@ -110,7 +110,7 @@ image::../media/sg6100_admin_network_port.png[SGF6112의 관리 네트워크 포
 StorageGRID 어플라이언스 설치 관리자 홈 페이지가 나타납니다. 이 페이지에 처음 액세스할 때 표시되는 정보와 메시지는 어플라이언스가 현재 StorageGRID 네트워크에 연결되어 있는 방식에 따라 다릅니다. 오류 메시지가 나타날 수 있으며, 이 메시지는 이후 단계에서 해결될 것입니다.
 
 +
-image::../media/appliance_installer_home_5700_5600.png[StorageGRID Webscale 어플라이언스 설치 관리자 홈 페이지의 상단 부분 스크린 샷]
+image::../media/appliance_installer_home_5700_5600.png[StorageGRID 어플라이언스 설치 프로그램 홈 페이지 상단 부분의 스크린 샷]
 
 
 

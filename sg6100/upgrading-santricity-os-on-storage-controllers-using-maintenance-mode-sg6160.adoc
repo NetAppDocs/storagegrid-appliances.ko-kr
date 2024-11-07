@@ -41,7 +41,7 @@ CAUTION: 배포 모델 및 ILM 정책에 따라 한 번에 둘 이상의 Storage
 
 CAUTION: NVSRAM은 StorageGRID 어플라이언스에만 적용됩니다. 표준 NVSRAM 다운로드는 사용하지 마십시오.
 
-. 펌웨어 및 NVSRAM을 업그레이드하려면, _Upgrading SANtricity OS_guide 또는 SANtricity 시스템 관리자 온라인 도움말의 지침을 따르십시오.
+. 펌웨어 및 NVSRAM을 업그레이드하려면 또는 SANtricity System Manager 온라인 도움말의 지침을 https://docs.netapp.com/us-en/e-series-santricity/sm-support/upgrade-controller-software-and-firmware.html["_SANtricity OS 업그레이드_가이드"^] 따르십시오.
 +
 
 NOTE: 업그레이드 파일을 즉시 활성화합니다. 활성화를 지연하지 마십시오.

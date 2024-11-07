@@ -1,5 +1,11 @@
 ---
 indexpage:
+  title: StorageGRID 어플라이언스 하드웨어를 설치합니다
+  summary: StorageGRID 시스템에 스토리지 또는 서비스 어플라이언스를 추가하려면 어플라이언스 하드웨어를 설치하고 구성합니다. 그런
+    다음 각 어플라이언스에 StorageGRID 소프트웨어를 설치하고 어플라이언스 노드를 그리드에 연결합니다.
+  keywords: storagegrid appliance install, storagegrid hardware install
+  lead: StorageGRID 시스템에 스토리지 또는 서비스 어플라이언스를 추가하려면 어플라이언스 하드웨어를 설치하고 구성합니다. 그런 다음
+    각 어플라이언스에 StorageGRID 소프트웨어를 설치하고 어플라이언스 노드를 그리드에 연결합니다.
   tiles:
   - title: 빠른 시작
     links:

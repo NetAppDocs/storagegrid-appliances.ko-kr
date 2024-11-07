@@ -37,8 +37,7 @@ NOTE: 베젤이 컨트롤러에 설치되어 있는 경우 전면 식별 LED를 
 
 
 .관련 정보
-link:reinstalling-fibre-channel-hba.html#verify-fibre-channel-hba-to-replace["교체할 Fibre Channel HBA를 확인합니다"]
+* link:reinstalling-fibre-channel-hba.html#verify-fibre-channel-hba-to-replace["교체할 Fibre Channel HBA를 확인합니다"]
+* link:locating-controller-in-data-center.html["데이터 센터에서 컨트롤러를 찾습니다"]
+* link:../installconfig/accessing-bmc-interface.html["BMC 인터페이스에 액세스합니다"]
 
-link:locating-controller-in-data-center.html["데이터 센터에서 컨트롤러를 찾습니다"]
-
-link:../installconfig/accessing-bmc-interface.html["BMC 인터페이스에 액세스합니다"]

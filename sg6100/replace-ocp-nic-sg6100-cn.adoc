@@ -1,5 +1,5 @@
 ---
-permalink: sg6100/replace-ocp-nic-in-sg6100-cn.html 
+permalink: sg6100/replace-ocp-nic-sg6100-cn.html 
 sidebar: sidebar 
 keywords: storagegrid, sg6100, storage node, storage appliance, Replacing, replace, NIC, network interface card 
 summary: 'SG6100-CN의 네트워크 인터페이스 카드\(NIC\)가 최적으로 작동하지 않거나 장애가 발생한 경우 교체해야 할 수 있습니다.' 
@@ -28,17 +28,17 @@ image::../media/sg6100_cn_ocp_nic_location.png[NIC 전면판.]
 * 있습니다 link:locating-sgf6112-in-data-center.html["SG6100-CN 컨트롤러를 물리적으로 배치했습니다"] 데이터 센터에서 NIC를 교체하는 위치입니다.
 +
 
-NOTE: 이 절차에서는 핫 스왑이 * 지원되지 않습니다 *. A link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance["제품의 제어된 셧다운"] 케이블을 분리하고 NIC를 제거하기 전에 필요합니다.
+NOTE: 이 절차에서는 핫 스왑이 * 지원되지 않습니다 *. 케이블을 분리하고 NIC를 제거하기 전에 A가 link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance-or-sg6100-cn-controller["제품의 제어된 셧다운"]필요합니다.
 
 * SG6100-CN의 전원 코드 2개를 포함하여 모든 케이블을 분리했습니다.
 * *선택 사항*: 현지 규정에 따라 필요한 경우 랙에서 컨트롤러를 분리했습니다. NIC를 외부에서 액세스할 수 있으므로 분리할 필요가 없습니다.
 
 
 .이 작업에 대해
-서비스 중단을 방지하려면 NIC(Network Interface Card) 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 NIC를 교체하십시오. 에 대한 정보를 참조하십시오 link:https://docs.netapp.com/us-en/storagegrid-118/monitor/monitoring-system-health.html#monitor-node-connection-states["통합 노드 연결 상태"].
+서비스 중단을 방지하려면 NIC(Network Interface Card) 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 보수 기간 동안 NIC를 교체하십시오. 에 대한 정보를 link:https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states["통합 노드 연결 상태"]참조하십시오.
 
 
-CAUTION: 개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 NIC를 교체해야 합니다. 에 대한 정보를 참조하십시오 link:https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"].
+CAUTION: 개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 이 절차를 수행하는 동안 해당 개체에 일시적으로 액세스할 수 없게 될 수 있으므로 예약된 유지 관리 기간 동안 NIC를 교체해야 합니다. 에 대한 정보를 link:https://docs.netapp.com/us-en/storagegrid/ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"]참조하십시오.
 
 
 

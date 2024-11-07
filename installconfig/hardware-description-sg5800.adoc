@@ -314,4 +314,4 @@ E4000 컨트롤러를 SG5800 컨트롤러에 연결합니다.
 
 |===
 .관련 정보
-http://mysupport.netapp.com/info/web/ECMP1658252.html["NetApp E-Series 시스템 문서 사이트"^]
+https://docs.netapp.com/us-en/e-series-family/index.html["NetApp E-Series 설명서"^]

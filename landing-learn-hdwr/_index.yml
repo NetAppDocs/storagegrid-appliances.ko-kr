@@ -1,14 +1,18 @@
 ---
 indexpage:
+  title: StorageGRID 어플라이언스를 시작하십시오
+  summary: StorageGRID 시스템의 스토리지 또는 서비스 어플라이언스에 대해 알아보십시오.
+  keywords: learn storagegrid appliances
+  lead: StorageGRID 시스템의 스토리지 또는 서비스 어플라이언스에 대해 알아보십시오.
   tiles:
   - title: 시작하십시오
     links:
     - title: 가전제품의 새로운 기능
       url: "../whats-new-appliances.html"
     - title: StorageGRID에 대해 자세히 알아보십시오
-      url: https://docs.netapp.com/us-en/storagegrid-118/primer/index.html
+      url: https://docs.netapp.com/us-en/storagegrid/primer/index.html
     - title: StorageGRID 빠른 시작
-      url: https://docs.netapp.com/us-en/storagegrid-118/primer/quick-start.html
+      url: https://docs.netapp.com/us-en/storagegrid/primer/quick-start.html
     - title: 어플라이언스 설치를 위한 빠른 시작
       url: "../installconfig/index.html"
   - title: 스토리지 어플라이언스에 대해 알아보십시오

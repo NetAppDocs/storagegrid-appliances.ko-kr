@@ -14,7 +14,7 @@ summary: SG6000-CN 컨트롤러가 최적의 상태로 작동하지 않거나 �
 SG6000-CN 컨트롤러가 최적의 상태로 작동하지 않거나 오류가 발생한 경우 교체해야 할 수 있습니다.
 
 .시작하기 전에
-* 교체할 컨트롤러와 부품 번호가 동일한 교체 컨트롤러가 있습니다.
+* 교체할 컨트롤러와 부품 번호가 동일한 교체 컨트롤러가 있습니다. 컨트롤러 전면에 부착된 태그를 확인하여 부품 번호가 일치하는지 확인합니다.
 * 컨트롤러에 연결된 각 케이블을 식별하는 라벨이 있습니다.
 * 데이터 센터에서 물리적으로 교체할 컨트롤러를 가지고 있습니다.
 +
@@ -78,7 +78,7 @@ NOTE: 설치 프로세스의 일부 단계에서는 서비스 랩톱 연결을 �
 +
 ** link:../installconfig/configuring-network-links.html["네트워크 링크를 구성합니다"]
 ** link:../installconfig/setting-ip-configuration.html["StorageGRID IP 주소를 구성합니다"]
-** https://docs.netapp.com/us-en/storagegrid-118/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance["어플라이언스에 대한 노드 암호화를 구성합니다"^]
+** https://docs.netapp.com/us-en/storagegrid/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance["어플라이언스에 대한 노드 암호화를 구성합니다"^]
 
 
 . 교체한 컨트롤러를 사용하여 어플라이언스에 로그인합니다.
@@ -122,8 +122,7 @@ NOTE: 설치 프로세스의 일부 단계에서는 서비스 랩톱 연결을 �
 부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반납 및 교체"^] 페이지를 참조하십시오.
 
 .관련 정보
-link:../installconfig/sg6000-cn-installing-into-cabinet-or-rack.html["SG6000-CN을 캐비닛 또는 랙에 설치합니다"]
+* link:../installconfig/sg6000-cn-installing-into-cabinet-or-rack.html["SG6000-CN을 캐비닛 또는 랙에 설치합니다"]
+* link:../installconfig/viewing-status-indicators.html["상태 표시기를 봅니다"]
+* link:../installconfig/troubleshooting-hardware-installation.html#view-boot-codes["SG6000-CN 컨트롤러의 부팅 코드를 봅니다"]
 
-link:../installconfig/viewing-status-indicators.html["상태 표시기를 봅니다"]
-
-link:../installconfig/troubleshooting-hardware-installation.html#view-boot-codes["SG6000-CN 컨트롤러의 부팅 코드를 봅니다"]

@@ -38,10 +38,6 @@ image::../media/sgf6112_power_supplies.png[2개의 전원 공급 장치가 있�
 . 하나의 전원 공급 장치만 교체하는 경우 제품을 종료할 필요가 없습니다. 로 이동합니다 <<Unplug_the_power_cord,전원 코드를 뽑습니다>> 단계. 두 전원 공급 장치를 동시에 교체하는 경우 전원 코드를 뽑기 전에 다음을 수행하십시오.
 +
 .. link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-appliance["제품을 종료하십시오"].
-+
-
-IMPORTANT: 개체의 복사본을 하나만 만드는 ILM 규칙을 사용한 적이 있고 두 전원 공급 장치를 동시에 교체하는 경우 예정된 유지 관리 창에서 전원 공급 장치를 교체해야 합니다. 그렇지 않으면 이 절차 중에 해당 개체에 대한 액세스가 일시적으로 끊어질 수 있습니다. 에 대한 정보를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"^].
-
 
 
 . [[UNPLICATE_The_POWER_CODED, START=2]] 교체할 각 전원 공급 장치에서 전원 코드를 뽑습니다.

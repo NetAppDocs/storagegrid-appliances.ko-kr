@@ -20,7 +20,7 @@ summary: 캐비닛 또는 랙에서 SGF6112를 분리하여 상단 덮개에 액
 .시작하기 전에
 * SGF6112 또는 SG6100-CN에 연결된 각 케이블을 식별하기 위한 레이블이 있습니다.
 * 있습니다 link:locating-sgf6112-in-data-center.html["SGF6112 또는 SG6100-CN의 위치를 물리적으로 지정했습니다"] 데이터 센터에서 유지 관리를 수행하는 단계입니다.
-* 있습니다 link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance["SGF6112 또는 SG6100-CN을 종료합니다"].
+* 있습니다. link:power-sgf6112-off-on.html#shut-down-the-sgf6112-appliance-or-sg6100-cn-controller["SGF6112 또는 SG6100-CN을 종료합니다"]
 +
 
 CAUTION: 전원 스위치를 사용하여 제품을 끄지 마십시오.
@@ -81,4 +81,4 @@ NOTE: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 끼�
 
 
 .작업을 마친 후
-link:power-sgf6112-off-on.html#power-on-sgf6112-and-verify-operation["어플라이언스를 다시 시작하십시오"].
+link:power-sgf6112-off-on.html#power-on-sgf6112-or-sg6100-cn-and-verify-operation["어플라이언스를 다시 시작하십시오"]..

@@ -10,8 +10,9 @@ entries:
   pdf-filename: 유지보수 구성 절차 - SG6000
   entries:
   - title: 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다
-    url: "/sg6000/upgrading-santricity-os-on-storage-controllers.html"
     entries:
+    - title: SG6000 스토리지 컨트롤러에서 SANtricity OS 업그레이드 정보
+      url: "/sg6000/upgrading-santricity-os-on-storage-controllers.html"
     - title: 그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다
       url: "/sg6000/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6000.html"
     - title: 유지보수 모드를 사용하여 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다

@@ -15,7 +15,7 @@ summary: 어플라이언스에서 어떤 하드웨어 구성 요소를 교체해
 
 .시작하기 전에
 * 구성 요소를 교체해야 하는 스토리지 어플라이언스의 일련 번호가 있습니다.
-* 를 사용하여 그리드 관리자에 로그인했습니다 https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html["지원되는 웹 브라우저"^].
+* 을 사용하여 그리드 관리자에 로그인되어 있습니다. https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html["지원되는 웹 브라우저"^]
 
 
 .이 작업에 대해
@@ -42,7 +42,7 @@ NOTE: 알림 그룹의 제목이 아닌 알림을 선택합니다.
 
 .. 실패한 구성 요소의 노드 이름 및 고유 식별 레이블을 기록합니다.
 +
-image::../media/nic-alert-sgf6112.jpg[구성요소 ID로 경고]
+image::../media/nic-alert-sgf6112.png[구성요소 ID로 경고]
 
 
 

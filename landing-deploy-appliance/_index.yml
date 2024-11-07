@@ -1,5 +1,9 @@
 ---
 indexpage:
+  title: 어플라이언스 노드를 구축합니다
+  summary: StorageGRID 어플라이언스 노드를 구축하고 작동을 확인합니다.
+  keywords: storagegrid deployment, deploy storagegrid
+  lead: StorageGRID 어플라이언스 노드를 구축하고 작동을 확인합니다.
   tiles:
   - title: 어플라이언스 구축
     links:

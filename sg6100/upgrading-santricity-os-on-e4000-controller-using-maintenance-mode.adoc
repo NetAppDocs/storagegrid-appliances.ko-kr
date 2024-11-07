@@ -14,7 +14,7 @@ summary: 유지보수 모드를 사용하여 E4000 컨트롤러에서 SANtricity
 유지보수 모드를 사용하여 E4000 컨트롤러에서 SANtricity OS를 업그레이드할 수 있습니다.
 
 
-NOTE: 현재 08.42.20.00(11.42) 이상의 SANtricity OS를 사용 중인 스토리지 컨트롤러의 경우 를 권장합니다 link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html["Grid Manager를 사용하여 업그레이드를 적용합니다"]. 그러나 원하는 경우나 기술 지원 부서의 지시가 있는 경우에는 유지보수 모드 절차를 사용할 수 있습니다.
+NOTE: 현재 08.42.20.00(11.42) 이상의 SANtricity OS를 사용 중인 스토리지 컨트롤러의 경우 를 권장합니다 link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html["Grid Manager를 사용하여 업그레이드를 적용합니다"]. 그러나 원하는 경우나 기술 지원 부서의 지시가 있는 경우에는 유지보수 모드 절차를 사용할 수 있습니다.
 
 .시작하기 전에
 * 을(를) 참조했습니다 https://imt.netapp.com/matrix/#welcome["NetApp 상호 운용성 매트릭스 툴(IMT)"^] 업그레이드에 사용 중인 SANtricity OS 버전이 어플라이언스와 호환되는지 확인합니다.
@@ -62,4 +62,4 @@ image::../media/nodes_menu.png[어플라이언스 노드가 그리드에 다시 
 
 
 .관련 정보
-link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html["그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다"]
+link:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html["그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다"]

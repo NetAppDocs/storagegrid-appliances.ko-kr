@@ -22,7 +22,7 @@ BMC 관리 포트의 DHCP 또는 고정 IP 주소를 사용하여 다음 어플�
 
 
 .시작하기 전에
-* 관리 클라이언트에서 을 사용하고 있습니다 https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html["지원되는 웹 브라우저"^].
+* 관리 클라이언트가 를 사용하고 https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html["지원되는 웹 브라우저"^] 있습니다.
 * 어플라이언스의 BMC 관리 포트가 사용하려는 관리 네트워크에 연결되어 있습니다.
 +
 [role="tabbed-block"]

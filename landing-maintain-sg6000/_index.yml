@@ -1,9 +1,13 @@
 ---
 indexpage:
+  title: SG6000 스토리지 어플라이언스 하드웨어를 유지 관리합니다
+  summary: SG6000 스토리지 어플라이언스의 하드웨어를 유지 관리합니다.
+  keywords: maintain storagegrid sg6000
+  lead: SG6000 스토리지 어플라이언스의 하드웨어를 유지 관리합니다.
   tiles:
   - title: 자주 수행하는 절차
     links:
-    - title: 위치 LED를 켜거나 끕니다
+    - title: 식별 LED를 켜거나 끕니다
       url: "../sg6000/turning-controller-identify-led-on-and-off.html"
     - title: 데이터 센터에서 어플라이언스를 찾습니다
       url: "../sg6000/locating-controller-in-data-center.html"
@@ -13,8 +17,10 @@ indexpage:
       url: "../sg6000/changing-link-configuration-of-sg6000-cn-controller.html"
     - title: SANtricity를 업그레이드합니다
       url: "../sg6000/upgrading-santricity-os-on-storage-controllers.html"
-    - title: 드라이브 펌웨어를 업그레이드합니다
-      url: "../sg6000/upgrading-drive-firmware-using-santricity-system-manager.html"
+    - title: 드라이브 펌웨어 업그레이드(온라인 방법)
+      url: "../sg6000/upgrading-drive-firmware-using-santricity-system-manager-online.html"
+    - title: 드라이브 펌웨어 업그레이드(오프라인 방법)
+      url: "../sg6000/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
   - title: 랙 절차
     links:
     - title: 랙에 컨트롤러를 교체합니다

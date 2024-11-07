@@ -20,7 +20,7 @@ summary: 캐비닛 또는 랙에서 SG110 또는 SG1100을 분리하여 상단 �
 .시작하기 전에
 * SG110 또는 SG1100에 연결된 각 케이블을 식별하기 위한 레이블이 있습니다.
 * 있습니다 link:locating-sg110-and-sg1100-in-data-center.html["SG110 또는 SG1100의 물리적 위치"] 데이터 센터에서 유지 관리를 수행하는 단계입니다.
-* 있습니다 link:power-sg110-and-sg1100-off-on.html#shut-down-the-appliance["SG110 또는 SG1100을 종료합니다"].
+* 있습니다. link:power-sg110-and-sg1100-off-on.html#shut-down-the-sg110-or-sg1100-appliance["SG110 또는 SG1100을 종료합니다"]
 +
 
 CAUTION: 전원 스위치를 사용하여 제품을 끄지 마십시오.
@@ -83,4 +83,4 @@ IMPORTANT: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 
 
 
 .작업을 마친 후
-link:power-sg110-and-sg1100-off-on.html#power-on-sg110-or-sg1100-and-verify-operation.html["어플라이언스를 다시 시작하십시오"].
+link:power-sg110-and-sg1100-off-on.html#power-on-sg110-or-sg1100-and-verify-operation["어플라이언스를 다시 시작하십시오"]..

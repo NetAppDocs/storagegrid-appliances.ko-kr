@@ -35,7 +35,7 @@ image::../media/ping_test_start.png[StorageGRID 어플라이언스 설치 프로
 네트워크 연결이 유효한 경우 ping 명령 출력이 나열된 "Ping test Passed" 메시지가 나타납니다.
 
 +
-image::../media/ping_test_passed.png[StorageGRID Webscale 어플라이언스 설치 프로그램에서 Ping 테스트 결과 스크린샷]
+image::../media/ping_test_passed.png[StorageGRID 어플라이언스 설치 프로그램의 핑 테스트 결과 스크린샷]
 
 
 

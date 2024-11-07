@@ -16,7 +16,7 @@ StorageGRID 어플라이언스 설치 프로그램과 다른 노드 간의 액�
 .이 작업에 대해
 StorageGRID 어플라이언스 설치 프로그램에 제공된 포트 목록을 사용하여 어플라이언스와 그리드 네트워크의 다른 노드 간의 연결을 테스트할 수 있습니다.
 
-또한 외부 NFS 또는 DNS 서버에 사용되는 것과 같은 UDP 포트와 Admin 및 Client Networks에서 연결을 테스트할 수 있습니다. 이러한 포트 목록은 를 참조하십시오 https://docs.netapp.com/us-en/storagegrid-118/network/network-port-reference.html["네트워크 포트 참조"^].
+또한 외부 NFS 또는 DNS 서버에 사용되는 것과 같은 UDP 포트와 Admin 및 Client Networks에서 연결을 테스트할 수 있습니다. 이러한 포트 목록은 를 https://docs.netapp.com/us-en/storagegrid/network/network-port-reference.html["네트워크 포트 참조"^] 참조하십시오.
 
 
 NOTE: 포트 연결 표에 나열된 그리드 네트워크 포트는 StorageGRID 버전 11.7 이상에서만 사용할 수 있습니다. 각 노드 유형에 맞는 포트를 확인하려면 사용 중인 StorageGRID 버전에 대한 네트워킹 지침을 항상 참조해야 합니다.

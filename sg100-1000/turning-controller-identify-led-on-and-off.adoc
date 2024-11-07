@@ -17,7 +17,7 @@ summary: 컨트롤러 앞면과 뒷면의 청색 식별 LED를 켜면 데이터 
 식별하려는 컨트롤러의 BMC IP 주소가 있습니다.
 
 .단계
-. 어플라이언스 BMC 인터페이스에 액세스합니다.
+. link:../installconfig/accessing-bmc-interface.html["어플라이언스 BMC 인터페이스에 액세스합니다"].
 . 서버 식별 * 을 선택합니다.
 +
 식별 LED의 현재 상태가 선택됩니다.
@@ -37,6 +37,6 @@ NOTE: 베젤이 컨트롤러에 설치되어 있는 경우 전면 식별 LED를 
 
 
 .관련 정보
-link:locating-controller-in-data-center.html["데이터 센터에서 컨트롤러를 찾습니다"]
+* link:locating-controller-in-data-center.html["데이터 센터에서 컨트롤러를 찾습니다"]
+* link:../installconfig/accessing-bmc-interface.html["BMC 인터페이스에 액세스합니다"]
 
-link:../installconfig/accessing-bmc-interface.html["BMC 인터페이스에 액세스합니다"]

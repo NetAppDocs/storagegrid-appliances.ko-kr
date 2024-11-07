@@ -30,7 +30,7 @@ StorageGRID 어플라이언스를 설치하기 전에 필요한 추가 장비와
 ESD 손목 스트랩::
 +
 --
-* https://docs.netapp.com/us-en/storagegrid-118/admin/web-browser-requirements.html["지원되는 웹 브라우저"^]
+* https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html["지원되는 웹 브라우저"^]
 * PuTTY와 같은 SSH 클라이언트
 * 1GbE(RJ-45) 포트
 

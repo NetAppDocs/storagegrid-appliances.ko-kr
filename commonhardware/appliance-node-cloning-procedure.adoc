@@ -98,7 +98,7 @@ image::../media/cloning_progress.png[복제 진행 상태]
 
 
 * 타겟 노드가 유지보수 모드를 종료하고 StorageGRID를 결합하여 소스 노드를 대체합니다.
-* 소스 어플라이언스는 이미 설치되어 있는 상태입니다 https://docs.netapp.com/us-en/storagegrid-118/maintain/preparing-appliance-for-reinstallation-platform-replacement-only.html["재설치를 준비했습니다"^].
+* 소스 어플라이언스가 미리 설치된 상태이므로 https://docs.netapp.com/us-en/storagegrid/maintain/preparing-appliance-for-reinstallation-platform-replacement-only.html["재설치를 준비했습니다"^]
 
 
 

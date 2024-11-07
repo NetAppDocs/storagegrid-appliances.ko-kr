@@ -10,8 +10,9 @@ entries:
   pdf-filename: 유지 관리 구성 절차 - SG5700
   entries:
   - title: 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다
-    url: "/sg5700/upgrading-santricity-os-on-storage-controller.html"
     entries:
+    - title: SG5700 스토리지 컨트롤러에서 SANtricity OS를 업그레이드하는 방법에 대해 알아보겠습니다
+      url: "/sg5700/upgrading-santricity-os-on-storage-controller.html"
     - title: 그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다
       url: "/sg5700/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5700.html"
     - title: 유지보수 모드를 사용하여 E2800 컨트롤러에서 SANtricity OS를 업그레이드합니다

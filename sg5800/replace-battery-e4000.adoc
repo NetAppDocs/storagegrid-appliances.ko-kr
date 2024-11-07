@@ -23,7 +23,7 @@ SANtricity 시스템 관리자에서 Recovery Guru의 세부 정보를 검토하
 * 컨트롤러 캐니스터에 연결된 각 케이블을 식별하는 레이블입니다.
 * SANtricity System Manager 액세스:
 +
-** 그리드 관리자에서 * nodes * > *_appliance node_ * > * SANtricity System Manager * 를 선택합니다. 컨트롤러 정보는 에 있습니다 https://docs.netapp.com/us-en/storagegrid-118/monitor/viewing-santricity-system-manager-tab.html["SANtricity 시스템 관리자 탭"].
+** 그리드 관리자에서 * nodes * > *_appliance node_ * > * SANtricity System Manager * 를 선택합니다. 컨트롤러 정보는 에 https://docs.netapp.com/us-en/storagegrid/monitor/viewing-santricity-system-manager-tab.html["SANtricity 시스템 관리자 탭"]있습니다.
 ** 관리 스테이션의 브라우저에서 컨트롤러의 도메인 이름 또는 IP 주소를 가리킵니다.
 
 
@@ -156,12 +156,12 @@ image::../media/drw_E4000_replace_nvbattery_IEOPS-862.png[NVMEM 배터리를 제
 
 
  a| 
-image::../media/legend_icon_01.png[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 참조 1]
 | 배터리 분리 탭 
 
 
  a| 
-image::../media/legend_icon_02.png[범례 아이콘 02]
+image::../media/legend_icon_02.png[설명선 참조 2]
 | 배터리 전원 커넥터 
 |===
 

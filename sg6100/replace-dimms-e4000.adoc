@@ -25,7 +25,7 @@ DIMM을 교체하려면 컨트롤러의 캐시 크기를 확인하고, 컨트롤
 ** 컨트롤러 캐니스터에 연결된 각 케이블을 식별하는 레이블입니다.
 ** SANtricity System Manager 액세스:
 +
-*** 그리드 관리자에서 * nodes * > *_appliance node_ * > * SANtricity System Manager * 를 선택합니다. 컨트롤러 정보는 에 있습니다 https://docs.netapp.com/us-en/storagegrid-118/monitor/viewing-santricity-system-manager-tab.html["SANtricity 시스템 관리자 탭"].
+*** 그리드 관리자에서 * nodes * > *_appliance node_ * > * SANtricity System Manager * 를 선택합니다. 컨트롤러 정보는 에 https://docs.netapp.com/us-en/storagegrid/monitor/viewing-santricity-system-manager-tab.html["SANtricity 시스템 관리자 탭"]있습니다.
 *** 관리 스테이션의 브라우저에서 컨트롤러의 도메인 이름 또는 IP 주소를 가리킵니다.
 
 
@@ -158,12 +158,12 @@ image::../media/drw_E4000_replace_dimms_IEOPS-865.png[DIMM을 분리합니다.]
 
 
  a| 
-image::../media/legend_icon_01.png[범례 아이콘 01]
+image::../media/legend_icon_01.png[설명선 참조 1]
 | DIMM 이젝터 탭 
 
 
  a| 
-image::../media/legend_icon_02.png[범례 아이콘 02]
+image::../media/legend_icon_02.png[설명선 참조 2]
 | DIMM입니다 
 |===
 . 정전기 방지 포장용 백에서 교체용 DIMM을 제거하고 DIMM을 모서리에 맞춰 슬롯에 맞춥니다.

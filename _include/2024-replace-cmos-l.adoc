@@ -41,7 +41,7 @@ image::../media/sg6060_riser_alignment_hole.jpg[라이저 조립품의 정렬 �
 . 교체한 어플라이언스에서 KMS(키 관리 서버)를 사용하여 노드 암호화에 대한 암호화 키를 관리하는 경우 노드가 그리드에 연결되기 전에 추가 구성이 필요할 수 있습니다. 노드가 그리드에 자동으로 연결되지 않는 경우 이러한 구성 설정이 새 어플라이언스로 전송되었는지 확인하고 필요한 구성이 없는 설정을 수동으로 구성합니다.
 +
 ** link:../installconfig/accessing-storagegrid-appliance-installer.html["StorageGRID 연결을 구성합니다"]
-** https://docs.netapp.com/us-en/storagegrid-118/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance["어플라이언스에 대한 노드 암호화를 구성합니다"^]
+** https://docs.netapp.com/us-en/storagegrid/admin/kms-overview-of-kms-and-appliance-configuration.html#set-up-the-appliance["어플라이언스에 대한 노드 암호화를 구성합니다"^]
 
 
 . 어플라이언스에 로그인합니다.

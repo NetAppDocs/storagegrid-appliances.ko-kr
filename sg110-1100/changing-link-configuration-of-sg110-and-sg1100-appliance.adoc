@@ -14,8 +14,7 @@ summary: 포트 결합 모드, 네트워크 연결 모드 및 링크 속도를 �
 포트 결합 모드, 네트워크 연결 모드 및 링크 속도를 포함하여 어플라이언스의 이더넷 링크 구성을 변경할 수 있습니다.
 
 .시작하기 전에
-* 있습니다 link:../commonhardware/placing-appliance-into-maintenance-mode.html["제품을 유지보수 모드로 전환하였습니다"].
-
+있습니다 link:../commonhardware/placing-appliance-into-maintenance-mode.html["제품을 유지보수 모드로 전환하였습니다"].
 
 
 NOTE: StorageGRID 어플라이언스를 유지보수 모드로 전환하면 원격 액세스가 불가능한 경우가 드물게 있습니다.
@@ -28,8 +27,7 @@ NOTE: StorageGRID 어플라이언스를 유지보수 모드로 전환하면 원�
 
 +
 
-NOTE: 어플라이언스가 유지보수 모드일 때 수행한 IP 구성 변경 사항은 설치된 StorageGRID 환경에 적용되지 않습니다. 를 실행합니다
-[`change-ip` Command]를 눌러 어플라이언스를 StorageGRID로 재부팅합니다.
+NOTE: 어플라이언스가 유지보수 모드일 때 수행한 IP 구성 변경 사항은 설치된 StorageGRID 환경에 적용되지 않습니다. run the [`change-ip` command] 명령을 실행하여 어플라이언스를 StorageGRID로 재부팅하십시오.
 
 . 선택 사항에 만족하면 * 저장 * 을 클릭합니다.
 +

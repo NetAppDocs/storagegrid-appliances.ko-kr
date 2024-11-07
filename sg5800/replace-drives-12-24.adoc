@@ -24,7 +24,7 @@ StorageGRID 그리드 관리자는 어플라이언스 상태를 모니터링하�
 ** ESD 밴드이거나 다른 정전기 방지 예방 조치를 취했습니다.
 ** SANtricity System Manager 액세스:
 +
-*** 그리드 관리자에서 * nodes * > *_appliance node_ * > * SANtricity System Manager * 를 선택합니다. 컨트롤러 정보는 에 있습니다 https://docs.netapp.com/us-en/storagegrid-118/monitor/viewing-santricity-system-manager-tab.html["SANtricity 시스템 관리자 탭"].
+*** 그리드 관리자에서 * nodes * > *_appliance node_ * > * SANtricity System Manager * 를 선택합니다. 컨트롤러 정보는 에 https://docs.netapp.com/us-en/storagegrid/monitor/viewing-santricity-system-manager-tab.html["SANtricity 시스템 관리자 탭"]있습니다.
 *** 관리 스테이션의 브라우저에서 컨트롤러의 도메인 이름 또는 IP 주소를 가리킵니다.
 
 

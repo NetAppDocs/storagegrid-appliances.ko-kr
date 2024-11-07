@@ -10,8 +10,9 @@ entries:
   pdf-filename: 유지보수 구성 절차 - SG5800
   entries:
   - title: 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다
-    url: "/sg5800/upgrading-santricity-os-on-storage-controller.html"
     entries:
+    - title: SG5800 스토리지 컨트롤러에서 SANtricity OS를 업그레이드하는 것에 대해 알아보십시오
+      url: "/sg5800/upgrading-santricity-os-on-storage-controller.html"
     - title: 그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다
       url: "/sg5800/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html"
     - title: 유지보수 모드를 사용하여 E4000 컨트롤러에서 SANtricity OS를 업그레이드합니다
@@ -30,7 +31,7 @@ entries:
   pdf-filename: 하드웨어 절차 - SG5800
   entries:
   - title: SG5800 컨트롤러를 교체합니다
-    url: "/sg5800/replace-controller-sg5800.html"
+    url: "/sg5800/replace-controller-5800sg.html"
   - title: E4000 컨트롤러를 교체합니다
     url: "/sg5800/replace-controller-e4000-simplex.html"
   - title: 팬 교체(SG5860)
