@@ -5691,7 +5691,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="6caee75b38d61d4801420e3aec0b9ea6" category="paragraph">다음 그림은 SG6100 어플라이언스 전면의 표시등과 버튼입니다.</block>
   <block id="fe624da545a0997cc5d2c3d30f369af3" category="paragraph">다음 그림에서는 전원 공급 장치의 위치를 보여 주고 SGF6112 및 SG6100-CN 후면의 LED를 식별합니다. 추가 상태 및 작동 상태 표시등은 어플라이언스 포트에 있습니다. 이러한 LED는 어플라이언스 모델에 따라 다를 수 있습니다.</block>
   <block id="f95ca0912808abe2270cd1f418b6e89a" category="image-alt">후면 LED SGF6112 및 SG6100-CN</block>
-  <block id="0f47986745ce840c10499664283d7b6b" category="paragraph"><block ref="0f47986745ce840c10499664283d7b6b" category="inline-link-rx"></block></block>
   <block id="810b48be331213357ad3b610c2ba8a84" category="paragraph">서비스 중단을 방지하려면 CMOS 배터리 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단 기간이 허용되는 예약된 유지 관리 기간 동안 배터리를 교체하십시오. 에 대한 정보를<block ref="b3f58d00ee93c32201d0681addeea5ad" category="inline-link-rx"></block> 참조하십시오.</block>
   <block id="ae08639bb3ed33f2b9c5b58d9cddd031" category="list-text">교체 중인 제품과 동일한 부품 번호를 가진 교체용 제품이 있습니다. 제품 전면에 부착된 태그를 확인하여 부품 번호가 일치하는지 확인하십시오.</block>
   <block id="4a9949b1653a4c2d26a04be273526cc5" category="list-text">있습니다. <block ref="1f3a73fe731b4a5896a19ff9b9d6fda4" category="inline-link-macro-rx"></block></block>
@@ -5761,4 +5760,5 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="51130a506eed4d61508de06399ef34da" category="sidebar">SGF6112 또는 SG6100-CN을 랙에 재배치합니다</block>
   <block id="4f45c0c0b55884bea7e7649654813e35" category="sidebar">드라이브 관리(SG110, SG1100, SGF6112 및 SG6160)</block>
   <block id="3f7fe61f120f9ba5cf2d622ad7597a37" category="sidebar">BMC 인터페이스를 사용합니다</block>
+  <block id="6aa2cc2f099a383774f35aa72c7c8c6d" category="paragraph"><block ref="6aa2cc2f099a383774f35aa72c7c8c6d" category="inline-link-rx"></block></block>
 </blocks>
