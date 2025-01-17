@@ -5761,4 +5761,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="3f7fe61f120f9ba5cf2d622ad7597a37" category="sidebar">BMC 인터페이스를 사용합니다</block>
   <block id="6aa2cc2f099a383774f35aa72c7c8c6d" category="paragraph"><block ref="6aa2cc2f099a383774f35aa72c7c8c6d" category="inline-link-rx"></block></block>
   <block id="06670f0887e1e6231759b0c18c236453" category="list-text"><block ref="06670f0887e1e6231759b0c18c236453" category="inline-link-macro-rx"></block></block>
+  <block id="125c3dfed61415188958ef328818fc0b" category="inline-link-macro">배포된 SG6160에 확장 셸프를 추가하기 위한 지침입니다</block>
+  <block id="813eb6e57b4706c7df0e13ae0defacd8" category="list-text">어플라이언스에 확장 쉘프가 포함된 경우 케이블 연결 정보는 을 참조하십시오<block ref="ba1bb7195a934f0a465563dc7e705dd7" category="inline-link-macro-rx"></block>.</block>
 </blocks>
