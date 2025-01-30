@@ -5763,4 +5763,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="06670f0887e1e6231759b0c18c236453" category="list-text"><block ref="06670f0887e1e6231759b0c18c236453" category="inline-link-macro-rx"></block></block>
   <block id="125c3dfed61415188958ef328818fc0b" category="inline-link-macro">배포된 SG6160에 확장 셸프를 추가하기 위한 지침입니다</block>
   <block id="813eb6e57b4706c7df0e13ae0defacd8" category="list-text">어플라이언스에 확장 쉘프가 포함된 경우 케이블 연결 정보는 을 참조하십시오<block ref="ba1bb7195a934f0a465563dc7e705dd7" category="inline-link-macro-rx"></block>.</block>
+  <block id="c6ce792d1a06c8b72936713f0001140a" category="list-text">어플라이언스의 현재 BMC 구성이 사용 가능한 경우 기록되었습니다.</block>
+  <block id="df5c8b40026819d555dd6dbdc002fb3e" category="list-text">Enter 키를<block ref="73a1c7bb6f54767f7e51d6973cad4923" prefix=" " category="inline-code"></block> 눌러 어플라이언스의 현재 BMC 구성을 표시합니다.</block>
 </blocks>
