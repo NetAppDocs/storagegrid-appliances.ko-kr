@@ -718,7 +718,7 @@ LACP(802.3ad)
 
 * SGF6112 *:
 
-image::../media/sgf6112_aggregate_ports.png[SGF6112 Aggregate 포트 본드 모드]
+image::../media/sgf6112_aggregate_ports.png[SGF6112 통합 포트 본드 모드]
 
 * SG6100 *:
 

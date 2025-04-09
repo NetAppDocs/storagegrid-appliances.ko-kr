@@ -175,7 +175,7 @@ image::../media/sg5760_front_and_back_views.gif[SG5760 어플라이언스의 전
 
 SG5760에는 컨트롤러 2개, 팬 캐니스터 2개, 전원 캐니스터 2개가 있습니다.
 
-image::../media/sg5760_with_callouts.gif[컨트롤러,fan canisters,and power canisters in SG5760 appliance]
+image::../media/sg5760_with_callouts.gif[SG5760 어플라이언스의 컨트롤러, 팬 캐니스터 및 전원 캐니스터]
 
 [cols="1a,2a"]
 |===
@@ -223,7 +223,7 @@ image::../media/sg5760x_front_and_back_views.gif[SG5760X 어플라이언스의 �
 
 SG5760X에는 컨트롤러 2개, 팬 캐니스터 2개 및 전원 캐니스터 2개가 포함되어 있습니다.
 
-image::../media/sg5760x_with_callouts.gif[컨트롤러,fan canisters,and power canisters in SG5760X appliance]
+image::../media/sg5760x_with_callouts.gif[SG5760X 어플라이언스의 컨트롤러, 팬 캐니스터 및 전원 캐니스터]
 
 [cols="1a,3a"]
 |===

@@ -114,7 +114,7 @@ image::../media/sg5860_front_and_back_views.png[SG5860 어플라이언스의 앞
 
 SG5860에는 컨트롤러 2개, 팬 캐니스터 2개, 전원 캐니스터 2개가 포함되어 있습니다.
 
-image::../media/sg5860_with_callouts.png[컨트롤러,fan canisters,and power canisters in SG5860 appliance]
+image::../media/sg5860_with_callouts.png[SG5860 어플라이언스의 컨트롤러, 팬 캐니스터 및 전원 캐니스터]
 
 [cols="1a,2a"]
 |===
