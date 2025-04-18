@@ -2865,7 +2865,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="9bb391312ffed336cc1adbf60045dba8" category="list-text">제품 전면에 부착된 태그에 일치하는 부품 번호가 있는지 확인하여 올바른 제품을 찾았는지 확인하십시오.</block>
   <block id="d3cb531b4f9c05d46c6be8f0489a9b86" category="list-text">전면 베젤이 설치된 경우 전면 패널 컨트롤 및 표시등에 액세스하려면 전면 베젤을 분리합니다.</block>
   <block id="8727881150b0ace8b598a648cdfcd4e1" category="summary">NetApp StorageGRID는 퍼블릭, 프라이빗 및 하이브리드 멀티 클라우드 환경에서 다양한 사용 사례를 지원하는 소프트웨어 정의 오브젝트 스토리지 제품군입니다. StorageGRID은 Amazon S3 API를 기본적으로 지원하며 자동화된 라이프사이클 관리와 같은 업계 최고의 혁신 기능을 제공하여 비정형 데이터를 장기적으로 비용 효율적으로 저장, 보호 및 보존합니다.</block>
-  <block id="4fab2171e21f4258294a2a074494fa18" category="doc">StorageGRID 어플라이언스 설명서</block>
   <block id="2e1c8345a49fcd97288e52caaad82a49" category="summary">어플라이언스 교체 후 MAC 주소 참조를 업데이트해야 하는 경우도 있습니다.</block>
   <block id="8731fac4810f4eee46647147bd16bf3d" category="paragraph">교체 중인 어플라이언스의 네트워크 인터페이스가 DHCP용으로 구성된 경우 교체 어플라이언스의 MAC 주소를 참조하도록 DHCP 서버의 영구 DHCP 임대 할당을 업데이트해야 할 수 있습니다. 업데이트는 교체 어플라이언스에 예상 IP 주소가 할당되도록 합니다.</block>
   <block id="5d98e441c401a29a6e5bb2f1212a7a15" category="list-text">제품 앞면에 있는 레이블을 찾습니다. 레이블에는 어플라이언스의 BMC 관리 포트에 대한 MAC 주소가 나열됩니다.</block>
@@ -3865,7 +3864,6 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="8ef596bf4eb7277f78ad1d7ad4cc04de" category="sidebar">StorageGRID 기술 자료</block>
   <block id="c2d388654878e1108f99fdeaa465fcac" category="sidebar">NetApp 블로그</block>
   <block id="a310588c148d934b9b30c31802d4a30b" category="sidebar">NetApp 커뮤니티</block>
-  <block id="69d1c297210c956cee51bf4ccf9dc0d1" category="sidebar">StorageGRID 어플라이언스 문서</block>
   <block id="42201415720ad552ae0536ddda18b94e" category="sidebar">StorageGRID 어플라이언스에 대해 알아보십시오</block>
   <block id="b7cd29c1531745149a88d6056a6c42c4" category="sidebar">어플라이언스 노드 클론 복제</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">개요</block>
@@ -5762,4 +5760,5 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="0160256cfe219f6b22fa00049dc8b08b" category="list-text">Shelf* 드롭다운 목록 오른쪽에 있는 팬 <block ref="92142d8792a6161b2c79960b384e088a" category="inline-image-macro-rx" type="image"></block> 아이콘을 확인하여 어떤 어플라이언스가 고장난 팬 캐니스터를 가지고 있는지 확인합니다.</block>
   <block id="1a41776500a52e28aa05db3c32dfc47a" category="sidebar">드라이브 펌웨어 업그레이드(SG6160 온라인 방법)</block>
   <block id="2c8a2ef75a9a05ce84a4b89f17f20322" category="sidebar">드라이브 펌웨어 업그레이드(SG6160 오프라인 방법)</block>
+  <block id="d07792f91c33735c12a1ce89b21df7a3" category="sidebar">StorageGRID 어플라이언스 설명서를 참조하십시오</block>
 </blocks>
