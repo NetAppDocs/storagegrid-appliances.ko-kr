@@ -5761,4 +5761,15 @@ Grid Manager에서 * configuration * &gt; * Security * &gt; * Security settings 
   <block id="1a41776500a52e28aa05db3c32dfc47a" category="sidebar">드라이브 펌웨어 업그레이드(SG6160 온라인 방법)</block>
   <block id="2c8a2ef75a9a05ce84a4b89f17f20322" category="sidebar">드라이브 펌웨어 업그레이드(SG6160 오프라인 방법)</block>
   <block id="d07792f91c33735c12a1ce89b21df7a3" category="sidebar">StorageGRID 어플라이언스 설명서를 참조하십시오</block>
+  <block id="4ce226a87bcf5c8b5206d3dcf26776e4" category="paragraph">다음 IPv4 주소가 포함된 서브넷은 모든 노드의 그리드 네트워크, 관리 네트워크 또는 클라이언트 네트워크에 사용하지 마세요.</block>
+  <block id="7fe4e99a363b04311cab23831409078b" category="list-text">192,168,130,101</block>
+  <block id="dd367c3bd8159d08cd43b50fd79ba62f" category="list-text">192,168,131,101</block>
+  <block id="7aa976b331aa928a278a01a273e03828" category="list-text">192,168,130,102</block>
+  <block id="ca0cb8238f1f4932fc687105b634015c" category="list-text">192,168,131,102</block>
+  <block id="76807ef71a6e9938e1cc3ce7343126bd" category="list-text">198.51.100.2</block>
+  <block id="88e52209b0f58bdbc48386707b417a40" category="list-text">198.51.100.4</block>
+  <block id="324dd9344f1e0b3f001a92a0f677443e" category="paragraph">예를 들어, 어떤 노드의 그리드 네트워크, 관리 네트워크 또는 클라이언트 네트워크에도 다음 서브넷 범위를 사용하지 마세요.</block>
+  <block id="7dc5983e9de89ec2bcacf21aec6d8399" category="list-text">192.168.130.0/24는 이 서브넷 범위에 IP 주소 192.168.130.101과 192.168.130.102가 포함되어 있기 때문입니다.</block>
+  <block id="f3289a31e39c1161c9f3351ba19a4562" category="list-text">192.168.131.0/24는 이 서브넷 범위에 IP 주소 192.168.131.101과 192.168.131.102가 포함되어 있기 때문입니다.</block>
+  <block id="1deaf9237f4171a62975b6710d5432b8" category="list-text">198.51.100.0/24는 이 서브넷 범위에 IP 주소 198.51.100.2와 198.51.100.4가 포함되어 있기 때문입니다.</block>
 </blocks>
