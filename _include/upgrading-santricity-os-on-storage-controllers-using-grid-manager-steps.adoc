@@ -12,7 +12,7 @@
 .이 작업에 대해
 SANtricity OS 업그레이드가 진행 중인 동안에는 다른 소프트웨어 업데이트(StorageGRID 소프트웨어 업그레이드 또는 핫픽스)를 수행할 수 없습니다. SANtricity OS 업그레이드 프로세스가 완료되기 전에 핫픽스 또는 StorageGRID 소프트웨어 업그레이드를 시작하려고 하면 SANtricity OS 업그레이드 페이지로 리디렉션됩니다.
 
-SANtricity OS 업그레이드가 업그레이드를 위해 선택된 모든 적용 가능한 노드에 적용되기 전에는 절차가 완료되지 않습니다. 각 노드에서 SANtricity OS를 로드하는 데 30분 이상, 각 StorageGRID 스토리지 어플라이언스를 재부팅하는 데 최대 90분이 걸릴 수 있습니다. 그리드에 SANtricity OS를 사용하지 않는 노드는 이 절차의 영향을 받지 않습니다.
+업그레이드를 위해 선택된 모든 해당 노드에 SANtricity OS 업그레이드가 성공적으로 적용될 때까지 절차는 완료되지 않습니다.  각 노드에 SANtricity OS를 순차적으로 로드하는 데 30분 이상 걸릴 수 있으며, 각 StorageGRID 스토리지 어플라이언스를 재부팅하는 데 최대 90분이 걸릴 수 있습니다.  SANtricity OS를 사용하지 않는 그리드의 노드는 이 절차의 영향을 받지 않습니다.
 
 
 CAUTION: 다음 단계는 그리드 관리자를 사용하여 업그레이드를 수행하는 경우에만 적용됩니다. 컨트롤러가 08.42.20.00(11.42) 이전의 SANtricity OS를 사용하는 경우 그리드 관리자를 사용하여 어플라이언스의 스토리지 컨트롤러를 업그레이드할 수 없습니다.
@@ -21,12 +21,12 @@ CAUTION: 다음 단계는 그리드 관리자를 사용하여 업그레이드를
 NOTE: 이 절차에서는 NVSRAM을 SANtricity OS 업그레이드와 관련된 최신 버전으로 자동 업그레이드합니다. 별도의 NVSRAM 업그레이드 파일을 적용할 필요가 없습니다.
 
 
-NOTE: 이 절차를 시작하기 전에 최신 StorageGRID 핫픽스를 적용하십시오. 자세한 내용은 을 https://docs.netapp.com/us-en/storagegrid/maintain/storagegrid-hotfix-procedure.html["StorageGRID 핫픽스 절차"^] 참조하십시오.
+NOTE: 이 절차를 시작하기 전에 최신 StorageGRID 핫픽스를 적용하세요. 보다 https://docs.netapp.com/us-en/storagegrid/maintain/storagegrid-hotfix-procedure.html["StorageGRID 핫픽스 절차"^] 자세한 내용은.
 
 .단계
 . [[download-SANtricity-OS]]에서 새로운 SANtricity OS 소프트웨어 파일을 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab["NetApp 다운로드: StorageGRID 어플라이언스"^].
 +
-스토리지 컨트롤러의 SANtricity OS 버전을 선택해야 합니다.
+스토리지 컨트롤러에 맞는 SANtricity OS 버전을 선택하세요.
 
 . 유지보수 * > * 시스템 * > * 소프트웨어 업데이트 * 를 선택합니다.
 +
@@ -176,9 +176,9 @@ NOTE: 노드가 이미 승인되었으며 오류 없이 업그레이드되었습
 
 
 
-. 다른 SANtricity OS 업그레이드 파일이 필요한 전체 단계가 있는 노드에 대해 이 업그레이드 절차를 반복합니다.
+. 다른 SANtricity OS 업그레이드 파일이 필요한 완료 단계의 노드에 대해 이 업그레이드 절차를 반복합니다.
 +
 
-NOTE: Needs Attention(주의 필요) 상태인 모든 노드의 경우 유지보수 모드를 사용하여 업그레이드를 수행합니다.
+NOTE: 상태가 '주의 필요'인 노드의 경우 유지 관리 모드를 사용하여 업그레이드를 수행합니다.
 
 

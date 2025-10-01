@@ -17,8 +17,10 @@ entries:
       url: "/sg5800/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5800.html"
     - title: 유지보수 모드를 사용하여 E4000 컨트롤러에서 SANtricity OS를 업그레이드합니다
       url: "/sg5800/upgrading-santricity-os-on-e4000-controller-using-maintenance-mode.html"
-  - title: SANtricity 시스템 관리자를 사용하여 드라이브 펌웨어를 업그레이드합니다
+  - title: 드라이브 펌웨어 업그레이드
     entries:
+    - title: 어플라이언스 재부팅 중 SG5800 드라이브 펌웨어를 자동으로 업그레이드합니다.
+      url: "/sg5800/upgrading-drive-firmware-using-auto-reboot.html"
     - title: SANtricity System Manager 온라인 방법을 사용하여 SG5800 드라이브 펌웨어를 업그레이드합니다
       url: "/sg5800/upgrading-drive-firmware-using-santricity-system-manager-online.html"
     - title: SANtricity System Manager 오프라인 방법을 사용하여 SG5800 드라이브 펌웨어를 업그레이드합니다

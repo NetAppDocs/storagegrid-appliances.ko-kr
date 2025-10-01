@@ -38,6 +38,9 @@ summary: 그리드 노드를 설치하고 구성한 후 StorageGRID 시스템의
 * 을(를) 만들었습니다 `configure-storagegrid.json` 구성 파일. 이 파일을 작성하려면 예제 구성 파일을 수정할 수 있습니다 (`configure-storagegrid.sample.json`) 또는 빈 구성 파일 (`configure-storagegrid.blank.json`)를 클릭합니다.
 
 
+
+CAUTION: 수정된 암호 섹션에서 관리 암호와 프로비저닝 암호를 저장합니다. `configure-storagegrid.json` 구성 파일을 안전한 위치에 보관하세요.  이러한 비밀번호는 설치, 확장 및 유지 관리 절차에 필요합니다.  수정된 내용도 백업해야 합니다. `configure-storagegrid.json` 구성 파일을 만들어 안전한 위치에 저장하세요.
+
 .이 작업에 대해
 를 사용할 수 있습니다 `configure-storagegrid.py` Python 스크립트와 `configure-storagegrid.json` StorageGRID 시스템 구성을 자동화하는 구성 파일입니다.
 

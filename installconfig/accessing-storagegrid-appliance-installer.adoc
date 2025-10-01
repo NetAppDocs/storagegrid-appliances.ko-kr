@@ -109,9 +109,6 @@ image::../media/sg6100_admin_network_port.png[SGF6112의 관리 네트워크 포
 +
 StorageGRID 어플라이언스 설치 관리자 홈 페이지가 나타납니다. 이 페이지에 처음 액세스할 때 표시되는 정보와 메시지는 어플라이언스가 현재 StorageGRID 네트워크에 연결되어 있는 방식에 따라 다릅니다. 오류 메시지가 나타날 수 있으며, 이 메시지는 이후 단계에서 해결될 것입니다.
 
-+
-image::../media/appliance_installer_home_5700_5600.png[StorageGRID 어플라이언스 설치 프로그램 홈 페이지 상단 부분의 스크린 샷]
-
 
 
 . DHCP를 사용하여 IP 주소를 얻을 수 없는 경우 링크 로컬 연결을 사용할 수 있습니다.
@@ -205,7 +202,4 @@ StorageGRID 어플라이언스 설치 프로그램에 액세스한 후:
 link:verifying-and-upgrading-storagegrid-appliance-installer-version.html["StorageGRID 어플라이언스 설치 프로그램 버전을 확인하고 업그레이드합니다"]
 
 * StorageGRID 어플라이언스 설치 관리자 홈 페이지에 표시되는 메시지를 검토하고 필요에 따라 링크 구성 및 IP 구성을 구성합니다.
-+
-image::../media/appliance_installer_home_services_appliance.png[어플라이언스 설치 프로그램 홈]
-
 

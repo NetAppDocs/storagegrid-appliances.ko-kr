@@ -22,6 +22,10 @@ summary: '서비스 어플라이언스를 기본 관리 노드, 비기본 관리
 .시작하기 전에
 * 이 제품은 랙 또는 캐비닛에 설치되었고 네트워크에 연결되어 있으며 전원이 켜져 있습니다.
 * StorageGRID 어플라이언스 설치 프로그램을 사용하여 어플라이언스에 대해 네트워크 링크, IP 주소 및 포트 재매핑(필요한 경우)이 구성되었습니다.
++
+
+NOTE: 포트 리매핑 지원은 더 이상 제공되지 않으며 향후 릴리스에서 제거될 예정입니다.  재매핑된 포트를 제거하려면 다음을 참조하세요. https://docs.netapp.com/us-en/storagegrid/maintain/removing-port-remaps.html["StorageGRID 어플라이언스에서 포트 리맵 제거"^] .
+
 * 가 있는 서비스 랩톱이 https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html["지원되는 웹 브라우저"^] 있습니다.
 * 어플라이언스에 할당된 IP 주소 중 하나를 알고 있습니다. 연결된 모든 StorageGRID 네트워크에 대해 IP 주소를 사용할 수 있습니다.
 
@@ -54,9 +58,6 @@ https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab
 .. 아카이브를 추출합니다.
 .. StorageGRID 어플라이언스 설치 프로그램에서 * 고급 * > * StorageGRID 소프트웨어 업로드 * 를 선택합니다.
 .. 현재 소프트웨어 패키지를 제거하려면 * 제거 * 를 클릭합니다.
-+
-image::../media/appliance_installer_rmv_current_software.png[어플라이언스 설치 프로그램 - 현재 소프트웨어를 제거합니다]
-
 .. 다운로드 및 추출한 소프트웨어 패키지를 보려면 * 찾아보기 * 를 클릭합니다. 를 선택합니다 `storagegrid-webscale-images-_version_.deb` 패키지.
 .. 홈 페이지로 돌아가려면 * 홈 * 을 선택합니다.
 
@@ -67,9 +68,6 @@ image::../media/appliance_installer_rmv_current_software.png[어플라이언스 
 NOTE: 노드 클론 생성 타겟으로 관리 노드 어플라이언스를 구축하는 경우 여기에서 구축 프로세스를 중지하고 를 계속하십시오 link:../commonhardware/appliance-node-cloning-procedure.html["노드 클론 생성 절차"].
 
 . StorageGRID 어플라이언스 설치 관리자 홈 페이지에서 * 설치 시작 * 을 클릭합니다.
-+
-image::../media/appliance_installer_home_start_installation_enabled_primary_an.png[어플라이언스 기본 관리자 노드 설치]
-
 +
 현재 상태가 ""설치 진행 중""으로 변경되고 모니터 설치 페이지가 표시됩니다.
 
@@ -88,6 +86,10 @@ NOTE: 모니터 설치 페이지에 수동으로 액세스해야 하는 경우 �
 .시작하기 전에
 * 이 제품은 랙 또는 캐비닛에 설치되었고 네트워크에 연결되어 있으며 전원이 켜져 있습니다.
 * StorageGRID 어플라이언스 설치 프로그램을 사용하여 어플라이언스에 대해 네트워크 링크, IP 주소 및 포트 재매핑(필요한 경우)이 구성되었습니다.
++
+
+NOTE: 포트 리매핑 지원은 더 이상 제공되지 않으며 향후 릴리스에서 제거될 예정입니다.  재매핑된 포트를 제거하려면 다음을 참조하세요. https://docs.netapp.com/us-en/storagegrid/maintain/removing-port-remaps.html["StorageGRID 어플라이언스에서 포트 리맵 제거"^] .
+
 * StorageGRID 시스템의 기본 관리 노드가 배포되었습니다.
 * StorageGRID 어플라이언스 설치 프로그램의 IP 구성 페이지에 나열된 모든 그리드 네트워크 서브넷은 기본 관리 노드의 그리드 네트워크 서브넷 목록에 정의되어 있습니다.
 * 가 있는 서비스 랩톱이 https://docs.netapp.com/us-en/storagegrid/admin/web-browser-requirements.html["지원되는 웹 브라우저"^] 있습니다.
@@ -145,7 +147,7 @@ StorageGRID 어플라이언스 설치 관리자 홈 페이지가 나타납니다
  a| 
 .. 관리자 노드 검색 활성화 * 확인란을 선택합니다.
 .. 검색된 IP 주소 목록이 표시될 때까지 기다립니다.
-.. 이 어플라이언스 스토리지 노드를 구축할 그리드의 기본 관리 노드를 선택합니다.
+.. 이 어플라이언스 게이트웨이 또는 기본이 아닌 관리 노드가 배포될 그리드에 대한 기본 관리 노드를 선택합니다.
 .. 저장 * 을 클릭합니다.
 .. 새 IP 주소가 준비될 때까지 연결 상태를 기다립니다.
 
@@ -153,7 +155,7 @@ StorageGRID 어플라이언스 설치 관리자 홈 페이지가 나타납니다
 |===
 . 노드 이름 * 필드에 이 어플라이언스 노드에 사용할 시스템 이름을 입력하고 * 저장 * 을 클릭합니다.
 +
-여기에 표시되는 이름은 어플라이언스 노드의 시스템 이름입니다. 시스템 이름은 내부 StorageGRID 작업에 필요하며 변경할 수 없습니다.
+여기에 나타나는 이름은 어플라이언스 노드의 시스템 이름이 됩니다.  시스템 이름은 내부 StorageGRID 작업에 필요하며 변경할 수 없습니다.  어플라이언스 노드의 표시 이름을 변경하려면 다음을 참조하세요. https://docs.netapp.com/us-en/storagegrid/maintain/rename-grid-site-node.html#how-to-rename-grid-sites-or-nodes["그리드, 사이트 또는 노드의 이름을 바꾸는 방법"^] .
 
 . 필요에 따라 다른 버전의 StorageGRID 소프트웨어를 설치하려면 다음 단계를 수행하십시오.
 +
@@ -164,9 +166,6 @@ https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab
 .. 아카이브를 추출합니다.
 .. StorageGRID 어플라이언스 설치 프로그램에서 * 고급 * > * StorageGRID 소프트웨어 업로드 * 를 선택합니다.
 .. 현재 소프트웨어 패키지를 제거하려면 * 제거 * 를 클릭합니다.
-+
-image::../media/appliance_installer_rmv_current_software.png[어플라이언스 설치 프로그램 - 현재 소프트웨어를 제거합니다]
-
 .. 다운로드 및 추출한 소프트웨어 패키지를 보려면 * 찾아보기 * 를 클릭합니다. 를 선택합니다 `storagegrid-webscale-images-_version_.deb` 패키지.
 .. 홈 페이지로 돌아가려면 * 홈 * 을 선택합니다.
 

@@ -63,8 +63,10 @@ indexpage:
       url: "/landing-maintain-sgf6112/index.html"
   - title: StorageGRID 소프트웨어
     links:
-    - title: StorageGRID 11.9 설명서
+    - title: StorageGRID 12.0 설명서
       url: https://docs.netapp.com/us-en/storagegrid/index.html
+    - title: StorageGRID 11.9 설명서
+      url: https://docs.netapp.com/us-en/storagegrid-119/index.html
     - title: StorageGRID 11.8 설명서
       url: https://docs.netapp.com/us-en/storagegrid-118/index.html
     - title: StorageGRID 11.7 설명서
@@ -73,7 +75,7 @@ indexpage:
       url: https://docs.netapp.com/us-en/storagegrid-116/index.html
     - title: StorageGRID 11.5 문서
       url: https://docs.netapp.com/us-en/storagegrid-115/index.html
-  - title: StorageGRID를 활성화합니다
+  - title: StorageGRID 솔루션 및 리소스
     links:
     - title: 다른 애플리케이션을 통합합니다
       url: https://docs.netapp.com/us-en/storagegrid-enable/index.html

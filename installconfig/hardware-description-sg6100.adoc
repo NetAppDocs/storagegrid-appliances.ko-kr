@@ -32,6 +32,7 @@ NOTE: 구성된 ILM 정책에 따라 로컬에서 사용할 수 없는 오브젝
 
 * 서비스 중에 SSD 장애가 발생하여 노드 루트 볼륨(StorageGRID 운영 체제)이 RAID 하우징에 완벽하게 손상되지 않아 완전히 복구할 수 있습니다.
 * 여러 개의 SSD 장애로 인해 로컬 데이터가 손실되는 경우 다른 노드의 복사본이나 삭제 코딩 청크를 통해 오브젝트 데이터를 자동으로 복원할 수 있습니다.
+* 운영 능력 https://docs.netapp.com/us-en/storagegrid/admin/managing-load-balancing.html["캐싱이 있는 게이트웨이 노드"^] .
 
 
 SG6160은 다음과 같은 데이터 보호 기능을 제공합니다.

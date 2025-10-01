@@ -78,21 +78,15 @@ StorageGRID 어플라이언스 설치 관리자 홈 페이지가 나타납니다
 
 . 하드웨어 구성 * > * BMC 구성 * 을 선택합니다.
 +
-image::../media/bmc_configuration_page.gif[고급 > BMC 구성 옵션을 보여주는 스크린샷]
-
-+
 베이스보드 관리 컨트롤러 구성 페이지가 나타납니다.
 
-. 자동으로 표시되는 IPv4 주소를 기록해 둡니다.
+. LAN IP 설정에서 자동으로 표시되는 IPv4 주소를 기록해 두세요.
 +
 DHCP는 이 포트에 IP 주소를 할당하는 기본 방법입니다.
 
 +
 
 NOTE: DHCP 값이 나타나려면 몇 분 정도 걸릴 수 있습니다.
-
-+
-image::../media/bmc_configuration_dhcp_address.gif[DHCP 주소를 보여 주는 Basement Management Controller 구성 페이지]
 
 . 필요에 따라 BMC 관리 포트에 대한 정적 IP 주소를 설정합니다.
 +
@@ -103,9 +97,6 @@ NOTE: BMC 관리 포트에 고정 IP를 할당하거나 DHCP 서버의 주소에
 .. Static * 을 선택합니다.
 .. CIDR 표기법을 사용하여 IPv4 주소를 입력합니다.
 .. 기본 게이트웨이를 입력합니다.
-+
-image::../media/bmc_configuration_static_ip.gif[베이스보드 관리 컨트롤러 구성 정적 옵션]
-
 .. 저장 * 을 클릭합니다.
 +
 변경 사항을 적용하는 데 몇 분 정도 걸릴 수 있습니다.

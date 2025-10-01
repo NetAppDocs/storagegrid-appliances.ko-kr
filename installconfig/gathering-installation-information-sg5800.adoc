@@ -423,6 +423,5 @@ NOTE: 4개 미만의 포트를 사용하도록 선택한 경우 StorageGRID가 �
 
 .관련 정보
 * link:cabling-appliance.html["케이블 어플라이언스(SG5800)"]
-* link:gathering-installation-information-sg5800.html#port-bond-modes["포트 본드 모드(SG5800 컨트롤러)"]
 * link:configuring-hardware.html["하드웨어 구성(SG5800)"]
 

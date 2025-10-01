@@ -817,7 +817,7 @@ Off(끄기): 컨트롤러가 정상적으로 작동하고 있습니다.
 
 
 .관련 정보
-link:https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"^]
+https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"^]
 
 --
 .SG6000 을 참조하십시오

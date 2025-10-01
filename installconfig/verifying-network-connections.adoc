@@ -18,9 +18,6 @@ summary: 어플라이언스에서 사용 중인 StorageGRID 네트워크에 액�
 +
 Ping 및 MTU 테스트 페이지가 나타납니다.
 
-+
-image::../media/ping_test_start.png[StorageGRID 어플라이언스 설치 프로그램의 Ping 및 MTU 테스트 옵션 스크린샷]
-
 . 네트워크 * 드롭다운 상자에서 테스트할 네트워크(그리드, 관리자 또는 클라이언트)를 선택합니다.
 . 해당 네트워크의 호스트에 대한 IPv4 주소 또는 FQDN(정규화된 도메인 이름)을 입력합니다.
 +
@@ -33,9 +30,6 @@ image::../media/ping_test_start.png[StorageGRID 어플라이언스 설치 프로
 . 연결 테스트 * 를 클릭합니다.
 +
 네트워크 연결이 유효한 경우 ping 명령 출력이 나열된 "Ping test Passed" 메시지가 나타납니다.
-
-+
-image::../media/ping_test_passed.png[StorageGRID 어플라이언스 설치 프로그램의 핑 테스트 결과 스크린샷]
 
 
 

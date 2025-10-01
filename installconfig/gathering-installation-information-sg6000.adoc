@@ -552,7 +552,6 @@ A
 .관련 정보
 * link:../installconfig/hardware-description-sg6000.html#sg6000-controllers["SG6000 컨트롤러"]
 * link:../installconfig/reviewing-appliance-network-connections.html["어플라이언스 네트워크 연결을 확인합니다"]
-* link:../installconfig/gathering-installation-information-sg6000.html#port-bond-modes["포트 결합 모드(SG6000-CN 컨트롤러)"]
 * link:cabling-appliance.html["케이블 제품"]
 * link:../installconfig/setting-ip-configuration.html["StorageGRID IP 주소를 구성합니다"]
 

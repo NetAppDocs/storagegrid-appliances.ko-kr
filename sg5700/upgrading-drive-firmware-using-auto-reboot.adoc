@@ -1,0 +1,35 @@
+---
+permalink: sg5700/upgrading-drive-firmware-using-auto-reboot.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5700, storage node, storage appliance, upgrade, firmware, drive, disk, automatic 
+summary: StorageGRID Appliance Installer는 어플라이언스를 재부팅하는 동안 최신 E-Series 드라이브 펌웨어 파일을 자동으로 설치합니다. 
+---
+= 어플라이언스 재부팅 중 SG5700 드라이브 펌웨어를 자동으로 업그레이드합니다.
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID Appliance Installer는 어플라이언스를 재부팅하는 동안 최신 E-Series 드라이브 펌웨어 파일을 자동으로 설치합니다.
+
+E-시리즈 드라이브 펌웨어 파일은 StorageGRID 소프트웨어에 포함되어 있습니다.  이러한 업데이트는 StorageGRID 어플라이언스가 재부팅될 때마다 자동으로 설치됩니다.
+
+* 안으로link:../installconfig/rebooting-appliance-while-sg-appliance-installer-is-running.html["유지보수 모드"]
+* 의 일부로서 https://docs.netapp.com/us-en/storagegrid/maintain/rolling-reboot-procedure.html["롤링 리부트"]
+* 동안 https://docs.netapp.com/us-en/storagegrid/upgrade/performing-upgrade.html["StorageGRID 버전 업그레이드"] 또는 https://docs.netapp.com/us-en/storagegrid/maintain/applying-hotfix.html["핫픽스 설치"]
+* 동안link:../sg5700/upgrading-santricity-os-on-e2800-controller-using-maintenance-mode.html["SANtricity OS 업그레이드"] 유지 관리 모드 사용
+
+
+
+CAUTION: 상태가 '주의 필요'인 노드에 대해서는 드라이브 펌웨어 업그레이드가 시도되지 않습니다.
+
+
+NOTE: 어플라이언스가 재부팅되는 동안 스토리지 컨트롤러에 대한 I/O(입력/출력) 활동이 중지됩니다.
+
+SANtricity 시스템 관리자를 사용하여 드라이브 펌웨어 업그레이드를 수동으로 설치할 수도 있습니다.link:upgrading-drive-firmware-using-santricity-system-manager-online.html["온라인"] 또는link:upgrading-drive-firmware-using-santricity-system-manager-offline.html["오프라인"] 방법:
+
+* StorageGRID 소프트웨어에 패키징되기 전에 새 드라이브 펌웨어 업그레이드를 적용하려면
+* 자동 드라이브 펌웨어 업그레이드가 실패하는 경우
+* SANtricity 시스템 관리자를 사용하려면link:upgrading-drive-firmware-using-santricity-system-manager-online.html["온라인 드라이브 펌웨어 업그레이드"] 노드를 재부팅하는 대신 Grid Manager에서
+

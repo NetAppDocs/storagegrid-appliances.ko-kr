@@ -17,8 +17,10 @@ entries:
       url: "/sg6000/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6000.html"
     - title: 유지보수 모드를 사용하여 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다
       url: "/sg6000/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6000.html"
-  - title: SANtricity 시스템 관리자를 사용하여 드라이브 펌웨어를 업그레이드합니다
+  - title: 드라이브 펌웨어 업그레이드
     entries:
+    - title: 어플라이언스 재부팅 중 SG6000 드라이브 펌웨어를 자동으로 업그레이드합니다.
+      url: "/sg6000/upgrading-drive-firmware-using-auto-reboot.html"
     - title: 온라인 방법을 사용하여 SANtricity System Manager를 사용하여 SG6000 드라이브 펌웨어를 업그레이드합니다
       url: "/sg6000/upgrading-drive-firmware-using-santricity-system-manager-online.html"
     - title: 오프라인 방법을 사용하여 SANtricity System Manager를 사용하여 SG6000 드라이브 펌웨어를 업그레이드합니다
@@ -50,6 +52,8 @@ entries:
     url: "/sg6000/replacing-sg6000-cn-controller.html"
   - title: SG6000-CN 컨트롤러의 전원 공급 장치 중 하나 또는 둘 다를 교체합니다
     url: "/sg6000/replacing-one-or-both-power-supplies-in-sg6000-cn-controller.html"
+  - title: 팬을 교체합니다
+    url: "/sg6000/replacing-fan-in-sg6000cn.html"
   - title: SG6000-CN 컨트롤러의 CMOS 배터리를 교체합니다
     url: "/sg6000/replace-cmos-in-sg6000cn.html"
   - title: 랙에 컨트롤러를 교체합니다

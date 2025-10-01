@@ -15,11 +15,13 @@ entries:
       url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html"
     - title: 유지보수 모드를 사용하여 SG6160 컨트롤러에서 SANtricity OS를 업그레이드합니다
       url: "/sg6100/upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6160.html"
-  - title: SANtricity System Manager(SG6160)를 사용하여 드라이브 펌웨어 업그레이드
+  - title: 드라이브 펌웨어 업그레이드(SG6160)
     entries:
-    - title: SANtricity System Manager 온라인 방법을 사용하여 SG6100 드라이브 펌웨어를 업그레이드합니다
+    - title: 어플라이언스 재부팅 중 SG6160 드라이브 펌웨어를 자동으로 업그레이드합니다.
+      url: "/sg6100/upgrading-drive-firmware-using-auto-reboot.html"
+    - title: SANtricity System Manager 온라인 방법을 사용하여 SG6160 드라이브 펌웨어 업그레이드
       url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager-online.html"
-    - title: SANtricity System Manager의 오프라인 방법을 사용하여 SG6100 드라이브 펌웨어를 업그레이드합니다
+    - title: SANtricity System Manager 오프라인 방법을 사용하여 SG6160 드라이브 펌웨어 업그레이드
       url: "/sg6100/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
     - title: 드라이브 펌웨어의 업그레이드 오류 문제 해결
       url: "/sg6100/troubleshoot-upgrading-drive-firmware-using-santricity-system-manager.html"
@@ -58,9 +60,9 @@ entries:
       url: "/sg6100/replace-6160-drives-60.html"
   - title: NIC를 교체합니다
     entries:
-    - title: 내부 NIC(SGF6112 및 SG6160)
+    - title: 내부 NIC(SGF6112 또는 SG6100-CN)
       url: "/sg6100/replace-nic-in-sgf6112.html"
-    - title: 외부 NIC(SG6160)
+    - title: 외부 NIC(SG6100-CN)
       url: "/sg6100/replace-ocp-nic-sg6100-cn.html"
   - title: CMOS 배터리를 교체합니다
     url: "/sg6100/replace-cmos-in-sgf6112.html"

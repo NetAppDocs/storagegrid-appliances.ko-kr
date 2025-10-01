@@ -20,8 +20,7 @@ SG6000-CN 컨트롤러를 종료한 다음 전원을 다시 켜서 유지 관리
 SG6000-CN 컨트롤러를 종료하여 하드웨어 유지 관리를 수행합니다.
 
 .시작하기 전에
-* 데이터 센터의 유지 관리가 필요한 SG6000-CN 컨트롤러를 물리적으로 배치했습니다. 을 참조하십시오 link:locating-controller-in-data-center.html["데이터 센터에서 컨트롤러를 찾습니다"].
-
+데이터 센터의 유지 관리가 필요한 SG6000-CN 컨트롤러를 물리적으로 배치했습니다. 을 참조하십시오 link:locating-controller-in-data-center.html["데이터 센터에서 컨트롤러를 찾습니다"].
 
 .이 작업에 대해
 서비스 중단을 방지하려면 서비스 중단 기간이 허용되는 예약된 유지 관리 기간 동안 컨트롤러를 종료하거나 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하십시오. 에 대한 정보를 https://docs.netapp.com/us-en/storagegrid/monitor/monitoring-system-health.html#monitor-node-connection-states["노드 연결 상태를 모니터링합니다"^] 참조하십시오.
@@ -84,7 +83,7 @@ image::../media/bmc_power_control_page_controller_off.png[BMC 전원 제어 페�
 
 
 
-== SG6000-CN 컨트롤러의 전원을 켜고 작동을 확인합니다
+== [[poweron]]SG6000-CN 컨트롤러의 전원을 켜고 작동을 확인합니다.
 
 유지 관리를 완료한 후 컨트롤러 전원을 켭니다.
 

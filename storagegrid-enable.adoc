@@ -4,7 +4,7 @@ permalink: storagegrid-enable.html
 keywords: storagegrid, how to enable, third-party solutions, tools, applications, examples 
 summary: StorageGRID 환경에서 애플리케이션을 테스트하고 구현하는 방법을 알아보십시오. 
 ---
-= 사용자 환경에서 StorageGRID를 활성화하는 방법
+= StorageGRID 솔루션 및 리소스
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,9 +14,9 @@ summary: StorageGRID 환경에서 애플리케이션을 테스트하고 구현�
 
 
 [role="lead"]
-로 이동합니다 https://docs.netapp.com/us-en/storagegrid-enable/index.html["사용자 환경에서 StorageGRID를 활성화하는 방법"^] StorageGRID 환경에서 애플리케이션을 테스트하고 구현하는 방법을 알아보십시오.
+로 가다 https://docs.netapp.com/us-en/storagegrid-enable/index.html["StorageGRID 솔루션 및 리소스"^] StorageGRID 환경에서 애플리케이션을 테스트하고 활성화하는 방법을 알아보세요.
 
-StorageGRID-ENABLE* 설명서 사이트에서는 이 사이트의 제품 설명서를 확장하는 예제 및 설명서로 StorageGRID를 평가하고 통합하는 몇 가지 단계를 설명합니다.
+* StorageGRID 솔루션 및 리소스*는 이 사이트의 제품 설명서를 확장하는 예제와 요리책을 제공하며, StorageGRID 를 평가하고 통합하는 데 필요한 다음 단계를 설명합니다.
 
 일부 정보는 다음과 같습니다.
 

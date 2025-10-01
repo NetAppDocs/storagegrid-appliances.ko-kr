@@ -464,6 +464,5 @@ image::../media/e5700sg_bonded_management_ports.gif[E700SG 결합형 관리 포�
 
 .관련 정보
 * link:cabling-appliance-sg5700.html["케이블 어플라이언스(SG5700)"]
-* link:gathering-installation-information-sg5700.html#port-bond-modes["포트 결합 모드(E5500SG 컨트롤러)"]
 * link:configuring-hardware.html["하드웨어 구성(SG5700)"]
 

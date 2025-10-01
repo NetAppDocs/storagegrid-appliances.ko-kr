@@ -24,15 +24,13 @@ SG5800 컨트롤러의 이더넷 링크 구성을 변경하는 옵션은 다음�
 
 * 포트 결합 모드 * 를 고정에서 집계로, 또는 Aggregate에서 고정으로 변경
 * Active-Backup에서 LACP로 또는 LACP에서 Active-Backup으로 * 네트워크 결합 모드 * 변경
+* *LACP 전송 해시 정책* 및 *LACP PDU 속도* 값 변경
 * VLAN 태그 지정 활성화 또는 비활성화 또는 VLAN 태그 값 변경
 * 링크 속도를 자동(권장), 10GbE 또는 25GbE 사이에서 변경합니다.
 
 
 .단계
 . 메뉴에서 * 네트워킹 구성 * > * 링크 구성 * 을 선택합니다.
-+
-image::../media/link_configuration_option.gif[링크 구성]
-
 . [[CHANGE_LINK_CONFIGURATION_sg5800, START=2]] 링크 설정을 원하는 대로 변경합니다.
 +
 옵션에 대한 자세한 내용은 을 참조하십시오 link:../installconfig/configuring-network-links.html["네트워크 링크를 구성합니다"].
@@ -53,12 +51,11 @@ VLAN 설정을 변경한 경우 어플라이언스의 서브넷이 변경되었�
 
 . 링크 구성 변경 사항이 작동한다고 만족하면 노드를 재부팅합니다. StorageGRID 어플라이언스 설치 프로그램에서 * 고급 * > * 컨트롤러 재부팅 * 을 선택한 다음 * StorageGRID * 으로 재부팅 * 을 선택합니다.
 +
-image::../media/reboot_controller_from_maintenance_mode.png[유지보수 모드에서 컨트롤러를 재부팅합니다]
+기기가 재부팅되고 그리드에 다시 합류하는 데 최대 20분이 걸릴 수 있습니다.  재부팅이 완료되었고 노드가 그리드에 다시 합류했는지 확인하려면:
 
 +
-어플라이언스가 재부팅되고 그리드에 다시 가입하는 데 최대 20분이 걸릴 수 있습니다. 재부팅이 완료되고 노드가 그리드에 다시 결합되었는지 확인하려면 Grid Manager로 돌아갑니다. nodes * 페이지에는 어플라이언스 노드의 정상 상태(노드 이름 왼쪽에 녹색 확인 표시 아이콘)가 표시되어야 image:../media/icon_alert_green_checkmark.png["녹색 확인 표시"]하며, 이는 알림이 활성화되지 않고 노드가 그리드에 연결되어 있음을 나타냅니다.
+.. 그리드 관리자에서 *노드*를 선택합니다.
+.. 어플라이언스 노드가 정상 상태(녹색 확인 표시 아이콘)인지 확인하십시오.image:../media/icon_alert_green_checkmark.png["녹색 확인 표시"] (노드 이름 왼쪽에 있음)은 활성화된 알림이 없고 노드가 그리드에 연결되었음을 나타냅니다.
 
-+
-image::../media/nodes_menu.png[어플라이언스 노드가 그리드에 다시 합류했습니다]
 
 

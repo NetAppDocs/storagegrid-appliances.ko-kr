@@ -9,9 +9,11 @@ indexpage:
     links:
     - title: SANtricity를 업그레이드합니다
       url: "../sg6100/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6160.html"
-    - title: 드라이브 펌웨어 업그레이드(SG6160 온라인 방법)
+    - title: 드라이브 펌웨어 업그레이드(SG6160 - 자동 재부팅 방법)
+      url: "../sg6100/upgrading-drive-firmware-using-auto-reboot.html"
+    - title: 드라이브 펌웨어 업그레이드(SG6160 - 온라인 방법)
       url: "../sg6100/upgrading-drive-firmware-using-santricity-system-manager-online.html"
-    - title: 드라이브 펌웨어 업그레이드(SG6160 오프라인 방법)
+    - title: 드라이브 펌웨어 업그레이드(SG6160 - 오프라인 방법)
       url: "../sg6100/upgrading-drive-firmware-using-santricity-system-manager-offline.html"
     - title: 식별 LED를 켜거나 끕니다
       url: "../sg6100/turning-sgf6112-identify-led-on-and-off.html"
@@ -35,9 +37,9 @@ indexpage:
       url: "../sg6100/reinstalling-sgf6112-into-cabinet-or-rack.html"
   - title: 하드웨어 절차
     links:
-    - title: 덮개를 다시 끼웁니다
+    - title: 커버 교체(SGF6112 또는 SG6100-CN)
       url: "../sg6100/reinstalling-sgf6112-cover.html"
-    - title: 전원 공급 장치를 교체합니다
+    - title: 전원 공급 장치(SGF6112 또는 SG6100-CN)를 교체하세요.
       url: "../sg6100/replacing-one-or-more-power-supplies-in-sgf6112-appliance.html"
     - title: 스토리지 컨트롤러 쉘프 또는 확장 쉘프의 전원 공급 장치 교체(SG6160)
       url: "../sg6100/replace-6100-cn-power-canister.html"
@@ -51,17 +53,15 @@ indexpage:
       url: "../sg6100/replace-drive-sg6100-cn.html"
     - title: 스토리지 컨트롤러 쉘프 또는 확장 쉘프의 드라이브 교체(SG6160)
       url: "../sg6100/replace-6160-drives-60.html"
-    - title: 내부 NIC 교체(SGF6112 및 SG6160)
+    - title: 내부 NIC(SGF6112 또는 SG6100-CN)를 교체하세요.
       url: "../sg6100/replace-nic-in-sgf6112.html"
-    - title: 외부 NIC 교체(SG6160)
+    - title: 외부 NIC(SG6100-CN) 교체
       url: "../sg6100/replace-ocp-nic-sg6100-cn.html"
-    - title: DIMM 교체(SG6160)
+    - title: 스토리지 컨트롤러 쉘프의 DIMM 교체(SG6160)
       url: "../sg6100/replace-dimms-e4000.html"
-    - title: 배터리 교체(SG6160)
+    - title: 저장 컨트롤러 선반(SG6160)의 배터리 교체
       url: "../sg6100/replace-battery-e4000.html"
-    - title: 덮개를 다시 끼웁니다
-      url: "../sg6100/reinstalling-sgf6112-cover.html"
-    - title: CMOS 배터리를 교체합니다
+    - title: CMOS 배터리(SGF6112 또는 SG6100-CN) 교체
       url: "../sg6100/replace-cmos-in-sgf6112.html"
     - title: 배포된 SG6160에 확장 쉘프를 추가합니다
       url: "../sg6100/adding-expansion-shelf-to-deployed-sg6160.html"

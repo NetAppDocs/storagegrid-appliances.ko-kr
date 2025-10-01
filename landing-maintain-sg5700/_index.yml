@@ -11,6 +11,8 @@ indexpage:
       url: "../sg5700/changing-link-configuration-of-e5700sg-controller.html"
     - title: SANtricity를 업그레이드합니다
       url: "../sg5700/upgrading-santricity-os-on-storage-controller.html"
+    - title: 드라이브 펌웨어 업그레이드(자동 재부팅 방법)
+      url: "../sg5700/upgrading-drive-firmware-using-auto-reboot.html"
     - title: 드라이브 펌웨어 업그레이드(온라인 방법)
       url: "../sg5700/upgrading-drive-firmware-using-santricity-system-manager-online.html"
     - title: 드라이브 펌웨어 업그레이드(오프라인 방법)
