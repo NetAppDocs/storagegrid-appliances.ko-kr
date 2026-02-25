@@ -23,6 +23,8 @@ indexpage:
       url: "../sg5800/replace-controller-5800sg.html"
     - title: E4000 저장 컨트롤러를 교체합니다
       url: "../sg5800/replace-controller-e4000-simplex.html"
+    - title: CMOS 배터리를 교체합니다
+      url: "../sg5800/replace-cmos-battery-sg5800.html"
     - title: 팬 캐니스터를 교체합니다
       url: "../sg5800/replace-fan-canister.html"
     - title: 파워 캐니스터를 교체합니다
